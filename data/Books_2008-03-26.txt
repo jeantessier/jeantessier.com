@@ -1,0 +1,72 @@
+name:The_Future_of_Reputation
+title:[[http://www.amazon.com/Future-Reputation-Gossip-Privacy-Internet/dp/0300124988/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1208031202&sr=8-1][The Future of Reputation]]
+author: Daniel Solove
+publisher: Yale University Press
+year: 2007
+start: 2008-03-26
+stop: 2008-04-11
+
+A very interesting look at how the Internet is changing the way
+we communicate, even the less positive aspects of communication,
+such as gossip and shaming.  The book is full of real-life examples
+taken from recent Internet events, such as the Star Wars Kid.  In
+many of these cases, the person who first posted a piece of data
+did not intend for it to travel so far.  What could start aimed at
+a small group of friends would quickly get out of hand and be
+broadcast to the entire world.  Or someone trying to shame someone
+else for a minor infraction could lead to virtual lynch mobs.
+
+You can think of it as information traveling away its source and
+being slowed by the friction of the medium.  Most people cannot
+afford very wide distribution using traditional media, so
+information does not travel very far from them.  Even with large
+distribution media such as newspapers and television, editors can
+decide what is worth publishing or not and can therefore influence
+the spread of information.  People can feel in control of the
+information they spread around.
+
+But the Internet has a very low bar to entry and virtually no
+controls.  In essence, it is a frictionless environment for the
+spread of information.  Once you release something, it immediately
+escapes your control.  You are guaranteed that it will be taken as
+far as the most radical point-of-view within the audience, whether
+you like it or not.
+
+One nice part of the book deals with social networking sites.
+In the real world, we have many overlapping circles of
+relationships: family, friends, coworkers, etc.  We usually share
+information within one circle but rarely between circles.
+Something that is of interest to my family may not interest my
+coworkers, or the members in my kendo club.  Pretty much all the
+social networking sites today have a flat view of my "friends" and
+lumps all relationships together.  On
+[[http://facebook.com/][Facebook]], there is no
+distinction between family and friends and coworkers and fellow
+kendo enthusiasts.  They all see the same profile, they all see
+what is happening in my other circles of relationships.  I cannot
+expose some fact through my profile to one group but not to the
+others.  There is a place in the market for a social networking
+solution that would let me manage groups of relationships and
+better mirror real-world behaviors.
+
+There are two things that bug me about this book.
+
+First, Solove wants to use the law to keep people from taking
+things too far.  It works for copyright law.  But the law operate
+within national boundaries.  There are no national boundaries on
+the Internet.  There is no body of law that can govern
+international events.  And why should American norms govern an
+incident between, say, someone in China and someone in Ghana.
+
+Which brings me to the second thing that bugs me.  Solove
+decidedly takes an American-centric take on norms of behavior.
+Not only that, but he seems to assume that a single set of norms
+can cover everybody.  There is a wide array of cultures out there
+and half the things that one cares about is annoying to most of
+the others.  There are countless things that are inconsequential
+to one culture and severe transgressions to another.  There cannot
+be a single set of norms that applies across the whole Internet.
+
+It was still a good, quick read, nonetheless.
+
+

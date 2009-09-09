@@ -1,0 +1,8 @@
+Somebody on the
+[[http://groups.yahoo.com/group/testdrivendelopment][TDD]] Yahoo!
+group suggested that advocates of test-driven development use a logo to tell
+the world.  Someone put a few on
+[[http://www.testdriven.com/modules/tinycontent/index.php?id=1#programme][testdriven.com]]
+and I put one of them on my website.
+
+[[http://testdriven.com" /><img src="http://testdriven.com/programs/imtd2.gif]]

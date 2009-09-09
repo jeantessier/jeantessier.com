@@ -1,0 +1,23 @@
+For some time, I've been saying that if you can't communicate your ideas to
+others successfully, it is just as if you hadn't had them in the first place.
+What I mean by this is that the onus is on *you* to get the stuff out of
+your head and it is your responsability to get the message across to your
+audience.  Not everybody agrees with me, but that's what I say anyway.
+
+Now, don't you just hate it when you come to some great conclusion after a
+long and thorough reflexion, only to find out that someone from the Antiquities
+beat you to it by thousands of years?  Today I came upon this quote attributed
+to Thucydides, allegedly over 2,300 years ago:
+
+<blockquote>
+<i>A man who has the knowledge but lacks the power to express it is
+no better off than if he never had any ideas at all.</i>
+</blockquote>
+
+A little more research showed that Thucydides was a historian.  The quote is
+part of a speech by Pericles to the Athenian assembly, shortly before he died
+in 429 B.C.
+
+I found the quote in
+[[http://www.acm.org/sigplan/oopsla/oopsla96/how93.html][How to Get a Paper Accepted at OOPSLA]].
+It is now at the top of my list of favorite quotes.

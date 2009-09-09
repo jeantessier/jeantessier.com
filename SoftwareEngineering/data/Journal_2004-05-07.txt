@@ -1,0 +1,22 @@
+I just love it when I read about a new pattern only to find out that it
+describes something I was already doing for some time.  This happened today,
+as a discussion on a mailing list pointed me to the Unit of Work pattern.  It
+is described in a lot of details in [[MartinFowler.html][Martin Fowler]]'s
+book _Patterns of Enterprise Application Architecture_ and is at the heart
+of the [[http://hibernate.org/][Hibernate]] framework.
+
+The basic idea is to have an object, the unit of work, keep track of all
+changes to a group of objects you've read from the database (or created or
+deleted).  When you are done manipulating these objects, you commit the unit of
+work object, which saves all changes to the database simultaneously.  It does
+not address distributed databases and two-phase commit issues, but these could
+be orthogonal concerns, handled within the unit of work object itself, I
+guess.
+
+It turns out that I did something similar on my own  few years back, where
+individual changes to existing objects were persisted immediately but creations
+and deletions were accumulated in a _Transaction_ object and committed
+together.  It may very well be that by reading a lot about patterns and
+database mapping, I unconsciously absorbed the patterns and then recalled it
+when a need arose.  It's just cool that I now come across this documented piece
+of knowledge that validates my decision from back then.

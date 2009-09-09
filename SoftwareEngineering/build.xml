@@ -1,0 +1,35 @@
+<project name="jeantessier.com" default="all" basedir=".">
+
+    <description>
+        Jean's Software-Related Blogs
+    </description>
+
+    <target name="all" depends="books, journal"
+            description="Generates all dynamic content and Atom feeds."/>
+
+    <target name="books" depends="books.html"/>
+
+    <target name="books.html">
+        <exec executable="perl"
+              output="Books.html">
+            <arg value="Books.cgi"/>
+        </exec>
+    </target>
+
+    <target name="journal" depends="journal.html, journal.atom"/>
+
+    <target name="journal.html">
+        <exec executable="perl"
+              output="Journal.html">
+            <arg value="Journal.cgi"/>
+        </exec>
+    </target>
+
+    <target name="journal.atom">
+        <exec executable="perl"
+              output="Journal.atom">
+            <arg value="Journal_atom.cgi"/>
+        </exec>
+    </target>
+
+</project>

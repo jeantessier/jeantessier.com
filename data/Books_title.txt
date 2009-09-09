@@ -1,0 +1,5 @@
+Recent Readings
+<!--
+<a target="_blank" href="Books_atom.cgi"><img border="0" src="images/feed-icon.gif"/></a>
+<a target="_blank" href="http://fusion.google.com/add?feedurl=http%3A//jeantessier.com/Books_atom.cgi"><img border="0" alt="Add to Google" style="padding-top:5px;" width="104" src="http://buttons.googlesyndication.com/fusion/add.gif" height="17"/></a>
+-->

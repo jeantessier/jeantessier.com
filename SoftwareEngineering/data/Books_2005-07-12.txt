@@ -1,0 +1,18 @@
+name:Programming_Interviews_Exposed
+title:[[http://www.amazon.com/exec/obidos/tg/detail/-/0471383562/qid=1126849574/sr=2-1/ref=pd_bbs_b_2_1/102-4001510-2975369?v=glance&s=books][Programming Interviews Exposed]]
+author: John Mongan 
+author:  Noah Suojanen
+publisher: Wiley
+year: 2000
+start: 2005-07-12
+stop: 2005-07-15
+
+Quickly read through it, skimming most of the non-puzzle stuff
+and skipping the language-specific section altogether.
+
+Fine for college grads in their first interviews.  The questions
+were too simple to really assess a candidate to a senior position.
+Nice sample of interview puzzles, though.
+
+I keep recommending it to people who need to prepare for
+technical interviews.

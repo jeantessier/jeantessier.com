@@ -1,0 +1,76 @@
+name:Les_testaments_trahis
+title:[[http://www.amazon.ca/testaments-trahis-Milan-Kundera/dp/2070758710/ref=sr_1_4?ie=UTF8&s=books&qid=1210142685&sr=8-4][Les testaments trahis]]
+title:[[http://www.amazon.com/Testaments-Betrayed-Essay-Nine-Parts/dp/0060927518/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1209957092&sr=8-1][<i>Testaments Betrayed</i>]]
+author: Milan Kundera
+publisher: Gallimard
+year: 1992
+start: 2008-05-05
+stop: 2008-05-16
+
+Kundera draws parallels between the evolution of music and the
+novel in Western culture and how it shaped Western thought.  While
+his bias shows in many places, this is still a great exploration
+of artistic forces in Western culture for the past 500 years.
+
+Part 1 sets up the _European novel_ as the defining art
+form of the modernism and at the source of Western ideology.  By
+promoting ambiguity and letting characters define their own moral
+compass, they enabled the development of an individualistic
+thought in the Western philosophy and directly leading to our
+putting a value on the person as an individual.
+
+Part 2 shows how Kafka's legacy has been tainted by the opinion
+of his biggest fan and how said fan used his position to twist and
+manipulate Kafka's art to support his own esthetic views.
+
+Part 3 draws a parallel between the evolution of the European
+novel and that of European music in since the XIV<sup>th</sup>
+Century.  Both were moving away from the exhalted and highly
+stylized forms of the past and reaching for a deeper connection
+with the real world by studying what others might consider
+mundane.
+
+Part 4 takes a single sentence from Kafka and shows how all of
+his French translations are wrong.  His point is that the author who
+moves his art forward takes it beyond what is considered "good
+style" at the time, whereas the translator usually tries to promote
+"good style", thereby undoes the author's innovation in order to
+bring the work back within accepted boundaries.
+
+Part 5 analyzes a short story by Hemmingway to demonstrate how
+the modern novel tries to capture the essence of the present as it
+happens, not as a reconstruction of something that has happened or
+as an artificial construct that supports the action, but as it
+happens in real life, in all its mundanity and irregularity.
+
+Part 6 contrasts the classic period, where form was all
+important and pieces include strong parts held together by
+_bridges_ and structural elements.  Modernity breaks out of
+the form and does away with the weaker elements, keeping only the
+strong ones.  And this happened across Western culture, in music,
+novels, and even philosophy with Nietzsche.
+
+Part 7 covers the artistry of Janacek as a one who ushered in
+modernity in Western music.  He also discusses how Czechoslovakia,
+with it's small country mentality, hindered his recognition by the
+larger cultural scene.  This is a theme he will revisit later in
+[[#Le_rideau][The Curtain]].
+
+Part 8 shows how novelists like Kafka and Tolstoi explored,
+thanks to the novel, aspects of the human psyche decades before
+science started looking them.  They showed how our opinions vary
+and evolve throughout our lives, and how at any one point, we try
+to make the best decisions based on incomplete information.  We
+should be careful when judging the past with our 20/20
+hindsight.
+
+Part 9 deals with artists and their attempts to control their
+legacy.  Stravisnky and Janacek fought long and hard against those
+who would make changes to their works, often removing the novelty
+they had introduced.  Kafka's efforts to nail down his legacy were
+spoiled by his executor, who published anything and everything he
+had ever written, including pieces Kafka thought were not ready,
+like "The Trial".  Proust talked about how novelists show a
+different personality through their novels than that revealed in
+their lives, so seeking to interpret the novel as a key to the
+author's life is to miss the artistry.

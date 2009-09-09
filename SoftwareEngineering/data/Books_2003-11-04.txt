@@ -1,0 +1,18 @@
+name:Mastering_Regular_Expressions
+title:[[http://www.amazon.com/exec/obidos/tg/detail/-/0596002890/qid=1068132930/sr=8-1/ref=sr_8_1/102-8330895-6299368?v=glance&n=507846][Mastering Regular Expressions]]
+author: Jeffrey E. F. Friedl
+publisher: O'Reilly
+year: 1997
+start: 2003-11-04
+stop: 2003-11-05
+
+Good, practical guide for understanding how regular expressions
+work without going into the deep stuff about automata theory.  I
+was hoping for more practical coverage of different syntaxes and
+more examples rewritten in each, especially Emacs.  Still, quite
+good about regular expressions in general.  But if you want to
+learn a particular flavor, you will need something more focused on
+that language or tool.
+
+There is a more recent edition published in 2002 with 150
+additional pages that I haven't looked at.

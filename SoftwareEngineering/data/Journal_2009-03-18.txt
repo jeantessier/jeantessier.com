@@ -1,0 +1,5 @@
+I signed the
+[[http://manifesto.softwarecraftsmanship.org/main][Manifesto for Software Craftsmanship]].
+It is in the same spirit as the
+[[http://agilemanifesto.org/][Agile Manifesto]], which I also signed.  It is a
+statement of values for professional software developers.

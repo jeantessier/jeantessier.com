@@ -1,0 +1,8 @@
+It turns out the Guice people were already working on
+[[http://code.google.com/p/google-guice/issues/detail?id=231][something along the lines of the pattern]]
+I documented yesterday.  With my solution, you can repeat it over and over,
+with different qualifiers, into an arbitrarily long chain.  The =@New=
+annotation that Guice is considering is a one-shot deal.
+
+I added my tests to the write up.  I wrote the code tests first, so I figured
+the write up should reflect that.

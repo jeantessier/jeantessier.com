@@ -1,0 +1,3 @@
+Mary Poppendieck presentation on raising productivity in software
+development.  This is related to her work on lean software development.  I've
+put my notes on a [[bayxp.20040315.html][separate webpage]].

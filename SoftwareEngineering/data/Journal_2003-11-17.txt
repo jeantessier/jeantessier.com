@@ -1,0 +1,20 @@
+I read two useful articles.
+
+The first one was by Eric S. Raymond of open source fame.  He talked about
+how the open-source movement and agile programming have a lot in common.  One
+thing is for sure, Mr. Raymond does not suffer from too much humility.  But he
+goes about showing how the open source practitioners have been following agile
+practices for years but didn't have words to describe what they were doing.  So
+both sides benefit from each other.  Open source validates agile practices in
+real world development and agile methodologies provide a formal framework to
+discuss _hacking_, as Raymond calls it.  You can read article at:
+[[http://www.artima.com/weblogs/viewpost.jsp?thread%3D5342][http://www.artima.com/weblogs/viewpost.jsp?thread%3D5342]].
+
+The second article was much more enlightening.  It was about ethics and
+professionalism for software people.  A lot of people think of professional
+behavior as dressing sharp and not offending anyone.  But author, Philip
+Greenspun, argues that real professionalism should promote and advance the
+procession.  Professional programmers should dedicate themselves to high
+quality work, innovation, and sharing what they learn with others.  You can
+read the article at:
+[[http://tinyplanet.ca/projects/professionalism.html][http://tinyplanet.ca/projects/professionalism.html]].

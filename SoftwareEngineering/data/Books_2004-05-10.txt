@@ -1,0 +1,10 @@
+name:Patterns_of_Enterprise_Application_Architecture
+title:[[http://www.amazon.com/exec/obidos/tg/detail/-/0321127420/qid=1084346337/sr=8-1/ref=sr_8_xs_ap_i1_xgl14/103-1828693-6322211?v=glance&s=books&n=507846][Patterns of Enterprise Application Architecture]]
+author: <a href="MartinFowler.html">Martin Fowler</a>
+publisher: Addison Wesley
+year: 2002
+start: 2004-05-10
+stop: 2004-05-20
+
+Magnus opus on enterprise software and multi-tiered applications
+with object-relational mapping layers.

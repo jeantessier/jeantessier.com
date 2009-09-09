@@ -1,0 +1,22 @@
+I finished reading an updated version of [[MartinFowler.html][Martin Fowler]]'s
+[[http://martinfowler.com/articles/newMethodology.html][The New Methodology]],
+his article on agile processes.  In it, he talks about how they distinguish
+themselves by focusing on the iterative nature of development and being
+people-centric.
+
+I have been thinking about this lately.  To me, agile processes are first
+and foremost about feedback.  They try to make you close the feedback loop and
+keep it real short, so you can get a lot of good information in a timely manner
+and better steer the project especially in the face of changing
+requirements.
+
+A friend of mine keeps mixing methodologies and individual practices.  He
+talks of the Test-Driven Development methodology or the Pair Programming
+methodology.  I don't know that it's really worth my time to try to set him
+straight, that these are just practices in a larger context, not ends in and of
+themselves.  For what he needs, his concerns are of a higher nature: get the
+software done and answer customer needs.  His interests do not lie in knowing
+the finer details of this methodology versus that methodology.  And it's OK.
+He focuses on figuring out what needs to be done and he can let the developers
+worry about the details of which methodology and which practices to put in
+place to do it.

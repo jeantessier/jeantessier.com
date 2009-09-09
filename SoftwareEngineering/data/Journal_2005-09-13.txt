@@ -1,0 +1,8 @@
+I realized I'm working with the author of [[http://www.edwardh.com/jsunit/][JsUnit]],
+[[http://www.edwardh.com/][Edward Hieatt]].  He leads a small group
+that does eXtreme Programming and it is quite refreshing to have somebody else
+push for XP practices, for a change.  He and the rest of his group are pretty
+smart and it is a joy to work with them.  We share many points of view when it
+comes to developing software.
+
+He has a nice sideline going on at [[http://www.agilestuff.com][agilestuff.com]].

@@ -1,0 +1,2 @@
+Wrote a full description of my
+[[TwoStageGuiceProvider.html][2-stage Guice provider pattern]].

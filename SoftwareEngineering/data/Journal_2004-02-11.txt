@@ -1,0 +1,14 @@
+XPers are a just bunch of hackers.
+
+I sent a message to a couple of mailing lists regarding a design issue I've
+been having at work, and they completely missed the point.  I described the
+situation in a few classes and two alternatives, inquiring which one looked
+best.  Their first reaction: this reeks of big design upfront, too much
+complexity, this is all bogus.  It never occurred to them that there might
+exist situations where that is the simplest design that might work.  They
+immediately went into a frenzy about only custom code is good enough.  I never
+occured to them that I might have ended up there by refactoring some simple
+solution already.  There was no benefit of the doubt, I was labelled a BDUFer
+the moment I set foot in there.
+
+It just makes me mad.

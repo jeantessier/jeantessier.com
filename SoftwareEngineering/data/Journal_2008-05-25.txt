@@ -1,0 +1,64 @@
+I looked for some corresponding features between [[http://jmock.org][jMock]]
+and [[http://easymock.org][EasyMock]].
+
+<table cellpadding="10">
+    <tr>
+        <th>
+            Feature
+        </th>
+        <th>
+            jMock
+        </th>
+        <th>
+            EasyMock
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Default return value
+        </td>
+        <td>
+            <code>one (myMock).getFoo()</code>
+        </td>
+        <td>
+            <em>n/a</em>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Ignoring a method
+        </td>
+        <td>
+            <code>ignoring (myMock).someMethod()</code>
+        </td>
+        <td>
+            <code>expect(myMock.someMethod()).asStub()</code>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Intercept mocked method
+        </td>
+        <td>
+            <code>Action</code> and <code>CustomAction</code>
+        </td>
+        <td>
+            <code>IAnswer&lt;T&gt;</code>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Access arguments to mocked method
+        </td>
+        <td>
+            <code>invocation.parameterValues</code>
+        </td>
+        <td>
+            <code>EasyMock.getCurrentArguments()</code>
+        </td>
+    </tr>
+</table>
+
+It looks like everything I can do with jMock, I can do with EasyMock too.
+All, that is, except returning innocuous values automatically.  I'll need to
+look into the =andStub...()= methods further.

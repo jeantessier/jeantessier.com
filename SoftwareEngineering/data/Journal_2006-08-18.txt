@@ -1,0 +1,3 @@
+Finally launched Reporting for Google Base.  On the UI, it's just three
+columns of numbers, but there was quite a bit of backend work to do.  I got my
+name in the official Google Base blog!

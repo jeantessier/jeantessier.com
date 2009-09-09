@@ -1,0 +1,11 @@
+I saw that [[http://www.thoughtworks.com/][ThoughtWorks]] is hiring.
+Someone posted on the =pragprog= list that they were applying there
+and wanted a little more information regarding their hiring process.  Now,
+[[MartinFowler.html][Martin Fowler]] works there and I like him very
+much.  At UML 2000, he had talked about the place and seemed very ecstatic about
+it.  He is big on XP, and Alistair Cockburn referred to some of Fowler's
+experiences with XP at ThoughtWorks.  So I took a look at their website and it
+turns out they have a office right here in San Francisco.  My commute wouldn't
+even have to change, their office is right by the train station.  Now it
+remains for me to see if I'm ready to move on and if I'd like to work as a
+consultant.  I'm still far from decided on either count.

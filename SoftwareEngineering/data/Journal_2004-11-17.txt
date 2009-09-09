@@ -1,0 +1,63 @@
+Today, I attended a
+[[http://www.agitar.com/events/000104.html][developer testing forum]]
+hosted by [[http://sdforum.org/][SDForum]] and
+[[http://www.agitar.com/][Agitar]].  The highlight was a keynote by
+Kent Beck himself.
+
+The event started with Sriram Sankar giving a talk about extreme programming
+at Google and how it fits well with their culture of empowering developers.  But
+given their scale, they need a little more process with some degree of initial
+degree and peer reviews both of design and before checkin.  There is also a
+large body of mandatory rules that go beyond coding style to include testing
+practices.  They have the good sense of providing initiation and training for
+new employees.  They introduced XP as a grassroot, viral-growth effort and it
+seems to be catching on slowly.  They have been able to have stable builds and
+can ensure backward compatibility thanks to a large body of tests.  They also
+use live monitoring of production logs to drive projectors.  I once saw a
+similar setup at Schwab, it's pretty neat.  "Great code comes from happy XP
+engineers;" suddely I feel like a [[http://www.realcaliforniacheese.com/][cow]].
+
+Next was a disussion panel with Rob Mee (Pivotal Computer Systems), Russell
+Gold (Oracle and HttpUnit), Sri Muthu (Wells Fargo), and David Vydra
+([[http://testdriven.com/][testdriven.com]]).  The main message was
+that the business side has always assumed that the development side was doing
+appropriate testing, even though it was not always true.  But lately, they have
+started to ask for the artifacts of our testing.  Since they always assumed we
+were testing, they won't be giving us more time so we can start doing it now.
+There was even a suggestion that it is tantamount to professional negligence
+for today's programmers not to do TDD.  They have seen a roughly 30% adoption
+rate among programmers; much stronger with junior developers that senior ones
+that are already set in their ways.
+
+Which brings us to the final keynote given by Kent Beck.  The talk centered
+around the word _accountability_.  Not as who gets the blame, but rather
+as being able to render account, why and how you did what you did.  TDD helps
+us do this by recording our assumptions at the time we did the development.  A
+new edition of his book,
+[[http://www.amazon.com/exec/obidos/tg/detail/-/0201616416/ref%3Dpd%5Fsim%5Fbooks%5F2/104-8608372-8129501?v%3Dglance&s%3Dbooks][eXtreme Programming Explained]],
+is due out soon, with updated practices and more feedback from real life
+experience.
+
+I got him to sign my copy of "Planning eXtreme Programming", which I had
+just finished reading the day before.
+
+The forum closed with a demo of Agitar's flagship product: Agitator.  It
+analyzes your Java code and automatically generates test batteries that try to
+get 100% branch coverage.  It was very impressive, the way they use all the
+constants in your code to generate test data and can automatically detect
+assertions in your code, which you can instantly turn into method or class
+invariants.
+
+Closed the day with a [[http://www.jera.com/bayxp/][BayXP]]
+meeting with Jeff McKenna.  We discussed the planning game.  He mentioned how
+you can use the release plan to provide a bound context for the iterations, so
+it doesn't look like an endless sucession of work.  He found that for him, it
+was not worth the effort to estimate individual tasks to refine the estimates.
+Whether or not he does it, he gets the same accuracy.  You still need to break
+down stories into tasks, but don't waste too much time estimating them.  A lot
+of the talk was reinforcement of the contents of "Planning eXtreme Programming"
+and "Waltzing with Bears", two books I just read very recently.  Nice
+coincidence.
+
+We started doing planning with index cards at work, so this will be
+helpful.  I actually got a coworker to come to the meeting too.

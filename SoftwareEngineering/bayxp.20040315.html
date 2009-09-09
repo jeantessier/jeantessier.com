@@ -1,0 +1,204 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="../style.css" />
+<style type="text/css">
+ol li {
+	font-weight: normal;
+}
+</style>
+<title>Increasing Software Development Productivity</title>
+</head>
+
+<body>
+
+<h1>Increasing Software Development Productivity</h1>
+
+<blockquote>
+
+<p>I attended a talk on lean programming by Mary Poppendieck.  The talk was
+held at SDForum in San Jose, CA on March 15, 2004.  It was sponsored by the
+<a href="http://groups.yahoo.com/group/bayxp/">Bay Area eXtreme Programming</a>
+mailing list.  Here are my notes from this presentation.</p>
+
+<h3>About the speaker</h3>
+
+<p>Mary Poppendieck, a Cutter Consortium Consultant, is a seasoned leader in
+both operations and new product development with more than 25 years' of IT
+experience. She has led teams implementing lean solutions ranging from
+enterprise supply chain management to digital media, and built one of 3M's
+first Just-in-Time lean production systems. Mary is currently the President of
+Poppendieck LLC and located in Minnesota. Her book
+<a href="http://www.amazon.com/exec/obidos/tg/detail/-/0321150783/qid=1080209221/sr=1-1/ref=sr_1_1/103-7187236-2823023?v=glance&s=books">Lean
+Software Development: An Agile Toolkit</a>, which brings lean production
+techniques to software development was nominated for the Software Development
+Jolt Award in 2004.</p>
+
+<p><a href="http://www.poppendieck.com/">www.poppendieck.com</a></p>
+
+<hr width="50%" />
+
+<h3>What is productivity?</h3>
+
+<p>The recent dip in employment in IT is a first since the US Department of
+Labor started monitoring it.  There was also a dip in software productivity
+two years before the one in employment.</p>
+
+<p><em>To increase out standard of living, we must increase productivity.</em>
+But how do we measure productivity in software development?  It is the ratio of
+output to input into the process.  So what's the input and what's the output?
+Some have tried lines of code per developer but this is never indicative of
+revenues for the software company.  Worse, as technology progresses, developers
+can do more with fewer lines of code.</p>
+
+<p>We need something else.  If your producing software, it should be revenue
+per employee.  If your in a support organization, it should be revenue in the
+support organization per dollar spent by the IT organization.  In either case,
+<b>you should tie each and every projet to somebody's bottom line</b>.  This
+way, developers know precisely the impact they can have on the business, and it
+helps planners decide which projects to prioritize over others.</p>
+
+<p>While software industry has seen a decline in productivity, the retail and
+the manufactring industries have seen regular improvements.  Year after year,
+they have been seeing a steady 2% improvement.  This begs the question: What
+can slow growth industries teach the high tech world?</p>
+
+<ol>
+    <li>focus on core business processes that drive productivity</li>
+    <li>decide where to match the competition and where to lead the market</li>
+    <li>create end-to-end improvements for the customer</li>
+</ol>
+
+<p>Find out what your productivity levers are and use them to drive your
+business.  Pay special attention to the lever that gives you the most leverage.
+For instance, Symantec didn't start this way but now focuses on anti-virus
+software.  Adobe didn't start this way but now focuses on Acrobat.  Both found
+the lever that gave them most leverage in the market and focused on that to
+achieve success in the marketplace.</p>
+
+<p>The key is to transform ideas into products.</p>
+
+<ol>
+    <li>make sure you <b>really</b> understand the customer</li>
+    <li>limit to work to what you can actually deliver</li>
+    <li>be fully invested in your customer's success</li>
+    <li>keep maintenance in mind</li>
+</ol>
+
+<p>There are two things we can do to increase productivity: do less work for
+the same output, or create more value out of the same effort.</p>
+
+<h3> Do less work</h3>
+
+<p>One way is to reduce the effort by providing only what the customer will pay
+for.  Standish Group released numbers in 2002 that 64% of software features are
+never or rarely used.  20% are used often or always.  We see the 20-80 rule at
+work here.  We can raise productivity by focusing on the 20% that customers are
+willing to pay for and ignore the 45% that is never used.  The effort expended
+on that 45% would be better used on the 20% that is worth something.  This
+boils down to doing 20% of the work to get at 80% of the revenue.</p>
+
+<p>This is difficult to do when replying to RFPs with a fixed feature list. The
+customer does not necessarily need everything on the list, but they have been
+told to consider solutions that include everything.  You can try to educate the
+customer, but it is not clear that this can work in real life.</p>
+
+<p>Once you have identified the 20% that you really need, you can break it down
+into minimum marketable feature (MMF) sets and categorize them by return on
+investment.  Do the highest return on investment first, and repeat until you
+can no longer justify any more work.  By deploying early and often, market
+models predict that you can move profit forward by generating revenues earlier.
+This is similar to a talk that Ron Jeffries did a while back about predicting
+completion date from velocity and making profit earlier by shipping partial,
+but functional, software early.</p>
+
+<p>One case where this approach fails is when profit is not the determining
+factor.  This happens often in government work.</p>
+
+<p>Another way to reduce the effort is to streamline core processes and the
+flow of value.  This includes accelerating the delivery of value to the
+customers.  Counter-intuitively, any <em>efficiency</em> or <em>cost
+reduction</em> that reduces customer value will decrease productivity by
+reducing the customer business.</p>
+
+<p>If a measure of an organization's maturity is how quickly and reliably it
+can execute its key processes, a software organization's maturity should be how
+quickly and reliably translate customer needs into code.  But you need certain
+core disciplines before you can start refactoring your process:</p>
+
+<ul>
+    <li>naming convention</li>
+    <li>coding rules</li>
+    <li>configuration control (source control)</li>
+    <li>automated build</li>
+    <li>automated unit tests</li>
+    <li>automated acceptance tests</li>
+</ul>
+
+<p>These disciplines allow you to be reliably <em>fast</em>.  Open source is a
+good example where these disciplines are used aggressively at very low
+cost.</p>
+
+<p>You can do this streamlining by finding bottlenecks and eliminating them,
+usually by changing the process.  The key to the success of any change is to
+get buy-in by senior executives who will not only launch the change, but follow
+up on it frequently and regularly to make sure it is implemented.  You can also
+streamline information transfer with fully-integrated cross-functional  teams.
+These teams are characterized by the bidirectional, high-bandwidth flow of
+detailed information.</p>
+
+<h3>Create more value</h3>
+
+<p>The other way to raise productivity is to create more value from the same
+effort.  Shorter customer feedback loop is key, through iterative development
+where you deliver early and often.  The enables you to better improve your
+customer's productivity; when they win, you win.  You must look for ways to
+optimize the entire economic chain, the way a Japanese keiretsu tightly
+integrates many cooperating companies, to everyone's mutual good.  This sounds
+a lot like a Nash equilibrium situation.  Boundaries betweeen organizations
+introduce costs, so lowering boundaries should reduce costs and improve
+productivity.</p>
+
+<h3>Conclusion</h3>
+
+<p>You need to have people who understand what are the levers that drive your
+industry and how to steer your company using those levers.  Unless you have
+the right people recognize the right levers and use them to drive the
+enterprise right, your company won't last in that industry.</p>
+
+<h3>Parting thoughts</h3>
+
+<p>For clues on how to achieve good communciation within a group when you
+cannot have everyone in the same room, look at open source.  They do all
+communication without ever meeting.  Everything is done by email.  Their
+success hinges on:
+
+<ul>
+    <li>benevolent despot / champion to coordinate</li>
+    <li>motivated contributors</li>
+</ul>
+
+<p>But we must not underestimate the burden and responsabilities this places on
+the coordinator, who must make sure things get done and work is allocated.</p>
+
+<p>Alex Chaffee had an interesting quote:</p>
+
+<blockquote>
+
+<p><i>Good people can fix a bad process.<br />
+A good process cannot fix bad people.</i></p>
+
+</blockquote>
+
+<p>Increasing productivity does not equate turning software development into a
+sweatshop.  At 3M, while Mary Poppendieck as there, everyone had to spend 15%
+of their time on a project of their choice.  Senior members were expected to go
+out and find interesting projects that benefit the business.</p>
+
+<hr width="50%" />
+
+</blockquote>
+
+</body>
+
+</html>

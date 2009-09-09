@@ -1,0 +1,20 @@
+I read an
+[[http://martinfowler.com/ieeeSoftware/dataAccessRoutines.pdf][article by Martin Fowler on accessors]].
+It reiterated some of the ground rules regarding an object's state and how
+you expose it to other objects.
+
+His [[http://www.martinfowler.com/bliki/][bliki]] also had a
+reference to a
+[[http://www.williamcaputo.com/archives/000053.html][Bill Caputo]]
+piece on XP.  It's a reaction to a criticism of XP from
+[[http://www.stickyminds.com/sitewide.asp?ObjectId%3D3248&Function%3DDETAILBROWSE&ObjectType%3DART][Gerold Keefer]].
+The whole thing seemed overinflated, but Gerold Keefer did
+raise some valid questions to make you apply some critical thinking before you
+implement XP in your workplace.  Fowler and Caputo are quick to remind people
+that agility's focus is on people and finding ways to let a team do its work.
+
+JavaPro also had an article on "interface-driven development".  It would
+have been good, if not for the fact that I've been hearing this message ever
+since I opened the GoF book on design patterns.  Since then, it has been one
+of my most important design rules: code to interfaces.  I guess it needs
+restating every once in a while, to make sure everyone is aware of it.

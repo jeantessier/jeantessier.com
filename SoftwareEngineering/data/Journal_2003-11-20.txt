@@ -1,0 +1,43 @@
+I attended a webinar by Barbara Warthen where she tried to compare software
+development with software engineering.  She's a process consultant and she
+basically exhorted the virtues of heavy-weight processes.  She used the usual
+comparison of building a doghouse as opposed to a skyscraper and how the degree
+of complexity in software has shot up since the '50s.  One nice thing is that
+she did provide updated data from the Standish Group on project success rates.
+Things haven't changed much since the '70s.
+
+She tried to compare current project management practices to buying a car,
+saying the current state of affair was more like getting only half the
+features: no brakes, no steering, etc.  Actually, I think the analogy works
+pretty well indeed.  The advertisement says "starting at $9,999.99" but they
+show you the $20,000 model with all options.  If you want the car on display,
+you're gonna have to pay a lot more in the end, or if you stick the price, you
+won't get what you were expecting.  I was kinda happy to see this one backfire
+on her.  :-)
+
+She described software engineering as applying common sense to solving
+problem.  To her, that's the essence of engineering in general.  The fact that
+software is not a physical entity was irrelevant.  I don't fully agree.  The
+fact that software is not physical changes the whole economics of producing
+software.
+
+She talked a little bit about IEEE software engineering standards and
+[[http://www.swebok.org/][SWEBOK]].  She also touched on the
+[[http://www.sei.cmu.edu/][SEI]]'s CMM level.  All sources that
+advocate very heavy processes.  She did touch on agile methodologies toward the
+end, quoting common sense things like don't do documentation for the sake of
+documentation or don't follow your process for the sake of jumping through
+hoops.  But she didn't go to any great length about this.
+
+In the end, she claimed a good process and big design up front paid for
+themselves by reducing programming time.  Since all the decision are made
+during analysis and design, the coding phase is drastically simplified.  The
+way I understand this is that the analysts and designers call all the shots and
+validates their decisions using vaporware.  Coding is reduced to mindless
+drivel for code monkeys to do.  I don't care much to work in that kind of
+environment.  Life is short, I want to enjoy it and find fun and fulfillment in
+my work.  I don't care for being someone else's code monkey.
+
+So overall, the webinar was useful and informative.  It provided a lot of
+good and useful information.  But in the end, I choose to disagree with her
+about the usefulness of heavyweight processes.

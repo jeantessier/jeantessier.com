@@ -1,0 +1,80 @@
+.done {
+    background:  rgb(0, 238, 0);
+    color:       white;
+    font-weight: bold;
+    text-align:  center;
+}
+
+.inprogress {
+    background:  gold;
+    color:       white;
+    font-weight: bold;
+    text-align:  center;
+}
+
+.notstarted {
+    background:  red;
+    color:       white;
+    font-weight: bold;
+    text-align:  center;
+}
+
+.canceled {
+    text-align: center;
+}
+
+.lowlight {
+    background: rgb(204, 204, 255);
+}
+
+.lowlight b {
+    color: green;
+}
+
+.highlight {
+    border: thin dashed gray;
+    background: rgb(255, 255, 136);
+}
+
+.specialnote {
+    margin-left: 30pt;
+    margin-right: 30pt;
+}
+
+th {
+    background: gray;
+    color: white;
+    text-align: left;
+}
+
+td {
+    vertical-align: top;
+}
+
+dl dt {
+    font-weight: bold;
+}
+
+dl dd {
+    margin-bottom: 10pt;
+}
+
+body {
+    background: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+code {
+    color: green;
+}

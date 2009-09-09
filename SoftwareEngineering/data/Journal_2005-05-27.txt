@@ -1,0 +1,7 @@
+Again with Skowronski.  This time, it's Warren Keuffel and my beloved
+[[SoftwareDevelopmentMagazine.html][Software Development Magazine]]
+that are at it.  In the June 2005 issue, Keuffel picks up Skowronski's rant and
+concludes with an omnious prediction that by focusing on agility, we might be
+driving innovation out of our field.  To me, it looks like Keuffel fell in the
+same trap of seeing everything as a zero-sum game.  I still humbly disagree, as
+you can read below.

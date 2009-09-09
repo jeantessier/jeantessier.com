@@ -1,0 +1,9 @@
+I attended a webcast by Robert C. Martin on
+[[http://webevents.broadcast.com/cmp/wcs/detail.asp?event_id=11483][the intersection of agility, objects, and UML]].
+He was his usual perky self and a lot of his material was the usual stuff
+about OO principles and dependency management.  He threw in some updated
+additions, mentioning Model-Driven Architecture (MDA) and aspects.  I was at
+work with some coworkers.  They expressed some skepticism about the feasability
+of fully automated acceptance tests and whether or not his approach to
+documentation (or lack thereof) is realisic.  For my part, I was pleased with
+the talk.  The tone was relaxed and the contents very informative.

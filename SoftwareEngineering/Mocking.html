@@ -1,0 +1,2523 @@
+<!doctype html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="txt2html_style.css" />
+<title>Mocking in Java: jMock vs. EasyMock</title>
+
+</head>
+
+<body>
+
+<h1>Mocking in Java: jMock vs. EasyMock</h1>
+
+<p>
+by <a href="http://jeantessier.com/">Jean Tessier</a>
+</p>
+
+<p>
+This document shows how to do common mocking tasks in Java using both
+<a href="http://jmock.org">jMock</a> and
+<a href="http://easymock.org">EasyMock</a>.
+</p>
+
+<p>
+Throughout, I use the terminology defined by Gerard Meszaros in his book
+<a href="http://www.amazon.com/xUnit-Test-Patterns-Refactoring-Addison-Wesley/dp/0131495054/ref=pd_bbs_sr_1/104-7143783-6750325?ie=UTF8&s=books&qid=1188541102&sr=8-1">xUnit Test Patterns</a>.
+</p>
+
+<p>
+All example were tested with JUnit 3.8.2, jMock 2.2.4, EasyMock 2.3, and
+EasyMock classextension 2.2.2 using JDK 1.5.0_13.
+</p>
+
+<hr />
+
+<h2>Table of Contents</h2>
+<ul>
+<li><a href="#Introduction">Introduction</a></li>
+<ul>
+<li><a href="#jMock">jMock</a></li>
+<li><a href="#EasyMock">EasyMock</a></li>
+</ul>
+<li><a href="#LowestOverheadMock">Lowest Overhead Mock</a></li>
+<li><a href="#UsingOneorMoreMocksTogether">Using One or More Mocks Together</a></li>
+<li><a href="#PullingtheContextorControlintoaSuperclass">Pulling the Context or Control into a Superclass</a></li>
+<li><a href="#MockingClasses">Mocking Classes</a></li>
+<li><a href="#ExpectingAMethodToReturnAValue">Expecting A Method To Return A Value</a></li>
+<li><a href="#ExpectingAMethodReturningAValueToThrowAnException">Expecting A Method Returning A Value To Throw An Exception</a></li>
+<li><a href="#ExpectingAMethodWithvoidReturnType">Expecting A Method With <code>void</code> Return Type</a></li>
+<li><a href="#ExpectingAMethodWithvoidReturnTypeToThrowAnException">Expecting A Method With <code>void</code> Return Type To Throw An Exception</a></li>
+<li><a href="#CheckingParameters">Checking Parameters</a></li>
+<li><a href="#FuzzyMatchingParameters">Fuzzy Matching Parameters</a></li>
+<li><a href="#IgnoringIrrelevantReturnValues">Ignoring Irrelevant Return Values</a></li>
+<li><a href="#IgnoringMethodCalls">Ignoring Method Calls</a></li>
+<li><a href="#IgnoringWholeObjects">Ignoring Whole Objects</a></li>
+<li><a href="#InnocuousDefaultValues">Innocuous Default Values</a></li>
+<li><a href="#MockingRepeatedMethodCalls">Mocking Repeated Method Calls</a></li>
+<li><a href="#CheckingthatCallsHappenInSequenceonOneMock">Checking that Calls Happen In Sequence on One Mock</a></li>
+<li><a href="#CheckingthatCallsHappenInSequenceAcrossMocks">Checking that Calls Happen In Sequence Across Mocks</a></li>
+<li><a href="#ProvidingSideEffectsinMocks">Providing Side Effects in Mocks</a></li>
+<li><a href="#PartialMocking">Partial Mocking</a></li>
+</ul>
+
+
+<hr />
+
+<p>
+DISCLAIMER
+</p>
+
+<p>
+I like jMock a lot more than I like EasyMock.  The DSL for specifying
+expectations in jMock takes some getting used to, but it is more expressive
+than the one in EasyMock.  And while I don't like anonymous inner classes, I
+like static imports even less.  :-)
+</p>
+
+<hr />
+
+<a name="Introduction"></a>
+<h2>Introduction</h2>
+
+<p>
+Mocking allows you to isolate a class or method and test it in isolation.  You
+replace all of its collaborator with <i>mocks</i> that essentially simulate the
+normal environment of the <i>SUT</i> (<i>System Under Test</i>).  Mocks replace the SUT's
+<i>DOCs</i> (<i>Depended-On Components</i>) and give you fine control on how the SUT
+interacts with its environment and what messages it gets back from it.
+</p>
+
+<a name="jMock"></a>
+<h3>jMock</h3>
+
+<p>
+jMock focuses on explicitly specifying the behavior of the mocks using a
+specialized <i>DSL</i> (<i>Domain-Specific Language</i>) embeded in the Java code.  The
+notation takes some getting used to, but it makes the specification of behavior
+stand out in the test code.
+</p>
+
+<a name="EasyMock"></a>
+<h3>EasyMock</h3>
+
+<p>
+EasyMock takes a record/replay approach.  You first train the mock by making
+the expected method calls on it yourself.  You then switch the mock into
+replay-mode before exercising the SUT.  Specifying the behavior is just regular
+method calls on a typed Java object.
+</p>
+
+<hr />
+
+<a name="LowestOverheadMock"></a>
+<h2>Lowest Overhead Mock</h2>
+
+<p>
+EasyMock lets you create individual mocks inside your test method with very
+little framework machinery involved.  In jMock, you always need at least a
+<i>context</i> object or extend a jMock superclass, as you'll see in a moment.
+</p>
+
+<table width="100%">
+<tr><th width="50%">jMock</th><th>EasyMock</th></tr>
+<tr><td>
+
+<pre>
+    <i>n/a</i>
+</pre>
+
+</td><td>
+
+<div class="lowlight">
+
+<pre>
+    import junit.framework.TestCase;
+    import static org.easymock.EasyMock.*;
+</pre>
+
+<pre>
+    public class Single_EasyMock extends TestCase {
+        public void testSome() {
+            SomeInterface mockSome = <b>createMock</b>(SomeInterface.class);
+            // Program the mock here
+            <b>replay</b>(mockSome);
+</pre>
+
+<pre>
+            // Setup SUT with mock and exercise here
+</pre>
+
+<pre>
+            <b>verify</b>(mockSome);
+        }
+    }
+</pre>
+
+</div>
+
+</td></tr>
+</table>
+
+<hr />
+
+<a name="UsingOneorMoreMocksTogether"></a>
+<h2>Using One or More Mocks Together</h2>
+
+<p>
+You can control multiple mocks together.  You use a special object to create
+and group the mocks.  EasyMock calls it <i>control</i>, jMock calls it <i>context</i>.
+You use the control/context to validate the group of mocks as a unit.
+</p>
+
+<p>
+jMock's <code>mock()</code> and EasyMock's <code>createMock()</code> methods can take an optional
+<code>String</code> parameter that is used to name the mock.  This is needed to
+distinguish two mocks of the same type.  It is also used to refer to the mock
+in failure messages, so you can use it to make these messages more expressive
+by clearly identifying the mock with the mismatched expectations.
+</p>
+
+<p>
+In the code below, I've made the control/context a field and I create it in
+<code>setUp()</code>.  I could put the verification in <code>tearDown()</code>, for symmetry, but
+that could potentially mask another error: if the test fails in the middle for
+some reason, JUnit will call <code>tearDown()</code> before all expectations have been
+met.  <code>tearDown()</code> will end up throwing an exception because of the missing
+expectations and the root cause of the test failure will be lost.  This is why
+I override <code>runTest()</code> instead in the code below.
+</p>
+
+<table width="100%">
+<tr><th width="50%">jMock</th><th>EasyMock</th></tr>
+<tr><td>
+
+<div class="lowlight">
+
+<pre>
+    import junit.framework.TestCase;
+    import org.jmock.Mockery;
+</pre>
+    
+<pre>
+    public class Multiple_jMock extends TestCase {
+        <b>private Mockery context;</b>
+</pre>
+
+<pre>
+        protected void setUp() throws Exception {
+            super.setUp();
+</pre>
+
+<pre>
+            <b>context = new Mockery();</b>
+        }
+</pre>
+
+<pre>
+        protected void runTest() throws Throwable {
+            super.runTest();
+            <b>context.assertIsSatisfied();</b>
+        }
+</pre>
+
+<pre>
+        public void testSome() {
+            SomeInterface mockSome = <b>context</b>.mock(SomeInterface.class);
+            SomeOtherInterface mockSomeOther = <b>context</b>.mock(SomeOtherInterface.class);
+            // Program the mocks here
+</pre>
+
+<pre>
+            // Setup SUT with mocks and exercise here
+        }
+    }
+</pre>
+
+</div>
+
+</td><td>
+
+<div class="lowlight">
+
+<pre>
+    import junit.framework.TestCase;
+    import org.easymock.EasyMock;
+    import org.easymock.IMocksControl;
+</pre>
+
+<pre>
+    public class Multiple_EasyMock extends TestCase {
+        <b>private IMocksControl control;</b>
+</pre>
+
+<pre>
+        protected void setUp() throws Exception {
+            super.setUp();
+</pre>
+
+<pre>
+            <b>control = EasyMock.createControl();</b>
+        }
+</pre>
+
+<pre>
+        protected void runTest() throws Throwable {
+            super.runTest();
+            <b>control.verify();</b>
+        }
+</pre>
+
+<pre>
+        public void testSome() {
+            SimpleInterface mockSome = <b>control</b>.createMock(SimpleInterface.class);
+            SomeOtherInterface mockSomeOther = <b>control</b>.createMock(SomeOtherInterface.class);
+            // Program the mocks here
+            <b>control</b>.replay();
+</pre>
+
+<pre>
+            // Setup SUT with mocks and exercise here
+        }
+    }
+</pre>
+
+</div>
+
+</td></tr><tr><td>
+
+<div class="specialnote">
+
+<p>
+&nbsp;
+</p>
+
+</div>
+
+</td><td>
+
+<div class="specialnote">
+
+<p>
+Note that <code>EasyMock.replay()</code> and <code>EasyMock.verify()</code> are vararg methods, so
+you could do away with the <i>control</i> and simply pass them the full list of
+mocks.  But using the <i>control</i> to keep track of all the mocks is less
+error-prone.
+</p>
+
+</div>
+
+</td></tr>
+</table>
+
+<hr />
+
+<a name="PullingtheContextorControlintoaSuperclass"></a>
+<h2>Pulling the Context or Control into a Superclass</h2>
+
+<p>
+When using jMock, you can extend <code>MockObjectTestCase</code> to inherit the <i>context</i>
+automatically.  You don't interact with the <i>context</i> directly, but you use
+utility methods of <code>MockObjectTestCase</code> with maching names that delegate to the
+encapsulated <i>context</i>.
+</p>
+
+<table width="100%">
+<tr><th width="50%">jMock</th><th>EasyMock</th></tr>
+<tr><td>
+
+<div class="lowlight">
+
+<pre>
+    import org.jmock.integration.junit3.MockObjectTestCase;
+</pre>
+
+<pre>
+    public class Inherited_jMock extends <b>MockObjectTestCase</b> {
+        public void testSome() {
+            SomeInterface mockSome = mock(SomeInterface.class);
+            // Program the mocks here
+</pre>
+
+<pre>
+            // Setup SUT with mocks and exercise here
+        }
+    }
+</pre>
+
+</div>
+
+</td><td>
+
+<p>
+EasyMock does not have an equivalent, but you can write your own base class and
+hide the <i>control</i> within it.
+</p>
+
+<div class="lowlight">
+
+<pre>
+    import junit.framework.TestCase;
+    import org.easymock.IMocksControl;
+    import org.easymock.EasyMock;
+</pre>
+
+<pre>
+    public abstract class EasyMockTestCase extends TestCase {
+        private IMocksControl control;
+</pre>
+
+<pre>
+        protected void setUp() throws Exception {
+            super.setUp();
+</pre>
+
+<pre>
+            control = EasyMock.createControl();
+        }
+</pre>
+
+<pre>
+        protected void runTest() throws Throwable {
+            super.runTest();
+            control.verify();
+        }
+</pre>
+
+<pre>
+        protected &lt;T&gt; T createMock(Class&lt;T&gt; clazz) {
+            return control.createMock(clazz);
+        }
+</pre>
+
+<pre>
+        protected &lt;T&gt; T createMock(String name, Class&lt;T&gt; clazz) {
+            return control.createMock(name, clazz);
+        }
+</pre>
+
+<pre>
+        protected void replay() {
+            control.replay();
+        }
+    }
+</pre>
+
+</div>
+
+<div class="lowlight">
+
+<pre>
+    public class Inherited_EasyMock extends EasyMockTestCase {
+        public void testSome() {
+            SimpleInterface mockSome = createMock(SimpleInterface.class);
+            // Program the mocks here
+            replay();
+</pre>
+
+<pre>
+            // Setup SUT with mocks and exercise here
+        }
+    }
+</pre>
+
+</div>
+
+<p>
+Again, you do not want to call <code>verify()</code> from <code>tearDown()</code> as it might hide
+the test method's reason for failing, if it failed before all expectations had
+been met.  This is why I had to override <code>runTest()</code> below, so verification
+happens only of everything else in the test method was successful.
+</p>
+
+</td></tr>
+</table>
+
+<hr />
+
+<a name="MockingClasses"></a>
+<h2>Mocking Classes</h2>
+
+<p>
+Both jMock and EasyMock only mock interfaces by default.  You need slightly
+different setup if you want to mock classes.  Both can mock abstract or
+concrete classes, but no final classes.  Also, neither can mock a method that
+has been marked <code>final</code>.
+</p>
+
+<p>
+Luckly, in both cases, class mocking is a superset of interface mocking, so if
+you setup the test for class mocking, you can mock interfaces in the same test
+as well.
+</p>
+
+<p>
+<i>I suspect the creators of both frameworks made it this way to motivate people to code to interfaces instead of implementations.</i>
+</p>
+
+<table width="100%">
+<tr><th width="50%">jMock</th><th>EasyMock</th></tr>
+<tr><td>
+
+<div class="lowlight">
+
+<pre>
+    import org.jmock.integration.junit3.MockObjectTestCase;
+    import org.jmock.lib.legacy.ClassImposteriser;
+</pre>
+
+<pre>
+    public class Class_jMock extends MockObjectTestCase {
+        protected void setUp() throws Exception {
+            super.setUp();
+</pre>
+
+<pre>
+            <b>setImposteriser(ClassImposteriser.INSTANCE);</b>
+        }
+</pre>
+
+<pre>
+        public void testSome() {
+            SomeClass mockSome = mock(SomeClass.class);
+            // Program the mocks here
+</pre>
+
+<pre>
+            // Setup SUT with mocks and exercise here
+        }
+    }
+</pre>
+
+</div>
+
+<p>
+or, if you're using an explicit <i>context</i>, the jMock guys recommend you do
+this:
+</p>
+
+<div class="lowlight">
+
+<pre>
+    import junit.framework.TestCase;
+    import org.jmock.Mockery;
+    import org.jmock.lib.legacy.ClassImposteriser;
+</pre>
+
+<pre>
+    public class ClassExplicit1_jMock extends TestCase {
+        private Mockery context = new Mockery() <b>{{
+            setImposteriser(ClassImposteriser.INSTANCE);
+        }};</b>
+</pre>
+
+<pre>
+        protected void runTest() throws Throwable {
+            super.runTest();
+            context.assertIsSatisfied();
+        }
+</pre>
+
+<pre>
+        public void testSome() {
+            SomeClass mockSome = context.mock(SomeClass.class);
+            // Program the mocks here
+</pre>
+
+<pre>
+            // Setup SUT with mocks and exercise here
+        }
+    }
+</pre>
+
+</div>
+
+<p>
+Personally, I try to initialize all state in <code>setUp()</code> as a general rule, so I
+would write it the following way instead, and remove the need for an anonymous
+inner class.
+</p>
+
+<div class="lowlight">
+
+<pre>
+    import junit.framework.TestCase;
+    import org.jmock.Mockery;
+    import org.jmock.lib.legacy.ClassImposteriser;
+</pre>
+
+<pre>
+    public class ClassExplicit2_jMock extends TestCase {
+        private Mockery context;
+</pre>
+
+<pre>
+        protected void setUp() throws Exception {
+            super.setUp();
+</pre>
+
+<pre>
+            context = new Mockery();
+            <b>context.setImposteriser(ClassImposteriser.INSTANCE);</b>
+        }
+</pre>
+
+<pre>
+        protected void runTest() throws Throwable {
+            super.runTest();
+            context.assertIsSatisfied();
+        }
+</pre>
+
+<pre>
+        public void testSome() {
+            SomeClass mockSome = context.mock(SomeClass.class);
+            // Program the mocks here
+</pre>
+
+<pre>
+            // Setup SUT with mocks and exercise here
+        }
+    }
+</pre>
+
+</div>
+
+</td><td>
+
+<div class="lowlight">
+
+<pre>
+    import junit.framework.TestCase;
+    import static org.easymock.<b>classextension</b>.EasyMock.*;
+</pre>
+
+<pre>
+    public class Class_EasyMock extends TestCase {
+        public void testSome() {
+            SomeClass mockSome = createMock(SomeClass.class);
+            // Program the mocks here
+            replay(mockSome);
+</pre>
+
+<pre>
+            // Setup SUT with mocks and exercise here
+</pre>
+
+<pre>
+            verify(mockSome);
+        }
+    }
+</pre>
+    
+</div>
+
+</td></tr><tr><td>
+
+<div class="specialnote">
+
+<p>
+jMock uses an <code>Imposteriser</code> to create the mocks.  <code>MockObjectTestCase</code> uses
+one that works for interfaces only by default, so you have to replace it in
+your own <code>setUp()</code> method if you need to mock classes.
+</p>
+
+</div>
+
+</td><td>
+
+<div class="specialnote">
+
+<p>
+EasyMock uses a completely different implementation altogether, so all you have
+to do is change the <code>import</code> statements (and use a separate JAR where the other
+implementation resides).
+</p>
+
+</div>
+
+</td></tr>
+</table>
+
+<hr />
+
+<a name="ExpectingAMethodToReturnAValue"></a>
+<h2>Expecting A Method To Return A Value</h2>
+
+<p>
+Let's actually do something with our mocks.  Here is a simple <code>Cache</code> that
+delegates operations to an underlying <code>Map</code>.  In real life, it would do
+additional processing around its interactions with the underlying storage.
+</p>
+
+<pre>
+    import java.util.Map;
+</pre>
+
+<pre>
+    public class Cache {
+        private Map&lt;Integer, String&gt; underlyingStorage;
+</pre>
+
+<pre>
+        public Cache(Map&lt;Integer, String&gt; underlyingStorage) {
+            this.underlyingStorage = underlyingStorage;
+        }
+</pre>
+
+<pre>
+        public String get(int key) {
+            return underlyingStorage.get(key);
+        }
+</pre>
+
+<pre>
+        public void add(int key, String value) {
+            underlyingStorage.put(key, value);
+        }
+</pre>
+
+<pre>
+        public void remove(int key) {
+            underlyingStorage.remove(key);
+        }
+</pre>
+
+<pre>
+        public int size() {
+            return underlyingStorage.size();
+        }
+</pre>
+
+<pre>
+        public void clear() {
+            underlyingStorage.clear();
+        }
+    }
+</pre>
+
+<p>
+We will write tests for <code>Cache</code> and mock <code>Map</code>.  The cache is called the <i>SUT</i>
+for <i>System Under Test</i>.  We want to show how it interacts with the mock
+and how we can control the mock to influence the SUT.
+</p>
+
+<p>
+Here is an example showing a simple method call to a method which returns some
+value.
+</p>
+
+<table width="100%">
+<tr><th width="50%">jMock</th><th>EasyMock</th></tr>
+<tr><td>
+
+<div class="lowlight">
+
+<pre>
+    import org.jmock.Expectations;
+    import org.jmock.integration.junit3.MockObjectTestCase;
+</pre>
+
+<pre>
+    import java.util.Map;
+</pre>
+
+<pre>
+    public class CacheTest_jMock extends MockObjectTestCase {
+        public void testMethodWithReturnValue() {
+            final int expectedValue = 42;
+</pre>
+
+<pre>
+            final Map mockStorage = mock(Map.class);
+</pre>
+
+<pre>
+            <b>checking(new Expectations() {{
+                one (mockStorage).size();
+                    will(returnValue(expectedValue));
+            }});</b>
+</pre>
+
+<pre>
+            Cache sut = new Cache(mockStorage);
+            int actualValue = sut.size();
+            assertSame(expectedValue, actualValue);
+        }
+    }
+</pre>
+
+</div>
+
+</td><td>
+
+<div class="lowlight">
+
+<pre>
+    import junit.framework.TestCase;
+    import static org.easymock.EasyMock.*;
+</pre>
+
+<pre>
+    import java.util.Map;
+</pre>
+
+<pre>
+    public class CacheTest_EasyMock extends TestCase {
+        public void testMethodWithReturnValue() {
+            int expectedValue = 42;
+</pre>
+
+<pre>
+            Map mockStorage = createMock(Map.class);
+            <b>expect(mockStorage.size()).andReturn(expectedValue);</b>
+            replay(mockStorage);
+</pre>
+
+<pre>
+            Cache sut = new Cache(mockStorage);
+            Object actualValue = sut.size();
+            assertSame(expectedValue, actualValue);
+</pre>
+
+<pre>
+            verify(mockStorage);
+        }
+    }
+</pre>
+
+</div>
+
+</td></tr><tr><td>
+
+<div class="specialnote">
+
+<p>
+jMock uses an anonymous inner class to set expectations using a DSL defined in
+the class <code>Expectations</code>.  Local values that we plan to use as part of the
+expectations have to be marked <code>final</code>.  If we used instance variables, they
+wouldn't have to be final.  For example, we could make <code>mockStorage</code> an
+instance variable, create the mock in <code>setup()</code>, and still set expectations in
+the test method.
+</p>
+
+<p>
+Because the expectation on the method call and the expectation on the returned
+value are in separate statements, Java cannot check that the type of the
+returned value is the same as the return type for the method.  There will be an
+exception thrown at runtime if they are not compatible, so it is not a total
+loss.
+</p>
+
+</div>
+
+</td><td>
+
+<div class="specialnote">
+
+<p>
+EasyMock sets expactations using a DSL defined as static methods on class
+<code>EasyMock</code>.
+</p>
+
+<p>
+EasyMock uses separate notations for methods that return something and methods
+that don't return a value (<code>void</code>).  If the method returns something, you have
+to surround the expectation with <code>expect()</code> and specify a returned value.
+</p>
+
+</div>
+
+</td></tr>
+</table>
+
+<hr />
+
+<a name="ExpectingAMethodReturningAValueToThrowAnException"></a>
+<h2>Expecting A Method Returning A Value To Throw An Exception</h2>
+
+<p>
+Both jMock and EasyMock can throw exceptions as part of mocking method calls.
+This lets you simulate error conditions very easily.
+</p>
+
+<table width="100%">
+<tr><th width="50%">jMock</th><th>EasyMock</th></tr>
+<tr><td>
+
+<div class="lowlight">
+
+<pre>
+    import org.jmock.Expectations;
+    import org.jmock.integration.junit3.MockObjectTestCase;
+</pre>
+
+<pre>
+    import java.util.Map;
+</pre>
+
+<pre>
+    public class CacheTest_jMock extends MockObjectTestCase {
+        public void testMethodWithReturnValueThrowsAnException() {
+            final Exception expectedException = new RuntimeException();
+</pre>
+
+<pre>
+            final Map mockStorage = mock(Map.class);
+</pre>
+
+<pre>
+            checking(new Expectations() {{
+                one (mockStorage).size();
+                    <b>will(throwException(expectedException));</b>
+            }});
+</pre>
+
+<pre>
+            Cache sut = new Cache(mockStorage);
+            try {
+                sut.size();
+                fail("Should have thrown the exception");
+            } catch (RuntimeException actualException) {
+                assertSame(expectedException, actualException);
+            }
+        }
+    }
+</pre>
+
+</div>
+
+</td><td>
+
+<div class="lowlight">
+
+<pre>
+    import junit.framework.TestCase;
+    import static org.easymock.EasyMock.*;
+</pre>
+
+<pre>
+    import java.util.Map;
+</pre>
+
+<pre>
+    public class CacheTest_EasyMock extends TestCase {
+        public void testMethodWithReturnValueThrowsAnException() {
+            Exception expectedException = new RuntimeException();
+</pre>
+
+<pre>
+            Map mockStorage = createMock(Map.class);
+            expect(mockStorage.size()).<b>andThrow(expectedException)</b>;
+            replay(mockStorage);
+</pre>
+
+<pre>
+            Cache sut = new Cache(mockStorage);
+            try {
+                sut.size();
+                fail("Should have thrown the exception");
+            } catch (RuntimeException actualException) {
+                assertSame(expectedException, actualException);
+            }
+</pre>
+
+<pre>
+            verify(mockStorage);
+        }
+    }
+</pre>
+
+</div>
+
+</td></tr><tr><td>
+
+<div class="specialnote">
+
+<p>
+Like before, because the expectation on the method call and the expectation on
+the thrown exception are in separate statements, Java cannot check that the
+type of the exception matches one thrown by the method.  There will be an
+exception thrown at runtime if they are not compatible, so it is not a total
+loss.
+</p>
+
+</div>
+
+</td><td>
+
+<div class="specialnote">
+
+<p>
+EasyMock is no better than jMock when it comes to the type safety of thrown
+exceptions.
+</p>
+
+</div>
+
+</td></tr>
+</table>
+
+<hr />
+
+<a name="ExpectingAMethodWithvoidReturnType"></a>
+<h2>Expecting A Method With <code>void</code> Return Type</h2>
+
+<table width="100%">
+<tr><th width="50%">jMock</th><th>EasyMock</th></tr>
+<tr><td>
+
+<div class="lowlight">
+
+<pre>
+    import org.jmock.Expectations;
+    import org.jmock.integration.junit3.MockObjectTestCase;
+</pre>
+
+<pre>
+    import java.util.Map;
+</pre>
+
+<pre>
+    public class CacheTest_jMock extends MockObjectTestCase {
+        public void testVoidMethod() {
+            final Map mockStorage = mock(Map.class);
+</pre>
+
+<pre>
+            checking(new Expectations() {{
+                <b>one (mockStorage).clear();</b>
+            }});
+</pre>
+
+<pre>
+            Cache sut = new Cache(mockStorage);
+            sut.clear();
+        }
+    }
+</pre>
+
+</div>
+
+</td><td>
+
+<div class="lowlight">
+
+<pre>
+    import junit.framework.TestCase;
+    import static org.easymock.EasyMock.*;
+</pre>
+
+<pre>
+    import java.util.Map;
+</pre>
+
+<pre>
+    public class CacheTest_EasyMock extends TestCase {
+        public void testVoidMethod() {
+            Map mockStorage = createMock(Map.class);
+            <b>mockStorage.clear();</b>
+            replay(mockStorage);
+</pre>
+
+<pre>
+            Cache sut = new Cache(mockStorage);
+            sut.clear();
+</pre>
+
+<pre>
+            verify(mockStorage);
+        }
+    }
+</pre>
+
+</div>
+
+</td></tr><tr><td>
+
+<div class="specialnote">
+
+<p>
+jMock uses the exact same notation, regardless of whether the method returns a
+value or not.
+</p>
+
+</div>
+
+</td><td>
+
+<div class="specialnote">
+
+<p>
+EasyMock uses separate notations for methods that return something and methods
+that don't return a value (<code>void</code>).  If the method is a <code>void</code> method, you must
+<b>not</b> use <code>expect()</code>.
+</p>
+
+</div>
+
+</td></tr>
+</table>
+
+<hr />
+
+<a name="ExpectingAMethodWithvoidReturnTypeToThrowAnException"></a>
+<h2>Expecting A Method With <code>void</code> Return Type To Throw An Exception</h2>
+
+<p>
+Remember that both jMock and EasyMock can only check the typesafety of the
+thrown exception at runtime.
+</p>
+
+<table width="100%">
+<tr><th width="50%">jMock</th><th>EasyMock</th></tr>
+<tr><td>
+
+<div class="lowlight">
+
+<pre>
+    import org.jmock.Expectations;
+    import org.jmock.integration.junit3.MockObjectTestCase;
+</pre>
+
+<pre>
+    import java.util.Map;
+</pre>
+
+<pre>
+    public class CacheTest_jMock extends MockObjectTestCase {
+        public void testVoidMethodThrowsAnException() {
+            final Exception expectedException = new RuntimeException();
+</pre>
+
+<pre>
+            final Map mockStorage = mock(Map.class);
+</pre>
+
+<pre>
+            checking(new Expectations() {{
+                one (mockStorage).clear();
+                    <b>will(throwException(expectedException));</b>
+            }});
+</pre>
+
+<pre>
+            Cache sut = new Cache(mockStorage);
+            try {
+                sut.clear();
+                fail("Should have thrown the exception");
+            } catch (RuntimeException actualException) {
+                assertSame(expectedException, actualException);
+            }
+        }
+    }
+</pre>
+
+</div>
+
+</td><td>
+
+<div class="lowlight">
+
+<pre>
+    import junit.framework.TestCase;
+    import static org.easymock.EasyMock.*;
+</pre>
+
+<pre>
+    import java.util.Map;
+</pre>
+
+<pre>
+    public class CacheTest_EasyMock extends TestCase {
+        public void testVoidMethodThrowsAnException() {
+            Exception expectedException = new RuntimeException();
+</pre>
+
+<pre>
+            Map mockStorage = createMock(Map.class);
+            mockStorage.clear();
+            <b>expectLastCall().andThrow(expectedException);</b>
+            replay(mockStorage);
+</pre>
+
+<pre>
+            Cache sut = new Cache(mockStorage);
+            try {
+                sut.clear();
+                fail("Should have thrown the exception");
+            } catch (RuntimeException actualException) {
+                assertSame(expectedException, actualException);
+            }
+</pre>
+
+<pre>
+            verify(mockStorage);
+        }
+    }
+</pre>
+
+</div>
+
+</td></tr><tr><td>
+
+<div class="specialnote">
+
+<p>
+Again, jMock's notation is exactly the same.
+</p>
+
+</div>
+
+</td><td>
+
+<div class="specialnote">
+
+<p>
+When dealing with a <code>void</code> method in EasyMock, you have to use
+<code>expectLastCall()</code> to set expectations on it, like throwing an exception in
+this case.
+</p>
+
+</div>
+
+</td></tr>
+</table>
+
+<hr />
+
+<a name="CheckingParameters"></a>
+<h2>Checking Parameters</h2>
+
+<p>
+If you're expecting specific values for parameters, just write them out as part
+of the expectations.  jMock and EasyMock will use <code>==</code> for primitive types,
+recursively compare array contents, and use <code>equals()</code> for everything else.
+</p>
+
+<table width="100%">
+<tr><th width="50%">jMock</th><th>EasyMock</th></tr>
+<tr><td>
+
+<div class="lowlight">
+
+<pre>
+    import org.jmock.Expectations;
+    import org.jmock.integration.junit3.MockObjectTestCase;
+</pre>
+
+<pre>
+    import java.util.Map;
+</pre>
+
+<pre>
+    public class CacheTest_jMock extends MockObjectTestCase {
+        public void testExactParams() {
+            final int expectedKey = 42;
+            final String expectedValue = "forty-two";
+</pre>
+
+<pre>
+            final Map mockStorage = mock(Map.class);
+</pre>
+
+<pre>
+            checking(new Expectations() {{
+                <b>one (mockStorage).put(expectedKey, expectedValue);</b>
+                    will(returnValue(true));
+            }});
+</pre>
+
+<pre>
+            Cache sut = new Cache(mockStorage);
+            sut.add(expectedKey, expectedValue);
+        }
+    }
+</pre>
+
+</div>
+
+</td><td>
+
+<div class="lowlight">
+
+<pre>
+    import junit.framework.TestCase;
+    import static org.easymock.EasyMock.*;
+</pre>
+
+<pre>
+    public class CacheTest_EasyMock extends TestCase {
+        public void testExactParams() {
+            int expectedKey = 42;
+            String expectedValue = "forty-two";
+</pre>
+
+<pre>
+            Map mockStorage = createMock(Map.class);
+            <b>expect(mockStorage.put(expectedKey, expectedValue)).andReturn(true);</b>
+            replay(mockStorage);
+</pre>
+
+<pre>
+            Cache sut = new Cache(mockStorage);
+            sut.add(expectedKey, expectedValue);
+</pre>
+
+<pre>
+            verify(mockStorage);
+        }
+    }
+</pre>
+
+</div>
+
+</td></tr>
+</table>
+
+<hr />
+
+<a name="FuzzyMatchingParameters"></a>
+<h2>Fuzzy Matching Parameters</h2>
+
+<p>
+You can relax expectations on the parameter values using a wide range of
+boolean functions.  Both jMock and EasyMock allow you to combine <i>matchers</i>
+using special boolean arithmetic functions.  Each also allows you to define
+your own custom <i>matchers</i> if you need to.  See their respective documentation
+for the full range of <i>matchers</i> that come with each framework.
+</p>
+
+<p>
+In both cases, you must either use exact values for all parameters, or use
+matchers for all parameters.  You cannot mix and match matchers with explicit
+values.  Use jMock's <code>with(equalTo(...))</code> or EasyMock's <code>eq(...)</code> matchers for
+matching exact values.
+</p>
+
+<table width="100%">
+<tr><th width="50%">jMock</th><th>EasyMock</th></tr>
+<tr><td>
+
+<div class="lowlight">
+
+<pre>
+    import static org.hamcrest.Matchers.*;
+    import org.jmock.Expectations;
+    import org.jmock.integration.junit3.MockObjectTestCase;
+</pre>
+
+<pre>
+    import java.util.Map;
+</pre>
+
+<pre>
+    public class CacheTest_jMock extends MockObjectTestCase {
+        public void testFuzzyParams() {
+            final int expectedKey = 42;
+            final String expectedValue = "forty-two";
+</pre>
+
+<pre>
+            final Map mockStorage = mock(Map.class);
+</pre>
+
+<pre>
+            checking(new Expectations() {{
+                one (mockStorage).put(<b>with(greaterThan(40)), with(containsString("two"))</b>);
+                    will(returnValue(true));
+            }});
+</pre>
+
+<pre>
+            Cache sut = new Cache(mockStorage);
+            sut.add(expectedKey, expectedValue);
+        }
+    }
+</pre>
+
+</div>
+
+</td><td>
+
+<div class="lowlight">
+
+<pre>
+    import junit.framework.TestCase;
+    import static org.easymock.EasyMock.*;
+</pre>
+
+<pre>
+    public class CacheTest_EasyMock extends TestCase {
+        public void testFuzzyParams() {
+            int expectedKey = 42;
+            String expectedValue = "forty-two";
+</pre>
+
+<pre>
+            Map mockStorage = createMock(Map.class);
+            expect(mockStorage.put(<b>gt(40), find("two")</b>)).andReturn(true);
+            replay(mockStorage);
+</pre>
+
+<pre>
+            Cache sut = new Cache(mockStorage);
+            sut.add(expectedKey, expectedValue);
+</pre>
+
+<pre>
+            verify(mockStorage);
+        }
+    }
+</pre>
+
+</div>
+
+</td></tr><tr><td>
+
+<div class="specialnote">
+
+<p>
+jMock uses Hamcrest matchers to check actual parameters against expectations.
+New versions of JUnit are also moving to Hamcrest matchers instead of all the
+<code>assert...()</code> methods.
+</p>
+
+</div>
+
+</td><td>
+
+<div class="specialnote">
+
+<p>
+EasyMock does not use Hamcrest matchers, but has a rich API that serves the
+same purpose.
+</p>
+
+</div>
+
+</td></tr>
+</table>
+
+<hr />
+
+<a name="IgnoringIrrelevantReturnValues"></a>
+<h2>Ignoring Irrelevant Return Values</h2>
+
+<p>
+Our example <code>Cache</code> class discards the value it gets from <code>Map.put()</code> and
+<code>Map.remove()</code>.  jMock does not force us to put expectations on things that are
+irrelevant to the test at hand.  If we're testing <code>Cache.add()</code>, it does not
+matter what the underlying call to <code>Map.put()</code> returns.  With EasyMock, we have
+to fully specify everything, whether it matters or not.
+</p>
+
+<table width="100%">
+<tr><th width="50%">jMock</th><th>EasyMock</th></tr>
+<tr><td>
+
+<div class="lowlight">
+
+<pre>
+    public class CacheTest_jMock extends MockObjectTestCase {
+        public void testIgnoreReturnValue() {
+            final int expectedKey = 42;
+            final String expectedValue = "forty-two";
+</pre>
+
+<pre>
+            final Map mockStorage = mock(Map.class);
+</pre>
+
+<pre>
+            checking(new Expectations() {{
+                one (mockStorage).put(expectedKey, expectedValue);
+            }});
+</pre>
+
+<pre>
+            Cache sut = new Cache(mockStorage);
+            sut.add(expectedKey, expectedValue);
+        }
+    }
+</pre>
+
+</div>
+
+</td><td>
+
+<div>
+
+<p>
+&nbsp;
+</p>
+
+</div>
+
+</td></tr><tr><td>
+
+<div class="specialnote">
+
+<p>
+Notice the absence of <code>will(returnValue(...))</code>.  jMock will supply an innocuous
+default value as appropriate (<code>false</code> in this case).
+</p>
+
+</div>
+
+</td><td>
+
+<div class="specialnote">
+
+<p>
+There is no equivalent in EasyMock.
+</p>
+
+</div>
+
+</td></tr>
+</table>
+
+<hr />
+
+<a name="IgnoringMethodCalls"></a>
+<h2>Ignoring Method Calls</h2>
+
+<p>
+Both jMock and EasyMock let you ignore certain methods.  Essentially, if you
+ignore a method, the mock does not care how many times it gets called, or even
+if it gets called at all.
+</p>
+
+<p>
+Say we add a new <code>logAndClear()</code> method on the cache that logs the size of the
+cache before it clears it.
+</p>
+
+<pre>
+    public class Cache {
+        // ...
+</pre>
+
+<pre>
+        public void logAndClear() {
+            log("Clearing cache that had " + <b>size()</b> + " entries.");
+            underlyingStorage.clear();
+        }
+</pre>
+
+<pre>
+        private void log(String message) {/* ... */}
+    }
+</pre>
+
+<p>
+A test method might care about <code>Map.clear()</code> getting called and not care about
+the logging behavior (that would be the topic for another test method).  By
+keeping the test focused on the clearing logic and ignoring the logging logic,
+it will not break if we decide to change the implementation of <code>logAndClear()</code>
+to not include the size of the cache.
+</p>
+
+<table width="100%">
+<tr><th width="50%">jMock</th><th>EasyMock</th></tr>
+<tr><td>
+
+<div class="lowlight">
+
+<pre>
+    import org.jmock.Expectations;
+    import org.jmock.integration.junit3.MockObjectTestCase;
+</pre>
+
+<pre>
+    public class CacheTest_jMock extends MockObjectTestCase {
+        public void testIgnoreMethodCall() {
+            final Map mockStorage = mock(Map.class);
+</pre>
+
+<pre>
+            checking(new Expectations() {{
+                one (mockStorage).clear();
+                <b>ignoring (mockStorage).size();</b>
+                    will(returnValue(42));
+            }});
+</pre>
+
+<pre>
+            Cache sut = new Cache(mockStorage);
+            sut.logAndClear();
+        }
+    }
+</pre>
+
+</div>
+
+</td><td>
+
+<div class="lowlight">
+
+<pre>
+    import junit.framework.TestCase;
+    import static org.easymock.EasyMock.*;
+</pre>
+
+<pre>
+    public class CacheTest_EasyMock extends TestCase {
+        public void testIgnoreMethodCall_withStub() {
+            Map mockStorage = createMock(Map.class);
+            mockStorage.clear();
+            expect(mockStorage.size()).<b>andStubReturn</b>(42);
+            replay(mockStorage);
+</pre>
+
+<pre>
+            Cache sut = new Cache(mockStorage);
+            sut.logAndClear();
+</pre>
+
+<pre>
+            verify(mockStorage);
+        }
+    }
+</pre>
+
+</div>
+
+</td></tr><tr><td>
+
+<div class="specialnote">
+
+<p>
+With jMock, we don't have to specify the return value for <code>Map.size()</code>, as we
+saw in the previous section.
+</p>
+
+</div>
+
+</td><td>
+
+<div class="specialnote">
+
+<p>
+With EasyMock, we must specify a return value for <code>Map.size()</code>.
+</p>
+
+</div>
+
+</td></tr>
+</table>
+
+<hr />
+
+<a name="IgnoringWholeObjects"></a>
+<h2>Ignoring Whole Objects</h2>
+
+<p>
+In addition, jMock and EasyMock let you ignore all calls to a given mock,
+making it perfect for creating fake objects on the fly.  Fake objects may be
+required by the API of the SUT but are otherwise irrelevant to the test at
+hand.
+</p>
+
+<p>
+For example, a test method may try to exercise some part of the <code>Cache</code> without
+caring what happens on the underlying storage.  The storage cannot be null, but
+we can create a fake storage that will do nothing.
+</p>
+
+<table width="100%">
+<tr><th width="50%">jMock</th><th>EasyMock</th></tr>
+<tr><td>
+
+<div class="lowlight">
+
+<pre>
+    import org.jmock.Expectations;
+    import org.jmock.integration.junit3.MockObjectTestCase;
+</pre>
+
+<pre>
+    public class IgnoringObject_jMock extends MockObjectTestCase {
+        public void testIgnoreObject() {
+            final Map mockStorage = mock(Map.class);
+</pre>
+
+<pre>
+            checking(new Expectations() {{
+                <b>ignoring (mockStorage);</b>
+            }});
+</pre>
+
+<pre>
+            Cache sut = new Cache(mockStorage);
+            sut.logAndClear();
+        }
+    }
+</pre>
+
+</div>
+
+</td><td>
+
+<div class="lowlight">
+
+<pre>
+    import junit.framework.TestCase;
+    import static org.easymock.classextension.EasyMock.*;
+</pre>
+
+<pre>
+    public class CacheTest_EasyMock extends TestCase {
+        public void testIgnoreObject() {
+            Map mockStorage = <b>createNiceMock</b>(Map.class);
+            replay(mockStorage);
+</pre>
+
+<pre>
+            Cache sut = new Cache(mockStorage);
+            sut.logAndClear();
+</pre>
+
+<pre>
+            verify(mockStorage);
+        }
+    }
+</pre>
+
+</div>
+
+</td></tr>
+</table>
+
+<hr />
+
+<a name="InnocuousDefaultValues"></a>
+<h2>Innocuous Default Values</h2>
+
+<p>
+jMock and EasyMock can supply return values for you if you do not care about
+the actual returned value.  They will automatically return zero for numerical
+values and false for boolean values.
+</p>
+
+<p>
+For this example, we will expand <code>Cache</code> to be a <code>UserCache</code>, as show here:
+</p>
+
+<pre>
+    import java.util.logging.Logger;
+</pre>
+
+<pre>
+    public class UserCache {
+        private Storage underlyingStorage;
+        private Logger logger;
+</pre>
+
+<pre>
+        public UserCache(Storage underlyingStorage, Logger logger) {
+            this.underlyingStorage = underlyingStorage;
+            this.logger = logger;
+        }
+</pre>
+
+<pre>
+        public UserRecord getAndLog(int key) {
+            UserRecord result = underlyingStorage.get(key);
+            logger.log(key + " --> \"" + result + "\"");
+            return result;
+        }
+</pre>
+
+<pre>
+        public UserRecord getAndLogName(int key) {
+            UserRecord result = underlyingStorage.get(key);
+            logger.log(key + " --> \"" + result.getLastName() + ", " + result.getFirstName() + "\"");
+            return result;
+        }
+    }
+</pre>
+
+<pre>
+    public interface Storage {
+        UserRecord get(int key);
+    }
+</pre>
+
+<pre>
+    public interface Logger {
+        void log(String message);
+    }
+</pre>
+
+<pre>
+    public interface UserRecord {
+        String getFirstName();
+        String getLastName();
+    }
+</pre>
+
+<p>
+We want to test that calling <code>getAndLog()</code> actually writes something to the
+logs, without caring about the details of what gets written.
+</p>
+
+<table width="100%">
+<tr><th width="50%">jMock</th><th>EasyMock</th></tr>
+<tr><td>
+
+<div class="lowlight">
+
+<pre>
+    import org.jmock.Expectations;
+    import org.jmock.integration.junit3.MockObjectTestCase;
+</pre>
+
+<pre>
+    public class UserCacheTest_jMock extends MockObjectTestCase {
+        public void testInnocuousValue() {
+            final int key = 42;
+</pre>
+
+<pre>
+            final Storage mockStorage = mock(Storage.class);
+            final Logger mockLogger = mock(Logger.class);
+</pre>
+
+<pre>
+            checking(new Expectations() {{
+                <b>one (mockStorage).get(key);</b>
+                one (mockLogger).log(with(any(String.class)));
+            }});
+</pre>
+
+<pre>
+            UserCache sut = new UserCache(mockStorage, mockLogger);
+            sut.getAndLog(key);
+        }
+    }
+</pre>
+
+</div>
+
+</td><td>
+
+<div class="lowlight">
+
+<pre>
+    import junit.framework.TestCase;
+    import static org.easymock.EasyMock.*;
+</pre>
+
+<pre>
+    public class UserCacheTest_EasyMock extends TestCase {
+        public void testInnocuousValue() {
+            int expectedKey = 42;
+</pre>
+
+<pre>
+            Storage mockStorage = <b>createNiceMock</b>(Storage.class);
+            Logger mockLogger = createMock(Logger.class);
+            mockLogger.log(isA(String.class));
+            replay(mockStorage, mockLogger);
+</pre>
+
+<pre>
+            UserCache sut = new UserCache(mockStorage, mockLogger);
+            sut.getAndLog(expectedKey);
+</pre>
+
+<pre>
+            verify(mockStorage, mockLogger);
+        }
+    }
+</pre>
+
+</div>
+
+</td></tr><tr><td>
+
+<div class="specialnote">
+
+<p>
+For methods that return an object type, jMock generates a mock for that type
+on the fly so it can continue returning innocuous values across chains of
+calls.  And it returns an empty string for <code>String</code>.
+</p>
+
+</div>
+
+</td><td>
+
+<div class="specialnote">
+
+<p>
+For methods that return an object type, EasyMock returns <code>null</code>, even for
+<code>String</code>.  And the only choice is to ignore the entire method call, you cannot
+place an expectation on the method getting called and still get the innocuous
+default values.
+</p>
+
+</div>
+
+</td></tr><tr><td>
+
+<div class="specialnote">
+
+<p>
+The exact same test would work with <code>getAndLogName()</code> because <code>result</code> would
+turn out to be an ignored mock.
+</p>
+
+</div>
+
+</td><td>
+
+<div class="specialnote">
+
+<p>
+The test would not work with <code>getAndLogName()</code> because <code>result</code> would be <code>null</code>
+and building the message would throw a <code>NullPointerException</code>.
+</p>
+
+</div>
+
+</td></tr>
+</table>
+
+<hr />
+
+<a name="MockingRepeatedMethodCalls"></a>
+<h2>Mocking Repeated Method Calls</h2>
+
+<p>
+Both jMock and EasyMock let you specify how many times you expect a given
+method to be called.  They both let you specified exact numbers or constraints
+like "at least" or "at most" so many calls.
+</p>
+
+<p>
+If we return to our <code>Cache</code> example and add the following <code>logAndClear()</code>
+method that logs and clears only if the cache is not empty:
+</p>
+
+<pre>
+    public class Cache {
+        // ...
+</pre>
+
+<pre>
+        public void conditionalLogAndClear() {
+            if (size() > 0) {
+                logAndclear();
+            }
+        }
+    }
+</pre>
+
+
+<table width="100%">
+<tr><th width="50%">jMock</th><th>EasyMock</th></tr>
+<tr><td>
+
+<div class="lowlight">
+
+<pre>
+    import org.jmock.Expectations;
+    import org.jmock.integration.junit3.MockObjectTestCase;
+</pre>
+
+<pre>
+    import java.util.Map;
+</pre>
+
+<pre>
+    public class CacheTest_jMock extends MockObjectTestCase {
+        public void testMultipleCalls() {
+            final Map mockStorage = mock(Map.class);
+</pre>
+
+<pre>
+            checking(new Expectations() {{
+                <b>exactly(2).of</b> (mockStorage).size();
+                will(returnValue(42));
+                one (mockStorage).clear();
+            }});
+</pre>
+
+<pre>
+            Cache sut = new Cache(mockStorage);
+            sut.conditionalLogAndClear();
+        }
+    }
+</pre>
+
+</div>
+
+</td><td>
+
+<div class="lowlight">
+
+<pre>
+    import junit.framework.TestCase;
+    import static org.easymock.EasyMock.*;
+</pre>
+
+<pre>
+    public class CacheTest_EasyMock extends TestCase {
+        public void testMultipleCalls() {
+            Map mockStorage = createMock(Map.class);
+            expect(mockStorage.size()).andReturn(42)<b>.times(2)</b>;
+            mockStorage.clear();
+            replay(mockStorage);
+</pre>
+
+<pre>
+            Cache sut = new Cache(mockStorage);
+            sut.conditionalLogAndClear();
+</pre>
+
+<pre>
+            verify(mockStorage);
+        }
+    }
+</pre>
+
+</div>
+
+</td></tr>
+</table>
+
+<hr />
+
+<a name="CheckingthatCallsHappenInSequenceonOneMock"></a>
+<h2>Checking that Calls Happen In Sequence on One Mock</h2>
+
+<p>
+By default, both jMock and EasyMock do not order the expectations.  The calls
+do not have to occur in the same order they are specified in the test.  But
+each framework provides a mechanism for checking that things happen in a given
+sequence.
+</p>
+
+<table width="100%">
+<tr><th width="50%">jMock</th><th>EasyMock</th></tr>
+<tr><td>
+
+<div class="lowlight">
+
+<pre>
+    import org.jmock.Expectations;
+    import org.jmock.Sequence;
+    import org.jmock.integration.junit3.MockObjectTestCase;
+</pre>
+
+<pre>
+    public class CacheTest_jMock extends MockObjectTestCase {
+        public void testSequenceOnOneMock() {
+            final Map mockStorage = mock(Map.class);
+            <b>final Sequence clearSequence = sequence("clear");</b>
+</pre>
+
+<pre>
+            checking(new Expectations() {{
+                one (mockStorage).size();
+                    <b>inSequence(clearSequence);</b>
+                    will(returnValue(42));
+                one (mockStorage).clear();
+                    <b>inSequence(clearSequence);</b>
+            }});
+</pre>
+
+<pre>
+            Cache sut = new Cache(mockStorage);
+            sut.logAndClear();
+        }
+    }
+</pre>
+
+</div>
+
+</td><td>
+
+<div class="lowlight">
+
+<pre>
+    import junit.framework.TestCase;
+    import static org.easymock.EasyMock.*;
+</pre>
+
+<pre>
+    public class CacheTest_EasyMock extends TestCase {
+        public void testSequenceOnOneMock() {
+            Map mockStorage = <b>createStrictMock</b>(Map.class);
+            expect(mockStorage.size()).andReturn(42);
+            mockStorage.clear();
+            replay(mockStorage);
+</pre>
+
+<pre>
+            Cache sut = new Cache(mockStorage);
+            sut.logAndClear();
+</pre>
+
+<pre>
+            verify(mockStorage);
+        }
+    }
+</pre>
+
+</div>
+
+</td></tr><tr><td>
+
+<div class="specialnote">
+
+<p>
+With jMock, you can control which individual calls are on or off the sequence
+by including or omitting <code>inSequence()</code> statements.
+</p>
+
+</div>
+
+</td><td>
+
+<div class="specialnote">
+
+<p>
+With EasyMock, you can control which calls are on or off the sequence by
+calling <code>EasyMock.checkOrder(mock, boolean)</code> repeatedly to turn on or off
+sequence ordering.
+</p>
+
+</div>
+
+</td></tr>
+</table>
+
+<hr />
+
+<a name="CheckingthatCallsHappenInSequenceAcrossMocks"></a>
+<h2>Checking that Calls Happen In Sequence Across Mocks</h2>
+
+<p>
+jMock and EasyMock have slightly different mechanism for checking call
+sequences involving multiple mocks.
+</p>
+
+<table width="100%">
+<tr><th width="50%">jMock</th><th>EasyMock</th></tr>
+<tr><td>
+
+<div class="lowlight">
+
+<pre>
+    import org.jmock.Expectations;
+    import org.jmock.Sequence;
+    import org.jmock.integration.junit3.MockObjectTestCase;
+</pre>
+
+<pre>
+    public class UserCacheTest_jMock extends MockObjectTestCase {
+        public void testSequenceOnTwoMocks() {
+            final int key = 42;
+</pre>
+
+<pre>
+            final Storage mockStorage = mock(Storage.class);
+            final Logger mockLogger = mock(Logger.class);
+            <b>final Sequence getSequence = sequence("get");</b>
+</pre>
+
+<pre>
+            checking(new Expectations() {{
+                one (mockStorage).get(key);
+                    <b>inSequence(getSequence);</b>
+                one (mockLogger).log(with(any(String.class)));
+                    <b>inSequence(getSequence);</b>
+            }});
+</pre>
+
+<pre>
+            UserCache sut = new UserCache(mockStorage, mockLogger);
+            sut.getAndLog(key);
+        }
+    }
+</pre>
+
+</div>
+
+</td><td>
+
+<div class="lowlight">
+
+<pre>
+    import junit.framework.TestCase;
+    import static org.easymock.EasyMock.*;
+    import org.easymock.IMocksControl;
+</pre>
+
+<pre>
+    public class UserCacheTest_EasyMock extends TestCase {
+        public void testSequenceOnTwoMocks() {
+            int expectedKey = 42;
+</pre>
+
+<pre>
+            IMocksControl control = <b>createStrictControl</b>();
+</pre>
+
+<pre>
+            Storage mockStorage = control.createMock(Storage.class);
+            Logger mockLogger = control.createMock(Logger.class);
+            UserRecord mockUser = control.createMock(UserRecord.class);
+            expect(mockStorage.get(expectedKey)).andReturn(mockUser);
+            mockLogger.log(isA(String.class));
+            control.replay();
+</pre>
+
+<pre>
+            UserCache sut = new UserCache(mockStorage, mockLogger);
+            sut.getAndLog(expectedKey);
+</pre>
+
+<pre>
+            control.verify();
+        }
+    }
+</pre>
+
+</div>
+
+</td></tr><tr><td>
+
+<div class="specialnote">
+
+<p>
+jMock does not see a difference between a sequence with one mock or multiple
+mocks.
+</p>
+
+</div>
+
+</td><td>
+
+<div class="specialnote">
+
+<p>
+EasyMock uses the <i>control</i> to coordinate action across multiple mocks.  You
+can control which calls are on or off the sequence by calling
+<code>IMockControls.checkOrder(boolean)</code> repeatedly.
+</p>
+
+</div>
+
+</td></tr><tr><td>
+
+<div class="specialnote">
+
+<p>
+You can create as many independent sequences as you need.
+</p>
+
+</div>
+
+</td><td>
+
+<div class="specialnote">
+
+<p>
+You need to use separate controls if you need to check more than one
+independent sequences.
+</p>
+
+</div>
+
+</td></tr>
+</table>
+
+<hr />
+
+<a name="ProvidingSideEffectsinMocks"></a>
+<h2>Providing Side Effects in Mocks</h2>
+
+<p>
+Recently, I came upon a case where the SUT was using a collaborator to populate
+some data structure.  When mocking said collaborator, I needed to replicate the
+behavior to populate the structure so the SUT could proceed.  I think of this
+as a code smell, but it was too hard to refactor on the spot, so I wanted to
+put a test in place and maybe come back to it at some time in the future.
+</p>
+
+<p>
+Both jMock and EasyMock let you provide behavior that gets run as part of
+mocking a method call.
+</p>
+
+<p>
+Assume following <code>Populator</code>:
+</p>
+
+<pre>
+    import java.util.List;
+</pre>
+
+<pre>
+    public interface Populator {
+        void populate(List list);
+    }
+</pre>
+
+<p>
+And the SUT is this <code>Client</code> class:
+</p>
+
+<pre>
+    import java.util.List;
+    import java.util.ArrayList;
+</pre>
+
+<pre>
+    public class Client {
+        private final Populator populator;
+</pre>
+
+<pre>
+        public Client(Populator populator) {
+            this.populator = populator;
+        }
+</pre>
+
+<pre>
+        public int callPopulateAndReturnSize() {
+            List list = new ArrayList();
+            populator.populate(list);
+            return list.size();
+        }
+    }
+</pre>
+
+<p>
+Here are tests for <code>callPopulateAndReturnSize()</code>.
+</p>
+
+<table width="100%">
+<tr><th width="50%">jMock</th><th>EasyMock</th></tr>
+<tr><td>
+
+<div class="lowlight">
+
+<pre>
+    import org.jmock.Expectations;
+    import org.jmock.api.Invocation;
+    import org.jmock.integration.junit3.MockObjectTestCase;
+    import org.jmock.lib.action.CustomAction;
+</pre>
+
+<pre>
+    import java.util.List;
+</pre>
+
+<pre>
+    public class SideEffect_jMock extends MockObjectTestCase {
+        public void testSideEffect() {
+            final Populator mockPopulator = mock(Populator.class);
+</pre>
+
+<pre>
+            checking(new Expectations() {{
+                one (mockPopulator).populate(with(any(List.class)));
+                    will(<b>new CustomAction("Add random value to list") {
+                        public Object invoke(Invocation invocation) throws Throwable {
+                            ((List) invocation.getParameter(0)).add(new Object());
+                            return null;
+                        }
+                    }</b>);
+            }});
+</pre>
+
+<pre>
+            Client sut = new Client(mockPopulator);
+            int actualSize = sut.callPopulateAndReturnSize();
+            assertTrue(actualSize > 0);
+        }
+    }
+</pre>
+
+</div>
+
+</td><td>
+
+<div class="lowlight">
+
+<pre>
+    import junit.framework.TestCase;
+    import static org.easymock.EasyMock.*;
+    import org.easymock.IAnswer;
+</pre>
+
+<pre>
+    import java.util.List;
+</pre>
+
+<pre>
+    public class SideEffect_EasyMock extends TestCase {
+        public void testSideEffect() {
+            Populator mockPopulator = createMock(Populator.class);
+            mockPopulator.populate(isA(List.class));
+            expectLastCall().<b>andAnswer(new IAnswer() {
+                public Object answer() throws Throwable {
+                    ((List) getCurrentArguments()[0]).add(new Object());
+                    return null;
+                }
+            })</b>;
+            replay(mockPopulator);
+</pre>
+
+<pre>
+            Client sut = new Client(mockPopulator);
+            int actualValue = sut.callPopulateAndReturnSize();
+            assertTrue(actualValue > 0);
+</pre>
+
+<pre>
+            verify(mockPopulator);
+        }
+    }
+</pre>
+
+</div>
+
+</td></tr>
+</table>
+
+<p>
+In both cases, having the inner class definition inlined into the expectations
+makes the code hard to read.  You'd be better off extracting it to a factory
+method.  We left it in there for these examples so that you could compare this
+expectation to other we've shown before.
+</p>
+
+<hr />
+
+<a name="PartialMocking"></a>
+<h2>Partial Mocking</h2>
+
+<p>
+EasyMock lets you mock only parts of a class so you can test the behavior of
+methods that call other methods on the same object instead of external
+collaborators.
+</p>
+
+<p>
+In the test below, we verify that when we call the <code>logAndClear()</code> method, it
+calls the <code>log()</code> method on the SUT.
+</p>
+
+<table width="100%">
+<tr><th width="50%">jMock</th><th>EasyMock</th></tr>
+<tr><td>
+
+<pre>
+    <i>n/a</i>
+</pre>
+
+</td><td>
+
+<div class="lowlight">
+
+<pre>
+    import junit.framework.TestCase;
+    import static org.easymock.classextension.EasyMock.*;
+</pre>
+
+<pre>
+    import java.lang.reflect.Method;
+    import java.util.Map;
+</pre>
+
+<pre>
+    public class PartialMocking_EasyMock extends TestCase {
+        public void testPartialMocking() throws Exception {
+            Map mockStorage = createMock(Map.class);
+            mockStorage.clear();
+            expect(mockStorage.size()).andStubReturn(42);
+</pre>
+
+<pre>
+            <b>Cache sut = createMock(Cache.class, new Method[] {Cache.class.getMethod("log", String.class)});
+            sut.log(isA(String.class));</b>
+</pre>
+
+<pre>
+            replay(mockStorage, <b>sut</b>);
+</pre>
+
+<pre>
+            sut.setUnderlyingStorage(mockStorage);
+            sut.logAndClear();
+</pre>
+
+<pre>
+            verify(mockStorage);
+        }
+    }
+</pre>
+
+</div>
+
+</td></tr><tr><td>
+
+<div class="specialnote">
+
+<p>
+There is no equivalent in jMock.
+</p>
+
+</div>
+
+</td><td>
+
+<div class="specialnote">
+
+<p>
+EasyMock uses reflection to find out which methods to mock and which ones to
+leave as implemented.
+</p>
+
+<p>
+If you are using <code>Class.getMethod()</code> to locate the method to mock, as in the
+example, you can mock any public methods of the SUT, whether it is inherited or
+declared on its concrete class, but you cannot mock any package-level or
+protected or private methods.
+</p>
+
+<p>
+If you are using <code>Class.getDeclaredMethod()</code> to locate the method to mock, you
+can mock any methods of the SUT's concrete class, whether it is public or
+package-level or protected or private, but you cannot mock any inherited
+methods.
+</p>
+
+</div>
+
+</td></tr>
+</table>
+
+<hr />
+
+<p>
+This document was first written on 2008-05-29.  It was last updated on 2008-11-20.
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-2083086-1";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

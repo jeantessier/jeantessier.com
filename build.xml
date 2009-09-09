@@ -1,0 +1,90 @@
+<project name="jeantessier.com" default="all" basedir=".">
+
+    <description>
+        Jean's Website
+    </description>
+
+    <target name="all" depends="main, kendo, blog"
+            description="Uploads the latest entries to jeantessier.com"/>
+
+    <target name="main"
+            description="Uploads the latest entries to jeantessier.com">
+        <ftp server="ftp.jeantessier.com"
+             userid="jeantessier"
+             password="pu%pwIT"
+             remotedir="jeantessier.com"
+	     depends="yes"
+	     binary="no"
+             verbose="yes">
+            <fileset dir="." includes="*.cgi"/>
+            <fileset dir="." includes="*.css"/>
+            <fileset dir="." includes="*.html"/>
+            <fileset dir="." includes="images/*"/>
+            <fileset dir="." includes="SoftwareEngineering/*"/>
+        </ftp>
+    </target>
+
+    <target name="kendo"
+            description="Uploads the latest entries to jeantessier.com">
+        <ftp server="ftp.jeantessier.com"
+             userid="jeantessier"
+             password="pu%pwIT"
+             remotedir="jeantessier.com/Kendo"
+	     depends="yes"
+	     binary="no"
+             verbose="yes">
+            <fileset dir="Kendo" includes="*.html"/>
+            <fileset dir="Kendo" includes="*.pdf"/>
+        </ftp>
+        <ftp server="ftp.jeantessier.com"
+             userid="jeantessier"
+             password="pu%pwIT"
+             remotedir="smkd.jeantessier.com"
+	     depends="yes"
+	     binary="no"
+             verbose="yes">
+            <fileset dir="smkd" includes="*.html"/>
+            <fileset dir="." includes="style.css"/>
+        </ftp>
+        <ftp server="ftp.jeantessier.com"
+             userid="jeantessier"
+             password="pu%pwIT"
+             remotedir="smkd.jeantessier.com"
+	     depends="yes"
+	     binary="yes"
+             verbose="yes">
+            <fileset dir="smkd" includes="images/*"/>
+        </ftp>
+    </target>
+
+    <target name="blog"
+            description="Uploads the latest entries to jeantessier.com">
+        <ftp server="ftp.jeantessier.com"
+             userid="jeantessier"
+             password="pu%pwIT"
+             remotedir="jeantessier.com"
+	     depends="yes"
+	     binary="no"
+             verbose="yes">
+            <fileset dir="." includes="data/*.txt"/>
+            <fileset dir="." includes="SoftwareEngineering/data/*.txt"/>
+        </ftp>
+    </target>
+
+    <target name="blogs" depends="books, se_blogs"
+            description="Generates all dynamic content and Atom feeds."/>
+
+    <target name="books" depends="books.html"/>
+
+    <target name="books.html">
+        <exec executable="perl"
+              output="Books.html">
+            <arg value="Books.cgi"/>
+        </exec>
+    </target>
+
+    <target name="se_blogs">
+        <ant dir="SoftwareEngineering" inheritAll="false"/>
+    </target>
+
+</project>

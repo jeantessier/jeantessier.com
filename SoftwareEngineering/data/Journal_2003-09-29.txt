@@ -1,0 +1,21 @@
+More about this script I was talking about the other day.  It scans code to
+collect lookup keys and generate a resource file with them.  I have been using
+this script to verify that my resource file has all the keys needed by the
+application, but my coworker justs wants to use it when he's done with his
+application to generate the resource file automatically.
+
+So today I took the script public within our development organization.
+Someone complained that we should not use the script and that everyone should
+maintain their resource file manually; to try an automated script is lazy and
+error-prone.  <strong>Error-prone</strong>???  Synchronizing keys across
+multiple files and doing it manually is error-prone.  Anything to automate that
+is a step up!  And lazy?  Why,
+[[http://c2.com/cgi/wiki?LazinessImpatienceHubris][lazines]] is the
+first virtue of a good programmer, according to Perl creator Larry Wall.  Of
+course, he's talking about the kind of laziness that makes you do a lot of work
+*now* so you don't have to do quite as much later.
+
+I was tempted to start a flame war over this, but in the end my better
+judgement prevailed.  In the process, I reacquainted myself with
+[[http://c2.com/cgi/wiki?GodwinsLaw][Godwin's Law]].  I suggest you
+do the same.

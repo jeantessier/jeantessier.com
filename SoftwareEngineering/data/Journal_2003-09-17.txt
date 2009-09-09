@@ -1,0 +1,49 @@
+I had a chat with a coworker about agile processes, which turned into a
+discussion of XP versus CMM.  While many consider them two extremes of one
+spectrum, I don't think it is the case.  I think CMM has more to do with how
+you look at your process, whatever that process is.  It could even be XP.  CMM
+is more about how you monitor your process and look for ways to improve it.  I
+do realize that most people take that as a license to have more paper and more
+bureaucracy, but it doesn't have to be that way.
+
+With that same coworker, we worked on a quick Perl script to automate this
+one tedious task.  He asked me to look at his first draft, clean it up and
+add two somewhat simple features.  Later, when I showed him my result, we got
+into a discussion of the features and how they work.  It took me a while to
+realize that I had assumed one way of using it and he had assumed another.  It
+would be easy to make the script support both usage patterns, but we had to
+spend some time convincing each other that both were valid use cases.  We
+managed to work it out, but it was unexpectedly hard.  We are coworkers who
+work together all the time, we know each other, we work on the same problems,
+and still it took us a while to understand that the other could also be right.
+On one hand, I can't help thinking that if it is this hard when we know each
+other, what must it be between strangers?  And what if they don't even share
+the same culture?  On the other hand, maybe it was harder because we had high
+expectations of each other, since we are so close to one another.
+
+I attended this month's meeting of the [[http://www.jera.com/bayxp/][BayXP]].
+[[http://www.johnlevyconsulting.com/][John Levy]] was presenting the
+[[http://www.sustainablecomputing.org/][Sustainable Computing Consortium]].
+
+First, let's talk about the speaker.  The invitation to the meeting made
+Levy sound like an old timer who had seen it all.  He had been on large
+projects throughout his lengthy career and would have great insights into
+project management.  I was expecting a wizened old man of the old school, with
+hard-earned knowledge about the nature of the beast.  It would be great to hear
+why someone whom you would think more on the heavyweight side of process is
+coming down instead on the side of eXtreme Programming.  Well, the guy is
+barely fifty.  His resume looks fine, he's been around and on many projects,
+but so have Scott Ambler and Martin Fowler and the other advocates for agile
+processes.
+
+And now for the Sustainable Computing Consortium.  This was recently started
+by CMU, creators of SEI and the CMM levels.  Not quite a crowd pleaser at XP
+meetings.  Then, there is the list of founding members: Microsoft, Oracle, and
+a few others from pharmaceutical and financial outfits.  Not exactly the first
+names to pop when you think agile development.  More like the purveyors of
+bloated software and lovers of big process.  Someone said this might turn out
+like CORBA, or another CMM-like excuse for throwing more process at problems.
+Finally, the membership cost of $25,000 kinda threw people off.
+
+So while the goals might seem laudable, time will tell if the execution
+lives up to expectations.

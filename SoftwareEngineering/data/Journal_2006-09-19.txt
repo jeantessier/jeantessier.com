@@ -1,0 +1,13 @@
+Played with Selenium.
+
+Looked at [[http://testng.org][TestNG]].  Noticed how they use annotations to
+earmark the tests and fixture methods.
+
+Took another at [[http://junit.org][Junit 4.1]].  Played with it a bit in order
+to try using annotations.  It was not so easy since they actually removed many
+of the familiar trappings of JUnit 3.  Gone is the Swing =TestRunner=.  All
+that is left is the text runner and now it is called
+=org.junit.runner.JUnitCore=.  Go figure.
+
+I remember being fairly disappointed that JUnit had gone the route of
+annotations.  It makes life harder for tool makers.  :-)

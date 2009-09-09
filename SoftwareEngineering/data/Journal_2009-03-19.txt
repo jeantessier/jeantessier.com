@@ -1,0 +1,4 @@
+Bumped into [[http://www.jera.com/jbrewer/][John Brewer]] in the train on the
+way home.  I knew him from [[http://tech.groups.yahoo.com/group/bayxp/][BayXP]]
+and also from when he worked at Google.  It turns out he's been doing iPhone
+development and improv in the year since he left Google.

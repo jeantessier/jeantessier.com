@@ -1,0 +1,11 @@
+name:Python_Essential_Reference_3ed
+title:[[http://www.amazon.com/Python-Essential-Reference-Developers-Library/dp/0672328623/sr=8-1/qid=1162356885/ref=pd_bbs_sr_1/103-6041063-6658211?ie=UTF8&s=books][Python Essential Reference, Third Edition]]
+author: David Beazley
+publisher: Developer's Library
+year: 2006
+start: 2007-06-25
+stop: 2007-07-11
+
+I needed something to browse on the train while I'm waiting for
+the latest Harry Potter book to come out:
+[[http://jeantessier.com/Books.cgi#Harry%5FPotter%5Fand%5Fthe%5FDeathly%5FHallows][Harry Potter and the Deathly Hallows]].

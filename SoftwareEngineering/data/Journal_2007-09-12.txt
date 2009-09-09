@@ -1,0 +1,5 @@
+Borrowed a FireWire cable so I can copy data out of my Alienware onto my
+MacBook Pro.  I needed MacDrive so Windows could write to the MacOS-formatted
+drive.  It works pretty well, but it was slow work copying everything.  And I
+ran out of space on my MacBook Pro; I only got to copy 75GB and I still have
+another 50GB to go.

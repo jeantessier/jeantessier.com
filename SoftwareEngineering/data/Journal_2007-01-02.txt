@@ -1,0 +1,16 @@
+New Year resolution: learn Python.  We use a lot of Python at work to write
+scripts and small applications.  Learning it will make me more efficient.  If I
+write my own scripts in Python, someone else is more likely to be able to
+maintain them than if they were written in Perl.
+
+So I am quitting Perl cold-turkey.  From now on, I will use only Python for
+scripting (besides Bash scripts).  Quitting Perl will force me to go through
+the effort of finding what I need from Python rather than falling back on Perl
+out of expediency.  So far, I have not found an equivalent to =perl -p/-n= to
+quickly process a file.  :-(
+
+I borrowed some books from a colleague until I can get my own (his are a little
+out of date):
+
+    * [[http://www.amazon.com/Python-Nutshell-Alex-Martelli/dp/0596001886/ref%3Ded%5Foe%5Fp/103-5245472-8565461][Python in a Nutshell]]
+    * [[http://www.amazon.com/Python-Essential-Reference-David-Beazley/dp/0735710910/sr%3D8-2/qid%3D1162356885/ref%3Dpd%5Fbbs%5F2/103-6041063-6658211?ie%3DUTF8&s%3Dbooks][Python Essential Reference]]

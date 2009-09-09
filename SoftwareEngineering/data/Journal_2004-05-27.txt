@@ -1,0 +1,35 @@
+Read a
+[[http://pup.princeton.edu/books/rochlin/chapter_04.html][chapter on Taylorism]]
+by Prof. Rochlin.  It is interesting that I am currently reading
+Pete McBreen's "Software Craftsmanship" where he advocates that we turn away
+from from modern, neo-Taylorist, deskilled software engineering and return to
+the traditional ways of craftsmen.
+
+The premise looks tempting, that software engineering should be driven like
+a craft, where masters lovingly guide and mold their apprentices, passing on
+their hard-earned experience.  But I'm not sure this return to the ways of the
+past is really the answer.  There is something to be said for the industrial
+revolution and the achievements of our modern technological society: longer
+life expectancy, more leisure time, etc.  The sentimental attachment to
+idealized master-apprentice relationships and artisans who take pride in their
+work was a small price to pay, considering what society as a whole gained in
+return.
+
+I'm sure I would enjoy my job a whole lot more under a craftsmanship model
+then the proposed software engineering roles where every task has been
+deconsructed and optimized.  I would gain a lot in enjoying my life.  But I'm
+not sure that it is in the society's best interest to have the entire
+profession go back in time like that.
+
+While Rochlin lists the profound transformations to the workplace triggered
+by neo-Taylorism and its negative impact on the workers, he says we don't know
+what the longterm effect on society will be.  It possibly will be negative,
+but it could also turn out to be positive.  Industrialization has made the
+Western Hemisphere the dominant force on the planet.  Would you go back to
+19th Century living conditions just so blue-collar workers can feel better?
+Remember that back then, living was hard, with little leisure for most; child
+mortality rates were high.  People didn't live quite that old.  Do we reaaly
+want to go back to _that_?
+
+I don't have any answers for now, just a bunch of questions and things to
+ponder for a while.  More later.
