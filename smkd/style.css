@@ -1,0 +1,62 @@
+body {
+	background: rgb( 66,  66, 111);
+	color:      rgb(255, 235, 205);
+}
+
+a:link {
+	color:      rgb(198, 230, 255);
+}
+
+a:visited {
+	color:      rgb(198, 230, 255);
+}
+
+/*
+a:visited {
+	color:      rgb(255, 118, 214);
+}
+*/
+
+a:active {
+	color:      rgb(255, 255, 112);
+}
+
+h1 {
+	color:      white;
+}
+
+h1.highlight {
+	text-align: center;
+}
+
+h2 {
+	color:      white;
+}
+
+.lowlight {
+	color:      rgb(191, 176, 154);
+}
+
+ol li {
+	font-weight: bold;
+}
+
+ol ol li {
+	list-style-type: lower-alpha;
+	font-weight:     normal;
+}
+
+dl dt {
+	font-weight: bold;
+}
+
+dl dd {
+	margin-bottom: 10;
+}
+
+.padded {
+	padding-left: 10;
+	padding-right: 10;
+	vertical-align: top;
+	text-align: center;
+}
