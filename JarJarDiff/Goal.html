@@ -1,0 +1,47 @@
+<!doctype html public "-//w3c//dtd html 4.01//en" "http://www.w3c.org/TR/html40/strict.dtd">
+
+<html>
+
+<head>
+<style type="text/css">
+    dl dt {font-weight: bold}
+    dl dd {margin-bottom: 10}
+</style>
+<title>JarJarDiff - Goal</title>
+</head>
+
+<body bgcolor="#ffffff">
+
+<h2>Goal</h2>
+
+<p>The goal of this project is to compare two versions of
+the same codebase and list the API differences.  The tool
+lists:</p>
+
+<ul>
+    <li>added or removed packages</li>
+    <li>added or removed interfaces</li>
+    <li>added or removed classes</li>
+    <li>changes in deprecation of interfaces or classes</li>
+    <li>modifiled interfaces or classes</li>
+    <ul>
+	<li>added or removed fields</li>
+	<li>added or removed constructors</li>
+	<li>added or removed methods</li>
+	<li>changes in deprecation of fields, constructors, or methods</li>
+	<li>modifiled fields, constructors, or methods</li>
+    </ul>
+</ul>
+
+<p>This information is important for conducting API quality
+control.  API providers can use the tool to generated change
+reports for new versions of their APIs, letting customers
+know where they will need to spend their time when upgrading.</p>
+
+<p>I used my <code>Dependency Finder</code> package for
+reading in the codebase and getting lists of packages,
+interfaces, classes, fields, constructors, and methods.</p>
+
+</body>
+
+</html>

@@ -1,0 +1,322 @@
+<!doctype html public "-//w3c//dtd html 4.01//en" "http://www.w3c.org/TR/html40/strict.dtd">
+
+<html>
+
+<head>
+<style type="text/css">
+    dl dt {font-weight: bold}
+    dl dd {margin-bottom: 10}
+</style>
+<title>JarJarDiff - Journal</title>
+</head>
+
+<body bgcolor="#ffffff">
+
+<h2>Journal</h2>
+
+<dl>
+    <dt>
+	November 27, 2001
+    </dt>
+    <dd>
+	<p>I change the root of the packages from <code>jt</code> to
+	<code>com.jeantessier</code>.  This comes as part of the preparations
+	to make this software open source.</p>
+
+	<p>Upgraded the following development components:</p>
+
+	<blockquote>
+	<table>
+	    <tr>
+	        <td>Jean Tessier API</td>
+	        <td>:</td>
+		<td>20011114</td>
+	        <td>-></td>
+		<td>20011125</td>
+	    </tr>
+	    <tr>
+	        <td>Dependency Finder</td>
+	        <td>:</td>
+		<td>20011114</td>
+	        <td>-></td>
+		<td>20011126</td>
+	    </tr>
+	</table>
+	</blockquote>
+    </dd>
+    <dt>
+	November 13, 2001
+    </dt>
+    <dd>
+	<p>I've put everything under the
+	<a target="_blank" href="http://www.gnu.org/licenses/lgpl.html">LGPL</a>.</p>
+
+	<p>I revamped the web page.</p>
+
+	<p>Upgraded the following development components:</p>
+
+	<blockquote>
+	<table>
+	    <tr>
+	        <td>JDK</td>
+	        <td>:</td>
+		<td>1.3</td>
+	        <td>-></td>
+		<td>1.3.1_01</td>
+	    </tr>
+	    <tr>
+	        <td>Ant</td>
+	        <td>:</td>
+		<td>1.3</td>
+	        <td>-></td>
+		<td>1.4.1</td>
+	    </tr>
+	    <tr>
+	        <td>Jakarta-ORO</td>
+	        <td>:</td>
+		<td>2.0.1</td>
+	        <td>-></td>
+		<td>2.0.4</td>
+	    </tr>
+	    <tr>
+	        <td>Xerces</td>
+	        <td>:</td>
+		<td>1.4.1</td>
+	        <td>-></td>
+		<td>1.4.3</td>
+	    </tr>
+	    <tr>
+	        <td>Xalan</td>
+	        <td>:</td>
+		<td>2.2_D3</td>
+	        <td>-></td>
+		<td>2.2_D11</td>
+	    </tr>
+	    <tr>
+	        <td>Jean Tessier API</td>
+	        <td>:</td>
+		<td><i>unknown</i></td>
+	        <td>-></td>
+		<td>20011114</td>
+	    </tr>
+	    <tr>
+	        <td>Dependency Finder</td>
+	        <td>:</td>
+		<td><i>unknown</i></td>
+	        <td>-></td>
+		<td>20011114</td>
+	    </tr>
+	</table>
+	</blockquote>
+    </dd>
+    <dt>
+	June 12, 2001
+    </dt>
+    <dd>
+	<p>Last update.</p>
+    </dd>
+    <dt>
+	May 17, 2001
+    </dt>
+    <dd>
+	<p>I am rewriting the <code>.bat</code> files to support an
+	arbitrary number of arguments.</p>
+    </dd>
+    <dt>
+	April 30, 2001
+    </dt>
+    <dd>
+	<p>I updated <code>PackageValidator</code> so that it includes all
+	packages when the valid packages list is empty.</p>
+    </dd>
+    <dt>
+	April 16, 2001
+    </dt>
+    <dd>
+	<p>Upgraded Ant (1.0.8 -> 1.3) and Jakarta-ORO (1.2 -> 1.2.1).</p>
+
+	<p>I need to get JUnit involved!</p>
+    </dd>
+    <dt>
+	April 09, 2001
+    </dt>
+    <dd>
+	<p>Spun off <code>JarJarDiff</code> from <code>Dependency
+	Finder</code>.</p>
+
+	<p>Reorganized the package structure.</p>
+    </dd>
+    <dt>
+	April 05, 2001
+    </dt>
+    <dd>
+	<p>When attempting to locate a feature, the code now looks at
+	implemented interfaces too.  <code>ClassDifferences</code> will
+	use this for all fields and only for methods between classes or
+	between interfaces.</p>
+
+	<ul>
+	<li>A field removed from an interface or from a class will only
+	be showed as removed if it cannot be obtained from a superclass
+	or supported interface.</li>
+	<li>A method removed from an interface will only be showed as
+	removed if it cannot be obtrained from a supported interface
+	(superinterface).</li>
+	<li>A constructor or method removed from a class will only be
+	showed as removed if it cannot be obtrained from a superclass.
+	It will not consider a matching method that would be obtained
+	from an interfaces, since this interface would not provide an
+	implementation for that method.</li>
+	</ul>
+
+	<p>I renamed the packages.  I'm still not happy with all the names,
+	specially the <code>jt.tools</code> package.</p>
+    </dd>
+    <dt>
+	April 04, 2001
+    </dt>
+    <dd>
+	<p>I adjsuted <code>JarJarDiff</code> so that when it detects a
+	feature that has been removed, it looks in the superclasses of
+	the class for a matching signature or proper visibility.  This
+	can happen when refactoring pushes a method up the inheritance
+	tree.  The method is no longer in the class, but it can still
+	be visible if it was declared <code>public</code> or
+	<code>protected</code>.  The XML node gets a new attribute to
+	indicate that a removed feature is now inherited.  The XSL
+	stylesheet can then choose to ignore the removed feature, if it
+	wants to.</p>
+
+	<p>I've added a tool called <code>DiffToInheritanceChange</code>
+	that lists interfaces and classes whose <code>extends</code>
+	or <code>implements</code> clause have changed.</p>
+
+	<p>I need to redo the packaging and add documentation.</p>
+   </dd>
+    <dt>
+	April 02, 2001
+    </dt>
+    <dd>
+	<p>I fixed bugs in <code>DiffToExternalHTML.xsl</code> dealing
+	with restricting the processing to public or protected features,
+	as well as correctly detecting changes in visiility from protected
+	to package or private.</p>
+   </dd>
+    <dt>
+	March 28, 2001
+    </dt>
+    <dd>
+	<p>I gave a copy to Mickey Reilly so she can start using
+	<code>JarJarDiff</code>.  I had to add quick installation
+	instructions in <code>readme.txt</code>.</p>
+   </dd>
+    <dt>
+	March 20, 2001
+    </dt>
+    <dd>
+	<p><code>JarJarDiff</code> is done, along with its stylesheets.
+	If I have the time, I'll build test cases so we can verify that
+	it really does trap everything it's supposed to.</p>
+
+	<p>The script <code>JarJarDiff.bat</code> takes two codebases
+	(JAR files, Zip files, or directories) and saves the differences
+	in an XML document.</p>
+
+	<p>The script <code>DiffToInternalHTML.bat</code> takes the XML
+	document generated by <code>JarJarDiff</code> and transforms it
+	completely to HTML.</p>
+
+	<p>The script <code>DiffToExternalHTML.bat</code> takes the XML
+	document generated by <code>JarJarDiff</code> and transforms the
+	public subset of it to HTML.</p>
+
+	<p>I may also need to revise the package names and organization.</p>
+   </dd>
+    <dt>
+	March 19, 2001
+    </dt>
+    <dd>
+	<p>Pretty much done.</p>
+
+	<p>In <code>DiffToExternalHTML.xsl</code>, I now use an XSLT
+	Extension in Xalan-Java to limit the report to a subset of
+	packages defined in a separate file.  The XSL stylesheet has
+	a default value for the filename, and I should be able to pass
+	in a value from the command-line.  I can now trap changes in
+	<code>extends</code>, <code>implements</code>, and
+	<code>throws</code> clauses, as well as in the return type of
+	methods.</p>
+    </dd>
+    <dt>
+	March 16, 2001
+    </dt>
+    <dd>
+	<p>In <code>DiffToExternalHTML.xsl</code>, I can use an XSLT
+	Extension in Xalan-Java to limit the report to a subset of
+	packages defined in a separate file.</p>
+
+	<p>In <code>DiffToExternalHTML.xsl</code>, I need to filter
+	out declarations that only remove <code>abstract</code>,
+	<code>final</code>, and <code>static</code>, instead of
+	filtering in declarations that add it.  This way, I might
+	be able to trap changes in <code>extends</code>,
+	<code>implements</code>, and <code>throws</code>, as well as
+	return type.</p>
+    </dd>
+    <dt>
+	March 15, 2001
+    </dt>
+    <dd>
+	<p>Refactored <code>JarJarDiff</code> and the XSL stylesheets
+	to generate both reports from the same XML file.  <code>JarJarDiff</code>
+	still supports the <code>-external</code> switch, but not for
+	long.  I am also more strict regarding what goes in the external
+	(i.e., public) report.  Now, all I need to do is be still more
+	strict on what features are reported, and restrict the report to
+	a subset of packages.</p>
+
+	<p>It turns out we want feature signatures after all.</p>
+    </dd>
+    <dt>
+	March 14, 2001
+    </dt>
+    <dd>
+	<p>Refactored <code>JarJarDiff</code> and the
+	<code>jt.dependencyfinder.diff</code> package.  I
+	adjusted the XSL stylesheet accordingly.  Now, all I need to
+	do is be more strict on what features are reported, and restrict
+	the report to a subset of packages.</p>
+
+	<p>Also, do we want feature signatures or full declarations in
+	lists?</p>
+    </dd>
+    <dt>
+	March 12, 2001
+    </dt>
+    <dd>
+	<p>Renamed the <code>JarDiff</code> tool to <code>JarJarDiff</code>,
+	at a friend's recommendation.  I adjusted the output so that it
+	lists methods by signature instead of name.  It actually outputs
+	XML and has a XSL stylesheet for converting to HTML.  I don't have
+	one for text, yet..</p>
+    </dd>
+    <dt>
+	March 08, 2001
+    </dt>
+    <dd>
+	<p>Project start.</p>
+
+	<p>Added the <code>JarDiff</code> tool to compare different
+	versions of the same codebase, using the
+	<code>jt.dependencyfinder.classreader</code>
+	package.  This first version is pretty stupid and writes
+	only text output from <code>main()</code>.  It needs to
+	be refactored to produce XML, and then use XSL stylesheets
+	to generate text and HTML reports.</p>
+    </dd>
+</dl>
+
+
+</body>
+
+</html>

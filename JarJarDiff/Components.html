@@ -1,0 +1,218 @@
+<!doctype html public "-//w3c//dtd html 4.01//en" "http://www.w3c.org/TR/html40/strict.dtd">
+
+<html>
+
+<head>
+<style type="text/css">
+    dl dt {font-weight: bold}
+    dl dd {margin-bottom: 10}
+</style>
+<title>JarJarDiff - Components</title>
+</head>
+
+<body bgcolor="#ffffff">
+
+<h2>Components</h2>
+
+<p>I see three parts to this project:</p>
+
+<ol>
+    <li><a href="#extractor">a change extractor</a></li>
+    <li><a href="#xml">an XML format</a></li>
+    <li><a href="#visualization">a visualization tool</a></li>
+</ol>
+
+<a name="extractor"><h3>Change Extractor: <code>JarJarDiff</code></h3></a>
+
+<p>A tool to extract changes from <code>.class</code> files,
+whether they are in a ZIP file, a JAR file, or loose in a
+directory.</p>
+
+<p>At least, extract for each class the list of classes that it
+depends upon.  If we have time, it might be useful to have a
+breakdown by method and attributes, but this may prove difficult.</p>
+
+<p>Here is the command-line usage for the current tool:</p>
+
+<blockquote><table border="3" cellpadding="15"><tr><td><pre>
+USAGE: JarJarDiff
+       [-help] (defaults to false)
+       [-mode value] (defaults to internal)
+       -new value (defaults to )
+       [-new-label] value (defaults to )
+       -old value (defaults to )
+       [-old-label] value (defaults to )
+       [-out value] (defaults to )
+       [-serialize] (defaults to false)
+       [-trace [value]] (defaults to System.out)
+       [-verbose [value]] (defaults to System.out)
+
+Default is text output to the console.
+</pre></td></tr></table></blockquote>
+
+<a name="xml"><h3>XML Format</h3></a>
+
+<p>An XML DTD to represent dependency information.  The format
+must be rich enough to represent all the output of the
+<a href="#extractor">extractor</a>.</p>
+
+<p>Here is the DTD:</p>
+
+<blockquote><table border="3" cellpadding="15"><tr><td><pre>
+&lt;?xml version="1.0" encoding="UTF-8" ?>
+
+&lt;!DOCTYPE differences [
+
+&lt;!ELEMENT differences (old,new,removed-packages?,removed-interfaces?,removed-classes?,deprecated-interfaces?,deprecated-classes?,modified-interfaces?,modified-classes?,undeprecated-interfaces?,undeprecated-classes?,new-packages?,new-interfaces?,new-classes?) >
+
+&lt;!ELEMENT old (#PCDATA)* >
+
+&lt;!ELEMENT new (#PCDATA)* >
+
+&lt;!ELEMENT removed-packages (name)* >
+
+&lt;!ELEMENT removed-interfaces (name)* >
+
+&lt;!ELEMENT removed-classes (name)* >
+
+&lt;!ELEMENT deprecated-interfaces (name)* >
+
+&lt;!ELEMENT deprecated-classes (name)* >
+
+&lt;!ELEMENT modified-interfaces (class)* >
+
+&lt;!ELEMENT modified-classes (class)* >
+
+&lt;!ELEMENT undeprecated-interfaces (name)* >
+
+&lt;!ELEMENT undeprecated-classes (name)* >
+
+&lt;!ELEMENT new-packages (name)* >
+
+&lt;!ELEMENT new-interfaces (name)* >
+
+&lt;!ELEMENT new-classes (name)* >
+
+&lt;!ELEMENT class (name,modified-declaration?,removed-fields?,removed-constructors?,removed-methods?,deprecated-fields?,deprecated-constructors?,deprecated-methods?,modified-fields?,modified-interfaces?,modified-methods?,undeprecated-fields?,undeprecated-constructors?,undeprecated-methods?,new-fields?,new-interfaces?,new-methods?) >
+&lt;!ATTLIST class
+          visibility (public|package) #IMPLIED
+>
+
+&lt;!ELEMENT name (#PCDATA)* >
+&lt;!ATTLIST name
+          visibility (public|protected|package|private) #IMPLIED
+          static       CDATA #IMPLIED
+          final        CDATA #IMPLIED
+          super        CDATA #IMPLIED
+          synchronized CDATA #IMPLIED
+          volatile     CDATA #IMPLIED
+          transient    CDATA #IMPLIED
+          native       CDATA #IMPLIED
+          interface    CDATA #IMPLIED
+          abstract     CDATA #IMPLIED
+          strict       CDATA #IMPLIED
+          deprecated   CDATA #IMPLIED
+          synthetic    CDATA #IMPLIED
+>
+
+&lt;!ELEMENT modified-declaration (old-declaration,new-declaration) >
+
+&lt;!ELEMENT removed-fields (declaration)* >
+
+&lt;!ELEMENT removed-constructors (declaration)* >
+
+&lt;!ELEMENT removed-methods (declaration)* >
+
+&lt;!ELEMENT deprecated-fields (declaration)* >
+
+&lt;!ELEMENT deprecated-constructors (declaration)* >
+
+&lt;!ELEMENT deprecated-methods (declaration)* >
+
+&lt;!ELEMENT modified-fields (feature)* >
+
+&lt;!ELEMENT modified-constructors (feature)* >
+
+&lt;!ELEMENT modified-methods (feature)* >
+
+&lt;!ELEMENT undeprecated-fields (declaration)* >
+
+&lt;!ELEMENT undeprecated-constructors (declaration)* >
+
+&lt;!ELEMENT undeprecated-methods (declaration)* >
+
+&lt;!ELEMENT new-fields (declaration)* >
+
+&lt;!ELEMENT new-constructors (declaration)* >
+
+&lt;!ELEMENT new-methods (declaration)* >
+
+&lt;!ELEMENT old-declaration (#PCDATA)* >
+&lt;!ATTLIST old-declaration
+          visibility (public|protected|package|private) #IMPLIED
+          static       CDATA #IMPLIED
+          final        CDATA #IMPLIED
+          super        CDATA #IMPLIED
+          synchronized CDATA #IMPLIED
+          volatile     CDATA #IMPLIED
+          transient    CDATA #IMPLIED
+          native       CDATA #IMPLIED
+          interface    CDATA #IMPLIED
+          abstract     CDATA #IMPLIED
+          strict       CDATA #IMPLIED
+          deprecated   CDATA #IMPLIED
+          synthetic    CDATA #IMPLIED
+>
+
+&lt;!ELEMENT new-declaration (#PCDATA)* >
+&lt;!ATTLIST new-declaration
+          visibility (public|protected|package|private) #IMPLIED
+          static       CDATA #IMPLIED
+          final        CDATA #IMPLIED
+          super        CDATA #IMPLIED
+          synchronized CDATA #IMPLIED
+          volatile     CDATA #IMPLIED
+          transient    CDATA #IMPLIED
+          native       CDATA #IMPLIED
+          interface    CDATA #IMPLIED
+          abstract     CDATA #IMPLIED
+          strict       CDATA #IMPLIED
+          deprecated   CDATA #IMPLIED
+          synthetic    CDATA #IMPLIED
+>
+
+&lt;!ELEMENT feature (name,modified-declaration?) >
+&lt;!ATTLIST feature
+          visibility (public|protected|package|private) #IMPLIED
+>
+
+&lt;!ELEMENT declaration (#PCDATA)* >
+&lt;!ATTLIST declaration
+          visibility (public|protected|package|private) #IMPLIED
+          static       CDATA #IMPLIED
+          final        CDATA #IMPLIED
+          super        CDATA #IMPLIED
+          synchronized CDATA #IMPLIED
+          volatile     CDATA #IMPLIED
+          transient    CDATA #IMPLIED
+          native       CDATA #IMPLIED
+          interface    CDATA #IMPLIED
+          abstract     CDATA #IMPLIED
+          strict       CDATA #IMPLIED
+          deprecated   CDATA #IMPLIED
+          synthetic    CDATA #IMPLIED
+          inherited    CDATA #IMPLIED
+>
+
+]>
+</pre></td></tr></table></blockquote>
+
+<a name="visualization"><h3>Visualization Tool</h3></a>
+
+<p>A visualization tool to massage and display the XML data.</p>
+
+<p>The tool is implemented as XSL stylesheets.</p>
+
+</body>
+
+</html>

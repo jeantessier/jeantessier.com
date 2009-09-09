@@ -1,0 +1,172 @@
+<!doctype html public "-//w3c//dtd html 4.01//en" "http://www.w3c.org/TR/html40/strict.dtd">
+
+<html>
+
+<head>
+<style type="text/css">
+    dl dt {font-weight: bold}
+    dl dd {margin-bottom: 10}
+</style>
+<title>EMail Gateway</title>
+</head>
+
+<body bgcolor="#ffffff">
+
+<h1>EMail Gateway</h1>
+
+<p><i>Warning: this page was last updated in 2000.</i></p>
+
+<p>This is a simple set of JSPs and servlets to access an IMAP4
+or POP3 mail store, and send email using SMTP.</p>
+
+<p>I started working with Tomcat, but ran into some limitations
+and then switched to JRun.</p>
+
+<p>The design went through four stages, as my understanding of
+JSPs grew:</p>
+
+<ol>
+    <li><a href="#MVC">Model-View-Controller</a></li>
+    <li><a href="#Tags">JSP Tags</a></li>
+    <li><a href="#JRun">JRun-specific</a></li>
+    <li><a href="#Struts">Jakarta Struts</a></li>
+</ol>
+
+<a name="MVC"><h2>Model-View-Controller</h2></a>
+
+<p>In this first iteration, the application sticks to
+the MVC pattern, with JavaBeans for model, JSPs for views,
+and servlets for controllers.</p>
+
+<a name="Tags"><h2>JSP Tags</h2></a>
+
+<p>The next step was to use JSP Tags to interact with the
+JavaBeans in the model.  There were some interesting differences
+between Tomcat's and JRun's support for these tags.</p>
+
+<dl>
+    <dt>
+	Tomcat
+    </dt>
+    <dd>
+	<ul>
+	    <li>Tomcat is not a full J2EE solution.  It only includes
+	    the servlet and JSP portions.  There is no support for
+	    JavaMail, JNDI, or EJBs.</li>
+	    <li>Tomcat ignores <code>&lt;jsp:setProperty&gt;</code>
+	    tags when the <code>value</code> attribute is <code>""</code>
+	    (the empty string).</li>
+	    <li>Tomcat's <code>&lt;jsp:useBean&gt;</code> tag doesn't
+	    make use of the import information provided through the
+	    <code>page</code> directives.  As a result, the
+	    <code>class</code> attribute must always fully specify the
+	    class of the bean.</li>
+	</ul>
+    </dd>
+    <dt>
+	JRun
+    </dt>
+    <dd>
+	<ul>
+	    <li>JRun does not let you set the <code>session-timeout</code> tag in
+	    <code>WEB-INF/web.xml</code> to -1 so that sessions never expire.</li>
+	</ul>
+    </dd>
+</dl>
+
+<p>At the same time, the controller servlets were converted to
+trivial JSP pages, since most of their code can be generated
+automatically by the JSP compiler.</p>
+
+<a name="JRun"><h2>JRun-specific</h2></a>
+
+<p>This version was developped only for JRun, thereby circumventing
+the problems with Tomcat.</p>
+
+<p>At the same time, the build process was augmented by a
+<code>deploy</code> target that deploys the web application
+directly into JRun.</p>
+
+<a name="Struts"><h2>Jakarta Struts</h2></a>
+
+<p>This last version attempts to use the Jakarta Struts framework.</p>
+
+<p>This work is still in progress, but so far, we've identified
+the following shortcomings.</p>
+
+<dl>
+    <dt>
+	Struts
+    </dt>
+    <dd>
+	<ul>
+	    <li>Access to JavaBeans in Struts does not use the bean's
+	    <code>BeanInfo</code> helper class to find properties.  It
+	    relies exclusively upon introspection.</li>
+	</ul>
+    </dd>
+</dl>
+
+<a name="versions"><h2>Versions</h2></a>
+
+<table border="3" width="450">
+    <tr>
+	<th>
+	    Version
+	</th>
+	<th width="75">
+	    Tomcat
+	</th>
+	<th width="75">
+	    JRun
+	</th>
+    </tr>
+    <tr>
+	<td>
+	    Model-View-Controller
+	</td>
+	<td align="center">
+	    X
+	</td>
+	<td align="center">
+	    X
+	</td>
+    </tr>
+    <tr>
+	<td>
+	    JSP Tags
+	</td>
+	<td align="center">
+	    X
+	</td>
+	<td align="center">
+	    X
+	</td>
+    </tr>
+    <tr>
+	<td>
+	    JRun-specific
+	</td>
+	<td align="center">
+	    &nbsp;
+	</td>
+	<td align="center">
+	    X
+	</td>
+    </tr>
+    <tr>
+	<td>
+	    Jakarta Struts
+	</td>
+	<td align="center">
+	    &nbsp;
+	</td>
+	<td align="center">
+	    &nbsp;
+	</td>
+    </tr>
+</table>
+
+</body>
+
+</html>
