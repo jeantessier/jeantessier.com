@@ -36,20 +36,20 @@
             <fileset dir="Kendo" includes="*.html"/>
             <fileset dir="Kendo" includes="*.pdf"/>
         </ftp>
-        <ftp server="ftp.jeantessier.com"
+        <ftp server="ftp.sanmateokendo.org"
              userid="jeantessier"
              password="pu%pwIT"
-             remotedir="smkd.jeantessier.com"
+             remotedir="sanmateokendo.org"
 	     depends="yes"
 	     binary="no"
              verbose="yes">
             <fileset dir="smkd" includes="*.html"/>
             <fileset dir="." includes="style.css"/>
         </ftp>
-        <ftp server="ftp.jeantessier.com"
+        <ftp server="ftp.sanmateokendo.org"
              userid="jeantessier"
              password="pu%pwIT"
-             remotedir="smkd.jeantessier.com"
+             remotedir="sanmateokendo.org"
 	     depends="yes"
 	     binary="yes"
              verbose="yes">
