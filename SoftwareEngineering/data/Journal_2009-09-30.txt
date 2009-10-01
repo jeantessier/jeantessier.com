@@ -1,0 +1,8 @@
+Read a little bit about [[http://groovy.codehaus.org/][Groovy]] and
+[[http://grails.org/][Grails]].  From what little I saw, Grails has *a lot* in
+common with Ruby on Rails.
+
+Looked into [[http://hadoop.apache.org/][Hadoop]], a Java implementation of
+[[http://en.wikipedia.org/wiki/Mapreduce][MapReduce]].  I was able to run a
+simple example on one machine, straight out of the box.  MapReduce is very cool
+technology.

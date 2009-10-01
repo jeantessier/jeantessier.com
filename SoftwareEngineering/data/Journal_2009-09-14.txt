@@ -1,0 +1,11 @@
+A friend mentioned the [[http://groovy.codehaus.org/][Groovy]] language.  It is
+a scripting language built on top of Java.  It compiles to bytecode and runs on
+the JVM.
+
+Videos on Groovy:
+
+    * [[http://www.youtube.com/watch?v=FnIGnMMpn6c][Guillaume Laforge at Google]]
+    * [[http://www.youtube.com/watch?v=NEnniZTdOYk][Guillaume Laforge on AppEngine]]
+
+There are a few books on Groovy out there.  I don't know which ones are worth it
+just yet.
