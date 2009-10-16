@@ -1,0 +1,18 @@
+name:Version_Control_with_Git
+title:[[http://www.amazon.com/Version-Control-Git-collaborative-development/dp/0596520123/ref=sr_1_1?ie=UTF8&s=books&qid=1255668797&sr=8-1][Version Control with Git]]
+author: Jon Loeliger
+publisher: O'Reilly
+year: 2009
+start: 2009-10-14
+stop: 
+
+I hesitated between getting this book or
+[[http://www.amazon.com/Pragmatic-Version-Control-Using-Starter/dp/1934356158/ref=pd_bxgy_b_img_b][Pragmatic Version Control Using Git]],
+but a colleague recommended against the latter.
+
+I'm not going to read it cover to cover, but it's already been very helpful
+with sharing branches via an authoritative repository and interacting with
+Subversion.  So far, the explanations are clear and the examples are brief and
+to the point.
+
+_More to come._
