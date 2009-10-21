@@ -1,0 +1,23 @@
+name:Grails_in_Action
+title:[[http://www.amazon.com/Grails-Action-Glen-Smith/dp/1933988932/ref=sr_1_1?ie=UTF8&s=books&qid=1256086443&sr=8-1][Grails in Action]]
+author: Glen Smith
+author: Peter Ledbrook
+publisher: Manning
+year: 2009
+start: 2009-10-20
+stop: 
+
+We're using [[http://grails.org/][Grails]] at work.  I went through the first
+chapter and the starting tutorial.  I was using Grails 1.1.1, but ran into some
+snags.  The =save()= method of domain objects didn't work.  I downgraded to
+version 1.1 and it worked fine.  I upgraded to version 1.2-M3 (experimental)
+and it worked, but something failed later on when I introduced a service, as per
+the example.  The section on testing talked about integration tests, but the
+code samples were for unit tests.  The book could have used more proof reading.
+
+It mentioned Guice in passing when talking about dependency injection.  I hope
+there is a way to plug in Guice into Grails.  That'd be awesome.
+
+The book entitled me to download the PDF version for free.  That's nice.
+
+_More to come._
