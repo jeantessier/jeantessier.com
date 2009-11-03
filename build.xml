@@ -21,6 +21,7 @@
             <fileset dir="." includes="*.html"/>
             <fileset dir="." includes="images/*"/>
             <fileset dir="." includes="SoftwareEngineering/*"/>
+            <fileset dir="." includes="Work/*"/>
         </ftp>
     </target>
 
