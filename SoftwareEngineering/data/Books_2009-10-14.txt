@@ -4,7 +4,7 @@ author: Jon Loeliger
 publisher: O'Reilly
 year: 2009
 start: 2009-10-14
-stop: 
+stop: 2009-10-30
 
 I hesitated between getting this book or
 [[http://www.amazon.com/Pragmatic-Version-Control-Using-Starter/dp/1934356158/ref=pd_bxgy_b_img_b][Pragmatic Version Control Using Git]],
@@ -15,4 +15,13 @@ with sharing branches via an authoritative repository and interacting with
 Subversion.  So far, the explanations are clear and the examples are brief and
 to the point.
 
-_More to come._
+It was very helpful in dealing with Subversion.  I'm able to sync up with the
+Subversion repository at work, work in my Git branches, and commit changes back
+to the repo, without the rest of the team having to worry about it.
+
+I also tried to keep both the Subversion and Git repos for
+[[http://depfind.sf.net][Dependency Finder]] up to date, but that has proven
+too difficult.  I wanted to use the Git repo as the canonical code repository
+and have the Subversion repo mirror it, but I couldn't keep my local Git
+repository up to snuff on both of them.  That's ok, I'll just drop the
+Subversion support from the project, that's all.  :-)
