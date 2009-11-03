@@ -28,4 +28,18 @@ to create a variable with a given service's name and it gets injected
 automagically.  It doesn't seem to work for tests, though; I can't ask for a
 service instance to be injected in my test for the service.
 
+There is a very nice section on testing that shows you how to unit test the
+various artifacts like domain classes, controllers, services, etc.  The examples
+include mocking.  There is also a section on integration tests.
+
+There is a long list of plugins for Grails.  It would be nice to have a more
+exhaustive introduction to the major plugins.  There is a nice chapter that
+talks about a few plugins, but it is tied a little too closely to the sample
+application the authors are building throughout the book.  Some would be useful
+to me, others wouldn't.  Other plugins are introduced through other chapters,
+such as =acegi= when talking about security.  I understand that the list of
+plugins is ever-changing and that a book cannot really keep up, but I feel like
+there are gems hidden in there that I am going to miss because of information
+overload.
+
 _More to come._
