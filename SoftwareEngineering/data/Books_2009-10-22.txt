@@ -33,5 +33,5 @@ operations using dynamic features of the language and closures.
 The support for XML and HTML using builders is also very promising.
 
 Between this book and the
-[[online documentation][http://groovy.codehaus.org/Documentation]], I have found
+[[http://groovy.codehaus.org/Documentation][online documentation]], I have found
 answers to almost all my questions.

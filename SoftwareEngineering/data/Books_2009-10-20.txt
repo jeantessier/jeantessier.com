@@ -45,5 +45,5 @@ there are gems hidden in there that I am going to miss because of information
 overload.
 
 Between this book and the
-[[online documentation][http://grails.org/doc/latest/]], I have found answers to
+[[http://grails.org/doc/latest/][online documentation]], I have found answers to
 almost all my questions.  I did have to peek at the code on a few occasions.
