@@ -5,7 +5,7 @@ author: Peter Ledbrook
 publisher: Manning
 year: 2009
 start: 2009-10-20
-stop: 
+stop: 2009-11-19
 
 We're using [[http://grails.org/][Grails]] at work.  I went through the first
 chapter and the starting tutorial.  I was using Grails 1.1.1, but ran into some
@@ -30,7 +30,9 @@ service instance to be injected in my test for the service.
 
 There is a very nice section on testing that shows you how to unit test the
 various artifacts like domain classes, controllers, services, etc.  The examples
-include mocking.  There is also a section on integration tests.
+include mocking.  There is also a section on integration tests.  I wrote some
+unit tests and the facilities added to Java's Collections API made creating test
+data a synch.
 
 There is a long list of plugins for Grails.  It would be nice to have a more
 exhaustive introduction to the major plugins.  There is a nice chapter that
@@ -42,4 +44,6 @@ plugins is ever-changing and that a book cannot really keep up, but I feel like
 there are gems hidden in there that I am going to miss because of information
 overload.
 
-_More to come._
+Between this book and the
+[[online documentation][http://grails.org/doc/latest/]], I have found answers to
+almost all my questions.  I did have to peek at the code on a few occasions.
