@@ -4,6 +4,7 @@ author: Alice Sebold
 publisher: Back Bay Books
 year: 2002
 start: 2010-01-23
+stop: 2010-02-06
 
 A touching story about loss.  Susie, the main character, has to adjust to loss
 of life and a new existence in _her heaven_.  The people she know and whom she
