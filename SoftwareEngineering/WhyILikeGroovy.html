@@ -1,0 +1,85 @@
+<html>
+
+<head>
+<title>Why I Like Groovy</title>
+<style type="text/css">
+
+.zone {
+    background: rgb(235, 235, 235);
+    border: thin solid rgb(140, 140, 140);
+    padding: 20pt;
+}
+
+.substance {
+    background: rgb(200, 255, 200);
+    border: thin solid rgb(125, 225, 125);
+}
+
+.overhead {
+    background: rgb(255, 200, 200);
+    border: thin solid rgb(225, 125, 125);
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Why I Like Groovy</h1>
+
+<p>Old:</p>
+
+<pre class="zone">
+
+<span class="overhead">public interface PreferenceMatcher {</span>
+    <span class="overhead">boolean matches(Product product);</span>
+<span class="overhead">}</span>
+
+</pre>
+
+<pre class="zone">
+
+import org.apache.commons.lang.StringUtils
+
+<span class="overhead">public class </span><span class="substance">CopyMatcher</span><span class="overhead"> implements PreferenceMatcher {</span>
+
+    <span class="overhead">private String </span><span class="substance">triggerWord</span><span class="overhead">;</span>
+    
+    <span class="overhead">public CopyMatcher(String triggerWord) {</span>
+        <span class="overhead">this.triggerWord = triggerWord;</span>
+    <span class="overhead">}</span>
+       
+    <span class="overhead">public boolean </span><span class="substance">matches</span><span class="overhead">(Product </span><span class="substance">product</span><span class="overhead">) {</span>
+        <span class="overhead">Iterable&lt;ProductCopy&gt; </span><span class="substance">productCopies = product.</span><span class="overhead">get</span><span class="substance">ProductCopy</span><span class="overhead">();</span>
+        <span class="overhead">boolean </span><span class="substance">matches</span><span class="overhead"> = false;</span>
+        <span class="substance">for</span><span class="overhead"> (ProductCopy </span><span class="substance">productCopy</span><span class="overhead"> : </span><span class="substance">productCopies</span><span class="overhead">) {</span>
+            <span class="overhead">matches = (matches || </span><span class="substance">StringUtils.containsIgnoreCase</span><span class="overhead">(</span><span class="substance">productCopy.</span><span class="overhead">get</span><span class="substance">Copy</span><span class="overhead">()</span><span class="substance">, triggerWord</span><span class="overhead">));</span>
+        <span class="overhead">}</span>
+        <span class="overhead">return </span><span class="substance">matches</span><span class="overhead">;</span>
+    <span class="overhead">}</span>
+
+<span class="overhead">}</span>
+
+</pre>
+
+<p>New:</p>
+
+<pre class="zone">
+
+import org.apache.commons.lang.StringUtils
+
+<span class="overhead">class </span><span class="substance">CopyMatcher</span><span class="overhead"> {</span>
+
+    <span class="overhead">def </span><span class="substance">triggerWord</span>
+    
+    <span class="overhead">def </span><span class="substance">matches</span><span class="overhead">(</span><span class="substance">product</span><span class="overhead">) {</span>
+        <span class="substance">product.productCopy.any</span><span class="overhead"> { </span><span class="substance">StringUtils.containsIgnoreCase it.copy, triggerWord</span><span class="overhead"> }</span>
+    <span class="overhead">}</span>
+
+<span class="overhead">}</span>
+
+</pre>
+
+</body>
+
+</html>
