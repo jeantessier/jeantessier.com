@@ -55,6 +55,7 @@
 	     binary="yes"
              verbose="yes">
             <fileset dir="smkd" includes="images/*"/>
+            <fileset dir="smkd" includes="*.pdf"/>
         </ftp>
     </target>
 
