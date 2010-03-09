@@ -27,6 +27,54 @@
 
 <h1>Why I Like Groovy</h1>
 
+<p>This page discusses some of the things I like about programming in
+Groovy.</p>
+
+<h3>Less Boilerplate</h3>
+
+<p>I am working with this model class, in Java.  It stores text information
+about products in "product copy" structures associated with each product.</p>
+
+<pre class="zone">
+
+public class Product {
+
+    private Iterable<ProductCopy> productCopy;
+
+    public Product(Iterable<ProductCopy> productCopy) {
+	this.productCopy = productCopy;
+    }
+
+    public Iterable<ProductCopy> getProductCopy() {
+	return productCopy;
+    }
+
+}
+
+</pre>
+
+<pre class="zone">
+
+public class ProductCopy {
+
+    private String copy;
+
+    public ProductCopy(String copy) {
+	this.copy = copy;
+    }
+
+    public String getCopy() {
+	return copy;
+    }
+
+}
+
+</pre>
+
+<p>I need to select product copies that contain a given word.  I can define
+a working interface and give it a simple implementation.  Code that is
+boilerplate is in red, essential code is in green.</p>
+
 <p>Java:</p>
 
 <pre class="zone">
@@ -61,6 +109,9 @@ import org.apache.commons.lang.StringUtils
 <span class="overhead">}</span>
 
 </pre>
+
+<p>In Groovy, I don't even need the working interface since it uses duck typing
+to resolve method calls.  There is a lot less boilerplate.</p>
 
 <p>Groovy:</p>
 
