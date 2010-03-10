@@ -1,7 +1,7 @@
 Here is the
-[[http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=7,650,331.PN.&OS=PN/7,650,331&RS=PN/7,650,331][patent that was awarded to Google for MapReduce]].
+[[http://patft.uspto.gov/netacgi/nph-Parser?Sect1%3DPTO1&Sect2%3DHITOFF&d%3DPALL&p%3D1&u%3D%2Fnetahtml%2FPTO%2Fsrchnum.htm&r%3D1&f%3DG&l%3D50&s1%3D7,650,331.PN.&OS%3DPN/7,650,331&RS%3DPN/7,650,331][patent that was awarded to Google for MapReduce]].
 
 Here is an
-[[http://arstechnica.com/open-source/news/2010/01/googles-mapreduce-patent-what-does-it-mean-for-hadoop.ars?utm_source=microblogging&utm_medium=arstch&utm_term=Main%20Account&utm_campaign=microblogging][article that discusses some of the ramifications]]
+[[http://arstechnica.com/open-source/news/2010/01/googles-mapreduce-patent-what-does-it-mean-for-hadoop.ars?utm%5Fsource%3Dmicroblogging&utm%5Fmedium%3Darstch&utm%5Fterm%3DMain%20Account&utm%5Fcampaign%3Dmicroblogging][article that discusses some of the ramifications]]
 of Google's patent for others who were inspired by MapReduce, including the
 [[http://hadoop.apache.org/][Hadoop project]].
