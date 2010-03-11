@@ -1,0 +1,21 @@
+name:A_Twisted_Garden
+title:[[http://www.amazon.com/Twisted-Garden-Simon-Quellen-Field/dp/098221040X/ref=sr_1_14?ie=UTF8&s=books&qid=1268202589&sr=8-14][A Twisted Garden]]
+author: Simon Quellen Field
+publisher: Kinetic MicroScience
+year: 2008
+start: 2010-03-08
+
+This book was written by a former colleague of mine.  For once, I know the
+author.
+
+I'm kinda annoyed that there are no chapters.  Once in a while, the narrative
+stops in the middle of a page and the action resumes at some later point at the
+top of the next page.
+
+The novel reminds me of Arthur C. Clarke, showcasing technological advances for
+the near future and social trends more than the characters.  But is is more
+cyberpunk in nature, set in a completely distopian future.  And sometimes, the
+author gets stuck on UI details, such as "I touched the close control on the
+screen and it went black" instead of the simple "I turned it off."
+
+_More to come._
