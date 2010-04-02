@@ -4,6 +4,7 @@ author: Simon Quellen Field
 publisher: Kinetic MicroScience
 year: 2008
 start: 2010-03-08
+stop: 2010-03-27
 
 This book was written by a former colleague of mine.  For once, I know the
 author.
@@ -16,6 +17,32 @@ The novel reminds me of Arthur C. Clarke, showcasing technological advances for
 the near future and social trends more than the characters.  But is is more
 cyberpunk in nature, set in a completely distopian future.  And sometimes, the
 author gets stuck on UI details, such as "I touched the close control on the
-screen and it went black" instead of the simple "I turned it off."
+screen and it went black" instead of the simple "I turned it off."  He
+acknowleges influence from Neal Stephenson.
 
-_More to come._
+Technology is definitely the main character here.  The protagonists and the
+intrigue are only there to provide a framework to showcase various futuristic
+concepts and devices.  When the author's imagination runs dry of new ideas, the
+main plot is quickly brought to a conclusion and the novel ends.  Rather
+abruptly.
+
+The beginning, where the author lays out a vast array of new concepts and ideas,
+was quite catchy and drew on my curiosity.  The middle part started to develop
+the main intrigue and attempt to provide the characters with a semblance of
+depth.  I was expecting some twists and turns, but everything was progressing
+quite linearly.  The end unforseeable only in its brevity.  All plot lines are
+brought to an end and the story concludes in a way that felt rushed.
+
+I think back to Umberto Eco's
+"[[http://www.amazon.com/Role-Reader-Explorations-Semiotics-Advances/dp/025320318X/ref%3Dsr%5F1%5F1?ie%3DUTF8&s%3Dbooks&qid%3D1270182444&sr%3D8-1][The Role of the Reader]]"
+where Eco explains that the reader picks the parts of the novel that interests
+him or her and that the master novellist will weave multiple paths together in
+one work and let the reader pick the one that interests them the most.  Here,
+there are three obvious paths: technology in the various contraptions, sociology
+in the interactions between the character, and intrigue in the main plot.  The
+first one was a good hook but lacked cohesiveness.  The second led nowhere.  I
+got more and more interested in the third one when the first two petered out,
+but it received the least treatment of the three and ended too quickly, without
+any noticeable twists or turns.
+
+Still an enjoyable read, but was disappointing in the end.
