@@ -1,0 +1,6 @@
+Martin Fowler and Alistair Cockburn have posted their views on
+[[http://www.semat.org/][SEMAT]].  They are more eloquent than me, so go read
+their posts.  I agree with them that SEMAT is a lost cause.
+
+    * [[http://martinfowler.com/bliki/Semat.html][Martin Fowler on SEMAT]]
+    * [[http://alistair.cockburn.us/A+Detailed+Critique+of+the+SEMAT+Initiative][Alistair Cockurn on SEMAT]]
