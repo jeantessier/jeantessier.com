@@ -5,4 +5,4 @@ the world.  Someone put a few on
 [[http://www.testdriven.com/modules/tinycontent/index.php?id=1#programme][testdriven.com]]
 and I put one of them on my website.
 
-[[http://testdriven.com" /><img src="http://testdriven.com/programs/imtd2.gif]]
+[[http://testdriven.com][http://testdriven.com/programs/imtd2.gif]]
