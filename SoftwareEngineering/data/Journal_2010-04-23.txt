@@ -7,42 +7,44 @@ you down but you don't want to waste time making things perfect.
 
 _Ash Maurya_: Continuous deployment is the new cool thing.  They deploy code in
 small chunks as soon as it is passes the tests.  They deploy all the code for a
-feature over time.  Code deployment is automated, but feature deployment is still
-managed.  I suppose they have a large switchboard somewhere that says which
-features are turned on for which class of users.
+feature over time.  Code deployment is automated, but feature deployment is
+still managed.  I suppose they have a large switchboard somewhere that says
+which features are turned on for which class of users.
 
 _Farb Nivi_:  At Grockit, they use
 [[http://www.pivotaltracker.com/][Pivotal Tracker]] to manage their stories.
 They try to keep them as narratives of what the user does and not as dry
-specifications for the engineers.  They hire smart developers regardless of which
-language they know and expect to pick up Grockit's language and idiosyncrasies as
-part of ramping up.  Interviews consist of pairing for a day.  Farb was using
-[[http://prezi.com/][Prezi]] for his presentation, which was very cool (except it
-was hard to read the text on the broadcast).
+specifications for the engineers.  They hire smart developers regardless of
+which language they know and expect to pick up Grockit's language and
+idiosyncrasies as part of ramping up.  Interviews consist of pairing for a day.
+Farb was using
+[[http://prezi.com/][Prezi]] for his presentation, which was very cool (except
+it was hard to read the text on the broadcast).
 
 _IMVU_: They push code multiple times a day, which can be a difficult adjustment
 for new hires that come from large institutions that used to push code only once
-a year.  Things that are "everybody's job" quickly become "nobody's job", so it's
-good to make sure each task has a champion.  They do post mortems all the time
-and don't punish failure, assuming you learned something, at least.
+a year.  Things that are "everybody's job" quickly become "nobody's job", so
+it's good to make sure each task has a champion.  They do post mortems all the
+time and don't punish failure, assuming you learned something, at least.
 
 _Dave McClure_: He led a panel discussion on the role of design.  You should try
-to get an emotional response from the user.  Have them either love it or hate it,
-stay away from the middle of mediocrity.  If someone hates your product, that
-gives you a concrete actionable item.  He pointed to Kathy Sierra and her blog
-[[http://headrush.typepad.com/][Creating Passional Users]], it shows good use
-of simple graphics to carry a point across.  A panelist brought up that agile is
-well entrenched in the world of coding now, but waterfall is still strong in the
-world of design.
+to get an emotional response from the user.  Have them either love it or hate
+it, stay away from the middle of mediocrity.  If someone hates your product,
+that gives you a concrete actionable item.  He pointed to Kathy Sierra and her
+blog [[http://headrush.typepad.com/][Creating Passional Users]], it shows good
+use of simple graphics to carry a point across.  A panelist brought up that
+agile is well entrenched in the world of coding now, but waterfall is still
+strong in the world of design.
 
-_Randy Komisar_: There was a nice interview with Randy Komisar, a VC with Kleiner
-Perkins, where he talked about his latest book,
+_Randy Komisar_: There was a nice interview with Randy Komisar, a VC with
+Kleiner Perkins, where he talked about his latest book,
 [[http://www.amazon.com/exec/obidos/ASIN/1422126692/1n9867a-20][Getting to Plan B]],
-about a company's ability to _pivot_, or realize what they are currently doing is
-not going to lead to success and they need to start going in a new direction.  He
-mentioned working with [[http://pinger.com][Pinger]], the VP Eng there is a very
-good friend of mine so there was a nice personal connection there.  Successful
-companies pivot many, many times.  You could say they never really stop pivoting.
+about a company's ability to _pivot_, or realize what they are currently doing
+is not going to lead to success and they need to start going in a new direction.
+He mentioned working with [[http://pinger.com][Pinger]], the VP Eng there is a
+very good friend of mine so there was a nice personal connection there.
+Successful companies pivot many, many times.  You could say they never really
+stop pivoting.
 
 _Aardvark_: They did a lot of "Wizard of Oz testing", where a live operator is
 pretending to be the software, before they wrote their first code.  It allowed
@@ -58,9 +60,9 @@ hard and take no prisoners.
 _[[http://steveblank.com/][Steve Blank]]_: This session is well worth watching,
 if you can find the video.  He presented a model where a startup is meant to
 search for a business model that works as opposed to a large enterprise that is
-meant to execute a business model efficiently.  Startups are small and nimble and
-staffed by entrepreneurs.  Creativity is key to look for new models and try them
-out.  Large entreprises have a model and they scale it up with professional
+meant to execute a business model efficiently.  Startups are small and nimble
+and staffed by entrepreneurs.  Creativity is key to look for new models and try
+them out.  Large entreprises have a model and they scale it up with professional
 management.  There is a transition step in the middle where the founders usually
 depart or are thrown out.  That's when you've found a working business model and
 you have to become less creative and more managed.  Entrepreneurs constantly
