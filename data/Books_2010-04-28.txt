@@ -1,0 +1,14 @@
+name:This_One_Time_At_Brand_Camp
+title:[[http://www.amazon.com/This-One-Time-Brand-Camp/dp/1435759672/ref=sr_1_1?ie=UTF8&s=books&qid=1272514451&sr=8-1][This One Time, At Brand Camp]]
+author: Tom Fishburne
+publisher: Tom Fishburne
+year: 2008
+start: 2010-04-28
+
+A collection of satyrical cartoons about brand management.  Not quite as
+disfunctional as Dilbert, it is written from an insider's perspective.  And
+whereas Scott Adams is very critical of the corporate culture that he had to
+endure, Tom is very much in love with brand management and he takes us on a tour
+of its quirky landscape.
+
+_More to come._
