@@ -7,7 +7,7 @@ start: 2009-03-25
 stop: 2009-05-20
 
 I read Mr. Rashid's
-_[[http://www.amazon.com/Taliban-Militant-Islam-Fundamentalism-Central/dp/0300089023/ref=pd_bbs_3?ie=UTF8&s=books&qid=1238032352&sr=8-3][Taliban]]_
+_[[http://www.amazon.com/Taliban-Militant-Islam-Fundamentalism-Central/dp/0300089023/ref%3Dpd%5Fbbs%5F3?ie%3DUTF8&s%3Dbooks&qid%3D1238032352&sr%3D8-3][Taliban]]_
 when it came out, right after 2001-09-11.  I was
 very impressed by his extensive knowledge of that part of the world.  As a
 journalist, he has been covering Central Asia pretty much since the Soviets
