@@ -1,0 +1,13 @@
+name:The_Long_Tail
+title:[[http://www.amazon.com/Long-Tail-Revised-Updated-Business/dp/1401309666/ref=sr_1_2?ie=UTF8&s=books&qid=1275373257&sr=8-2][The Long Tail]]
+author: Chris Anderson
+publisher: Hyperion
+year: 2008
+start: 2010-05-21
+
+I first heard about the idea of the Long Tail on my first day at Google, back in
+2005.  I borrowed the book from work, out of curiosity.  The shorter commute and
+new friends on the train mean less time for reading, so this one might take me a
+bit to get through.
+
+_More to come._
