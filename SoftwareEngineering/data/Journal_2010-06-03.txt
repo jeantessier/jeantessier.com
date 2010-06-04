@@ -1,0 +1,25 @@
+Refresher look at the [[http://hadoop.apache.org/][Hadoop project]].  I see a
+number of sub-projects that look a lot like the parts of Google's MapReduce
+stack.
+
+<center><table>
+<tr><th>Hadoop</th><th width="33%"></th><th>Google</th></tr>
+<tr><td>HBase</td><td align="center">%3D&gt;</td><td>Bigtable</td></tr>
+<tr><td>HDFS</td><td align="center">%3D&gt;</td><td>GFS</td></tr>
+<tr><td>Hive</td><td align="center">%3D&gt;</td><td>???</td></tr>
+<tr><td>Pig</td><td align="center">%3D&gt;</td><td>Sawzall</td></tr>
+</table></center>
+
+When I saw the brief description of [[http://hadoop.apache.org/pig/][Pig]] on
+the Hadoop home page, I immediately thought of Google's
+[[http://labs.google.com/papers/sawzall.html][Sawzall]] language which you can
+describe as scripting for MapReduce.  Sawzall is extremely powerfull.  You can
+express fairly involved analysis logic in very few lines of code.  I was hoping
+for something as powerful in Pig, but the sample code seems a lot more verbose
+(and obtuse) than Sawzall.
+
+Also, Hive reminded me of Google's cluster for running Sawzall scripts on log
+data.  But Hive looks to be applicable beyond just log processing.
+
+I was pleased to see that Hadoop claims great support for the Amazon EC2 and S3
+stack.  That could come in handy if we ever start to use it at ShopWell.
