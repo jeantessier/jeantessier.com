@@ -36,25 +36,22 @@ Groovy.</p>
 about products in "product copy" structures associated with each product.</p>
 
 <pre class="zone">
-
 public class Product {
 
-    private Iterable<ProductCopy> productCopy;
+    private Iterable&lt;ProductCopy&gt; productCopy;
 
-    public Product(Iterable<ProductCopy> productCopy) {
+    public Product(Iterable&lt;ProductCopy&gt; productCopy) {
 	this.productCopy = productCopy;
     }
 
-    public Iterable<ProductCopy> getProductCopy() {
+    public Iterable&lt;ProductCopy&gt; getProductCopy() {
 	return productCopy;
     }
 
 }
-
 </pre>
 
 <pre class="zone">
-
 public class ProductCopy {
 
     private String copy;
@@ -68,7 +65,6 @@ public class ProductCopy {
     }
 
 }
-
 </pre>
 
 <p>I need to select product copies that contain a given word.  I can define
@@ -78,15 +74,12 @@ boilerplate is in red, essential code is in green.</p>
 <p>Java:</p>
 
 <pre class="zone">
-
 <span class="overhead">public interface PreferenceMatcher {</span>
     <span class="overhead">boolean matches(Product product);</span>
 <span class="overhead">}</span>
-
 </pre>
 
 <pre class="zone">
-
 import org.apache.commons.lang.StringUtils
 
 <span class="overhead">public class </span><span class="substance">CopyMatcher</span><span class="overhead"> implements PreferenceMatcher {</span>
@@ -107,7 +100,6 @@ import org.apache.commons.lang.StringUtils
     <span class="overhead">}</span>
 
 <span class="overhead">}</span>
-
 </pre>
 
 <p>In Groovy, I don't even need the working interface since it uses duck typing
@@ -116,7 +108,6 @@ to resolve method calls.  There is a lot less boilerplate.</p>
 <p>Groovy:</p>
 
 <pre class="zone">
-
 import org.apache.commons.lang.StringUtils
 
 <span class="overhead">class </span><span class="substance">CopyMatcher</span><span class="overhead"> {</span>
@@ -128,7 +119,6 @@ import org.apache.commons.lang.StringUtils
     <span class="overhead">}</span>
 
 <span class="overhead">}</span>
-
 </pre>
 
 </body>
