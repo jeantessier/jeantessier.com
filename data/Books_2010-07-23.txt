@@ -1,0 +1,14 @@
+name: Why_Orwell_Matters
+title: [[http://www.amazon.com/Why-Orwell-Matters-Christopher-Hitchens/dp/0465030505/ref=sr_1_1?ie=UTF8&s=books&qid=1280465270&sr=1-1][Why Orwell Matters]]
+author: Christopher Hitchens
+publisher: Basic Books
+year: 2002
+start: 2010-07-23
+
+This is Hitchens' attempt at explaining Orwell's thoughts and to show how they
+are still relevant half a century later.
+
+About imperialism in general, and British imperialism in particular:
+_the whole colonial 'racket' was corrupting to the British and degrading to the colonized._
+
+_More to come._
