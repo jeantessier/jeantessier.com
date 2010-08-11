@@ -1,0 +1,9 @@
+name: Agile_Coaching
+title: [[http://www.amazon.com/Agile-Coaching-Rachel-Davies/dp/1934356433/ref=sr_1_1?s=books&ie=UTF8&qid=1281513053&sr=1-1][Agile Coaching]]
+author: Rachel Davies
+author: Liz Sedley
+publisher: Pragmatic Bookshelf
+year: 2009
+
+I was an agile coach at Google for 15 months.  I should check out what that's
+about.  :-)

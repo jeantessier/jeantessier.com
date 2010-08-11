@@ -1,0 +1,10 @@
+name: Silk
+title: [[http://www.amazon.com/Silk-Alessandro-Baricco/dp/0307277976/ref=sr_1_1?s=books&ie=UTF8&qid=1281512013&sr=1-1][Silk]]
+title: <i>Seta</i>
+author: Alessandro Baricco
+publisher: Vintage International
+year: 2006
+year: <i>1996</i>
+
+I vaguely remember reading this book a long time ago, but I cannot recall who
+had recommended it.  I liked the movie adaption.

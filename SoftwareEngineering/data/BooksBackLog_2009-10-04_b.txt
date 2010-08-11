@@ -1,0 +1,7 @@
+name: Dependency_Injection
+title: [[http://www.amazon.com/Dependency-Injection-Dhanji-R-Prasanna/dp/193398855X/ref=sr_1_1?s=books&ie=UTF8&qid=1281512954&sr=1-1][Dependency Injection]]
+author: Dhanji Prasanna
+publisher: Manning
+year: 2009
+
+The second book on Guice.  Well, not just Guice, but it gets decent coverage.
