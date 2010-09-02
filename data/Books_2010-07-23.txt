@@ -4,6 +4,7 @@ author: Christopher Hitchens
 publisher: Basic Books
 year: 2002
 start: 2010-07-23
+stop: 2010-09-01
 
 This is Hitchens' attempt at explaining Orwell's thoughts and to show how they
 are still relevant half a century later.
