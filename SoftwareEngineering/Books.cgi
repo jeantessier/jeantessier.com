@@ -177,7 +177,7 @@ sub PrintDocumentPart {
     print "\n";
     print "    <tbody>\n";
     print "    <tr>\n";
-    print "        <td class=\"sans-serif\" align=\"left\" valign=\"top\">\n";
+    print "        <td class=\"title\" align=\"left\" valign=\"top\">\n";
     print "            <a name=\"" . $meta_data{"name"} . "\"></a>\n";
     print "            " . join("<br />", @titles) . "\n";
     print "        </td>\n";
@@ -188,7 +188,7 @@ sub PrintDocumentPart {
     print "    <tr>\n";
     print "        <td colspan=\"4\" class=\"lowlight\"><blockquote>\n";
     print "\n";
-    print "            <div class=\"cursive\">\n";
+    print "            <div class=\"review\">\n";
     print "\n";
 
     &PrintWikiContents(@lines);

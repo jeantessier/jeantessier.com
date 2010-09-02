@@ -1,7 +1,15 @@
-.cursive {
-	font-family: cursive;
+a {
+    text-decoration: none;
 }
 
-.sans-serif {
-	font-family: sans-serif;
+a:hover {
+    text-decoration: underline;
+}
+
+.title {
+    font-family: sans-serif;
+}
+
+.review {
+    font-family: cursive;
 }
