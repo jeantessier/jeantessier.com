@@ -37,13 +37,8 @@ h2 {
 	color:      rgb(191, 176, 154);
 }
 
-ol li {
-	font-weight: bold;
-}
-
 ol ol li {
 	list-style-type: lower-alpha;
-	font-weight:     normal;
 }
 
 dl dt {
