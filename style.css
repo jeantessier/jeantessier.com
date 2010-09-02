@@ -41,10 +41,6 @@ ol ol li {
 	list-style-type: lower-alpha;
 }
 
-dl dt {
-	font-weight: bold;
-}
-
 dl dd {
 	margin-bottom: 10;
 }

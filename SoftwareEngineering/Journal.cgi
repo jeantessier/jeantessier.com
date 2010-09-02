@@ -77,6 +77,7 @@ sub PrintDocumentHeader {
     print "\n";
     print "<head>\n";
     print "<link rel=\"stylesheet\" type=\"text/css\" href=\"../style.css\" />\n";
+    print "<link rel=\"stylesheet\" type=\"text/css\" href=\"../journal.css\" />\n";
     print "<link rel=\"shortcut icon\" href=\"images/logoicon.gif\" type=\"/image/gif\" />\n";
     print "<title>$title</title>\n";
     print "</head>\n";
@@ -123,7 +124,7 @@ sub PrintDocumentPart {
         $day = $3;
     }
 
-    print "<dt><a name=\"$year-$month-$day\">$MONTH{$month} $day, $year</a></dt>\n";
+    print "<dt class=\"header\"><a name=\"$year-$month-$day\">$MONTH{$month} $day, $year</a></dt>\n";
     print "<dd>\n";
 
     local ($in_paragraph, $in_quote, $in_ordered_list, $in_unordered_list, $in_html);
