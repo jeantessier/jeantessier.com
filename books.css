@@ -11,5 +11,14 @@ a:hover {
 }
 
 .review {
-    font-family: cursive;
+/*
+    font-family: "Bradley Hand ITC TT", cursive;
+*/
+
+    font-family: "Handwriting - Dakota", cursive;
+
+/*
+    font-family: "Savoye LET", cursive;
+    font-size: 24px;
+*/
 }
