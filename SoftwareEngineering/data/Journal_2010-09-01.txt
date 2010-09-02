@@ -1,0 +1,38 @@
+Kent Beck tweeted:
+
+    *[[http://twitter.com/KentBeck][@KentBeck]]*
+    trying out the Anonymous Pro font for source code:
+    [[http://www.ms-studio.com/FontSales/anonymouspro.html][http://www.ms-studio.com/FontSales/anonymouspro.html]]
+    clear and readable
+
+I've been interested in fonts lately.  At work, we started using
+[[http://www.josbuivenga.demon.nl/museo.html][Museo]] for the
+[[http://shopwell.com][website]].  It got me thinking that I could spruce up
+this blog (and my reading reviews) with some clever use of fonts.
+
+I try not to customize my environment too much anymore, because then it gets
+strange when I have to work on a non-customized machine.  Managing long lists
+of fonts has always been problematic.  It's even worse on the web since you
+cannot assume what's gonna be available in the user's browser.  That's why so
+far, I've been relying solely on the lowest possible common denominator when
+doing web work, which means the
+[[http://www.w3.org/TR/2008/REC-CSS2-20080411/fonts.html#generic-font-families][generic font families]]
+in CSS.
+
+But now, there are all kinds of web fonts becoming available.  Browsers can
+download them from the web as needed and use them to render text.  This opens up
+a whole new world of possibilities.  Now, the problem becomes choosing the best
+font among the thousands that are available.  And making sure that the terms of
+usage let me use them for free.
+
+For now, I'm experimenting with a simple ="font-family: cursive"= until I can
+find time for more exploration.  I also installed Anonymous Pro in my IDE to try
+it out.  So far, it looks a little clearer than the default _monospaced_.  Other
+fixed-width alternatives looked good too but the code highlighting was not as
+effective.  This new font looks well calibrated.
+
+Interesting links regarding fonts on the web:
+
+    * [[http://www.w3.org/standards/techs/webfonts][Web Fonts]]
+    * [[http://myfonts.com/][MyFonts]]
+    * [[http://typekit.com][typekit]]
