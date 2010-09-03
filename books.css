@@ -6,17 +6,77 @@ a:hover {
     text-decoration: underline;
 }
 
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: Calluna;
+    src: url(fonts/Calluna-Regular.otf) format("opentype");
+}
+
+@font-face {
+    font-family: CrappyJoe;
+    src: url(fonts/CRAPJOE.otf) format("opentype");
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: "Fertigo Pro";
+    src: url(fonts/Fertigo_PRO.otf) format("opentype");
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: Museo;
+    src: url(fonts/Museo300-Regular.otf) format("opentype");
+    font-weight: 300;
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: Museo;
+    src: url(fonts/Museo500-Regular.otf) format("opentype");
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: Museo;
+    src: url(fonts/Museo700-Regular.otf) format("opentype");
+    font-weight: 700;
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: "Museo Slab";
+    src: url(fonts/Museo_Slab_500.otf) format("opentype");
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: "Museo Slab";
+    src: url(fonts/Museo_Slab_500italic.otf) format("opentype");
+    font-style: italic;
+}
+
 .title {
     font-family: sans-serif;
 }
 
 .review {
 /*
+    font-family: CrappyJoe, serif;
+    font-size: 24px;
+*/
+/*
+    font-family: "Fertigo Pro", serif;
+*/
+/*
+    font-family: "Museo Slab", serif;
+*/
+/*
     font-family: "Bradley Hand ITC TT", cursive;
 */
-
+/*
     font-family: "Handwriting - Dakota", cursive;
-
+*/
 /*
     font-family: "Savoye LET", cursive;
     font-size: 24px;
