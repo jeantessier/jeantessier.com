@@ -1,0 +1,8 @@
+I played a bit with downloadable fonts using the =@font-face= support in CSS.
+I got some free fonts from
+[[http://www.josbuivenga.demon.nl/][exljbris Font Foundry]] and tried them on
+my reading list.  The free fonts don't come with italics and bold versions.  I
+use italics for quotations and I sometimes use bold for emphasis.  All that goes
+away if I limit myself to these free fonts.  (And no, I'm not going to start
+paying for fonts for personal use on my personal website.)  Fertigo Pro looks
+nice, if it weren't for the lack of styling.
