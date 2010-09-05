@@ -1,53 +1,100 @@
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: Calluna;
+    src: url(fonts/Calluna-Regular.otf) format("opentype");
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: "Fertigo Pro";
+    src: url(fonts/Fertigo_PRO.otf) format("opentype");
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: Museo;
+    src: url(fonts/Museo300-Regular.otf) format("opentype");
+    font-weight: 300;
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: Museo;
+    src: url(fonts/Museo500-Regular.otf) format("opentype");
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: Museo;
+    src: url(fonts/Museo700-Regular.otf) format("opentype");
+    font-weight: 700;
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: "Museo Slab";
+    src: url(fonts/Museo_Slab_500.otf) format("opentype");
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: "Museo Slab";
+    src: url(fonts/Museo_Slab_500italic.otf) format("opentype");
+    font-style: italic;
+}
+
 body {
-	background: rgb( 66,  66, 111);
-	color:      rgb(255, 235, 205);
+    background: rgb( 66,  66, 111);
+    color: rgb(255, 235, 205);
+}
+
+a {
+    text-decoration: none;
 }
 
 a:link {
-	color:      rgb(198, 230, 255);
+    color: rgb(198, 230, 255);
 }
 
 a:visited {
-	color:      rgb(198, 230, 255);
+    color: rgb(198, 230, 255);
 }
-
-/*
-a:visited {
-	color:      rgb(255, 118, 214);
-}
-*/
 
 a:active {
-	color:      rgb(255, 255, 112);
+    color: rgb(255, 255, 112);
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 h1 {
-	color:      white;
+    color: white;
 }
 
 h1.highlight {
-	text-align: center;
+    text-align: center;
 }
 
 h2 {
-	color:      white;
+    color: white;
 }
 
 .lowlight {
-	color:      rgb(191, 176, 154);
+    color: rgb(191, 176, 154);
 }
 
 ol ol li {
-	list-style-type: lower-alpha;
+    list-style-type: lower-alpha;
 }
 
 dl dd {
-	margin-bottom: 10;
+    margin-bottom: 10;
 }
 
 .padded {
-	padding-left: 10;
-	padding-right: 10;
-	vertical-align: top;
-	text-align: center;
+    padding-left: 10;
+    padding-right: 10;
+    vertical-align: top;
+    text-align: center;
 }

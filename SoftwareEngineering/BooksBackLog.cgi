@@ -77,6 +77,7 @@ sub PrintDocumentHeader {
     print "\n";
     print "<head>\n";
     print "<link rel=\"stylesheet\" type=\"text/css\" href=\"../style.css\" />\n";
+    print "<link rel=\"stylesheet\" type=\"text/css\" href=\"../books.css\" />\n";
     print "<link rel=\"shortcut icon\" href=\"../images/logoicon.gif\" type=\"/image/gif\" />\n";
     print "<title>$title</title>\n";
     print "</head>\n";
@@ -104,7 +105,7 @@ sub PrintDocumentHeader {
     print "</div>\n";
     print "\n";
     print "<div align=\"center\">\n";
-    print "<h1 class=\"highlight\">$title</h1>\n";
+    print "<h1 class=\"highlight title\">$title</h1>\n";
     print "</div>\n";
     print "\n";
     print "<p />\n";
@@ -176,7 +177,7 @@ sub PrintDocumentPart {
     print "\n";
     print "    <tbody>\n";
     print "    <tr>\n";
-    print "        <td align=\"left\" valign=\"top\">\n";
+    print "        <td class=\"book\" align=\"left\" valign=\"top\">\n";
     print "            <a name=\"" . $meta_data{"name"} . "\"></a>\n";
     print "            " . join("<br />", @titles) . "\n";
     print "        </td>\n";
@@ -187,9 +188,13 @@ sub PrintDocumentPart {
     print "    <tr>\n";
     print "        <td colspan=\"4\" class=\"lowlight\"><blockquote>\n";
     print "\n";
+    print "            <div class=\"review\">\n";
+    print "\n";
 
     &PrintWikiContents(@lines);
 
+    print "\n";
+    print "            </div>\n";
     print "\n";
     print "        </blockquote></td>\n";
     print "    </tr>\n";

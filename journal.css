@@ -1,4 +1,11 @@
+.title {
+    font-family: "Fertigo Pro";
+}
+
 .header {
-	font-family: cursive;
-	font-size: 24px;
+    font-family: Calluna, "Fertigo Pro", cursive;
+    font-size: 24px;
+}
+
+.body {
 }

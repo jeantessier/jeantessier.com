@@ -96,7 +96,7 @@ sub PrintDocumentHeader {
     print "src=\"http://pagead2.googlesyndication.com/pagead/show_ads.js\">\n";
     print "</script>\n";
     print "\n";
-    print "<h1>$title</h1>\n";
+    print "<h1 class=\"title\">$title</h1>\n";
     print @subtitle;
     print "\n";
     print "<dl>\n";
@@ -125,7 +125,7 @@ sub PrintDocumentPart {
     }
 
     print "<dt class=\"header\"><a name=\"$year-$month-$day\">$MONTH{$month} $day, $year</a></dt>\n";
-    print "<dd>\n";
+    print "<dd class=\"body\">\n";
 
     local ($in_paragraph, $in_quote, $in_ordered_list, $in_unordered_list, $in_html);
 
