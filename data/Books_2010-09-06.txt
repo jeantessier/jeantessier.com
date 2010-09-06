@@ -3,8 +3,11 @@ title: [[http://www.amazon.com/Beyond-Visions-Interplanetary-Michael-Benson/dp/0
 author: Michael Benson
 publisher: Abrams
 year: 2009
+start: 2010-09-06
 
-Amazing pictures of objects in the Solar System, from the Nasa archives.
+Amazing pictures of objects in the Solar System, from the Nasa archives.  This
+is more of a picture book, really.  It's more like I'm lazily looking through it
+than actual reading.
 
 I read about this book, and the 
 [[http://www.sites.si.edu/exhibitions/exhibits/beyond/main.htm][matching exposition]]
