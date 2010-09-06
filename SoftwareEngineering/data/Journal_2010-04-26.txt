@@ -1,6 +1,6 @@
 Kent Beck tweeted:
 
-    *[[http://twitter.com/KentBeck][@KentBeck]]*
+    *[[http://twitter.com/KentBeck][KentBeck]]*
     my [[http://twitter.com/search?q=%23sllconf][#sllconf]] talk was widely misinterpreted.
     presentation: [[http://www.slideshare.net/KentBeck/to-agility-and-beyond][http://www.slideshare.net/KentBeck/to-agility-and-beyond]]
     video: [[http://www.justin.tv/startuplessonslearned/b/262656520][http://www.justin.tv/startuplessonslearned/b/262656520]]

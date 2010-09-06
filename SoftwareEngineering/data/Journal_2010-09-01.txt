@@ -1,6 +1,6 @@
 Kent Beck tweeted:
 
-    *[[http://twitter.com/KentBeck][@KentBeck]]*
+    *[[http://twitter.com/KentBeck][KentBeck]]*
     trying out the Anonymous Pro font for source code:
     [[http://www.ms-studio.com/FontSales/anonymouspro.html][http://www.ms-studio.com/FontSales/anonymouspro.html]]
     clear and readable
