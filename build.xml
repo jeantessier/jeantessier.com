@@ -19,10 +19,18 @@
             <fileset dir="." includes="*.cgi"/>
             <fileset dir="." includes="*.css"/>
             <fileset dir="." includes="*.html"/>
-            <fileset dir="." includes="fonts/*"/>
-            <fileset dir="." includes="images/*"/>
             <fileset dir="." includes="SoftwareEngineering/*"/>
             <fileset dir="." includes="Work/*"/>
+        </ftp>
+        <ftp server="ftp.jeantessier.com"
+             userid="jeantessier"
+             password="pu%pwIT"
+             remotedir="jeantessier.com"
+	     depends="yes"
+	     binary="yes"
+             verbose="yes">
+            <fileset dir="." includes="fonts/*"/>
+            <fileset dir="." includes="images/*"/>
         </ftp>
     </target>
 
