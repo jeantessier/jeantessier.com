@@ -19,6 +19,7 @@
             <fileset dir="." includes="*.cgi"/>
             <fileset dir="." includes="*.css"/>
             <fileset dir="." includes="*.html"/>
+            <fileset dir="." includes="*.js"/>
             <fileset dir="." includes="SoftwareEngineering/*"/>
             <fileset dir="." includes="Work/*"/>
         </ftp>
