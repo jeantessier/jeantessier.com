@@ -80,6 +80,21 @@ sub PrintDocumentHeader {
     print "<link rel=\"stylesheet\" type=\"text/css\" href=\"books.css\" />\n";
     print "<link rel=\"shortcut icon\" href=\"images/logoicon.gif\" type=\"/image/gif\" />\n";
     print "<title>$title</title>\n";
+    print "\n";
+    print "<script type=\"text/javascript\">\n";
+    print "\n";
+    print "  var _gaq = _gaq || [];\n";
+    print "  _gaq.push(['_setAccount', 'UA-2083086-1']);\n";
+    print "  _gaq.push(['_trackPageview']);\n";
+    print "\n";
+    print "  (function() {\n";
+    print "    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;\n";
+    print "    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n";
+    print "    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);\n";
+    print "  })();\n";
+    print "\n";
+    print "</script>\n";
+    print "\n";
     print "</head>\n";
     print "\n";
     print "<body>\n";
@@ -284,13 +299,6 @@ sub PrintWikiContents {
 sub PrintDocumentFooter {
     print "\n";
     print "</table>\n";
-    print "\n";
-    print "<script src=\"http://www.google-analytics.com/urchin.js\" type=\"text/javascript\">\n";
-    print "</script>\n";
-    print "<script type=\"text/javascript\">\n";
-    print "_uacct = \"UA-2083086-1\";\n";
-    print "urchinTracker();\n";
-    print "</script>\n";
     print "\n";
     print "</body>\n";
     print "\n";
