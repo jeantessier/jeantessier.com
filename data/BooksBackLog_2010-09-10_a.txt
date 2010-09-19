@@ -1,0 +1,8 @@
+name: Why_I_Am_Not_a_Christian
+title: [[http://www.amazon.com/Christian-Essays-Religion-Related-Subjects/dp/0671203231/ref=tmm_pap_title_0][Why I Am Not a Christian]]
+author: Bertrand Russell
+publisher: Touchstone Book
+year: 1957
+
+Christopher Hitchens references Bertrand Russell a lot.  This books seems to be
+a good place to start to understand Bertrand Russell.
