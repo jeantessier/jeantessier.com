@@ -12,6 +12,68 @@
 
 /* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
 @font-face {
+    font-family: Fontin;
+    src: url(fonts/Fontin-Regular.otf) format("opentype"), url(fonts/Fontin-Regular.ttf) format("truetype");
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: Fontin;
+    src: url(fonts/Fontin-Bold.otf) format("opentype"), url(fonts/Fontin-Bold.ttf) format("truetype");
+    font-weight: bold;
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: Fontin;
+    src: url(fonts/Fontin-Italic.otf) format("opentype"), url(fonts/Fontin-Italic.ttf) format("truetype");
+    font-style: italic;
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: Fontin;
+    src: url(fonts/Fontin-SmallCaps.otf) format("opentype"), url(fonts/Fontin-SmallCaps.ttf) format("truetype");
+    font-variant: small-caps;
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: "Fontin Sans";
+    src: url(fonts/Fontin_Sans_R_45b.otf) format("opentype");
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: "Fontin Sans";
+    src: url(fonts/Fontin_Sans_B_45b.otf) format("opentype");
+    font-weight: bold;
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: "Fontin Sans";
+    src: url(fonts/Fontin_Sans_I_45b.otf) format("opentype");
+    font-style: italic;
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: "Fontin Sans";
+    src: url(fonts/Fontin_Sans_BI_45b.otf) format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: "Fontin Sans";
+    src: url(fonts/Fontin_Sans_SC_45b.otf) format("opentype");
+    font-variant: small-caps;
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
     font-family: Museo;
     src: url(fonts/Museo300-Regular.otf) format("opentype");
     font-weight: 300;
