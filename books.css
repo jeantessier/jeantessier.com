@@ -4,7 +4,43 @@
 
 .book {
     font-family: "Museo Slab", serif;
+    text-align: left;
+    vertical-align: top;
+}
+
+.author {
+    font-family: Fontin, serif;
+    text-align: center;
+    vertical-align: top;
+}
+
+.publisher {
+    font-family: Fontin, serif;
+    text-align: center;
+    vertical-align: top;
+}
+
+.published_year {
+    font-family: Fontin, serif;
+    text-align: center;
+    vertical-align: top;
 }
 
 .review {
+    font-family: "Fontin Sans", sans-serif;
+}
+
+.time {
+    font-family: Fontin, serif;
+}
+
+.no_time {
+    font-family: Fontin, serif;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+th {
+    font-family: Fontin, serif;
+    text-transform: uppercase;
 }

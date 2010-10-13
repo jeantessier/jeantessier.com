@@ -123,7 +123,7 @@ sub PrintDocumentHeader {
     print "<h1 class=\"highlight title\">$title</h1>\n";
     print "</div>\n";
     print "\n";
-    print "<p />\n";
+    print "<p></p>\n";
     print "\n";
     print "<table border=\"1\" cellspacing=\"1\" cellpadding=\"5\" rules=\"groups\" frame=\"below\">\n";
     print "\n";
@@ -192,13 +192,13 @@ sub PrintDocumentPart {
     print "\n";
     print "    <tbody>\n";
     print "    <tr>\n";
-    print "        <td class=\"book\" align=\"left\" valign=\"top\">\n";
+    print "        <td class=\"book\">\n";
     print "            <a name=\"" . $meta_data{"name"} . "\"></a>\n";
     print "            " . join("<br />", @titles) . "\n";
     print "        </td>\n";
-    print "        <td align=\"center\" valign=\"top\">" . join("<br />", @authors) . "</td>\n";
-    print "        <td align=\"center\" valign=\"top\">" . $meta_data{"publisher"} . "</td>\n";
-    print "        <td align=\"center\" valign=\"top\">" . join("<br />", @years) . "</td>\n";
+    print "        <td class=\"author\">" . join("<br />", @authors) . "</td>\n";
+    print "        <td class=\"publisher\">" . $meta_data{"publisher"} . "</td>\n";
+    print "        <td class=\"published_year\">" . join("<br />", @years) . "</td>\n";
     print "    </tr>\n";
     print "    <tr>\n";
     print "        <td colspan=\"4\" class=\"lowlight\"><blockquote>\n";
@@ -213,21 +213,21 @@ sub PrintDocumentPart {
     print "\n";
     print "            <table>\n";
     print "                <tr>\n";
-    print "                    <td>Started reading:</td>\n";
-    if ($meta_data{"start"} =~ /(\d{4})-(\d{2})-(\d{2})/) {
-        print "                    <td>$1</td><td>/</td><td>$2</td><td>/</td><td>$3</td>\n";
+    print "                    <td class=\"time\">Started reading:</td>\n";
+    if ($meta_data{"start"} =~ /(\d{4}-\d{2}-\d{2})/) {
+        print "                    <td class=\"time\">$1</td>\n";
     } else {
-        print "	                   <td colspan=\"5\"><i>not started</i></td>\n";
+        print "	                   <td class=\"no_time\">not started</td>\n";
     }
     print "                </tr>\n";
     print "\n";
     print "                <tr>\n";
-    print "                    <td>Finished reading:</td>\n";
+    print "                    <td class=\"time\">Finished reading:</td>\n";
     if (defined $meta_data{"start"}) {
-        if ($meta_data{"stop"} =~ /(\d{4})-(\d{2})-(\d{2})/) {
-            print "                    <td>$1</td><td>/</td><td>$2</td><td>/</td><td>$3</td>\n";
+        if ($meta_data{"stop"} =~ /(\d{4}-\d{2}-\d{2})/) {
+            print "                    <td class=\"time\">$1</td>\n";
         } else {
-            print "                    <td colspan=\"5\"><i>in progress</i></td>\n";
+            print "                    <td class=\"no_time\">in progress</td>\n";
         }
     }
     print "                </tr>\n";
