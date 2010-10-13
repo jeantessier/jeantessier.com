@@ -19,7 +19,7 @@ food is produced to our plates.
     comes from corn: corn-fed steer, corn-fed chicken, high-fructose
     corn syrup.  Relies a lot on heavy mechanization, which can
     dehumanize the whole thing.</dd>
-    <dt><b>big organic<b></dt>
+    <dt><b>big organic</b></dt>
     <dd>An effort to return to the roots but still supply a large scale
     market.  The rejection of hormones, artificial fertilizer, and
     antibiotics makes the whole enterprise more risky.  Again, heavy
