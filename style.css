@@ -126,9 +126,11 @@ a:active {
     color: rgb(255, 255, 112);
 }
 
+/*
 a:hover {
     text-decoration: underline;
 }
+*/
 
 h1 {
     color: white;
@@ -155,8 +157,13 @@ dl dd {
 }
 
 .padded {
+    font-family: Calluna;
     padding-left: 10;
     padding-right: 10;
     vertical-align: top;
     text-align: center;
+}
+
+.content {
+    font-family: Fontin, sans-serif;
 }
