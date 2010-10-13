@@ -31,11 +31,15 @@
 }
 
 /* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
-@font-face {
-    font-family: Fontin;
-    src: url(fonts/Fontin-SmallCaps.otf) format("opentype"), url(fonts/Fontin-SmallCaps.ttf) format("truetype");
-    font-variant: small-caps;
-}
+/*
+ * Commenting out because it conflicts with Regular in Firefox.
+ *
+ * @font-face {
+ *     font-family: Fontin;
+ *     src: url(fonts/Fontin-SmallCaps.otf) format("opentype"), url(fonts/Fontin-SmallCaps.ttf) format("truetype");
+ *     font-variant: small-caps;
+ * }
+ */
 
 /* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
 @font-face {
@@ -66,11 +70,15 @@
 }
 
 /* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
-@font-face {
-    font-family: "Fontin Sans";
-    src: url(fonts/Fontin_Sans_SC_45b.otf) format("opentype");
-    font-variant: small-caps;
-}
+/*
+ * Commenting out because it conflicts with Regular in Firefox.
+ *
+ * @font-face {
+ *     font-family: "Fontin Sans";
+ *     src: url(fonts/Fontin_Sans_SC_45b.otf) format("opentype");
+ *     font-variant: small-caps;
+ * }
+ */
 
 /* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
 @font-face {
