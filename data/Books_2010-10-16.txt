@@ -3,6 +3,7 @@ title: [[http://www.amazon.com/Christian-Essays-Religion-Related-Subjects/dp/067
 author: Bertrand Russell
 publisher: Touchstone Book
 year: 1957
+start: 2010-10-16
 
 Christopher Hitchens references Bertrand Russell a lot.  This books seems to be
 a good place to start to understand Bertrand Russell.
