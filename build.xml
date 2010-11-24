@@ -19,6 +19,7 @@
             <fileset dir="." includes="*.cgi"/>
             <fileset dir="." includes="*.css"/>
             <fileset dir="." includes="*.html"/>
+            <fileset dir="." includes="*.js"/>
             <fileset dir="." includes="SoftwareEngineering/*"/>
             <fileset dir="." includes="Work/*"/>
         </ftp>
@@ -44,6 +45,7 @@
 	     binary="no"
              verbose="yes">
             <fileset dir="Kendo" includes="*.html"/>
+            <fileset dir="Kendo" includes="*.js"/>
             <fileset dir="Kendo" includes="*.pdf"/>
         </ftp>
         <ftp server="ftp.sanmateokendo.org"
@@ -53,8 +55,9 @@
 	     depends="yes"
 	     binary="no"
              verbose="yes">
-            <fileset dir="smkd" includes="*.html"/>
             <fileset dir="smkd" includes="*.css"/>
+            <fileset dir="smkd" includes="*.html"/>
+            <fileset dir="smkd" includes="*.js"/>
         </ftp>
         <ftp server="ftp.sanmateokendo.org"
              userid="jeantessier"
