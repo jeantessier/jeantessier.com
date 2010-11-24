@@ -1,4 +1,5 @@
-<!doctype html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html>
 
@@ -371,15 +372,11 @@ specification, that it calls <code>setupClient1()</code> on an existing <code>Se
         <b>@Test
         public void testProvideService() {
             final Service mockService = context.mock(Service.class);
-</pre>
 
-<pre>
             context.checking(new Expectations() {{
                 one (mockService).setupClient1();
             }});
-</pre>
 
-<pre>
             Service actualService = sut.provideService(mockService);
             assertThat(actualService, is(sameInstance(mockService)));
         }</b>
@@ -470,15 +467,11 @@ A hypothetical client No. 2 could require this specification instead:
         <b>@Test
         public void testProvideService() {
             final Service mockService = context.mock(Service.class);
-</pre>
 
-<pre>
             context.checking(new Expectations() {{
                 one (mockService).setupClient2();
             }});
-</pre>
 
-<pre>
             Service actualService = sut.provideService(mockService);
             assertThat(actualService, is(sameInstance(mockService)));
         }</b>
