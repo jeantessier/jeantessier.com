@@ -7,7 +7,8 @@
     <target name="all" depends="books, journal"
             description="Generates all dynamic content and Atom feeds."/>
 
-    <target name="books" depends="books.html"/>
+    <target name="books" depends="books.html, books.atom, booksbacklog.html"
+            description="Generate the Recent Readings pages (for local debugging)."/>
 
     <target name="books.html">
         <exec executable="perl"
@@ -16,7 +17,22 @@
         </exec>
     </target>
 
-    <target name="journal" depends="journal.html, journal.atom"/>
+    <target name="books.atom">
+        <exec executable="perl"
+              output="Books.atom">
+            <arg value="Books_atom.cgi"/>
+        </exec>
+    </target>
+
+    <target name="booksbacklog.html">
+        <exec executable="perl"
+              output="BooksBackLog.html">
+            <arg value="BooksBackLog.cgi"/>
+        </exec>
+    </target>
+
+    <target name="journal" depends="journal.html, journal.atom"
+            description="Generate the Jean's Journal pages (for local debugging)."/>
 
     <target name="journal.html">
         <exec executable="perl"

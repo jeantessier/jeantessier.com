@@ -18,9 +18,16 @@
              verbose="yes">
             <fileset dir="." includes="*.cgi"/>
             <fileset dir="." includes="*.css"/>
-            <fileset dir="." includes="*.html"/>
+            <fileset dir="." includes="*.html">
+                <exclude name="Books.html"/>
+                <exclude name="BooksBackLog.html"/>
+            </fileset>
             <fileset dir="." includes="*.js"/>
-            <fileset dir="." includes="SoftwareEngineering/*"/>
+            <fileset dir="." includes="SoftwareEngineering/*">
+                <exclude name="SoftwareEngineering/Books.html"/>
+                <exclude name="SoftwareEngineering/BooksBackLog.html"/>
+                <exclude name="SoftwareEngineering/Journal.html"/>
+            </fileset>
             <fileset dir="." includes="Work/*"/>
         </ftp>
         <ftp server="ftp.jeantessier.com"
@@ -88,12 +95,27 @@
     <target name="blogs" depends="books, se_blogs"
             description="Generates all dynamic content and Atom feeds."/>
 
-    <target name="books" depends="books.html"/>
+    <target name="books" depends="books.html, books.atom, booksbacklog.html"
+            description="Generate the Recent Readings pages (for local debugging)."/>
 
     <target name="books.html">
         <exec executable="perl"
               output="Books.html">
             <arg value="Books.cgi"/>
+        </exec>
+    </target>
+
+    <target name="books.atom">
+        <exec executable="perl"
+              output="Books.atom">
+            <arg value="Books_atom.cgi"/>
+        </exec>
+    </target>
+
+    <target name="booksbacklog.html">
+        <exec executable="perl"
+              output="BooksBackLog.html">
+            <arg value="BooksBackLog.cgi"/>
         </exec>
     </target>
 
