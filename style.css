@@ -175,3 +175,8 @@ dl dd {
 .content {
     font-family: Fontin, sans-serif;
 }
+
+.portrait {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
