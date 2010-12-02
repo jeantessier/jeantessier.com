@@ -4,6 +4,9 @@ author: Bertrand Russell
 publisher: Touchstone Book
 year: 1957
 start: 2010-10-16
+stop: 2010-12-01
 
 Christopher Hitchens references Bertrand Russell a lot.  This books seems to be
 a good place to start to understand Bertrand Russell.
+
+_More to come._
