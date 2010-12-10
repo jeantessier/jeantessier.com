@@ -1,7 +1,7 @@
 Moved some of my local tinkering projects to [[http://github.com/][github]].
 
-    * =[[http://github.com/jeantessier][jeantessier]]/[[http://github.com/jeantessier/Mocking][Mocking]]=
-    * =[[http://github.com/jeantessier][jeantessier]]/[[http://github.com/jeantessier/TwoStageGuiceProvider][TwoStageGuiceProvider]]=
+    * =[[http://github.com/jeantessier/Mocking][jeantessier/Mocking]]=
+    * =[[http://github.com/jeantessier/TwoStageGuiceProvider][jeantessier/TwoStageGuiceProvider]]=
 
 And only *after* I had uploaded them did I realize that the =build.xml= file in
 each project contained my account password.  Drats!  I had to go and change it
