@@ -11,7 +11,7 @@
             description="Uploads the latest entries to jeantessier.com">
         <ftp server="ftp.jeantessier.com"
              userid="jeantessier"
-             password="pu%pwIT"
+             password="#uryd1c3"
              remotedir="jeantessier.com"
 	     depends="yes"
 	     binary="no"
@@ -32,7 +32,7 @@
         </ftp>
         <ftp server="ftp.jeantessier.com"
              userid="jeantessier"
-             password="pu%pwIT"
+             password="#uryd1c3"
              remotedir="jeantessier.com"
 	     depends="yes"
 	     binary="yes"
@@ -46,7 +46,7 @@
             description="Uploads the latest entries to jeantessier.com">
         <ftp server="ftp.jeantessier.com"
              userid="jeantessier"
-             password="pu%pwIT"
+             password="#uryd1c3"
              remotedir="jeantessier.com/Kendo"
 	     depends="yes"
 	     binary="no"
@@ -57,7 +57,7 @@
         </ftp>
         <ftp server="ftp.sanmateokendo.org"
              userid="jeantessier"
-             password="pu%pwIT"
+             password="#uryd1c3"
              remotedir="sanmateokendo.org"
 	     depends="yes"
 	     binary="no"
@@ -68,7 +68,7 @@
         </ftp>
         <ftp server="ftp.sanmateokendo.org"
              userid="jeantessier"
-             password="pu%pwIT"
+             password="#uryd1c3"
              remotedir="sanmateokendo.org"
 	     depends="yes"
 	     binary="yes"
@@ -82,7 +82,7 @@
             description="Uploads the latest entries to jeantessier.com">
         <ftp server="ftp.jeantessier.com"
              userid="jeantessier"
-             password="pu%pwIT"
+             password="#uryd1c3"
              remotedir="jeantessier.com"
 	     depends="yes"
 	     binary="no"
