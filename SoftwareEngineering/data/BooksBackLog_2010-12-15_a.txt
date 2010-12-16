@@ -1,0 +1,17 @@
+name: The_RSpec_Book
+title: [[http://www.amazon.com/RSpec-Book-Behaviour-Development-Cucumber/dp/1934356379/ref=sr_1_1?ie=UTF8&s=books&qid=1292485625&sr=8-1][The RSpec Book]]
+author: David Chelimsky
+author: Dave Astels
+author: Zach Dennis
+author: Aslak Hellesoy
+author: Bryan Helmkamp
+author: Dan North
+publisher: Pragmatic Bookshelf
+year: 2010
+
+Got a signed copy from my good friend Dave Astels.  I got exposed to
+[[http://rspec.info/][RSpec]] back on
+[[Journal.cgi#2008-11-07][2008-11-07]] and I have been waiting for this book
+ever since.  I wish there was an RSpec for Java or Groovy.  I heard that
+[[http://jbehave.org/][JBehave]] is supposed to be similar, but the syntax is
+not the same.  RSpec reads just like English, with spaces and all!
