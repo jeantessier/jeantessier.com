@@ -3,7 +3,7 @@ title: [[http://www.amazon.com/RSpec-Book-Behaviour-Development-Cucumber/dp/1934
 author: David Chelimsky
 author: Dave Astels
 author: Zach Dennis
-author: Aslak Hellesoy
+author: Aslak Helles&oslash;y
 author: Bryan Helmkamp
 author: Dan North
 publisher: Pragmatic Bookshelf
