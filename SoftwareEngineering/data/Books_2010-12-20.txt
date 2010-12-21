@@ -4,6 +4,8 @@ author: Steve Freeman
 author: Nat Pryce
 publisher: Addison-Wesley
 year: 2010
+acquired: 2010-06-03
+start: 2010-12-20
 
 Came recommended by Kent Beck.  The authors wrote jMock.  This books explains
 how they approach writing tests.
