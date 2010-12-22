@@ -40,6 +40,12 @@
     font-variant: small-caps;
 }
 
+h2 {
+    font-size: 1em;
+    font-style: italic;
+    font-weight: normal;
+}
+
 th {
     font-family: Fontin, serif;
     text-transform: uppercase;

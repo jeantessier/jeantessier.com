@@ -225,6 +225,11 @@ sub PrintWikiContents {
             } elsif ($in_html) {
                 $in_html = !$in_html;
             }
+        } elsif ($line =~ /^---(\++)\s*(.*)\s*/) {
+            local $level = length $1;
+            local $title = $2;
+
+            $line = "<h$level>$title</h$level>\n";
         } elsif ($line =~ /^(\s*)((\S+)\s*(\S.*))/) {
             local ($indent, $text, $marker, $content) = ($1, $2, $3, $4);
 
