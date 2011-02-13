@@ -1,0 +1,10 @@
+name: xkcd_volume_0
+title: [[http://www.amazon.com/xkcd-0-Randall-Munroe/dp/0615314465/ref=sr_1_1?s=books&ie=UTF8&qid=1297557045&sr=1-1][xkcd: volume 0]]
+author: Randall Munroe
+publisher: Breadpig
+year: 2009
+acquired: 2011-01-14
+start: 2011-02-10
+
+I'm a big fan of the =[[http://xkcd.com/][xkcd]]= webcomic and a friend got me
+this book.
