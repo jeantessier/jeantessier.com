@@ -46,7 +46,29 @@ The sample problem had lots of complexity: GUI, asynchronous communication,
 Jabber-based RPC, etc.  Some of the code transformations are sometimes hard to
 follow, especially the further you get in the case study and they pick up the
 pace.  Some side-by-side comparisons would have been welcome, but maybe hard to
-do in the limited space in the book.
+do in the limited space of the book.
+
+The authors used a neat trick to track their development progress through the
+sample problem.  They kept a hand-written list of tasks on a sheet of paper,
+crossed out items as they completed them, and added tasks as they happened upon
+them.  Here's a snapshot from the somewhere halfway through:
+
+<blockquote>
+<span style="text-transform: uppercase">Todo</span><br />
+<span style="text-decoration: line-through">single item - join, lose without bidding</span><br />
+<span style="text-decoration: line-through">single item - join, bid & lose</span><br />
+<span style="text-decoration: line-through">single item - join, bid & win</span><br />
+<span style="text-decoration: line-through">single item - show price details</span><br />
+<span>multiple items</span><br />
+<span>add new item through the GUI</span><br />
+<span>stop bidding at stop price</span><br />
+<span style="opacity: 0.75">translator - invalid message from Auction</span><br />
+<span style="opacity: 0.75">translator - incorrect message version</span><br />
+<span style="opacity: 0.75">handle XMPException on send</span><br />
+</blockquote>
+
+I used a similar technique a long time ago to implement a feature with great
+success.  I'm going to re-introduce it to my toolset going forward.
 
 I really liked the chapter on test data builders.  I already grew more
 comfortable using test helper methods to clarify the text of a given test after
