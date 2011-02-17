@@ -4,6 +4,7 @@ author: Michael Benson
 publisher: Abrams
 year: 2009
 start: 2010-09-06
+stop: 2010-09-06
 
 Amazing pictures of objects in the Solar System, from the Nasa archives.  This
 is more of a picture book, really.  It's more like I'm lazily looking through it
