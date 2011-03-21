@@ -1,0 +1,14 @@
+name: Hadoop_in_Action
+title: [[http://www.amazon.com/Hadoop-Action-Chuck-Lam/dp/1935182196/ref=sr_1_1?ie=UTF8&s=books&qid=1300721402&sr=8-1][Hadoop in Action]]
+author: Chuck Lam
+publisher: Manning
+year: 2011
+acquired: 2011-03-12
+start: 2011-03-17
+
+I've been curious about Hadoop for some time.  MapReduce is such an exciting
+paradigm and I didn't get to do enough of it when I was at Google.  I tried to
+use a 50% off coupon to buy this title directly from the publisher's website,
+but ended up buying the ebook instead of the paper book.  It's great to have the
+ebook so I can do searches in the text, but I cannot read an entire book on my
+computer screen; so I had to buy it one more time to get the printed version.
