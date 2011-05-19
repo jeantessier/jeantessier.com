@@ -24,4 +24,4 @@ _new_ interfaces.
 
 A lot of the examples deal more with the details of running a Hadoop MapReduce,
 and less with powerful ways to use the MapReduce paradigm.  Maybe the chapter on
-"Advanced Mapreduce" will fill my need.
+"Advanced MapReduce" will fill my need.
