@@ -1,0 +1,3 @@
+Wrote my first non-toy bit of [[http://docs.jquery.com/][jQuery]] for work.
+It's a small voting exercise, making AJAX calls to the back-end and changing CSS
+classes and counters to reflect the latest votes.

@@ -1,0 +1,4 @@
+Writing some serious CSS to make dialog bubbles.  Rounded-corner boxes and
+custom images for the bubble's tail, complete with to-the-pixel adjustments to
+tie them together seamlessly.  I've been wanting for a long time to do this
+kind of fancy layout, but I could never get the time, somehow.
