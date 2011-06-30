@@ -3,7 +3,7 @@ title: [[http://www.amazon.com/gp/product/0137081073][The Clean Coder]]
 author: Robert C. Martin
 publisher: Prentice Hall
 year: 2011
-start: 2011-06-18
+start: 2011-06-13
 stop: 2011-06-29
 
 I really liked Uncle Bob's [[Books.cgi#Clean_Code][Clean Code]], and this seems to be aimed in the
