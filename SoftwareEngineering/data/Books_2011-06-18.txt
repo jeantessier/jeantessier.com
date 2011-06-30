@@ -3,6 +3,12 @@ title: [[http://www.amazon.com/gp/product/0137081073][The Clean Coder]]
 author: Robert C. Martin
 publisher: Prentice Hall
 year: 2011
+start: 2011-06-18
+stop: 2011-06-29
 
 I really liked Uncle Bob's [[Books.cgi#Clean_Code][Clean Code]], and this seems to be aimed in the
 same direction of how to produce code in a way that is enjoyable.
+
+Lots of interesting anecdotes about Uncle Bob and his career, little that is broadly applicable
+beyond that.
+
