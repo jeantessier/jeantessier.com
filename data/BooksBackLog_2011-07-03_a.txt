@@ -1,0 +1,11 @@
+name: MC_Escher
+title: [[http://www.amazon.com/M-C-Escher-29-Master-Prints/dp/143512488X/ref=sr_1_1?ie=UTF8&qid=1309754016&sr=8-1][M.C. Escher: 29 Master Prints]]
+author: Darlene Geis
+author: M.C. Escher
+publisher: Abrams
+year: 1983
+
+I found this book while browsing at my local Barnes &amp; Nobles.  It has some
+of Escher's most famous pieces, including "Waterfall" and "Drawing Hands".  Each
+one is set by itself on a whole page and the facing page has Escher's own
+description of the piece.
