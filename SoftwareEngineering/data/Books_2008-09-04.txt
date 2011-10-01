@@ -1,5 +1,6 @@
-name:Implementation_Patterns
-title:[[http://www.amazon.com/Implementation-Patterns-Addison-Wesley-Signature-Kent/dp/0321413091/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1220585128&sr=8-1][Implementation Patterns]]
+name: Implementation_Patterns
+isbn: 0321413091
+title: [[http://www.amazon.com/Implementation-Patterns-Addison-Wesley-Signature-Kent/dp/0321413091/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1220585128&sr=8-1][Implementation Patterns]]
 author: Kent Beck
 publisher: Addison-Wesley
 year: 2008

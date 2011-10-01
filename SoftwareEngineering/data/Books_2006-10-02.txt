@@ -1,5 +1,6 @@
-name:Agile_Project_Management_with_Scrum
-title:[[http://www.amazon.com/Project-Management-Scrum-Microsoft-Professional/dp/073561993X/sr=8-1/qid=1160633631/ref=pd_bbs_1/104-8625026-6083919?ie=UTF8][Agile Project Management with Scrum]]
+name: Agile_Project_Management_with_Scrum
+isbn: 073561993X
+title: [[http://www.amazon.com/Project-Management-Scrum-Microsoft-Professional/dp/073561993X/sr=8-1/qid=1160633631/ref=pd_bbs_1/104-8625026-6083919?ie=UTF8][Agile Project Management with Scrum]]
 author: Ken Schwaber
 publisher: Microsoft Press
 year: 2004

@@ -1,5 +1,6 @@
-name:The_Enchantress_of_Florence
-title:[[http://www.amazon.com/Enchantress-Florence-Novel-Salman-Rushdie/dp/0375504338/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1213839809&sr=8-1][The Enchantress of Florence]]
+name: The_Enchantress_of_Florence
+isbn: 0375504338
+title: [[http://www.amazon.com/Enchantress-Florence-Novel-Salman-Rushdie/dp/0375504338/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1213839809&sr=8-1][The Enchantress of Florence]]
 author: Salman Rushdie
 publisher: Random House
 year: 2008

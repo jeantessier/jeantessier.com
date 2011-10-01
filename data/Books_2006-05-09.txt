@@ -1,5 +1,6 @@
-name:Breaking_the_Spell
-title:[[http://www.amazon.com/gp/product/067003472X/sr=8-1/qid=1147361614/ref=pd_bbs_1/102-7437151-5514526?%5Fencoding=UTF8][Breaking the Spell: Religion as a Natural Phenomenon]]
+name: Breaking_the_Spell
+isbn: 067003472X
+title: [[http://www.amazon.com/gp/product/067003472X/sr=8-1/qid=1147361614/ref=pd_bbs_1/102-7437151-5514526?%5Fencoding=UTF8][Breaking the Spell: Religion as a Natural Phenomenon]]
 author: Daniel C. Dennett
 publisher: Viking
 year: 2006

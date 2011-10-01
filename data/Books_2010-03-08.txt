@@ -1,5 +1,6 @@
-name:A_Twisted_Garden
-title:[[http://www.amazon.com/Twisted-Garden-Simon-Quellen-Field/dp/098221040X/ref=sr_1_14?ie=UTF8&s=books&qid=1268202589&sr=8-14][A Twisted Garden]]
+name: A_Twisted_Garden
+isbn: 098221040X
+title: [[http://www.amazon.com/Twisted-Garden-Simon-Quellen-Field/dp/098221040X/ref=sr_1_14?ie=UTF8&s=books&qid=1268202589&sr=8-14][A Twisted Garden]]
 author: Simon Quellen Field
 publisher: Kinetic MicroScience
 year: 2008

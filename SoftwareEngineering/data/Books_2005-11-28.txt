@@ -1,5 +1,6 @@
-name:Pragmatic_Unit_Testing
-title:[[http://www.amazon.com/gp/product/0974514012/103-7955321-4623009?v=glance&n=283155&n=507846&s=books&v=glance][Pragmatic Unit Testing]]
+name: Pragmatic_Unit_Testing
+isbn: 0974514012
+title: [[http://www.amazon.com/gp/product/0974514012/103-7955321-4623009?v=glance&n=283155&n=507846&s=books&v=glance][Pragmatic Unit Testing]]
 author: Andrew Hunt
 author: David Thomas
 publisher: The Pragmatic Bookself

@@ -1,5 +1,6 @@
-name:Extreme_Programming_Explained_2ed
-title:[[http://www.amazon.com/exec/obidos/tg/detail/-/0321278658/002-1467309-7302448?%5Fencoding=UTF8&v=glance][Extreme Programming Explained, 2nd Ed.]]
+name: Extreme_Programming_Explained_2ed
+isbn: 0321278658
+title: [[http://www.amazon.com/exec/obidos/tg/detail/-/0321278658/002-1467309-7302448?%5Fencoding=UTF8&v=glance][Extreme Programming Explained, 2nd Ed.]]
 author: Kent Beck 
 author: Cynthia Andres
 publisher: Addison Wesley

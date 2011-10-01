@@ -1,5 +1,6 @@
-name:The_Children_of_Hurin
-title:[[http://www.amazon.com/Children-Hurin-J-R-R-Tolkien/dp/0618894640/ref=pd_bbs_2/002-8843931-0488822?ie=UTF8&s=books&qid=1180709012&sr=8-2][The Children of H&uacute;rin]]
+name: The_Children_of_Hurin
+isbn: 0618894640
+title: [[http://www.amazon.com/Children-Hurin-J-R-R-Tolkien/dp/0618894640/ref=pd_bbs_2/002-8843931-0488822?ie=UTF8&s=books&qid=1180709012&sr=8-2][The Children of H&uacute;rin]]
 author: J.R.R. Tolkien
 publisher: Houghton Mifflin
 year: 2007

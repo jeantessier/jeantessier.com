@@ -1,5 +1,6 @@
-name:Pro_JavaScript_Techniques
-title:[[http://www.amazon.com/Pro-JavaScript-Techniques-John-Resig/dp/1590597273/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1231312112&sr=8-1][Pro JavaScript Techniques]]
+name: Pro_JavaScript_Techniques
+isbn: 1590597273
+title: [[http://www.amazon.com/Pro-JavaScript-Techniques-John-Resig/dp/1590597273/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1231312112&sr=8-1][Pro JavaScript Techniques]]
 author: John Resig
 publisher: Apress
 year: 2006

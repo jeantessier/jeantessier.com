@@ -1,5 +1,6 @@
-name:Blink
-title:[[http://www.amazon.com/gp/product/0316172324/104-0444084-6987948?v=glance&n=283155&n=507846&s=books&v=glance][Blink]]
+name: Blink
+isbn: 0316172324
+title: [[http://www.amazon.com/gp/product/0316172324/104-0444084-6987948?v=glance&n=283155&n=507846&s=books&v=glance][Blink]]
 author: Malcolm Gladwell
 publisher: Little, Brown and Company
 year: 2005

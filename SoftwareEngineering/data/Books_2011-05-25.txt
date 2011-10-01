@@ -1,4 +1,5 @@
 name: jQuery_in_Action
+isbn: 1935182323
 title: [[http://www.amazon.com/gp/product/1935182323][jQuery in Action, Second Edition]]
 author: Bear Bibeault
 author: Yehuda Katz

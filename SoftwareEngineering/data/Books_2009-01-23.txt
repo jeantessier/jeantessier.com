@@ -1,5 +1,6 @@
-name:JavaScript_The_Good_Parts
-title:[[http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1232865578&sr=8-1][JavaScript: The Good Parts]]
+name: JavaScript_The_Good_Parts
+isbn: 0596517742
+title: [[http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1232865578&sr=8-1][JavaScript: The Good Parts]]
 author: Douglas Crockford
 publisher: O'Reilly
 year: 2008

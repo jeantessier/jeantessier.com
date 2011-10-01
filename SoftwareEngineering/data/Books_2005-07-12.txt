@@ -1,7 +1,8 @@
-name:Programming_Interviews_Exposed
-title:[[http://www.amazon.com/exec/obidos/tg/detail/-/0471383562/qid=1126849574/sr=2-1/ref=pd_bbs_b_2_1/102-4001510-2975369?v=glance&s=books][Programming Interviews Exposed]]
+name: Programming_Interviews_Exposed
+isbn: 0471383562
+title: [[http://www.amazon.com/exec/obidos/tg/detail/-/0471383562/qid=1126849574/sr=2-1/ref=pd_bbs_b_2_1/102-4001510-2975369?v=glance&s=books][Programming Interviews Exposed]]
 author: John Mongan 
-author:  Noah Suojanen
+author: Noah Suojanen
 publisher: Wiley
 year: 2000
 start: 2005-07-12

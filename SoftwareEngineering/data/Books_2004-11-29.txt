@@ -1,5 +1,6 @@
-name:Refactoring_to_Patterns
-title:[[http://www.amazon.com/exec/obidos/ASIN/0321213351/qid=1102501453/sr=2-1/ref=pd_ka_b_2_1/002-1467309-7302448][Refactoring to Patterns]]
+name: Refactoring_to_Patterns
+isbn: 0321213351
+title: [[http://www.amazon.com/exec/obidos/ASIN/0321213351/qid=1102501453/sr=2-1/ref=pd_ka_b_2_1/002-1467309-7302448][Refactoring to Patterns]]
 author: Joshua Kerievsky
 publisher: Addison Wesley
 year: 2004

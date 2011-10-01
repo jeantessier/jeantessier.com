@@ -1,6 +1,8 @@
-name:Shake_Hands_with_the_Devil
-title:[[http://www.amazon.ca/Jai-serre-main-du-diable/dp/276480072X/ref=sr_1_1?ie=UTF8&s=books&qid=1198904155&sr=8-1][J'ai serr&eacute; la main du diable: la faillite de l'humanit&eacute; au Rwanda]]
-title:[[http://www.amazon.com/Shake-Hands-Devil-Failure-Humanity/dp/0786715103/ref=pd_bbs_2?ie=UTF8&s=books&qid=1198903951&sr=8-2][<i>Shake Hands with the Devil: The Failure of Humanity in Rwanda</i>]]
+name: Shake_Hands_with_the_Devil
+isbn: 276480072X
+isbn: 0786715103
+title: [[http://www.amazon.ca/Jai-serre-main-du-diable/dp/276480072X/ref=sr_1_1?ie=UTF8&s=books&qid=1198904155&sr=8-1][J'ai serr&eacute; la main du diable: la faillite de l'humanit&eacute; au Rwanda]]
+title: [[http://www.amazon.com/Shake-Hands-Devil-Failure-Humanity/dp/0786715103/ref=pd_bbs_2?ie=UTF8&s=books&qid=1198903951&sr=8-2][<i>Shake Hands with the Devil: The Failure of Humanity in Rwanda</i>]]
 author: Rom&eacute;o Dallaire
 publisher: Libre Expression
 year: 2003

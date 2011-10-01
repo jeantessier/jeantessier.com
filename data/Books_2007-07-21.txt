@@ -1,5 +1,6 @@
-name:Harry_Potter_and_the_Deathly_Hallows
-title:[[http://www.amazon.com/Harry-Potter-Deathly-Hallows-Book/dp/0545010225/ref=pd_bbs_sr_1/103-3589099-3771861?ie=UTF8&s=books&qid=1185551985&sr=8-1][Harry Potter and the Deathly Hallows]]
+name: Harry_Potter_and_the_Deathly_Hallows
+isbn: 0545010225
+title: [[http://www.amazon.com/Harry-Potter-Deathly-Hallows-Book/dp/0545010225/ref=pd_bbs_sr_1/103-3589099-3771861?ie=UTF8&s=books&qid=1185551985&sr=8-1][Harry Potter and the Deathly Hallows]]
 author: J. K. Rowling
 publisher: Scholastic
 year: 2007

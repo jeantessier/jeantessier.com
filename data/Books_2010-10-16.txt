@@ -1,4 +1,5 @@
 name: Why_I_Am_Not_a_Christian
+isbn: 0671203231
 title: [[http://www.amazon.com/Christian-Essays-Religion-Related-Subjects/dp/0671203231/ref=tmm_pap_title_0][Why I Am Not a Christian]]
 author: Bertrand Russell
 publisher: Touchstone Book

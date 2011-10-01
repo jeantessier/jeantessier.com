@@ -1,5 +1,6 @@
-name:Agile_Software_Development_Cockburn
-title:[[http://www.amazon.com/gp/product/0321482751/ref=wl_it_dp/002-7544677-2703204?ie=UTF8&coliid=I2PZQ0MUC2IKTO&colid=9C8YXIMI8EO3][Agile Software Development: The Cooperative Game, Second Edition]]
+name: Agile_Software_Development_Cockburn
+isbn: 0321482751
+title: [[http://www.amazon.com/gp/product/0321482751/ref=wl_it_dp/002-7544677-2703204?ie=UTF8&coliid=I2PZQ0MUC2IKTO&colid=9C8YXIMI8EO3][Agile Software Development: The Cooperative Game, Second Edition]]
 author: Alistair Cockburn
 publisher: Addison Wesley
 year: 2007

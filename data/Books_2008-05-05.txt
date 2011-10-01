@@ -1,6 +1,8 @@
-name:Les_testaments_trahis
-title:[[http://www.amazon.ca/testaments-trahis-Milan-Kundera/dp/2070758710/ref=sr_1_4?ie=UTF8&s=books&qid=1210142685&sr=8-4][Les testaments trahis]]
-title:[[http://www.amazon.com/Testaments-Betrayed-Essay-Nine-Parts/dp/0060927518/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1209957092&sr=8-1][<i>Testaments Betrayed</i>]]
+name: Les_testaments_trahis
+isbn: 2070758710
+isbn: 0060927518
+title: [[http://www.amazon.ca/testaments-trahis-Milan-Kundera/dp/2070758710/ref=sr_1_4?ie=UTF8&s=books&qid=1210142685&sr=8-4][Les testaments trahis]]
+title: [[http://www.amazon.com/Testaments-Betrayed-Essay-Nine-Parts/dp/0060927518/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1209957092&sr=8-1][<i>Testaments Betrayed</i>]]
 author: Milan Kundera
 publisher: Gallimard
 year: 1992

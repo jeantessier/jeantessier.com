@@ -1,5 +1,6 @@
-name:Animal_Farm
-title:[[http://www.amazon.com/Animal-Signet-Classics-George-Orwell/dp/0451526341/ref=pd_bbs_2/104-4961335-5590333?ie=UTF8&s=books&qid=1182493588&sr=8-2][Animal Farm]]
+name: Animal_Farm
+isbn: 0451526341
+title: [[http://www.amazon.com/Animal-Signet-Classics-George-Orwell/dp/0451526341/ref=pd_bbs_2/104-4961335-5590333?ie=UTF8&s=books&qid=1182493588&sr=8-2][Animal Farm]]
 author: George Orwell
 publisher: Signet Classic
 year: 1946

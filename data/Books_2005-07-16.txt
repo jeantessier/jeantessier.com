@@ -1,5 +1,6 @@
-name:Harry_Potter_and_the_Half_Blood_Prince
-title:[[http://www.amazon.com/exec/obidos/tg/detail/-/0439784549/qid=1125633433/sr=8-1/ref=pd_bbs_1/104-9275638-5574332?v=glance&s=books&n=507846][Harry Potter and the Half-Blood Prince]]
+name: Harry_Potter_and_the_Half_Blood_Prince
+isbn: 0439784549
+title: [[http://www.amazon.com/exec/obidos/tg/detail/-/0439784549/qid=1125633433/sr=8-1/ref=pd_bbs_1/104-9275638-5574332?v=glance&s=books&n=507846][Harry Potter and the Half-Blood Prince]]
 author: J. K. Rowling
 publisher: Scholastic
 year: 2005

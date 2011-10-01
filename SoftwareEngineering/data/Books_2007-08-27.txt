@@ -1,5 +1,6 @@
-name:xUnit_Test_Patterns
-title:[[http://www.amazon.com/xUnit-Test-Patterns-Refactoring-Addison-Wesley/dp/0131495054/ref=pd_bbs_sr_1/104-7143783-6750325?ie=UTF8&s=books&qid=1188541102&sr=8-1][xUnit Test Patterns: Refactoring Test Code]]
+name: xUnit_Test_Patterns
+isbn: 0131495054
+title: [[http://www.amazon.com/xUnit-Test-Patterns-Refactoring-Addison-Wesley/dp/0131495054/ref=pd_bbs_sr_1/104-7143783-6750325?ie=UTF8&s=books&qid=1188541102&sr=8-1][xUnit Test Patterns: Refactoring Test Code]]
 author: Gerard Meszaros
 publisher: Addison-Wesley
 year: 2007

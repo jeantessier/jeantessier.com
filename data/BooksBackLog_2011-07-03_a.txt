@@ -1,4 +1,5 @@
 name: MC_Escher
+isbn: 143512488X
 title: [[http://www.amazon.com/M-C-Escher-29-Master-Prints/dp/143512488X/ref=sr_1_1?ie=UTF8&qid=1309754016&sr=8-1][M.C. Escher: 29 Master Prints]]
 author: Darlene Geis
 author: M.C. Escher

@@ -1,5 +1,6 @@
-name:The_Omnivore_s_Dilemma
-title:[[http://www.amazon.com/Omnivores-Dilemma-Natural-History-Meals/dp/1594200823/ref=pd_bbs_sr_1/104-7627097-4536732?ie=UTF8&s=books&qid=1176593759&sr=8-1][The Omnivore's Dilemma: A Natural History of Four Meals]]
+name: The_Omnivore_s_Dilemma
+isbn: 1594200823
+title: [[http://www.amazon.com/Omnivores-Dilemma-Natural-History-Meals/dp/1594200823/ref=pd_bbs_sr_1/104-7627097-4536732?ie=UTF8&s=books&qid=1176593759&sr=8-1][The Omnivore's Dilemma: A Natural History of Four Meals]]
 author: Michael Pollan
 publisher: Penguin Press
 year: 2006

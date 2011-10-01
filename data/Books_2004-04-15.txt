@@ -1,5 +1,6 @@
-name:The_Da_Vinci_Code
-title:[[http://www.amazon.com/exec/obidos/tg/detail/-/0385504209/qid=1084347131/sr=1-1/ref=pd_ka_1/103-1828693-6322211?v=glance&s=books][The Da Vinci Code]]
+name: The_Da_Vinci_Code
+isbn: 0385504209
+title: [[http://www.amazon.com/exec/obidos/tg/detail/-/0385504209/qid=1084347131/sr=1-1/ref=pd_ka_1/103-1828693-6322211?v=glance&s=books][The Da Vinci Code]]
 author: Dan Brown
 publisher: Doubleday
 year: 2003

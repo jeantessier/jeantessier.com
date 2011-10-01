@@ -1,5 +1,6 @@
-name:Target_Iraq
-title:[[http://www.amazon.com/Target-Iraq-What-Media-Didnt/dp/1893956393/ref=pd_bbs_sr_1/103-9546333-5131002?ie=UTF8&s=books&qid=1190955593&sr=8-1][Target Iraq: What The News Media Didn't Tell You]]
+name: Target_Iraq
+isbn: 1893956393
+title: [[http://www.amazon.com/Target-Iraq-What-Media-Didnt/dp/1893956393/ref=pd_bbs_sr_1/103-9546333-5131002?ie=UTF8&s=books&qid=1190955593&sr=8-1][Target Iraq: What The News Media Didn't Tell You]]
 author: Norman Solomon
 author: Reese Erlich
 publisher: Context Books

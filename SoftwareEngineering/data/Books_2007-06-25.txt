@@ -1,5 +1,6 @@
-name:Python_Essential_Reference_3ed
-title:[[http://www.amazon.com/Python-Essential-Reference-Developers-Library/dp/0672328623/sr=8-1/qid=1162356885/ref=pd_bbs_sr_1/103-6041063-6658211?ie=UTF8&s=books][Python Essential Reference, Third Edition]]
+name: Python_Essential_Reference_3ed
+isbn: 0672328623
+title: [[http://www.amazon.com/Python-Essential-Reference-Developers-Library/dp/0672328623/sr=8-1/qid=1162356885/ref=pd_bbs_sr_1/103-6041063-6658211?ie=UTF8&s=books][Python Essential Reference, Third Edition]]
 author: David Beazley
 publisher: Developer's Library
 year: 2006

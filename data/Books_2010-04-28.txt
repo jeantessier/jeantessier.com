@@ -1,5 +1,6 @@
-name:This_One_Time_At_Brand_Camp
-title:[[http://www.amazon.com/This-One-Time-Brand-Camp/dp/1435759672/ref=sr_1_1?ie=UTF8&s=books&qid=1272514451&sr=8-1][This One Time, At Brand Camp]]
+name: This_One_Time_At_Brand_Camp
+isbn: 1435759672
+title: [[http://www.amazon.com/This-One-Time-Brand-Camp/dp/1435759672/ref=sr_1_1?ie=UTF8&s=books&qid=1272514451&sr=8-1][This One Time, At Brand Camp]]
 author: Tom Fishburne
 publisher: Tom Fishburne
 year: 2008

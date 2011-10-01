@@ -1,8 +1,9 @@
-name:Discours_sur_les_sciences_et_les_arts
-title:[[http://un2sg4.unige.ch/athena/rousseau/jjr_sca.html][Discours sur les sciences et les arts]]
-title:[[http://un2sg4.unige.ch/athena/rousseau/jjr_ineg.html][Discours sur l'origine et les fondements de l'in&eacute;galit&eacute; parmis les hommes]]
-title:[[http://oll.libertyfund.org/ToC/0132.php][<i>Discourse on the Arts and Sciences</i>]]
-title:[[http://www.constitution.org/jjr/ineq.htm][<i>Discourse on the Origin and Basis of Inequality Among Men</i>]]
+name: Discours_sur_les_sciences_et_les_arts
+isbn: 2080702432
+title: [[http://un2sg4.unige.ch/athena/rousseau/jjr_sca.html][Discours sur les sciences et les arts]]
+title: [[http://un2sg4.unige.ch/athena/rousseau/jjr_ineg.html][Discours sur l'origine et les fondements de l'in&eacute;galit&eacute; parmis les hommes]]
+title: [[http://oll.libertyfund.org/ToC/0132.php][<i>Discourse on the Arts and Sciences</i>]]
+title: [[http://www.constitution.org/jjr/ineq.htm][<i>Discourse on the Origin and Basis of Inequality Among Men</i>]]
 author: Jean-Jacques Rousseau
 publisher: Garnier-Flammarion
 year: 1971

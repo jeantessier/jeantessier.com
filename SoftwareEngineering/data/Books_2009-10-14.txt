@@ -1,5 +1,6 @@
-name:Version_Control_with_Git
-title:[[http://www.amazon.com/Version-Control-Git-collaborative-development/dp/0596520123/ref=sr_1_1?ie=UTF8&s=books&qid=1255668797&sr=8-1][Version Control with Git]]
+name: Version_Control_with_Git
+isbn: 0596520123
+title: [[http://www.amazon.com/Version-Control-Git-collaborative-development/dp/0596520123/ref=sr_1_1?ie=UTF8&s=books&qid=1255668797&sr=8-1][Version Control with Git]]
 author: Jon Loeliger
 publisher: O'Reilly
 year: 2009

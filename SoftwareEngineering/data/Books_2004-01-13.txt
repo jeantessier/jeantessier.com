@@ -1,5 +1,6 @@
-name:The_Cognitive_Style_of_PowerPoint
-title:[[http://www.edwardtufte.com/tufte/powerpoint][The Cognitive Style of PowerPoint]]
+name: The_Cognitive_Style_of_PowerPoint
+isbn: 0961392154
+title: [[http://www.edwardtufte.com/tufte/powerpoint][The Cognitive Style of PowerPoint]]
 author: Edward R. Tufte
 publisher: Graphics Press LLC
 year: 2003

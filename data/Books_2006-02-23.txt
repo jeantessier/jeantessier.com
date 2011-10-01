@@ -1,5 +1,5 @@
-name:God_s_Debris
-title:[[http://www.andrewsmcmeel.com/godsdebris/][God's Debris]]
+name: God_s_Debris
+title: [[http://www.andrewsmcmeel.com/godsdebris/][God's Debris]]
 author: Scott Adams
 publisher: Andrew McMeel Publishing
 year: 2001

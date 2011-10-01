@@ -1,5 +1,6 @@
-name:Google_Guice
-title:[[http://www.amazon.com/Google-Guice-Lightweight-Dependency-Firstpress/dp/1590599977/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1210818417&sr=8-1][Google Guice: Agile Lightweight Dependency Injection Framework]]
+name: Google_Guice
+isbn: 1590599977
+title: [[http://www.amazon.com/Google-Guice-Lightweight-Dependency-Firstpress/dp/1590599977/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1210818417&sr=8-1][Google Guice: Agile Lightweight Dependency Injection Framework]]
 author: Robbie Vanbrabant
 publisher: Apress
 year: 2008

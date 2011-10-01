@@ -1,4 +1,5 @@
 name: Beyond
+isbn: 0810995468
 title: [[http://www.amazon.com/Beyond-Visions-Interplanetary-Michael-Benson/dp/0810995468/ref=sr_1_1?ie=UTF8&s=books&qid=1282107676&sr=8-1][Beyond: Visions of the Interplanetary Probes]]
 author: Michael Benson
 publisher: Abrams

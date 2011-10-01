@@ -1,5 +1,6 @@
-name:StrengthsFinder_2_0
-title:[[http://www.amazon.com/StrengthsFinder-2-0-Upgraded-Discover-Strengths/dp/159562015X/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1236915129&sr=8-1][StrengthsFinder 2.0]]
+name: StrengthsFinder_2_0
+isbn: 159562015X
+title: [[http://www.amazon.com/StrengthsFinder-2-0-Upgraded-Discover-Strengths/dp/159562015X/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1236915129&sr=8-1][StrengthsFinder 2.0]]
 author: Tom Rath
 publisher: Gallup Press
 year: 2007

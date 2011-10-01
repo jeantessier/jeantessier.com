@@ -1,5 +1,6 @@
-name:In_the_Beginning_was_the_Command_Line
-title:[[http://www.amazon.com/exec/obidos/tg/detail/-/0380815931/qid=1115871763/sr=1-10/ref=sr_1_10/002-6683677-7289639?v=glance&s=books][In the Beginning...was the Command Line]]
+name: In_the_Beginning_was_the_Command_Line
+isbn: 0380815931
+title: [[http://www.amazon.com/exec/obidos/tg/detail/-/0380815931/qid=1115871763/sr=1-10/ref=sr_1_10/002-6683677-7289639?v=glance&s=books][In the Beginning...was the Command Line]]
 author: Neal Stephenson
 publisher: Avon Books
 year: 1999

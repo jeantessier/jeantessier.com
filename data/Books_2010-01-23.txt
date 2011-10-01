@@ -1,5 +1,6 @@
-name:The_Lovely_Bones
-title:[[http://www.amazon.com/Lovely-Bones-Alice-Sebold/dp/0316044938/ref=sr_1_1?ie=UTF8&s=books&qid=1264355725&sr=1-1][The Lovely Bones]]
+name: The_Lovely_Bones
+isbn: 0316044938
+title: [[http://www.amazon.com/Lovely-Bones-Alice-Sebold/dp/0316044938/ref=sr_1_1?ie=UTF8&s=books&qid=1264355725&sr=1-1][The Lovely Bones]]
 author: Alice Sebold
 publisher: Back Bay Books
 year: 2002

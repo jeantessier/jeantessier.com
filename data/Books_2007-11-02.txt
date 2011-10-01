@@ -1,5 +1,6 @@
-name:God_Is_Not_Great
-title:[[http://www.amazon.com/God-Not-Great-Religion-Everything/dp/0446579807/ref=pd_bbs_sr_1/104-5842497-5916745?ie=UTF8&s=books&qid=1194716179&sr=1-1][God Is Not Great: How Religion Poisons Everything]]
+name: God_Is_Not_Great
+isbn: 0446579807
+title: [[http://www.amazon.com/God-Not-Great-Religion-Everything/dp/0446579807/ref=pd_bbs_sr_1/104-5842497-5916745?ie=UTF8&s=books&qid=1194716179&sr=1-1][God Is Not Great: How Religion Poisons Everything]]
 author: Christopher Hitchens
 publisher: Twelve
 year: 2007

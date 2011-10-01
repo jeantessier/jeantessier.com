@@ -1,5 +1,6 @@
-name:Behind_Closed_Doors
-title:[[http://www.amazon.com/gp/product/0976694026/sr=8-1/qid=1142413667/ref=pd_bbs_1/002-8905689-2161605?%5Fencoding=UTF8][Behind Closed Doors: Secrets of Great Management]]
+name: Behind_Closed_Doors
+isbn: 0976694026
+title: [[http://www.amazon.com/gp/product/0976694026/sr=8-1/qid=1142413667/ref=pd_bbs_1/002-8905689-2161605?%5Fencoding=UTF8][Behind Closed Doors: Secrets of Great Management]]
 author: Johanna Rothman
 author: Esther Derby
 publisher: The Pragmatic BookShelf

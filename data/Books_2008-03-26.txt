@@ -1,5 +1,6 @@
-name:The_Future_of_Reputation
-title:[[http://www.amazon.com/Future-Reputation-Gossip-Privacy-Internet/dp/0300124988/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1208031202&sr=8-1][The Future of Reputation]]
+name: The_Future_of_Reputation
+isbn: 0300124988
+title: [[http://www.amazon.com/Future-Reputation-Gossip-Privacy-Internet/dp/0300124988/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1208031202&sr=8-1][The Future of Reputation]]
 author: Daniel Solove
 publisher: Yale University Press
 year: 2007

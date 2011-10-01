@@ -1,4 +1,5 @@
 name: Mathematics_in_10_Lessons
+isbn: 1591026865
 title: [[http://www.amazon.com/Mathematics-10-Lessons-Grand-Tour/dp/1591026865/ref=sr_1_1?s=books&ie=UTF8&qid=1281514088&sr=1-1][Mathematics in 10 Lessons]]
 author: Jerry King
 publisher: Prometheus Books

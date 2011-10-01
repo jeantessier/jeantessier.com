@@ -1,5 +1,6 @@
-name:L_homme_au_deficient_manteau
-title:[[http://www.amazon.ca/LHomme-d%C3%A9ficient-manteau-Georges-Hebert-Germain/dp/2764803400/ref=sr_1_1?ie=UTF8&s=books&qid=1208578552&sr=1-1][L'homme au d&eacute;ficient manteau]]
+name: L_homme_au_deficient_manteau
+isbn: 2764803400
+title: [[http://www.amazon.ca/LHomme-d%C3%A9ficient-manteau-Georges-Hebert-Germain/dp/2764803400/ref=sr_1_1?ie=UTF8&s=books&qid=1208578552&sr=1-1][L'homme au d&eacute;ficient manteau]]
 author: Georges-H&eacute;bert Germain
 publisher: Libre Expression
 year: 2007

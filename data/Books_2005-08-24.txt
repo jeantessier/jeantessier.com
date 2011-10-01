@@ -1,6 +1,8 @@
-name:Le_rideau
-title:[[http://www.amazon.ca/exec/obidos/ASIN/207077435X/qid=1125633378/sr=1-1/ref=sr_1_0_1/702-4530283-8325640][Le rideau]]
-title:[[http://www.amazon.com/Curtain-Essay-Seven-Parts/dp/0060841958/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1210828941&sr=8-1][<i>The Curtain</i>]]
+name: Le_rideau
+isbn: 207077435X
+isbn: 0060841958
+title: [[http://www.amazon.ca/exec/obidos/ASIN/207077435X/qid=1125633378/sr=1-1/ref=sr_1_0_1/702-4530283-8325640][Le rideau]]
+title: [[http://www.amazon.com/Curtain-Essay-Seven-Parts/dp/0060841958/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1210828941&sr=8-1][<i>The Curtain</i>]]
 author: Milan Kundera
 publisher: Gallimard
 year: 2005

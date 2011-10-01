@@ -1,5 +1,6 @@
-name:Michelangelo_and_the_Pope_s_Ceiling
-title:[[http://www.amazon.com/Michelangelo-Popes-Ceiling-Ross-King/dp/0142003697/sr=8-2/qid=1172352680/ref=pd_bbs_2/103-6316050-7344613?ie=UTF8&s=books][Michelangelo and the Pope's Ceiling]]
+name: Michelangelo_and_the_Pope_s_Ceiling
+isbn: 0142003697
+title: [[http://www.amazon.com/Michelangelo-Popes-Ceiling-Ross-King/dp/0142003697/sr=8-2/qid=1172352680/ref=pd_bbs_2/103-6316050-7344613?ie=UTF8&s=books][Michelangelo and the Pope's Ceiling]]
 author: Ross King
 publisher: Penguin Books
 year: 2003

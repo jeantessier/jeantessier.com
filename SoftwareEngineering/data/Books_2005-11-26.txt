@@ -1,5 +1,6 @@
-name:Fit_for_Developing_Software
-title:[[http://www.amazon.com/gp/product/0321269349/103-7955321-4623009?v=glance&n=283155&s=books&v=glance][Fit for Developing Software]]
+name: Fit_for_Developing_Software
+isbn: 0321269349
+title: [[http://www.amazon.com/gp/product/0321269349/103-7955321-4623009?v=glance&n=283155&s=books&v=glance][Fit for Developing Software]]
 author: Rick Mugridge
 author: Ward Cunningham
 publisher: Prentice Hall
