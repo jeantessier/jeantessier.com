@@ -116,10 +116,10 @@ sub PrintDocumentHeader {
     print "\n";
     print "    <thead>\n";
     print "    <tr>\n";
-    print "	<th>Title</th>\n";
-    print "	<th>Author</th>\n";
-    print "	<th>Publisher</th>\n";
-    print "	<th>Year</th>\n";
+    print "        <th>Title</th>\n";
+    print "        <th>Author</th>\n";
+    print "        <th>Publisher</th>\n";
+    print "        <th>Year</th>\n";
     print "    </tr>\n";
     print "    </thead>\n";
 }
@@ -147,33 +147,33 @@ sub PrintDocumentPart {
 
     do {
         $line = shift(@lines);
-	chomp $line;
+        chomp $line;
 
-	if ($line =~ /(\w+):\s*(.*)/) {
+        if ($line =~ /(\w+):\s*(.*)/) {
             local ($key, $value) = ($1, $2);
 
-	    if ($key eq "title") {
-		if ($value =~ /\[\[(.*)\]\[(.*)\]\]/) {
-		    local ($url, $label) = ($1, $2);
-		    $url =~ s/\*/%2A/gi;
-		    $url =~ s/=/%3D/gi;
-		    $url =~ s/_/%5F/gi;
-		    $value = "[[$url][$label]]";
-		}
-		push @titles, $value;
-	    } elsif ($key eq "author") {
-		push @authors, $value;
-	    } elsif ($key eq "year") {
-		push @years, $value;
-	    } else {
-		$meta_data{$key} = $value;
-	    }
-	}
+            if ($key eq "title") {
+                if ($value =~ /\[\[(.*)\]\[(.*)\]\]/) {
+                    local ($url, $label) = ($1, $2);
+                    $url =~ s/\*/%2A/gi;
+                    $url =~ s/=/%3D/gi;
+                    $url =~ s/_/%5F/gi;
+                    $value = "[[$url][$label]]";
+                }
+                push @titles, $value;
+            } elsif ($key eq "author") {
+                push @authors, $value;
+            } elsif ($key eq "year") {
+                push @years, $value;
+            } else {
+                $meta_data{$key} = $value;
+            }
+        }
     } until ($line =~ /^\s*$/);
 
     foreach (@titles) {
-	s/\[\[([^\]]*)\]\[_(.*)_\]\]/<a target="_blank" href="\1"><i>\2<\/i><\/a>/g;
-	s/\[\[([^\]]*)\]\[(.*)\]\]/<a target="_blank" href="\1">\2<\/a>/g;
+        s/\[\[([^\]]*)\]\[_(.*)_\]\]/<a target="_blank" href="\1"><i>\2<\/i><\/a>/g;
+        s/\[\[([^\]]*)\]\[(.*)\]\]/<a target="_blank" href="\1">\2<\/a>/g;
     }
 
     print "\n";
@@ -204,7 +204,7 @@ sub PrintDocumentPart {
     if ($meta_data{"start"} =~ /(\d{4}-\d{2}-\d{2})/) {
         print "                    <td class=\"time\">$1</td>\n";
     } else {
-        print "	                   <td class=\"no_time\">not started</td>\n";
+        print "                    <td class=\"no_time\">not started</td>\n";
     }
     print "                </tr>\n";
     print "\n";

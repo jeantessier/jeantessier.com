@@ -115,37 +115,37 @@ sub PrintDocumentPart {
     local ($line);
     do {
         $line = shift(@lines);
-	chomp $line;
+        chomp $line;
 
-	if ($line =~ /(\w+):\s*(.*)/) {
+        if ($line =~ /(\w+):\s*(.*)/) {
             local ($key, $value) = ($1, $2);
 
-	    if ($key eq "title") {
-		if ($value =~ /\[\[(.*)\]\[(.*)\]\]/) {
-		    local ($url, $label) = ($1, $2);
-		    $url =~ s/\*/%2A/g;
-		    $url =~ s/=/%3D/g;
-		    $url =~ s/_/%5F/g;
-		    $url =~ s/&/&amp;/g;
-		    $label =~ s/&eacute;/&#233;/g;
-		    $label =~ s/&uacute;/&#250;/g;
-		    $value = "[[$url][$label]]";
-		    $meta_data{'title'} = $label unless defined $meta_data{'title'};
-		}
-		push @titles, $value;
-	    } elsif ($key eq "author") {
-		push @authors, $value;
-	    } elsif ($key eq "year") {
-		push @years, $value;
-	    } else {
-		$meta_data{$key} = $value;
-	    }
-	}
+            if ($key eq "title") {
+                if ($value =~ /\[\[(.*)\]\[(.*)\]\]/) {
+                    local ($url, $label) = ($1, $2);
+                    $url =~ s/\*/%2A/g;
+                    $url =~ s/=/%3D/g;
+                    $url =~ s/_/%5F/g;
+                    $url =~ s/&/&amp;/g;
+                    $label =~ s/&eacute;/&#233;/g;
+                    $label =~ s/&uacute;/&#250;/g;
+                    $value = "[[$url][$label]]";
+                    $meta_data{'title'} = $label unless defined $meta_data{'title'};
+                }
+                push @titles, $value;
+            } elsif ($key eq "author") {
+                push @authors, $value;
+            } elsif ($key eq "year") {
+                push @years, $value;
+            } else {
+                $meta_data{$key} = $value;
+            }
+        }
     } until ($line =~ /^\s*$/);
 
     foreach (@titles) {
-	s/\[\[([^\]]*)\]\[_(.*)_\]\]/<a target="_blank" href="\1"><i>\2<\/i><\/a>/g;
-	s/\[\[([^\]]*)\]\[(.*)\]\]/<a target="_blank" href="\1">\2<\/a>/g;
+        s/\[\[([^\]]*)\]\[_(.*)_\]\]/<a target="_blank" href="\1"><i>\2<\/i><\/a>/g;
+        s/\[\[([^\]]*)\]\[(.*)\]\]/<a target="_blank" href="\1">\2<\/a>/g;
     }
 
     print "\n";
@@ -250,11 +250,11 @@ sub PrintWikiContents {
         $line =~ s/%3D/=/gi;
         $line =~ s/%5F/_/gi;
 
-	$line =~ s/&nbsp;/&#160;/g;
-	$line =~ s/&egrave;/&#232;/g;
-	$line =~ s/&eacute;/&#233;/g;
-	$line =~ s/&uacute;/&#250;/g;
-	$line =~ s/&uuml;/&#252;/g;
+        $line =~ s/&nbsp;/&#160;/g;
+        $line =~ s/&egrave;/&#232;/g;
+        $line =~ s/&eacute;/&#233;/g;
+        $line =~ s/&uacute;/&#250;/g;
+        $line =~ s/&uuml;/&#252;/g;
         
         print $line;
     }
