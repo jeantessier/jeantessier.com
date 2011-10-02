@@ -1,4 +1,5 @@
 name: Silk
+isbn13: 9780307277978
 isbn: 0307277976
 title: [[http://www.amazon.com/Silk-Alessandro-Baricco/dp/0307277976/ref=sr_1_1?s=books&ie=UTF8&qid=1281512013&sr=1-1][Silk]]
 title: <i>Seta</i>

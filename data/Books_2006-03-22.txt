@@ -1,4 +1,5 @@
 name: La_misteriosa_fiamma_della_regina_Loana
+isbn13: 9782246670810
 isbn: 2246670810
 isbn: 0151011400
 title: [[http://www.amazon.ca/exec/obidos/ASIN/2246670810/qid%3D1144432871/701-4094526-8976368][La myst&eacute;rieuse flamme de la reine Loana]]

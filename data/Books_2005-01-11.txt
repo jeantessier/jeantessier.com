@@ -1,4 +1,5 @@
 name: Hegemony_or_Survival
+isbn13: 9780805074000
 isbn: 0805074007
 title: [[http://www.amazon.com/exec/obidos/ASIN/0805074007/qid=1105957371/sr=2-1/ref=pd_ka_b_2_1/104-6947979-0443923][Hegemony or Survival]]
 author: Noam Chomsky

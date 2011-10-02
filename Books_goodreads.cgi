@@ -53,6 +53,21 @@ if ($0 =~ /(\w+)_goodreads\./) {
     $DOCUMENT = $1;
 }
 
+@HEADINGS = (
+    "Title",
+    "Author",
+    "ISBN",
+    "ISBN13",
+    "Publisher",
+    "Year Published",
+    "Original Publication Year",
+    "Date Read",
+    "Date Added",
+    "Bookshelves",
+    "Exclusive Shelf",
+    "My Review",
+);
+
 &PrintContentType();
 &PrintDocumentHeader($DOCUMENT);
 &PrintDocumentParts($DOCUMENT);
@@ -62,27 +77,14 @@ sub PrintContentType {
 }
 
 sub PrintDocumentHeader {
-    print "Title, ";
-    print "Author, ";
-    print "ISBN, ";
-    print "My Rating, ";
-    print "Average Rating, ";
-    print "Publisher, ";
-    print "Binding, ";
-    print "Year Published, ";
-    print "Original Publication Year, ";
-    print "Date Read, ";
-    print "Date Added, ";
-    print "Bookshelves, ";
-    print "My Review, ";
-    print "\n";
+    print join(",", @HEADINGS) . "\n";
 }
 
 sub PrintDocumentParts {
     local ($document) = @_;
 
     opendir(DIRHANDLE, $DIRNAME);
-    local (@files) = grep { /^${document}_\d{4}-\d{2}-\d{2}.txt$/ } readdir(DIRHANDLE);
+    local (@files) = grep { /^${document}_\d{4}-\d{2}-\d{2}.*.txt$/ } readdir(DIRHANDLE);
     closedir(DIRHANDLE);
 
     foreach $file (reverse sort @files) {
@@ -123,22 +125,31 @@ sub PrintDocumentPart {
         }
     } until ($line =~ /^\s*$/);
 
-    print &CsvEscape(@titles[0]) . ", ";
-    print &CsvEscape(join(", ", @authors)) . ", ";
-    print &CsvEscape(@isbn[0]) . ", ";
-    print ", ";
-    print ", ";
-    print &CsvEscape($meta_data{"publisher"}) . ", ";
-    print ", ";
-    print ", ";
-    print &CsvEscape(@years[0]) . ", ";
-    if (defined $meta_data{"start"}) {
-        print &CsvEscape($meta_data{"start"}) . ", ";
+    print &CsvEscape(@titles[0]) . ",";
+    print &CsvEscape(join(",", @authors)) . ",";
+    print &CsvEscape(@isbn[0]) . ",";
+    print &CsvEscape($meta_data{"isbn13"}) . ",";
+    print &CsvEscape($meta_data{"publisher"}) . ",";
+    print &CsvEscape(@years[0]) . ",";
+    print &CsvEscape(@years[0]) . ",";
+    if (defined $meta_data{"stop"}) {
+        print &FormatDate($meta_data{"stop"}) . ",";
     } else {
-        print ", ";
+        print ",";
     }
-    print ", ";
-    print "read, ";
+    if (defined $meta_data{"acquired"}) {
+        print &FormatDate($meta_data{"acquired"}) . ",";
+    } else {
+        print ",";
+    }
+    print "leisure,";
+    if (defined $meta_data{"stop"}) {
+        print "read,";
+    } elsif (defined $meta_data{"start"}) {
+        print "currently-reading,";
+    } else {
+        print "to-read,";
+    }
     print &CsvEscape(&WikiContents(@lines));
     print "\n";
 }
@@ -151,6 +162,16 @@ sub CsvEscape {
         return '"' . $text . '"'
     } else {
         return $text
+    }
+}
+
+sub FormatDate {
+    local ($date) = @_;
+
+    if ($date =~ /^(\d\d\d\d)\/(\d\d)\/(\d\d)$/) {
+        return $2 . "/" . $3 . "/" . $1;
+    } else {
+        return $date;
     }
 }
 
@@ -207,12 +228,11 @@ sub WikiContents {
                     $in_html = !$in_html;
                 } else {
                     $in_paragraph = !$in_paragraph;
-                    push(@output, "<p>\n");
                 }
             }
         }
 
-        $line =~ s/=([^=]*)=/<code>\1<\/code>/g;
+        $line =~ s/=([^=]*)=/\1/g;
         $line =~ s/_([^_]*)_/<i>\1<\/i>/g;
         $line =~ s/\*([^*]*)\*/<b>\1<\/b>/g;
         $line =~ s/\[\[([^\]]*)\]\[(.*\.((gif)|(jpg)))\]\]/<a href="\1"><img border="0" src="\2" \/><\/a><br \/>/gi;
@@ -223,7 +243,7 @@ sub WikiContents {
         $line =~ s/%2A/\*/gi;
         $line =~ s/%3D/=/gi;
         $line =~ s/%5F/_/gi;
-        
+
         push(@output, $line);
     }
 
@@ -236,7 +256,10 @@ sub WikiContents {
         push(@output, "</ul>\n");
     }
 
-    return join("", @output)
+    local ($text) = join("", @output);
+    $text =~ s/\n/<br\/>/gi;
+
+    return $text;
 }
 
 sub PrintDocumentFooter {

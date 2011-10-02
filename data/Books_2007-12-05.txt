@@ -1,4 +1,5 @@
 name: Shake_Hands_with_the_Devil
+isbn13: 9782764800720
 isbn: 276480072X
 isbn: 0786715103
 title: [[http://www.amazon.ca/Jai-serre-main-du-diable/dp/276480072X/ref=sr_1_1?ie=UTF8&s=books&qid=1198904155&sr=8-1][J'ai serr&eacute; la main du diable: la faillite de l'humanit&eacute; au Rwanda]]

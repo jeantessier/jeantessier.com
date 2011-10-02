@@ -1,4 +1,5 @@
 name: On_Love_and_Death
+isbn13: 9781585679508
 isbn: 158567950X
 isbn: 3257235895
 title: [[http://www.amazon.com/Love-Death-Patrick-Suskind/dp/158567950X/ref=sr_1_1?ie=UTF8&s=books&qid=1255576006&sr=8-1][On Love and Death]]

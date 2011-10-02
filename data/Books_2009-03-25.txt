@@ -1,4 +1,5 @@
 name: Descent_into_Chaos
+isbn13: 9780670019700
 isbn: 0670019704
 title: [[http://www.amazon.com/Descent-into-Chaos-Building-Afghanistan/dp/0670019704/ref=pd_bbs_2?ie=UTF8&s=books&qid=1238032352&sr=8-2][Descent into Chaos: The United States and the Failure of Nation Building in Pakistan, Afganistan, and Central Asia]]
 author: Ahmed Rashid
