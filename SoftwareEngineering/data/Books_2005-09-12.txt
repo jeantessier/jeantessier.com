@@ -1,4 +1,5 @@
 name: Effective_Cpp
+isbn13: 9780321334879
 isbn: 0321334876
 title: [[http://www.amazon.com/exec/obidos/tg/detail/-/0321334876/qid=1126848875/sr=8-1/ref=pd_bbs_1/102-4001510-2975369?v=glance&s=books&n=507846][Effective C++, Third Edition]]
 author: Scott Meyers

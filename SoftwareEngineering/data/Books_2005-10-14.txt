@@ -1,4 +1,5 @@
 name: Effective_Java_1ed
+isbn13: 9780201310055
 isbn: 0201310058
 title: [[http://www.amazon.com/gp/product/0201310058/104-9536103-5064706?v=glance&n=283155&n=507846&s=books&v=glance][Effective Java Programming Language Guide]]
 author: Joshua Bloch

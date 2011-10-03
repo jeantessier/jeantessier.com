@@ -1,4 +1,5 @@
 name: Python_Essential_Reference_2ed
+isbn13: 9780735710917
 isbn: 0735710910
 title: [[http://www.amazon.com/Python-Essential-Reference-David-Beazley/dp/0735710910/sr=8-2/qid=1162356885/ref=pd_bbs_2/103-6041063-6658211?ie=UTF8&s=books][Python Essential Reference, Second Edition]]
 author: David Beazley

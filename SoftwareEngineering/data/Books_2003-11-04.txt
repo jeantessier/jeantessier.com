@@ -1,5 +1,6 @@
 name: Mastering_Regular_Expressions
-isbn: 0596002890
+isbn13: 9781565922570
+isbn: 1565922573
 title: [[http://www.amazon.com/exec/obidos/tg/detail/-/0596002890/qid=1068132930/sr=8-1/ref=sr_8_1/102-8330895-6299368?v=glance&n=507846][Mastering Regular Expressions]]
 author: Jeffrey E. F. Friedl
 publisher: O'Reilly

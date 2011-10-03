@@ -146,7 +146,7 @@ sub PrintDocumentPart {
     } else {
         print ",";
     }
-    print '"leisure",';
+    print '"software",';
     if (defined $meta_data{"stop"}) {
         print '"read",';
     } elsif (defined $meta_data{"start"}) {
