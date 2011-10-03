@@ -127,28 +127,28 @@ sub PrintDocumentPart {
 
     print &CsvEscape(@titles[0]) . ",";
     print &CsvEscape(join(",", @authors)) . ",";
-    print &CsvEscape(@isbn[0]) . ",";
-    print &CsvEscape($meta_data{"isbn13"}) . ",";
+    print '="' . @isbn[0] . '",';
+    print '="' . $meta_data{"isbn13"} . '",';
     print &CsvEscape($meta_data{"publisher"}) . ",";
     print &CsvEscape(@years[0]) . ",";
     print &CsvEscape(@years[0]) . ",";
     if (defined $meta_data{"stop"}) {
-        print &FormatDate($meta_data{"stop"}) . ",";
+        print &CsvEscape($meta_data{"stop"}) . ",";
     } else {
         print ",";
     }
     if (defined $meta_data{"acquired"}) {
-        print &FormatDate($meta_data{"acquired"}) . ",";
+        print &CsvEscape($meta_data{"acquired"}) . ",";
     } else {
         print ",";
     }
-    print "leisure,";
+    print '"leisure",';
     if (defined $meta_data{"stop"}) {
-        print "read,";
+        print '"read",';
     } elsif (defined $meta_data{"start"}) {
-        print "currently-reading,";
+        print '"currently-reading",';
     } else {
-        print "to-read,";
+        print '"to-read",';
     }
     print &CsvEscape(&WikiContents(@lines));
     print "\n";
@@ -162,16 +162,6 @@ sub CsvEscape {
         return '"' . $text . '"'
     } else {
         return $text
-    }
-}
-
-sub FormatDate {
-    local ($date) = @_;
-
-    if ($date =~ /^(\d\d\d\d)\/(\d\d)\/(\d\d)$/) {
-        return $2 . "/" . $3 . "/" . $1;
-    } else {
-        return $date;
     }
 }
 
