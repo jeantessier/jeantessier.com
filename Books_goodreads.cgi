@@ -251,7 +251,8 @@ sub WikiContents {
     }
 
     local ($text) = join("", @output);
-    $text =~ s/\n/<br\/>/gi;
+    $text =~ s/\n\n/<br\/><br\/>/gi;
+    $text =~ s/\n/ /gi;
 
     return $text;
 }
