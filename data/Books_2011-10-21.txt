@@ -8,6 +8,9 @@ publisher: Vintage International
 year: 2006
 year: <i>1996</i>
 start: 2011-10-21
+stop: 2011-10-25
 
 I vaguely remember reading this book a long time ago, but I cannot recall who
 had recommended it.  I liked the movie adaption.
+
+_More to come._
