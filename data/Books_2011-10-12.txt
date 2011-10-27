@@ -7,7 +7,7 @@ author: Antoine de Saint-Exup&eacute;ry
 publisher: Harcourt
 year: 2000
 year: <i>1943</i>
-start: 2011-10-07
+start: 2011-10-12
 stop: 2011-10-26
 
 Best book ever.
