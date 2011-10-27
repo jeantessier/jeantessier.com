@@ -8,6 +8,7 @@ author: Antoine de Saint-Exup&eacute;ry
 publisher: Gallimard
 year: 1946
 start: 2011-10-07
+stop: 2011-10-26
 
 Best book ever.  I used to listen to a recording of this book when I was a child
 and the tone and rhythm of the reader have stayed with me to this day.  I cannot
@@ -15,3 +16,5 @@ read the text without hearing that voice in my head.
 
 I bought an English translation for the kids, until they can read the original
 in French.  I'm reading it to Vincent to make sure he gets the rhythm right.
+
+_More to come._
