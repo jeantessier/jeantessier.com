@@ -4,14 +4,16 @@
         Jean's Website
     </description>
 
+    <property file="build.properties"/>
+
     <target name="all" depends="main, kendo, blog"
             description="Uploads the latest entries to jeantessier.com"/>
 
     <target name="main"
             description="Uploads the latest entries to jeantessier.com">
         <ftp server="ftp.jeantessier.com"
-             userid="jeantessier"
-             password="#uryd1c3"
+             userid="${ftp.user}"
+             password="${ftp.password}"
              remotedir="jeantessier.com"
 	     depends="yes"
 	     binary="no"
@@ -31,8 +33,8 @@
             <fileset dir="." includes="Work/*"/>
         </ftp>
         <ftp server="ftp.jeantessier.com"
-             userid="jeantessier"
-             password="#uryd1c3"
+             userid="${ftp.user}"
+             password="${ftp.password}"
              remotedir="jeantessier.com"
 	     depends="yes"
 	     binary="yes"
@@ -45,8 +47,8 @@
     <target name="kendo"
             description="Uploads the latest entries to jeantessier.com">
         <ftp server="ftp.jeantessier.com"
-             userid="jeantessier"
-             password="#uryd1c3"
+             userid="${ftp.user}"
+             password="${ftp.password}"
              remotedir="jeantessier.com/Kendo"
 	     depends="yes"
 	     binary="no"
@@ -56,8 +58,8 @@
             <fileset dir="Kendo" includes="*.pdf"/>
         </ftp>
         <ftp server="ftp.sanmateokendo.org"
-             userid="jeantessier"
-             password="#uryd1c3"
+             userid="${ftp.user}"
+             password="${ftp.password}"
              remotedir="sanmateokendo.org"
 	     depends="yes"
 	     binary="no"
@@ -67,8 +69,8 @@
             <fileset dir="smkd" includes="*.js"/>
         </ftp>
         <ftp server="ftp.sanmateokendo.org"
-             userid="jeantessier"
-             password="#uryd1c3"
+             userid="${ftp.user}"
+             password="${ftp.password}"
              remotedir="sanmateokendo.org"
 	     depends="yes"
 	     binary="yes"
@@ -81,8 +83,8 @@
     <target name="blog"
             description="Uploads the latest entries to jeantessier.com">
         <ftp server="ftp.jeantessier.com"
-             userid="jeantessier"
-             password="#uryd1c3"
+             userid="${ftp.user}"
+             password="${ftp.password}"
              remotedir="jeantessier.com"
 	     depends="yes"
 	     binary="no"
