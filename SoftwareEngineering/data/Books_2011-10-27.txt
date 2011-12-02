@@ -43,3 +43,24 @@ either offset from the margin or put in a sidebar.  So it's always clear who's
 talking.
 
 The last chapter about self-learning opportunities for coaches was excellent.
+
+Here are some selected useful bits of advice that stuck with me.
+
+During stand up meeting, make sure each team member is reporting to the team and
+not to one individual in particular.  This is not a status reporting meeting but
+an opportunity for the team members to coordinate their day's work.  At Insidr,
+we have the scrum master take notes during the meeting and it can very easily
+devolve into each member reporting status to the scrum master, each in turn,
+while nobody else pays attention.  This is the opposite of what the stand up
+meeting is meant to be.
+
+Have the stand up meeting at the task board, or bring the task board to the
+stand up meeting.  The meeting is more meaningful if the tasks being discussed
+are right in front of everybody.
+
+Approach reading a book like building a jigsaw puzzle: peruse all the pisces,
+find the edges, work out the easy parts of the interior, and keep the most
+difficult pieces for last.  When dealing with a book, scan all the headings and
+illustrations to get the overall message, then read the parts that provide the
+overall structure, skipping hard passages to focus on breadth over depth, then
+coming back to parts of interest.
