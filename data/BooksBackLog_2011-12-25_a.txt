@@ -1,0 +1,13 @@
+name: Micro_A_Novel
+isbn13: 9780060873028
+isbn: 0060873028
+title: [[http://amzn.com/0060873027][Micro: A Novel]]
+author: Michael Crichton
+author: Richard Preston
+publisher: Harper
+year: 2011
+acquired: 2011
+
+I received this book as a Christmas present.  I've liked previous Michael
+Crichton novels, but they do tend to become formulaic.  Crichton was still
+working on this manuscript when he died and Preston finished it for publication.
