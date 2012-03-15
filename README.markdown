@@ -1,7 +1,7 @@
 # jeantessier.com
 
 This project hosts the raw files I use to run
-[http://jeantessier.com/](my personal website).
+[my personal website](http://jeantessier.com/).
 
 ## Installation
 
@@ -31,7 +31,7 @@ They take their input from the `data` folder next to them.  The name of the
 script has to match the prefix of the files in the `data` folder.
 
 `Books` helps me document the books I read.  Lately, I've been copying the
-information into [http://goodreads.com/](Goodreads.com).
+information into [Goodreads.com](http://goodreads.com/).
 
 `BooksBackLog` is just for me to keep track of the books on my to-do list.
 
