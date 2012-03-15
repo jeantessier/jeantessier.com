@@ -1,0 +1,4 @@
+Move all the code for this website to
+[[http://github.com/jeantessier/jeantessier.com][GitHub]].  Now that the FTP
+credentials are externalized and that I've changed the password on the server,
+I'm ready to share my code with the world.  :-)
