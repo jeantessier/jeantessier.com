@@ -1,0 +1,12 @@
+name: Les_mots_de_la_delivrance
+isbn13: 9780557525737
+isbn: 0557525737
+title: [[http://www.lulu.com/product/hardcover/les-mots-de-la-d%C3%A9livrance/18901675][Les mots de la d&eacute;livrance]]
+author: Marc-Andr&eacute; Decoste
+publisher: Cr&eacute;ations MAD
+year: 2012
+acquired: 2012
+
+First novel by a friend of mine from college.  We both studied and computer
+science, then had long careers in software.  Now, he's written and
+self-published his first novel using [[http://lulu.com/][lulu.com]].
