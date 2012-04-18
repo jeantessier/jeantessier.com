@@ -1,0 +1,11 @@
+name: The_Hunger_Games
+isbn13: 9780439023481
+isbn: 0439023483
+title: [[http://amzn.com/0439023483][The Hunger Games]]
+author: Suzanne Collins
+publisher: Scholastic
+year: 2008
+start: 2012-04-17
+
+The movie was pleasant enough and a friend recommended it, saying it was in line
+with other books I've read.
