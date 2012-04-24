@@ -6,18 +6,27 @@ author: Suzanne Collins
 publisher: Scholastic
 year: 2008
 start: 2012-04-17
+stop: 2012-04-23
 
 The movie was pleasant enough and a friend recommended it, saying it was in line
 with other books I've read.  The movie missed the boat, though, on its depiction
 of running a reality show.  The book was written in 2008 and the movie was made
 in 2011, when we have clear patterns of how these shows engage and entertain the
-audience to drive advertizers, from Survivor to American Idol.  There are
+audience to drive advertisers, from Survivor to American Idol.  There are
 stages, constants recaps, and many engage the entire viewing audience using
 various voting schemes.  All that was missing and instead we got a very
 simplistic show driven by a small elite of Sponsors, with most of the viewing
 audience left out.  I understand that the powers-that-be don't care about the
 people in the districts, but they should at least get to everyone in the
 Capitol.
+
+I was happy to find that the novel does a much better job of portraying the
+entertainment aspect of the Hunger Games that the movie did.  While the book is
+told entirely from Katniss' point of view, we get glimpses of when she used to
+watch the Games and how she imagines things are playing out as she participates
+in them.  Here, the entire audience of Panem gets to participate, though it is
+clear that residents of the various districts are limited by their economic
+situation.
 
 I found the beginning annoying.  Katniss, the main character, goes to great
 length to over dramatize what should be mundane experiences, such as eating a
@@ -26,9 +35,10 @@ special and to justify being over-sensitive, it might have worked.  But that
 moment is a quiet moment but otherwise ordinary moment and did not deserve that
 level of intimate details.
 
-But just a little further, a passage really stood out for me, on page 40, as
-Katniss is coming to grips with having to fight others to the death (emphasis is
-mine):
+As the situation gets worse for the main characters, things start to improve
+from a literary perspective.  Just a little further, a passage really stands out
+for me, on page 40, as Katniss is coming to grips with having to fight others to
+the death (emphasis is mine):
 
 <div style="margin-left: 30px; margin-right: 30px; padding-left: 30px; padding-right: 30px; border-width: 2px; border-radius: 13px; border-style: dashed; color: #ccc; background-color: #656565;">
 
@@ -48,7 +58,31 @@ The awful thing is that _if I can forget they're people, it will be no different
 
 This passage talks to how people can do truly horrible things to other people if
 they just dehumanize them first.  As soon as we don't perceive the other as a
-fellow human being, it can excuse anything.  This passage is clear and concise,
-without any superfluous sappy over-sensitivity;
+fellow human being, we can excuse anything we do to them.  This passage is clear
+and concise, without any superfluous sappy over-sensitivity.
 
-_More to come._
+And there is another passage on page 65:
+
+<div style="margin-left: 30px; margin-right: 30px; padding-left: 30px; padding-right: 30px; border-width: 2px; border-radius: 13px; border-style: dashed; color: #ccc; background-color: #656565;">
+
+What must it be like, I wonder, to live in a world where food appear at the
+press of a button?  How would I spend the hours I now commit to combing the
+woods for sustenance if it were so easy to come by?.
+
+</div>
+
+The trick here is that while Katniss can hardly imagine a world of plenty, the
+author and her contemporary middle class audience do live in such a world.  It
+is difficult to be any clearer: the reader is not a sympathetic resident of
+District 12, but a citizen of the Capitol.
+
+Unfortunately, these small glimpses don't get developed much further.  Katniss
+is much too busy trying to stay alive to ponder these questions at great length.
+
+The action parts are well done.  I am not a hunter, so I cannot speak to the
+veracity of her experiences in the arena.  But I wonder if the author has done
+any hunting herself, or else how she researched those aspects of the book.
+
+By the time the crisis is resolved, Katniss has become overly sappy again.  Her
+character has grown a bit, but there was a lot more potential there.  Maybe the
+sequels will give her time to internalize her experiences.
