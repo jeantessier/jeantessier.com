@@ -1,0 +1,14 @@
+name: Sex_at_Dawn
+isbn13: 9780061707803
+isbn: 0061707805
+title: [[http://amzn.com/0061707805][Sex at Dawn]]
+author: Christopher Ryan
+author: Cacilda Jeth&aacute;
+publisher: Harper Collins
+year: 2010
+acquired: 2012-04-26
+
+From the reviews, this books sounds a bit controversial and rubbing against the
+accepted wisdom.  To be read with a dose of critical judgement.  I like to
+challenge my assumptions and consider alternatives, but that doesn't
+automatically make them right.

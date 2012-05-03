@@ -1,0 +1,13 @@
+name: Pakistan_on_the_Brink
+isbn13: 978-0670023462
+isbn: 0670023469
+title: [[http://amzn.com/0670023469][Pakistan on the Brink: The Future of America, Pakistan, and Afghanistan]]
+author: Ahmed Rashid
+publisher: Viking
+year: 2012
+acquired: 2012-04-26
+
+I really appreciated his two other books, Taliban and
+[[Books.cgi#Descent_into_Chaos][Descent into Chaos]], for their deep knowledge
+of the issues at stake in Afghanistan and Central Asia.  I am looking forward to
+this update on things are evolving.
