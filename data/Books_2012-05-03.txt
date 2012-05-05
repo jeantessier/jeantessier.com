@@ -6,6 +6,7 @@ author: Ahmed Rashid
 publisher: Viking
 year: 2012
 acquired: 2012-04-26
+start: 2012-05-03
 
 I really appreciated his two other books, Taliban and
 [[Books.cgi#Descent_into_Chaos][Descent into Chaos]], for their deep knowledge
