@@ -7,8 +7,11 @@ publisher: Viking
 year: 2012
 acquired: 2012-04-26
 start: 2012-05-03
+stop: 2012-05-18
 
 I really appreciated his two other books, Taliban and
 [[Books.cgi#Descent_into_Chaos][Descent into Chaos]], for their deep knowledge
 of the issues at stake in Afghanistan and Central Asia.  I am looking forward to
 this update on things are evolving.
+
+_More to come._
