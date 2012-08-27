@@ -12,6 +12,7 @@
     font-family: Fontin, serif;
     text-align: center;
     vertical-align: top;
+    white-space: nowrap;
 }
 
 .publisher {
