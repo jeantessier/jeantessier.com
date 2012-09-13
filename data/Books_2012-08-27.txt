@@ -1,0 +1,87 @@
+name: On_Literature
+isbn13: 9780156032391
+isbn: 0156032391
+title: [[http://amzn.com/0156032392][On Literature]]
+title: <i>Sulla Letteratura</i>
+author: Umberto Eco
+publisher: Harcourt
+year: 2004
+year: 2002
+acquired: 2012
+start: 2012-08-27
+
+A collection of essays by Umberto Eco.
+
+The book is actually a collection of essays written by Umberto Eco for various
+conferences.  I will comment on each one separately.
+
+---++ On Some Functions of Literature (2000)
+
+---++ A Reading of the _Paradiso_ (2000)
+
+_Paradiso_ is about light, which was an important source of imagery for medieval
+readers and thinkers.  We don't pay much attention to the different kinds of
+light anymore, which lessens our ability to truly appreciate the text as much as
+it was when it was first written.
+
+---++ On the Style of _The Communist Manifesto_ (1998)
+
+---++ The Mists of the Valois (1999)
+
+How the imperfect tense can lead to enough fuzziness about the action to leave
+the reader in perpetual mists and create an atmosphere more felt than any
+feelings explicitly expressed in words.
+
+---++ Wilde: Paradox and Aphorism (2000)
+
+---++ A Portrait of the Artist as Bachelor (1991)
+
+How James Joyce's style and literary pursuits were already well established by
+the time he graduated from college.
+
+---++ Between La Mancha and Babel (1997)
+
+How Joyce and Borges try to re-invent language, each in their own way.  Joyce
+by looking at all permutations of symbols.  Borges by looking at all
+permutations of ideas.
+
+---++ Borges and My Anxiety of Influence
+
+Sometimes, an author borrows an idea from another author.  Sometimes, an author
+develops an idea from the general context, not knowing that another author has
+also expressed the same idea too.  Some times, an author develops an idea from
+the general context, not knowing that another author was directly responsible
+for putting it there.
+
+---++ On Camporesi: Blood, Body, Life (1995)
+
+---++ On Symbolism (1994)
+
+---++ On Style (1995)
+
+---++ _Les S&eacute;maphores sous la Pluie_ (1996)
+
+How a writer relies on some common images or experiences shared with the reader.
+If the reader does not share a given image or experience, part of what the
+writer was trying to communicate will get deformed or lost.
+
+---++ The Flaws in the Form
+
+Elements in the structure of a text.  If the work of art arises from the whole
+of the composition and how the parts all fit together, then which parts
+essential?  Does it mean that everything else just fodder?  Will the art still
+arise if we remove those non-essential parts.  And what about stopgaps, small
+particles that enhance the flow of the work and assure its stability?
+
+---++ Intertextual Irony and Levels of Reading (1999)
+
+---++ The _Poetics_ and Us (1990)
+
+The influence of Aristotle's _Poetics_.  Notions of _pragma_ (action) and
+_mythos_ (plot) and how they apply to many forms of story-telling.
+
+---++ The American Myth in Three Anti-American Generations (1980)
+
+---++ The Power of Falsehood (1994)
+
+---++ How I Write (1996)
