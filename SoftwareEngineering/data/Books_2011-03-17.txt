@@ -7,6 +7,7 @@ publisher: Manning
 year: 2011
 acquired: 2011-03-12
 start: 2011-03-17
+stop: 2011-05-25
 
 I've been curious about Hadoop for some time.  MapReduce is such an exciting
 paradigm and I didn't get to do enough of it when I was at Google.  I tried to
@@ -27,3 +28,7 @@ _new_ interfaces.
 A lot of the examples deal more with the details of running a Hadoop MapReduce,
 and less with powerful ways to use the MapReduce paradigm.  Maybe the chapter on
 "Advanced MapReduce" will fill my need.
+
+I had to stop reading it half-way through because I had to read
+[[#jQuery%5Fin%5FAction][jQuery in Action]] for work.  I will have to come back
+to Hadoop at a later date.

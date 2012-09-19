@@ -9,6 +9,7 @@ year: 2004
 year: 2002
 acquired: 2012
 start: 2012-08-27
+stop: 2012-09-19
 
 A collection of essays by Umberto Eco.
 
