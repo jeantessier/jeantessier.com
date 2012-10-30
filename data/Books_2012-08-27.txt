@@ -11,29 +11,42 @@ acquired: 2012
 start: 2012-08-27
 stop: 2012-09-19
 
-A collection of essays by Umberto Eco.
-
-The book is actually a collection of essays written by Umberto Eco for various
-conferences.  I will comment on each one separately.
+The book is a collection of essays written by Umberto Eco for various
+conferences.
 
 ---++ On Some Functions of Literature (2000)
+
+_Literature keeps language alive._  It creates a shared body of stories and
+characters.  Different authors each given them their own spin, but their core is
+part of the collective consciousness.
 
 ---++ A Reading of the _Paradiso_ (2000)
 
 _Paradiso_ is about light, which was an important concept to medieval readers
-and thinkers.  We don't pay much attention to the different kinds of light
-anymore, which lessens our ability to truly appreciate the text as much as it
-was when it was first written.
+and thinkers.  Cathedrals are all about different kinds of light.  We don't pay
+as much attention to the quality light anymore; and it lessens our ability to
+truly appreciate the text as much as it was when it was written.
 
 ---++ On the Style of _The Communist Manifesto_ (1998)
+
+The format and structure of the Manifesto is a great sample of packing a lot of
+power in a concise space.  It has all the drama and plot twists of the best
+narratives.
 
 ---++ The Mists of the Valois (1999)
 
 How the imperfect tense can lead to enough fuzziness about the action to leave
 the reader in perpetual mists and create an atmosphere more felt than any
-feelings explicitly expressed in words.
+feelings explicitly expressed in words.  This effect can then be reinforced and
+amplified by various narrative techniques.
 
 ---++ Wilde: Paradox and Aphorism (2000)
+
+An aphorism is a maxim that is witty and which appears to be true.  It expresses
+something commonplace.  A paradox is a maxim that is witty and appears false at
+first glance, but reveals a deeper truth upon further examination.  To tell them
+apart, reversing an aphorism produces something that still makes sense, whereas
+reversing a paradox yields nonsense.
 
 ---++ A Portrait of the Artist as Bachelor (1991)
 
@@ -46,6 +59,11 @@ How Joyce and Borges try to re-invent language, each in their own way.  Joyce
 by looking at all permutations of symbols.  Borges by looking at all
 permutations of ideas.
 
+Another interesting piece is how in _Don Quixote_, the story starts when the
+main character leaves a library to discover the world outside.  In one of
+Borges' novels, the main character enters a Library of Babel to escape from the
+world outside and experience reality through books.
+
 ---++ Borges and My Anxiety of Influence
 
 Sometimes, an author borrows an idea from another author.  Sometimes, an author
@@ -56,9 +74,28 @@ for putting it there.
 
 ---++ On Camporesi: Blood, Body, Life (1995)
 
+Camporesi was a cultural anthropologist who studied texts for cultural
+artifacts, studying the underbelly of civilization.
+
 ---++ On Symbolism (1994)
 
+Symbolism as understood by the scholastic philosophers.  There is the perceived
+world of phenomena and the world of ideals hiding behind it.  In this way,
+everything is a symbol that stands for an ideal which we cannot perceive
+directly.
+
 ---++ On Style (1995)
+
+Style is how a work of art is put together.  Eco identifies three ways of
+studying style.  In a _review_, the writer tells the reader about a book the
+reader has not yet read and impose the writer's judgment.  A _history of
+literature_ discusses works that the reader already knows.  In both cases, the
+writer can do _artifex additus artifici_ (an artist writing about an artist)
+where he explains how he felt as he produced the work of art.  Or he can do
+_philosophus additus artifici_ (a philosopher writing about an artist) where he
+explains why a given work of art is beautiful.  The third way of studying style
+is the _semiotic reading_ in which the writer shows how the work of art produces
+pleasure, rather then prescribing what gives pleasure.
 
 ---++ _Les S&eacute;maphores sous la Pluie_ (1996)
 
@@ -75,6 +112,13 @@ arise if we remove those non-essential parts.  And what about stopgaps, small
 particles that enhance the flow of the work and assure its stability?
 
 ---++ Intertextual Irony and Levels of Reading (1999)
+
+Draws heavily on Eco's _Reflections on "The Name of the Rose."_  Eco is a big
+fan of layering multiple levels of meaning in his prose.  The reader can choose
+which level they latch on when interpreting a text.  Not all readers can access
+all levels of a text.  Some of them require specific knowledge to fully grasp
+them.  But missing out on one level should not keep the reader from appreciating
+others.
 
 ---++ The _Poetics_ and Us (1990)
 
@@ -102,4 +146,4 @@ Eco's own quirky approach to writing his novels.  It focuses on
 _The Name of the Rose_, _Foucault's Pendulum_, and
 _The Island of the Day Before_, with some bits about _Baudolino_.  He describes
 parts that were essential to him which I do not remember at all.  Makes me want
-to re-read all these novels, now.
+to re-read all his novels.  Right now.
