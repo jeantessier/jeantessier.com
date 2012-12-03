@@ -15,8 +15,8 @@
              userid="${ftp.user}"
              password="${ftp.password}"
              remotedir="jeantessier.com"
-	     depends="yes"
-	     binary="no"
+             depends="yes"
+             binary="no"
              verbose="yes">
             <fileset dir="." includes="*.cgi"/>
             <fileset dir="." includes="*.css"/>
@@ -36,8 +36,8 @@
              userid="${ftp.user}"
              password="${ftp.password}"
              remotedir="jeantessier.com"
-	     depends="yes"
-	     binary="yes"
+             depends="yes"
+             binary="yes"
              verbose="yes">
             <fileset dir="." includes="fonts/*"/>
             <fileset dir="." includes="images/*"/>
@@ -50,8 +50,8 @@
              userid="${ftp.user}"
              password="${ftp.password}"
              remotedir="jeantessier.com/Kendo"
-	     depends="yes"
-	     binary="no"
+             depends="yes"
+             binary="no"
              verbose="yes">
             <fileset dir="Kendo" includes="*.html"/>
             <fileset dir="Kendo" includes="*.js"/>
@@ -61,8 +61,8 @@
              userid="${ftp.user}"
              password="${ftp.password}"
              remotedir="sanmateokendo.org"
-	     depends="yes"
-	     binary="no"
+             depends="yes"
+             binary="no"
              verbose="yes">
             <fileset dir="smkd" includes="*.css"/>
             <fileset dir="smkd" includes="*.html"/>
@@ -72,8 +72,8 @@
              userid="${ftp.user}"
              password="${ftp.password}"
              remotedir="sanmateokendo.org"
-	     depends="yes"
-	     binary="yes"
+             depends="yes"
+             binary="yes"
              verbose="yes">
             <fileset dir="smkd" includes="images/*"/>
             <fileset dir="smkd" includes="*.pdf"/>
@@ -86,8 +86,8 @@
              userid="${ftp.user}"
              password="${ftp.password}"
              remotedir="jeantessier.com"
-	     depends="yes"
-	     binary="no"
+             depends="yes"
+             binary="no"
              verbose="yes">
             <fileset dir="." includes="data/*.txt"/>
             <fileset dir="." includes="SoftwareEngineering/data/*.txt"/>
