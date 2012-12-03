@@ -6,6 +6,7 @@ author: Robert I. Sutton
 publisher: Business Plus
 year: 2010
 acquired: 2012-04-26
+start: 2012-11-14
 
 I liked [[Books.cgi#The_No_Asshole_Rule][The No Asshole Rule]], so I thought I'd
 give this one a try too.
