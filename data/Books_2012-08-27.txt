@@ -88,14 +88,14 @@ directly.
 
 Style is how a work of art is put together.  Eco identifies three ways of
 studying style.  In a _review_, the writer tells the reader about a book the
-reader has not yet read and impose the writer's judgment.  A _history of
-literature_ discusses works that the reader already knows.  In both cases, the
-writer can do _artifex additus artifici_ (an artist writing about an artist)
-where he explains how he felt as he produced the work of art.  Or he can do
-_philosophus additus artifici_ (a philosopher writing about an artist) where he
-explains why a given work of art is beautiful.  The third way of studying style
-is the _semiotic reading_ in which the writer shows how the work of art produces
-pleasure, rather then prescribing what gives pleasure.
+reader has not yet read and impose the writer's judgment.  A
+_history of literature_ discusses works that the reader already knows.  In both
+cases, the writer can do _artifex additus artifici_ (an artist writing about an
+artist) where he explains how he felt as he produced the work of art.  Or he can
+do _philosophus additus artifici_ (a philosopher writing about an artist) where
+he explains why a given work of art is beautiful.  The third way of studying
+style is the _semiotic reading_ in which the writer shows how the work of art
+produces pleasure, rather then prescribing what gives pleasure.
 
 ---++ _Les S&eacute;maphores sous la Pluie_ (1996)
 
