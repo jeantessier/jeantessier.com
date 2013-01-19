@@ -1,0 +1,11 @@
+name: The_Human_Organization_of_Time
+isbn13: 978-0804741071
+isbn: 0804741071
+title: [[http://amzn.com/0804741077][The Human Organization of Time: Temporal Realities and Experience]]
+author: Allen C. Bluedorn
+publisher: Stanford Business Press
+year: 2002
+acquired: 2013-01-16
+
+A description promised a discussion on the nature of Time, how we perceive it,
+and how human constructs are built around it.  Sounds fascinating.
