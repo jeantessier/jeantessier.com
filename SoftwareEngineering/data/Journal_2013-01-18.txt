@@ -1,0 +1,13 @@
+Found two interesting tools.
+
+[[http://yslow.org][YSlow]] is a browser plugin that analyses a page and gives
+you advise to make it better.  It looks at how the code is organized how has
+rules for HTML, CSS, and JavaScript.  It also looks at all the resources the
+page tries to load and makes recommendations on those too.
+
+[[http://time.is][Time.is]] shows you the current time in another city.  You can
+even show multiple timezones side-by-side so you can plan meetings and get
+togethers.  Just append =/your_city= to the URL, like:
+
+    * [[http://time.is/montreal][Montr&eacute;al]]
+    * [[http://time.is/cluj][Cluj]]
