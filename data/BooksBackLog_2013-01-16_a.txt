@@ -1,6 +1,6 @@
 name: The_Human_Organization_of_Time
 isbn13: 978-0804741071
-isbn: 0804741071
+isbn: 0804741077
 title: [[http://amzn.com/0804741077][The Human Organization of Time: Temporal Realities and Experience]]
 author: Allen C. Bluedorn
 publisher: Stanford Business Press
