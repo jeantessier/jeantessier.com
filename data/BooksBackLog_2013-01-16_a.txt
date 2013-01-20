@@ -9,3 +9,7 @@ acquired: 2013-01-16
 
 A description promised a discussion on the nature of Time, how we perceive it,
 and how human constructs are built around it.  Sounds fascinating.
+
+I also found a reference to Bluedorn et al. "The Effects of Stand-Up and
+Sit-Down Meeting Formats on Meeting Outcomes" in
+[[Books.cgi#Good_Boss_Bad_Boss][Good Boss, Bad Boss]].
