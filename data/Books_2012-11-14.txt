@@ -10,75 +10,56 @@ acquired: 2012-04-26
 start: 2012-11-14
 stop: 2012-12-06
 
-I liked [[Books.cgi#The_No_Asshole_Rule][The No Asshole Rule]], so I thought I'd
-give this one a try too.
+I liked [[Books.cgi#The%5FNo%5FAsshole%5FRule][The No Asshole Rule]], so I
+thought I'd give this one a try too.  Sutton bills the book as a follow-up to
+_The No Asshole Rule_, but with more of a focus on good management practices and
+less on the bad.
 
+The key takeaway is that the job of a boss seems engineered to breed assholes.
+Bosses suffer from a double bias: they overestimate their own abilities and
+they cannot see how they are perceived by others.  This leads people in boss
+positions to make poor decisions that everyone will notice but themselves.  A
+good boss is more self-aware to note when these missteps and is more graceful
+about accepting and acting on their failings.  They surround themselves with
+people who will keep them grounded.
 
+It's a nice coincidence that I'm reading this book just as Steven Spielberg's
+movie _Lincoln_ is in theaters.  This books discusses how Lincoln appointed some
+of his rivals to his cabinet because their honesty would result in better
+decision-making.  This is all documented in the book _Team of Rivals_ by Doris
+Kearns, on which the movie is based.
 
+The rest of the book has a number of tips and tricks to help bosses deal with
+this double bias trap.
 
+    * Use repetitive and concrete advice (and keep repeating it).  This is the basis for the KISS principle.  Focus on executing the steps and the results will take care of themselves.  This reminds me of kyudo (Japanese archery) where the focus on form rather than results, to the point where hitting the target is not really important.
+    * David Kelly of IDEO talks about the balance between what the business needs (performance) and what the subordinates need (humanity).
+    * More David Kelly: confidence breeds more confidence.  Act confident and it will come to you.  This reminded me of a part of the book _Starship Troopers_ where the main protagonist is told during officer training that officers must always look like they have all the answers, even when they do not.
+    * Stand-up meetings to use people's time efficiently and respectfully.  He references a paper by Allen C. Bluedorn on "The Effects of Stand-Up and Sit-Down Meeting Formats on Meeting Outcomes."  He does not mention agile software development.
+    * Asshole Tax: charging more when having to deal with assholes.  Assholes are costly in churn and lost productivity / innovation.
+    * Embarrassment and pride can be great motivators.  Image your child were following you around.
+    * One manager took subordinates to a hospice to put evaluations into perspective.
+    * Acid tests for good boss: 1) Would people work with the boss again? 2) Do they know what it's like working for them?
+    * Favor small teams.  Complexity increases exponentially with team size.
 
-Lincoln, his cabinet, and "Team of Rivals."
+The book has a large number of anecdotes, taken from an extensive bibliography.
+You cannot deny that it draws from serious scholarship and lots of excellent
+research.  But I was still left feeling like there wasn't a comprehensive theory
+of management behind it.  Just my somewhat uninformed opinion, here.
 
-Tommy Lasorda and "managing is like holding a bird." First heard in the context of kendo. Don't know if it originated with Lasorda or if they share some common ancestry.
+Sutton teaches at Stanford and lives in the San Francisco Bay Area.  It is only
+normal that there would be some references to some things American.
 
+    * Alice Waters and her restaurant Chez Panisse.
+    * Management firm Bain, brought to general attention by presidential candidate Mitt Romney.
+    * Tommy Lasorda once said managing was like holding a bird: too tight and you kill it, too light and it flies away.  I first heard it from my kendo teacher in Montr&eacute;al.  I don't know if he got it from Lasorda or if they both pick it from some other, common source.
+    * Sutton brings up the performance evaluations and feedback at Google.  He advocates rewarding collective behavior over individual performance.  From my memories of Google, their process does not reward collective action enough.
+    * The rescued Chilean miners in 2010-10.
+    * Steve Jobs: too brilliant to be imitated.
+    * The Hillsborough home invasion on 2008-11-25 where mother Loan Kim Nguyen was able to save her two young children but died herself.
 
-
-David Kelly (IDEO) and performance / humanity balance. Kyudo and focusing on steps in the process; the results will take care of themselves.
-
-
-
-More David Kelley, about sharing credit. Project confidence and you will gain confidence. Reminded me of part in Starship Troopers (book) about how officers always have all the anwers, even when they do not.
-
-
-
-Performance evaluation and feedback (Google). Collaborative behavior may be more important then super performance.
-
-
-
-Repetitive and concrete advice (keep repeating it). KISS principle.
-
-
-
-Stand up meetings (but didn't talk about agile software development).
-
-
-
-Management firm Bain. Is this the same as Bain Capital?
-
-
-
-Alice Waters and Chez Panisse.
-
-
-
-A boss is a job almost designed to generate assholes. Good bosses are more self-aware to note when they misstep and more graceful about accepting and acting on their failings. They surround themselves with people who will keep them grounded. Asshole Tax: charging more when having to deal with assholes. Assholes are costly in churn and lost productivity / innovation.
-
-
-
-One manager took subordinates to a hospice to put evaluations in perspective. Imagine, looking back, how your behavior looks to others. Image your child is following you around. Embarrassement and pride can be great motivators.
-
-
-
-Acid tests for good boss: 1) Would people work with the boss again? 2) Do they know what it's like working for them?
-
-Chilean miners.
-
-
-
-Bosses need to promote performance AND humanity. Google did a survey of good bosses and found technical expertise was dead last criteria, much to their surprise.
-
-
-
-Mind set of subtraction: when in doubt, take it out.
-
-Small teams; complexity increases exponentially with team size.
-
-Steve Jobs: too brilliant to be imitated.
-
-Some bosses may owe their success to circumstances more than their skills (Larry Page). Others owe their success to their constant dedication to work and team (Mitchell Baker of Mozilla, Ed Catmull of Pixar).
-
-
-
-
-
-_More to come._
+Bosses need to promote performance AND humanity.  Some bosses may owe their
+success to circumstances more than their skills (I'm thinking of the likes of
+Larry Page and Sergei Brin, who are brilliant but also owe a large part of their
+success to very lucky timing).  Others owe their success to their constant
+dedication to work and team (Mitchell Baker of Mozilla, Ed Catmull of Pixar).
