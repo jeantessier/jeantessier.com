@@ -45,3 +45,7 @@ dd {
 h3 {
     text-align: center;
 }
+
+sup {
+    text-decoration: underline;
+}
