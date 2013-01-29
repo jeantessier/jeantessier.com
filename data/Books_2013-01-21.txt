@@ -2,9 +2,13 @@ name: The_Prague_Cemetery
 isbn13: 978-0547577531
 isbn: 0547577532
 title: [[http://amzn.com/0547577532][The Prague Cemetery]]
+title: <i>Il cimitero di Praga</i>
 author: Umberto Eco
 publisher: Houghton Mifflin Harcourt
 year: 2010
 acquired: 2012-12-25
+start: 2013-01-21
 
 The latest novel from my favorite author.
+
+_More to come._
