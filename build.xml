@@ -18,6 +18,7 @@
              depends="yes"
              binary="no"
              verbose="yes">
+            <fileset dir="." includes="*.atom"/>
             <fileset dir="." includes="*.cgi"/>
             <fileset dir="." includes="*.css"/>
             <fileset dir="." includes="*.html">
