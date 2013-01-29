@@ -18,7 +18,6 @@
              depends="yes"
              binary="no"
              verbose="yes">
-            <fileset dir="." includes="*.atom"/>
             <fileset dir="." includes="*.cgi"/>
             <fileset dir="." includes="*.css"/>
             <fileset dir="." includes="*.html">
@@ -27,8 +26,10 @@
             </fileset>
             <fileset dir="." includes="*.js"/>
             <fileset dir="." includes="SoftwareEngineering/*">
+                <exclude name="SoftwareEngineering/Books.atom"/>
                 <exclude name="SoftwareEngineering/Books.html"/>
                 <exclude name="SoftwareEngineering/BooksBackLog.html"/>
+                <exclude name="SoftwareEngineering/Journal.atom"/>
                 <exclude name="SoftwareEngineering/Journal.html"/>
             </fileset>
             <fileset dir="." includes="Work/*"/>
