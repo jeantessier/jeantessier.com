@@ -1,0 +1,6 @@
+A tweet by Kent Beck pointed me to this blog entry by Steve Yegge about
+[[http://steve-yegge.blogspot.com/2008/02/portrait-of-n00b.html][coding style]]
+and
+[[http://steve-yegge.blogspot.com/2008/02/portrait-of-n00b.html][loose vs. strong typing]].
+It mentions how novice programmers try to specify everything to the utmost
+degree whereas experts just get things done.
