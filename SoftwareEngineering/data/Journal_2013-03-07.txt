@@ -1,3 +1,3 @@
 I found a cool [[http://docs.jquery.com/][jQuery]] plugin for doing
 [[http://omnipotent.net/jquery.sparkline/#s-about][sparklines]].  It reads its
-data from a tag's contents or can get it passed in in JavaScript.
+data from a tag's contents or it can get it passed in from JavaScript.
