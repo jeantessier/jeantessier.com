@@ -1,0 +1,14 @@
+I was listening to a Java/Groovy podcast in French called
+[[http://lescastcodeurs.com/][Les Cast Codeurs Podcast]] and they mentioned a
+benchmark of different web frameworks that included Grails.
+
+    * [[http://www.techempower.com/blog/2013/03/28/framework-benchmarks/][Framework Benchmarks]]
+    * [[http://www.techempower.com/blog/2013/04/05/frameworks-round-2/][Frameworks Round 2]]
+
+We can see that, in the context of the benchmark, Grails is at 5-15% of optimal
+performance for handling JSON (the top performer is 100% and Grails is 5-15% of
+that), which is not very impressive.  It fared much better when making multiple
+queries against a database, where it ranked 42-57%.  Given how much development
+time it saves me, I'm willing to live with that.
+
+It still vastly outperformed RoR, whether on JRuby or on a regular Ruby VM.
