@@ -1,0 +1,12 @@
+name: Mortality
+isbn13: 978-1455502752
+isbn: 1455502758
+title: [[http://amzn.com/1455502758][Mortality]]
+author: Christopher Hitchens
+publisher: Hachette
+year: 2012
+acquired: 2013-07-11
+
+Printed posthumously, this is taken from articles Hitchens wrote for Vanity Fair
+as he fought a losing battle with cancer.  In them, he was exploring his own
+mortality and impending end.
