@@ -32,6 +32,7 @@
                 <exclude name="SoftwareEngineering/Journal.atom"/>
                 <exclude name="SoftwareEngineering/Journal.html"/>
             </fileset>
+            <fileset dir="." includes="Wedding/*"/>
             <fileset dir="." includes="Work/*"/>
         </ftp>
         <ftp server="ftp.jeantessier.com"
@@ -43,6 +44,8 @@
              verbose="yes">
             <fileset dir="." includes="fonts/*"/>
             <fileset dir="." includes="images/*"/>
+            <fileset dir="." includes="Wedding/images/*"/>
+            <fileset dir="." includes="Work/images/*"/>
         </ftp>
     </target>
 
