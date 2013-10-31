@@ -161,13 +161,13 @@ ol ol li {
 }
 
 dl dd {
-    margin-bottom: 10;
+    margin-bottom: 10px;
 }
 
 .padded {
     font-family: Calluna;
-    padding-left: 10;
-    padding-right: 10;
+    padding-left: 10px;
+    padding-right: 10px;
     vertical-align: top;
     text-align: center;
 }
