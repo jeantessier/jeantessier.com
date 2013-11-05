@@ -1,0 +1,17 @@
+Started looking into [[http://code.google.com/p/mockito][Mockito]].  It is
+quite different from jMock or EasyMock.  In Mockito, the default is to allow
+everything and not complain about anything.  In jMock or EasyMock, the default
+is to allow nothing and complain about every interaction.
+
+This has an impact when working with legacy code.  When you write a test with
+Mockito, you create mocks and pass them to the SUT.  Your test is green and you
+add focused verification to keep it green.  When you write a test with jMock or
+EasyMock against legacy code, you create mocks and pass them to the SUT.  Your
+test is now red and you add all kinds of expectations to cover all interactions
+and eventually make the test go green.  So with Mockito, you start with
+something that works and refine it.  With jMock and EasyMock, you start with
+something that is broken and repair it.
+
+So it is a little easier to write the tests after the fact using Mockito.  But
+once those tests are written, Mockito will not detect new interactions that
+happen on the mocks, whether they are wanted or not.
