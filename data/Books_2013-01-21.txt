@@ -8,6 +8,7 @@ publisher: Houghton Mifflin Harcourt
 year: 2010
 acquired: 2012-12-25
 start: 2013-01-21
+stop: 2014-01-05
 
 The latest novel from my favorite author.
 
