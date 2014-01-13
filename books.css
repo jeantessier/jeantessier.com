@@ -2,13 +2,18 @@
     font-family: "Fertigo Pro";
 }
 
+.google_ad {
+    padding-bottom: 1.0em;
+    text-align: center;
+}
+
 .book {
     font-family: "Museo Slab", serif;
     text-align: left;
     vertical-align: top;
 }
 
-.author {
+table .author {
     font-family: Fontin, serif;
     text-align: center;
     vertical-align: top;
@@ -21,7 +26,7 @@
     vertical-align: top;
 }
 
-.published_year {
+table .published_year {
     font-family: Fontin, serif;
     text-align: center;
     vertical-align: top;
@@ -29,6 +34,18 @@
 
 .review {
     font-family: "Fontin Sans", sans-serif;
+}
+
+.quote {
+    background-color: #656565;
+    border-radius: 13px;
+    border-style: dashed;
+    border-width: 2px;
+    color: #ccc;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .time {
@@ -50,4 +67,19 @@ h2 {
 th {
     font-family: Fontin, serif;
     text-transform: uppercase;
+}
+
+.index_entry {
+    margin-bottom: 0.5em;
+}
+
+.index_entry .published_year {
+    font-family: Fontin, serif;
+    font-size: smaller;
+}
+
+.index_entry .author {
+    font-family: Fontin, serif;
+    font-size: smaller;
+    margin-left: 10px;
 }
