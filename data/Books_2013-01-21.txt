@@ -66,7 +66,7 @@ hiding?  It is up to the reader to finish the story for themselves.
 
 Somewhere between pages 331-378:
 
-<div style="margin-left: 30px; margin-right: 30px; padding-left: 30px; padding-right: 30px; border-width: 2px; border-radius: 13px; border-style: dashed; color: #ccc; background-color: #656565;">
+<div class="quote">
 
 Nothing is more original than something that's already been published.
 
@@ -82,16 +82,16 @@ go through the trouble of double checking.
 
 On page 421:
 
-<div style="margin-left: 30px; margin-right: 30px; padding-left: 30px; padding-right: 30px; border-width: 2px; border-radius: 13px; border-style: dashed; color: #ccc; background-color: #656565;">
+<div class="quote">
 
 Most of those who join secret societies are opportunists who seek to make their
 own way and have no worthy purposes.
 
 </div>
 
-This is said in the context of jews-infiltrating-secret-societies-in-their-plan-to-take-over-the-world.
-What it means is that members look for a sense of purpose, which the leaders can
-provide and then use to manipulate the group and get them to support the
-leaders' agenda, sometimes against their own best interest.  Eco's character
-makes that statement about secret society membership, but I think it can easily
-be applied to most organizations.
+This is said in the context of jews-are-infiltrating-secret-societies-as-part-of-their-plan-to-take-over-the-world.
+What it means is that members of secret societies are looking for a sense of
+purpose, which the leaders can provide and then use to manipulate the group and
+get them to support the leaders' agenda, sometimes against their own best
+interest.  Eco's character makes that statement about secret society membership,
+but I think it can easily be applied to most organizations.
