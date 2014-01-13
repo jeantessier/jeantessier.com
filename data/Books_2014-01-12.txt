@@ -6,7 +6,10 @@ author: Christopher Hitchens
 publisher: Hachette
 year: 2012
 acquired: 2013-07-11
+start: 2014-01-12
 
 Printed posthumously, this is taken from articles Hitchens wrote for Vanity Fair
 as he fought a losing battle with cancer.  In them, he was exploring his own
 mortality and impending end.
+
+_More to come._
