@@ -1,0 +1,6 @@
+I noticed that the CGI scripts on my site are taking forever to execute.  When
+I login to the server and run them by hand, they are just fine.  But somehow,
+when the are executed through the web, it takes a long time to launch them.  I
+only found an obscure reference to PHP4 vs. PHP5 on the Dreamhost pages, but I'm
+not even using PHP!  They are just simple CGI scripts written in Perl; 20-year
+old technology.
