@@ -3,7 +3,7 @@ isbn13: 978-1455502752
 isbn: 1455502758
 title: [[http://amzn.com/1455502758][Mortality]]
 author: Christopher Hitchens
-publisher: Hachette
+publisher: Twelve (Hachette)
 year: 2012
 acquired: 2013-07-11
 start: 2014-01-12
