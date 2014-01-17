@@ -9,8 +9,28 @@ acquired: 2013-07-11
 start: 2014-01-12
 stop: 2014-01-16
 
-Printed posthumously, this is taken from articles Hitchens wrote for Vanity Fair
-as he fought a losing battle with cancer.  In them, he was exploring his own
-mortality and approaching end.
+Hitchens told his editor he would write about anything except sports.  So when
+he was diagnosed with cancer, he wrote about it.  And as he approached his own
+end, he kept on writing.  He takes us on an intimate ride along as he explores
+his attitude towards death.
 
-_More to come._
+Early on, when death is but a shadow on the distant horizon, Hitchens is more
+outward-facing.  He deals with religion and people wishing him well (and
+sometimes not).  As the book and his cancer progress, he sheds externalities and
+slowly gets more personal.
+
+Breakdown by chapter:
+
+    1 Diagnosis, dealing with the news, side effects of therapy.
+    2 People express their religious sentiments.  He'll have none of it.
+    3 The medical establishment tries everything to fight the disease.  More false hopes.
+    4 People's euphemisms to avoid talking about death.
+    5 Losing his voice strikes _really_ close to home.  Voice and expression are at the core of existence.
+    6 How people choose to die.  How what almost kills him is *not* making him stronger.  Starts to yearn for the end.
+    7 Personal observations on pain and fear, in the face of torture ... or medical procedures.
+    8 Unfinished thoughts.  Fitting that at the end, even his mind comes apart.
+
+Hitchens mentions journalist John Diamond who also wrote a regular column about
+his experience with cancer, up to his death.  He mentions how his story "lacked
+compactness toward the end..."  He didn't fall into the same trap.  The book is
+concise and to the point, a quick read that goes straight to the point.
