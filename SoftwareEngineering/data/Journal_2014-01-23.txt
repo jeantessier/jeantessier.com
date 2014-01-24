@@ -1,0 +1,5 @@
+I found out about [[http://asciidoc.org/][AsciiDoc]], another tool to convert
+plain text to HTML.  At first look, it appears richer than
+[[http://daringfireball.net/projects/markdown/][Markdown]], and some of its
+syntax is very close to what I've been using.  It can generate PDF in addition
+to HTML.
