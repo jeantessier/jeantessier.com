@@ -8,6 +8,7 @@ publisher: Gallimard
 year: 2009
 acquired: 2013-07-04
 start: 2014-04-16
+stop: 2014-06-16
 
 Kundera's latest book.
 
