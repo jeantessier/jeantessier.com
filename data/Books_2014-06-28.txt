@@ -10,4 +10,35 @@ year: 2012
 acquired: 2013-07-11
 start: 2014-06-28
 
-Eco's latest book: a collection of essays on his craft as a writer.
+The book is another collection of essays written by Umberto Eco for various
+conferences.
+
+---++ Inventing the Enemy (2008)
+
+---++ Absolute and Relative (2007)
+
+---++ The Beauty and the Flame (2008)
+
+---++ Treasure Hunting (2009, 2011)
+
+---++ Fermented Delights (2008)
+
+---++ No Embryos in Paradise (2008)
+
+---++ Hugo, H&eacute;las!: The Poetics of Excess
+
+---++ Censorship and Silence (2009)
+
+---++ Imaginary Astronomies (2001, 2002)
+
+---++ Living by Proverbs (2007)
+
+---++ I Am Edmond Dant&egrave;s (2008)
+
+---++ Ulysses: That's All We Needed... (2009)
+
+---++ Why the Island Is Never Found (2011)
+
+---++ Thoughts on WikiLeaks (2010)
+
+_More to come._
