@@ -11,7 +11,10 @@ acquired: 2013-07-11
 start: 2014-06-28
 
 The book is another collection of essays written by Umberto Eco for various
-conferences.
+conferences.  The opening essay, _Inventing the Enemy_, is somewhat
+approachable, though he does lay the anti-semitic descriptions rather thick.  By
+the time I started the second essay, I was wondering if I had bitten more than I
+could chew; a recurring possibility with Eco.
 
 ---++ Inventing the Enemy (2008)
 
