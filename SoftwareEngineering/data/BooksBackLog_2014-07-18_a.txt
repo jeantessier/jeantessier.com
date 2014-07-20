@@ -1,0 +1,13 @@
+name: Grails_in_Action_Second_Edition
+isbn: 1617290963
+isbn13: 9781617290961
+title: [[http://amzn.com/1617290963][Grails in Action, Second Edition]]
+author: Glen Smith
+author: Peter Ledbrook
+publisher: Manning
+year: 2014
+acquired: 2014-07-18
+
+This update brings it up to [[http://grails.org/][Grails]] 2.3.7.  Between final
+edits and actual publication, Grails is now on version 2.4.2 and some people are
+already pointing out incompatibilities.
