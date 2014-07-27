@@ -7,6 +7,7 @@ author: Peter Ledbrook
 publisher: Manning
 year: 2014
 acquired: 2014-07-18
+start: 2014-07-25
 
 This update brings it up to [[http://grails.org/][Grails]] 2.3.7.  Between final
 edits and actual publication, Grails is now on version 2.4.2 and some people are
