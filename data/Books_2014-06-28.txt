@@ -17,12 +17,30 @@ approachable, though he does lay the anti-semitic descriptions rather thick.  By
 the time I started the second essay, I was wondering if I had bitten more than I
 could chew; a recurring possibility with Eco.
 
+In the preface, Eco explains that each essai was an imposed subject for some
+conference or journal article.  It shows in that most of them are rambling
+thoughts with no clear conclusion.  They are fanciful intellectual explorations
+that meander more than they enlighten.
+
 ---++ Inventing the Enemy (2008)
 
-We often define ourselves by opposition to an "enemy", often an imaginary one.
-We reuse the same tropes to describe this enemy and vilify them, whether the be
-Jews, women, Arabs, or other.  The essay is a little rambling, without a clear
-conclusion.
+We often define ourselves by opposition to an "enemy", even creating an
+imaginary one if there are no real enemies at hand.  We reuse the same elements
+to describe this enemy and vilify them, whether the "enemy" is Jews, women,
+Arabs, or some other group.
+
+On page 2:
+
+<div class="quote">
+
+Having an enemy is important not only to define our identity but also to provide
+us with an obstacle against which to measure our system of values and, in
+seeking to overcome it, to demonstrate our own worth.
+
+</div>
+
+Jean-Paul Sartre reduced this theme to its simplest form in his novel _No Exit_,
+which I got to read back in high school.
 
 ---++ Absolute and Relative (2007)
 
@@ -33,14 +51,15 @@ solid walls.
 
 ---++ The Beauty and the Flame (2008)
 
-The mystical allure of fire.
+This essay explores the mystical allure of fire.
 
 Fire and light take in various meanings across societies.  Celestial fire and
-light is the divine essence to the medieval people.  Fire is knowledge and craft
-to the ancient Greeks.  Terrestrial fire is hell to the ancients.  Fire is
-transformation to alchemists.  Fire consumes, reveals and is an agent of
-creation as well as destruction.  Ekpyrosis: everything comes from fire and will
-return to fire.  Ashes to ashes, dust to dust.
+light was the divine essence to medieval people.  Fire was knowledge and craft
+to the ancient Greeks, as illustrated in the myth of Hephaestos.  Terrestrial
+fire was hell to the ancients.  Fire was transformation to alchemists.  Fire
+consumes, reveals and is an agent of creation as well as destruction.
+Ekpyrosis: everything comes from fire and will return to fire, as in the phrase:
+Ashes to ashes, dust to dust.
 
 ---++ Treasure Hunting (2009, 2011)
 
