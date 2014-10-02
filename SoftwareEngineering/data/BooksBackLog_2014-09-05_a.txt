@@ -1,0 +1,13 @@
+name: Single_Page_Web_Applications
+isbn: 1617290750
+isbn13: 9781617290756
+title: [[http://amzn.com/1617290750][Single Page Web Applications]]
+author: Michael Mikowski
+author: Josh Powell
+publisher: Manning
+year: 2014
+acquired: 2014-09-05
+
+Single page applications are all the rage these days.  I figured this book could
+help me make sense of it all.  I'm particularly interested in
+[[https://angularjs.org/][AngularJS]].
