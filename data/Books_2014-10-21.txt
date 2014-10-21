@@ -6,6 +6,7 @@ author: Marc-Andr&eacute; Decoste
 publisher: Cr&eacute;ations MAD
 year: 2012
 acquired: 2012
+start: 2014-10-21
 
 First novel by a friend of mine from college.  We both studied and computer
 science, then had long careers in software.  Now, he's written and
