@@ -1,0 +1,11 @@
+name: The_Responsive_Web
+isbn: 1617291242
+isbn13: 9781617291241
+title: [[http://amzn.com/1617291242][The Responsive Web]]
+author: Matthew Carver
+publisher: Manning
+year: 2015
+acquired: 2014-11-30
+
+Responsive web pages are all the rage these days.  I figured this book could
+help me make sense of it all.
