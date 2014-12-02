@@ -7,7 +7,11 @@ author: Josh Powell
 publisher: Manning
 year: 2014
 acquired: 2014-09-05
+start: 2014-11-20
 
 Single page applications are all the rage these days.  I figured this book could
 help me make sense of it all.  I'm particularly interested in
 [[https://angularjs.org/][AngularJS]].
+
+_More to come._
+
