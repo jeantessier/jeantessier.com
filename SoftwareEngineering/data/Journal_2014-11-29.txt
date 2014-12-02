@@ -1,0 +1,3 @@
+Installed both [[http://www.mongodb.com][MongoDB]] and
+[[http://neo4j.com][Neo4J]] just for fun.  Next, I'll be looking for a side
+project where I can use either one of them.
