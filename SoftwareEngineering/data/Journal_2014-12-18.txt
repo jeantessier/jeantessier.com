@@ -1,0 +1,2 @@
+By pure chance, I found [[http://asciidoctor.org/][Asciidoctor]], a tool that
+wraps around [[http://asciidoc.org/][AsciiDoc]] and provides default styling.
