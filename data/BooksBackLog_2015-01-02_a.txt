@@ -1,0 +1,11 @@
+name: La_fete_de_l_insignifiance
+isbn: 2070145646
+isbn13: 9782070145645
+title: [[http://amzn.com/2070145646][La f&ecirc;te de l'insignifiance]]
+title: [[http://amzn.com/0062356895][The Festival of Insignificance: A Novel]]
+author: Milan Kundera
+publisher: Gallimard
+year: 2014
+acquired: 2015-01-02
+
+Favorite author.  Enough said.
