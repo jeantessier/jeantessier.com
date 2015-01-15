@@ -17,7 +17,8 @@ I'm thinking the project should have the following general steps:
     1 Wire in slices of functionality one by one (rough frontend, middleware, database)
     1 Find somewhere to host it all at no additional cost
 
-The whole thing would have to be in Github, of course.
+The whole thing would have to be in
+[[http://github.com/jeantessier/jeantessier.com][GitHub]], of course.
 
 An obvious candidate is to redo my website.  Or at least the blog and books read
 sections.
