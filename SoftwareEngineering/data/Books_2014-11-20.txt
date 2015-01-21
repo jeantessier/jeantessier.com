@@ -14,5 +14,62 @@ Single page applications are all the rage these days.  I figured this book could
 help me make sense of it all.  I'm particularly interested in
 [[https://angularjs.org/][AngularJS]].
 
+Pros:
+
+    * Step-by-step creation of code for all the components.
+    * Great introduction of Node.js and why it is well suited to Socket.IO.
+    * Good introduction to MongoDB and how to connect it to Node.js.
+
+Cons:
+
+    * Some of the writing is really juvenile.
+    * They write their own custom frontend framework instead of relying on more widespread technology.
+    *
+
+
 _More to come._
+
+---++ Raw Notes
+
+Cool JavaScript stuff: function hoisting, scope chains, and prototype-based
+object mechanisms.
+
+Functions and closures.
+
+Basic directory structure and file organization. Initial layout and CSS.
+
+Event handling at the shell level.  Using uriAnchor plugin to store state in
+the URI to manage history.
+
+Feature module framework.  Fractal MVC.  Seems quite involved and their
+implementation bleeds too much control up to the Shell for my taste.
+
+Wiring the feature module. Could use some sequence diagrams.
+
+Basic file structure for model.
+
+Starting to design the model, including events using a deprecated global event
+model from jQuery.
+
+Mocking data and building the first part of the Model.  Lame fake orgasm joke in
+section 5.4.1.  Tying the model to UI events.
+
+More design-build-test cycles.  Manual testing galore. Rounds up the frontend
+development and sets the stage for doing the backend.  Lots of cut-and-paste
+development.  I got lost in all the inter-module communication.  I could have
+used some UML diagrams.
+
+Using Node.js to build a server and intro to the Connect middleware.
+
+Express framework and generic CRUD operations.  Using Socket.IO for persistent
+communications, and even a self upgrading app.
+
+Intro to MongoDB.  Connecting Node.js to it.  Implementing CRUD operations and
+building a generic module to extract common behavior.
+
+CRUD through Socket.IO.  Hodgepodge of production concerns, like SEO and logging
+errors.  Too light on the latter points.
+
+The last part on caching was well done.  It covered all kinds of caching and
+even used Redis on the server side.  It showed how to connect Node.js to Redis.
 
