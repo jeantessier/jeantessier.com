@@ -51,7 +51,7 @@ There is also a good introduction to MongoDB and how to connect it to Node.js.
 Again, it is just enough to wet the appetite and start playing with the
 database.
 
---++ Cons
+---++ Cons
 
 Much of the writing is really juvenile.  The lead ins are repetitive and often
 condescending.  There are a few attempts at humor but they feel forced and fell
