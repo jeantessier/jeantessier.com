@@ -6,6 +6,10 @@ author: Matthew Carver
 publisher: Manning
 year: 2015
 acquired: 2014-11-30
+start: 2015-01-23
 
 Responsive web pages are all the rage these days.  I figured this book could
 help me make sense of it all.
+
+_More to come._
+
