@@ -1,0 +1,18 @@
+Just as I'm in the middle of reading
+[[Books.cgi#The%5FResponsive%5FWeb][The Responsive Web]], I get an email from
+[[https://www.google.com/webmasters/][Google Webmaster Tools]] to the effect
+that my website is not mobile-friendly.  I suspected as much, but now they
+suggest that Google will downgrade me in mobile searches because I am not
+mobile-friendly.  Their tools analyze my pages and make recommendations on how
+I can make them more responsive.
+
+The first recommendation is to set the =viewport= meta header.  I think I want
+to get a more holistic view of responsive design before I blindly follow blanket
+recommendations that have not take my content into consideration.
+
+On a separate note, I've been glancing at
+[[http://facebook.github.io/react/][React]] vs.
+[[https://angularjs.org/][AngularJS]] for a bit of fun.  I really liked this
+[[https://www.airpair.com/angularjs/posts/angular-vs-react-the-tie-breaker][comparison of the two]]
+which makes good points about what I should be looking for in a JavaScript
+framework.
