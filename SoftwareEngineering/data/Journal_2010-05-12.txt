@@ -28,7 +28,7 @@ he moved past this into "continuous delivery" territory.  He talked about build
 pipelines and introduced terminology to help communication about the various
 stages (commit, acceptance, performance, deploy) and the degrees of automation
 required by each.  There is a new book in the works,
-[[http://www.amazon.com/Continuous-Delivery-Reliable-Deployment-Automation/dp/0321601912/ref%3Dsr%5F1%5F1?ie%3DUTF8&s%3Dbooks&qid%3D1273816853&sr%3D1-1][Continuous Delivery]],
+[[http://amzn.com/0321601912][Continuous Delivery]],
 due out later this year.
 
 For the second part of the evening, Fowler answered some questions that had been
@@ -38,7 +38,7 @@ with your platform or to hire talented individuals who will learn it as they
 go.  I stole it from one of the presentations at
 [[http://sllconf.com][Startup Lessons Learned]].  His take on it is to hire
 candidates with solid design skills, they will thrive in any environment.  It
-helps to have one platform expert on hard to answer questions.  Jonny also
+helps to have one platform expert on hand to answer questions.  Jonny also
 told me about ThoughtWorks' system of T's: broad skill sets with one or two deep
 areas of knowledge.  Just make sure the T's on your team don't all line up
 exactly, so you have appropriate coverage.  Other questions dealt with how to
@@ -49,7 +49,7 @@ optimize only as needed).
 The last part was about domain specific languages (DSLs).  Fowler has been
 blogging and tweeting about this for the past couple years, so it was expected.
 He has a book coming out on the topic,
-[[http://www.amazon.com/Domain-Specific-Languages-Addison-Wesley-Signature/dp/0321712943/ref%3Dsr%5F1%5F1?ie%3DUTF8&s%3Dbooks&qid%3D1273819071&sr%3D1-1][Domain Specific Languages]].
+[[http://amzn.com/0321712943][Domain Specific Languages]].
 He talked about the _Unix tradition_ of creating a new language and writing a
 parser for it, using =yacc= or =YAML=, what he calls _external DSLs_.  He
 compared to the Lisp tradition of writing languages as flavors of Lisp and
@@ -69,5 +69,5 @@ Unrelated to this, but today I came upon a
 [[http://www.infoq.com/presentations/Sustainable-Test-Driven-Development][great talk by Steve Freeman]]
 (of [[http://jmock.org/][jMock]] fame).  It is about writing good tests that are
 easy to maintain, as opposed to record-replay types that are very brittle.  It
-covers material in his new book:
-[[http://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627/ref%3Dwl%5Fit%5Fdp%5Fo?ie%3DUTF8&coliid%3DI15OEPW6BACNQG&colid%3D9C8YXIMI8EO3][Growing Object-Oriented Software, Guided by Tests]].
+covers material from his new book:
+[[Books.cgi#Growing%5FObject%5FOriented%5FSoftware][Growing Object-Oriented Software, Guided by Tests]].
