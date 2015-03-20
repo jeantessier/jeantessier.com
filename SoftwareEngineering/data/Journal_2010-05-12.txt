@@ -9,7 +9,7 @@ a ThoughtWorker who was an agile coach with me at Google and I got to show him
 ShopWell and we got to catch up a bit.  I immediately recognized him and
 remembered what we had worked on together, but I drew a blank with regard to
 his name.  I remembered the guy but couldn't recall the name.  I had to
-surrepticiously grep through my notes from back then, which I had on my laptop,
+surreptitiously grep through my notes from back then, which I had on my laptop,
 to get at this missing piece.
 
 Back to Martin Fowler.  The talk had three parts: continuous integration and
@@ -22,8 +22,8 @@ part was probably aimed at laggards who still don't get continuous integration.
 Fowler mentioned the book
 [[Books.cgi#Continuous%5FIntegration][Continuous Integration]], part of his
 Signature Series at Addison Wesley.  It is a good book if you're not
-technical and want to learn about software practices, but any developer worth a
-dime needs only one figure out of that book.  The talk got more interesting when
+technical and want to learn about software practices.  But any developer worth a
+dime only needs a single figure out of that book.  The talk got more interesting when
 he moved past this into "continuous delivery" territory.  He talked about build
 pipelines and introduced terminology to help communication about the various
 stages (commit, acceptance, performance, deploy) and the degrees of automation
@@ -31,9 +31,9 @@ required by each.  There is a new book in the works,
 [[http://amzn.com/0321601912][Continuous Delivery]],
 due out later this year.
 
-For the second part of the evening, Fowler answered some questions that had been
+For the second part of the evening, Fowler answered some questions
 submitted by attendees when they registered for the talk.  I was happy that he
-had picked my question, whether it is better to hire people already familiar
+picked my question: whether it is better to hire people already familiar
 with your platform or to hire talented individuals who will learn it as they
 go.  I stole it from one of the presentations at
 [[http://sllconf.com][Startup Lessons Learned]].  His take on it is to hire
@@ -47,13 +47,13 @@ write stories (strict templates are for process weennies), planning defect fixes
 optimize only as needed).
 
 The last part was about domain specific languages (DSLs).  Fowler has been
-blogging and tweeting about this for the past couple years, so it was expected.
+blogging and tweeting about this for the past couple years, so it was to be expected.
 He has a book coming out on the topic,
 [[http://amzn.com/0321712943][Domain Specific Languages]].
 He talked about the _Unix tradition_ of creating a new language and writing a
 parser for it, using =yacc= or =YAML=, what he calls _external DSLs_.  He
 compared to the Lisp tradition of writing languages as flavors of Lisp and
-running them using the Lisp environment, a tradition that has been picked up by
+running them using the Lisp environment, a tradition picked up by
 the Ruby community.  He calls these _internal DSLs_ or _embedded DSLs_ since
 they live inside a host language.
 
