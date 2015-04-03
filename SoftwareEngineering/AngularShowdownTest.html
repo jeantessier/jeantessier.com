@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html ng-app="myApp" ng-controller="myCtrl">
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Angular / Showdown Test</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/0.3.1/showdown.min.js"></script>
+</head>
+
+<body>
+
+<h1>Angular / Showdown Test</h1>
+
+<textarea cols="80" rows="20" ng-model="textarea"></textarea>
+
+<div ng-bind-html="markdown()"/>
+
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('myCtrl', function($scope, $sce) {
+        $scope.converter = new Showdown.converter();
+        $scope.textarea = "# Title";
+        $scope.markdown = function() {
+            return $sce.trustAsHtml($scope.converter.makeHtml($scope.textarea));
+        };
+    });
+</script>
+</body>
+
+</html>

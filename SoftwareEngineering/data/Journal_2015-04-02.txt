@@ -1,0 +1,7 @@
+I came upon [[https://github.com/showdownjs/showdown][Showdown]], a way to
+render [[http://daringfireball.net/projects/markdown/][Markdown]] as JavaScript
+embedded in an HTML page.  I wrote
+[[AngularShowdownTest.html][a tiny test page]] using
+[[https://angularjs.org/][AngularJS]] to try writing markdown text in a
+=&lt;textarea&gt;=, convert it to HTML using Showdown, and use the generated
+HTML to populate a =&lt;div&gt;=.
