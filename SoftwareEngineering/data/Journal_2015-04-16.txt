@@ -1,0 +1,36 @@
+We have a problem at work in that we're still using Grails 1.3.7, which is about
+five years old.  We couldn't switch to Grails 2.0 when it came out because it
+meant porting all of our code.  There was too much code and we couldn't stop
+shipping features for the time it would take to port all the existing code.
+This has hampered our ability to use newer plugins that were written against
+Grails 2.0.
+
+Now, Grails 3.0.1 just came out.  The migration guide says:
+
+<blockquote>
+The best approach to take when upgrading a plugin or application (and if your
+application is using several plugins the plugins will need upgrading first) is
+to create a new Grails 3.0 application of the same name and copy the source
+files into the correct locations in the new application.
+</blockquote>
+
+So, basically a new port all over again.  Maybe we'll be able to port our app
+directly from 1.3.7 to 3.0.1.  Someday.
+
+I thought this sucked pretty badly, until a came upon a discussion in the
+AngularJS world that AngularJS 2.0 is not backwards compatible and porting
+applications written with AngularJS 1.0 to the new AngularJS 2.0 will require a
+fair bit of rewrite.  So even though our situation with Grails is uncomfortable,
+at least we are not alone.  At least one other platform is forcing its
+developers to do major rewrites in order to upgrade to their latest and greatest
+version.
+
+Then, I came upon a tweet that said
+[[https://twitter.com/agile_memes/status/568718928345583616][One does not simply upgrade Rails]],
+as a parody of Boromir saying "One does not simply walk into Mordor."
+
+And then, I saw this
+[[https://youtu.be/G-uKNd5TSBw?t=2m20s][keynote by Guido van Rossum where he talks about the woes of upgrading to Python 3]].
+One more platform where upgrades will be difficult this year.
+
+I guess we're in great company indeed.
