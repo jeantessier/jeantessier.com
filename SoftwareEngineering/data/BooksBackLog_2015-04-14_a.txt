@@ -1,0 +1,13 @@
+name: AngularJS_in_Action
+isbn: 1617291331
+isbn13: 9781617291333
+title: [[http://amzn.com/1617291331][AngularJS in Action]]
+author: Brian Ford
+author: Lukas Ruebbelke
+publisher: Manning
+year: 2015
+acquired: 2015-04-14
+
+I started reading about AngularJS and did one quick tutorial.  I'm looking
+forward to learning more through this book.
+
