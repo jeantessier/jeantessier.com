@@ -7,6 +7,7 @@ publisher: Manning
 year: 2015
 acquired: 2014-11-30
 start: 2015-01-23
+stop: 2015-04-16
 
 Responsive web pages are all the rage these days.  I figured this book could
 help me make sense of it all.
