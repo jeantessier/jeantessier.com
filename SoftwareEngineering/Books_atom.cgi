@@ -78,6 +78,7 @@ sub PrintDocumentHeader {
     print "    <title>$title</title>\n";
     print "    <id>http://jeantessier.com/SoftwareEngineering/$DOCUMENT.cgi</id>\n";
     print "    <link href=\"http://jeantessier.com/SoftwareEngineering/$DOCUMENT.cgi\"/>\n";
+    print "    <link href=\"http://jeantessier.com/SoftwareEngineering/${DOCUMENT}_atom.cgi\" rel=\"self\"/>\n";
     print "    <author>\n";
     print "        <name>Jean Tessier</name>\n";
     print "    </author>\n";
