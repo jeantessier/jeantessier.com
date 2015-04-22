@@ -14,7 +14,7 @@ He quickly introduced his
 is studying a vertical slice of the Bible.  Here, he is taking chapter 3, verse
 16 of each book of the Bible and researching what commentators and theologians
 have written about it.  He picked 3:16 because of
-[[http://en.wikipedia.org/wiki/John_3_16][John 3:16]].  So far, he's only done
+[[http://en.wikipedia.org/wiki/John%5F3%5F16][John 3:16]].  So far, he's only done
 that one slice.  It would be very interesting to see what shows up for other
 slices.
 
