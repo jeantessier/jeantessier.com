@@ -112,7 +112,7 @@ sub PrintDocumentPart {
     print "        <title>$MONTH{$month} $day, $year</title>\n";
     print "        <id>http://jeantessier.com/SoftwareEngineering/$DOCUMENT.cgi#$year-$month-$day</id>\n";
     print "        <link href=\"http://jeantessier.com/SoftwareEngineering/$DOCUMENT.cgi#$year-$month-$day\"/>\n";
-    print "        <published>$year-$month-$day</published>\n";
+    print "        <published>${year}-${month}-${day}T00:00:00-00:00</published>\n";
     print "        <content type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">\n";
 
     local ($in_paragraph, $in_quote, $in_ordered_list, $in_unordered_list, $in_html);

@@ -154,7 +154,7 @@ sub PrintDocumentPart {
     print "        <title>" . $meta_data{'title'} . "</title>\n";
     print "        <id>http://jeantessier.com/$DOCUMENT.cgi#" . $meta_data{'name'} . "</id>\n";
     print "        <link href=\"http://jeantessier.com/$DOCUMENT.cgi#" . $meta_data{'name'} . "\"/>\n";
-    print "        <published>$year-$month-$day</published>\n";
+    print "        <published>${year}-${month}-${day}T00:00:00-00:00</published>\n";
     print "        <content type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">\n";
 
     &PrintWikiContents(@lines);
