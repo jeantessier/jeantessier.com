@@ -82,7 +82,7 @@ sub PrintDocumentHeader {
     print "    <author>\n";
     print "        <name>Jean Tessier</name>\n";
     print "    </author>\n";
-    print "    <rights type=\"xhtml\">Copyright (c) 2001-2009, Jean Tessier</rights>\n";
+    print "    <rights type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">Copyright (c) 2001-2009, Jean Tessier</div></rights>\n";
 }
 
 sub PrintDocumentParts {
@@ -155,7 +155,7 @@ sub PrintDocumentPart {
     print "        <id>http://jeantessier.com/$DOCUMENT.cgi#" . $meta_data{'name'} . "</id>\n";
     print "        <link href=\"http://jeantessier.com/$DOCUMENT.cgi#" . $meta_data{'name'} . "\"/>\n";
     print "        <published>$year-$month-$day</published>\n";
-    print "        <content type=\"xhtml\">\n";
+    print "        <content type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">\n";
 
     &PrintWikiContents(@lines);
 
@@ -181,7 +181,7 @@ sub PrintDocumentPart {
     print "    </tr>\n";
     print "</table>\n";
 
-    print "        </content>\n";
+    print "        </div></content>\n";
     print "    </entry>\n";
 }
 

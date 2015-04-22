@@ -82,7 +82,7 @@ sub PrintDocumentHeader {
     print "    <author>\n";
     print "        <name>Jean Tessier</name>\n";
     print "    </author>\n";
-    print "    <rights type=\"xhtml\">Copyright (c) 2001-2009, Jean Tessier</rights>\n";
+    print "    <rights type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">Copyright (c) 2001-2009, Jean Tessier</div></rights>\n";
 }
 
 sub PrintDocumentParts {
@@ -113,7 +113,7 @@ sub PrintDocumentPart {
     print "        <id>http://jeantessier.com/SoftwareEngineering/$DOCUMENT.cgi#$year-$month-$day</id>\n";
     print "        <link href=\"http://jeantessier.com/SoftwareEngineering/$DOCUMENT.cgi#$year-$month-$day\"/>\n";
     print "        <published>$year-$month-$day</published>\n";
-    print "        <content type=\"xhtml\">\n";
+    print "        <content type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">\n";
 
     local ($in_paragraph, $in_quote, $in_ordered_list, $in_unordered_list, $in_html);
 
@@ -205,7 +205,7 @@ sub PrintDocumentPart {
 
     close(FILEHANDLE);
 
-    print "        </content>\n";
+    print "        </div></content>\n";
     print "    </entry>\n";
 }
 
