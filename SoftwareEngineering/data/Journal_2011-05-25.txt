@@ -1,6 +1,6 @@
 Decided to go PC-less.  I picked up my broken Alienware PC from the repair shop.
 I didn't call ahead and the PC was still in pieces: heatsink, CPU, DIMMs.  No
 matter.  I got a
-[[http://www.kingwin.com/products/cate/accessories/adapters/manual/kwi_s2_manual.pdf][KWI-S2]]
+[[http://www.kingwin.com/products/cate/accessories/adapters/manual/kwi%5Fs2%5Fmanual.pdf][KWI-S2]]
 SATA-to-USB converter so I can connect my two hard drives to my Mac to get the
 files back.  Best $17 ever.
