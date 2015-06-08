@@ -8,6 +8,7 @@ publisher: Gallimard
 year: 2014
 acquired: 2015-01-02
 start: 2015-04-30
+stop: 2015-06-06
 
 Favorite author.  Enough said.
 
