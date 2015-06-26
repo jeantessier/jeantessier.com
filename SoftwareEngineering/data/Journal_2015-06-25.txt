@@ -1,0 +1,10 @@
+Back in the days, there was LAMP (Linux, Apache, MySQL, PHP).
+
+Now, it is [[http://mean.io/][MEAN]] (MongoDB, Express, AngularJS, Node.js).
+
+I also found a
+[[http://www.quora.com/What-are-the-10-most-important-things-to-learn-in-web-development-as-of-2015][Quora question about relevant web development technologies]].
+I was a little sad that no one cared to list any Java-based technologies.  I
+need to modernize my skillset, including to figure out
+[[https://www.docker.com/][Docker]].  I did find an (almost) nice
+[[https://www.digitalocean.com/community/tutorials/docker-explained-using-dockerfiles-to-automate-building-of-images][Docker explanation]].
