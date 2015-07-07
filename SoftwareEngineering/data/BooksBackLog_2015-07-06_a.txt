@@ -1,0 +1,12 @@
+name: Getting_MEAN
+isbn: 1617292036
+isbn13: 9781617292033
+title: [[http://amzn.com/1617292036][Getting MEAN with Mongo, Express, Angular, and Node]]
+author: Simon Holmes
+publisher: Manning
+year: 2015
+acquired: 2015-07-06
+
+MEAN ties the lastest web development technologies together, the way LAMP tied
+the early open source stack years ago.  This book should be a decent intro to
+the key players.
