@@ -1,0 +1,31 @@
+.top {
+    border: 1px solid red;
+    margin: 5px 0px;
+    padding: 5px;
+}
+
+.left_nav {
+    float: left;
+    margin-right: 10px;
+}
+
+.nav_element {
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin: 3px 0px;
+    padding: 0px 3px;
+}
+
+.content_area {
+    background-color: #ffc;
+    border: 2px solid peru;
+    border-radius: 25px;
+    float: right;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    height: 400px;
+    margin-left: 10px;
+    padding: 20px 10px 20px 20px;
+    width: 600px;
+}

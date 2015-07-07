@@ -1,0 +1,162 @@
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: Calluna;
+    src: url(fonts/Calluna-Regular.otf) format("opentype");
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: "Fertigo Pro";
+    src: url(fonts/Fertigo_PRO.otf) format("opentype");
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: Fontin;
+    src: url(fonts/Fontin-Regular.otf) format("opentype"), url(fonts/Fontin-Regular.ttf) format("truetype");
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: Fontin;
+    src: url(fonts/Fontin-Bold.otf) format("opentype"), url(fonts/Fontin-Bold.ttf) format("truetype");
+    font-weight: bold;
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: Fontin;
+    src: url(fonts/Fontin-Italic.otf) format("opentype"), url(fonts/Fontin-Italic.ttf) format("truetype");
+    font-style: italic;
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+/*
+ * Commenting out because it conflicts with Regular in Firefox.
+ *
+ * @font-face {
+ *     font-family: Fontin;
+ *     src: url(fonts/Fontin-SmallCaps.otf) format("opentype"), url(fonts/Fontin-SmallCaps.ttf) format("truetype");
+ *     font-variant: small-caps;
+ * }
+ */
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: "Fontin Sans";
+    src: url(fonts/Fontin_Sans_R_45b.otf) format("opentype");
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: "Fontin Sans";
+    src: url(fonts/Fontin_Sans_B_45b.otf) format("opentype");
+    font-weight: bold;
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: "Fontin Sans";
+    src: url(fonts/Fontin_Sans_I_45b.otf) format("opentype");
+    font-style: italic;
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: "Fontin Sans";
+    src: url(fonts/Fontin_Sans_BI_45b.otf) format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+/*
+ * Commenting out because it conflicts with Regular in Firefox.
+ *
+ * @font-face {
+ *     font-family: "Fontin Sans";
+ *     src: url(fonts/Fontin_Sans_SC_45b.otf) format("opentype");
+ *     font-variant: small-caps;
+ * }
+ */
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: Museo;
+    src: url(fonts/Museo300-Regular.otf) format("opentype");
+    font-weight: 300;
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: Museo;
+    src: url(fonts/Museo500-Regular.otf) format("opentype");
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: Museo;
+    src: url(fonts/Museo700-Regular.otf) format("opentype");
+    font-weight: 700;
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: "Museo Slab";
+    src: url(fonts/Museo_Slab_500.otf) format("opentype");
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: "Museo Slab";
+    src: url(fonts/Museo_Slab_500italic.otf) format("opentype");
+    font-style: italic;
+}
+
+.TimesNewRoman {
+    font-family: "Times New Roman", monospace;
+}
+
+.Garamond {
+    font-family: "Garamond", monospace;
+}
+
+.ComicSans {
+    font-family:"Comic Sans", "Comic Sans MS",  monospace;
+}
+
+.Arial {
+    font-family:"Arial",  monospace;
+}
+
+.Helvetica {
+    font-family:"Helvetica",  monospace;
+}
+
+.Verdana {
+    font-family:"Verdana",  monospace;
+}
+
+.Calluna {
+    font-family:"Calluna",  monospace;
+}
+
+.FertigoPro {
+    font-family:"Fertigo Pro",  monospace;
+}
+
+.Fontin {
+    font-family:"Fontin",  monospace;
+}
+
+.FontinSans {
+    font-family:"Fontin Sans",  monospace;
+}
+
+.Museo {
+    font-family:"Museo",  monospace;
+}
+
+.MuseoSlab {
+    font-family:"Museo Slab",  monospace;
+}

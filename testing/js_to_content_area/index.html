@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<title>JavaScript to Content Area</title>
+<link rel="stylesheet" type="text/css" href="index.css"/>
+<script type="text/javascript" src="jquery-1.4.2.min.js">
+</script>
+<script type="text/javascript">
+    $(function(){
+        $(".nav_element").click(function() {
+            var content = $(this).text();
+           $.get(content, [], function(response) {
+                $(".content_area").html(response);
+            });
+        });
+    });
+</script>
+</head>
+
+<body>
+
+<div class="top">
+  <h1>JavaScript to Content Area</h1>
+</div>
+
+<div class="left_nav">
+  <div class="nav_element">1.html</div>
+  <div class="nav_element">http://insidr.com/</div>
+  <div class="nav_element">http://jeantessier.com/</div>
+  <div class="nav_element">http://imgs.xkcd.com/comics/techno.png</div>
+  <div class="nav_element">2.html</div>
+</div>
+
+<div class="content_area"/>
+
+</body>
+
+</html>
