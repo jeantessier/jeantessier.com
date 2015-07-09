@@ -1,0 +1,4 @@
+A friend mentioned [[https://www.meteor.com/][Meteor]] as a JavaScript framework
+for single page applications.  An application developed with it can manage its
+own instance of MongoDB.
+
