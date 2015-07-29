@@ -6,9 +6,12 @@ author: Sam Newman
 publisher: O'Reilly
 year: 2015
 acquired: 2015-07-06
+start: 2015-07-20
 
 I worked with Sam a few years ago and I'm curious to see what he's been up to.
 And microservices are all the rage, right now.  At work, I'm struggling with a
 monolith; we cannot upgrade the technology stack because the task is too big.
 With a microservice-based approach, we would have had small pieces that we could
 upgrade one at a time.
+
+_More to come._
