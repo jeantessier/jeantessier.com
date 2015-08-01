@@ -20,10 +20,10 @@ print "    \"Jean Tessier\": \"was here!\"\n";
 print "  },\n";
 
 print "  \"cookies\": {\n";
-foreach $cookie (split(/;\s*/, $ENV{'COOKIE'})) {
+foreach $cookie (split(/;\s*/, $ENV{'HTTP_COOKIE'})) {
     if ($cookie =~ /(\w+)=(.*)/) {
         print "    \"$1\": \"$2\",\n";
-    }    
+    }
 }
 print "    \"Cookie Monster\": \"was here!\"\n";
 print "  },\n";
