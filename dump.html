@@ -6,13 +6,22 @@
 
 <body>
 
-<form action="echo.cgi" method="post">
-<input type="text" name="name" />
-<textarea name="bio"></textarea>
-<input type="submit" />
+<form action="dump.cgi" method="post">
+    <table>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" name="name" /></td>
+        </tr>
+            <td>Bio</td>
+            <td><textarea name="bio"></textarea></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" /></td>
+        </tr>
+    </table>
 </form>
 
 </body>
 
 </html>
-
