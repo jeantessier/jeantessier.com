@@ -19,6 +19,15 @@ foreach $key (sort(keys(%ENV))) {
 print "    \"Jean Tessier\": \"was here!\"\n";
 print "  },\n";
 
+print "  \"cookies\": {\n";
+foreach $cookie (split(/;\s*/, $ENV{'COOKIE'})) {
+    if ($cookie =~ /(\w+)=(.*)/) {
+        print "    \"$1\": \"$2\",\n";
+    }    
+}
+print "    \"Cookie Monster\": \"was here!\"\n";
+print "  },\n";
+
 print "  \"form\": {\n";
 
 @pairs = split(/&/, $formData);
@@ -32,11 +41,10 @@ foreach $pair (@pairs){
   $value =~ s/%([a-fA-F0-9][a-fA-F0-9])/pack("C", hex($1))/eg;
   $value =~ s/(['"])/\\$1/g;
   $value =~ s/\r?\n/\\\n/g;
-  print "    \"$name\": \"$value\",\n";  
-} 
+  print "    \"$name\": \"$value\",\n";
+}
 
 print "    \"Jean Tessier\": \"was here, too!\"\n";
 print "  }\n";
 
 print "}\n";
-
