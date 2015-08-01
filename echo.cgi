@@ -26,10 +26,12 @@ foreach $pair (@pairs){
   ($name, $value) = split (/=/, $pair);
   $name =~ tr/+/ /;
   $name =~ s/%([a-fA-F0-9][a-fA-F0-9])/pack("C", hex($1))/eg;
-  $name =~ s/(['"\n])/\\$1/g;
+  $name =~ s/(['"])/\\$1/g;
+  $name =~ s/\r?\n/\\\n/g;
   $value =~ tr/+/ /;
   $value =~ s/%([a-fA-F0-9][a-fA-F0-9])/pack("C", hex($1))/eg;
-  $value =~ s/(['"\n])/\\$1/g;
+  $value =~ s/(['"])/\\$1/g;
+  $value =~ s/\r?\n/\\\n/g;
   print "    \"$name\": \"$value\",\n";  
 } 
 
