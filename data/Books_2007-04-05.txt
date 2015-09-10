@@ -14,7 +14,6 @@ along the same line as
 Pollan identifies four _food chains_ that go from where the
 food is produced to our plates.
 
-<div class="table-wrapper">
 <dl>
     <dt><b>industrial</b></dt>
     <dd>
@@ -45,7 +44,6 @@ food is produced to our plates.
         but interesting nonetheless.
     </dd>
 </dl>
-</div>
 
 My sister studied food processing and now works as part of the
 industrial food chain that the author describes.  While he mentions

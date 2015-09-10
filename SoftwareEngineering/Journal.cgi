@@ -78,7 +78,7 @@ sub PrintDocumentHeader {
     print "\n";
     print "<head>\n";
     print "<link rel=\"stylesheet\" type=\"text/css\" href=\"../tufte.css\" />\n";
-    print "<link rel=\"stylesheet\" type=\"text/css\" href=\"../journal2.css\" />\n";
+    print "<link rel=\"stylesheet\" type=\"text/css\" href=\"../journal.css\" />\n";
     print "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n";
     print "<title>$title</title>\n";
     print "</head>\n";

@@ -36,3 +36,7 @@
     font-style: italic;
     font-variant: small-caps;
 }
+
+dl {
+    width: 55%;
+}
