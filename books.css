@@ -40,3 +40,13 @@
 dl {
     width: 55%;
 }
+
+@media screen and (max-width: 760px) {
+    .book-metadata {
+        width: 100%;
+    }
+
+    dl {
+        width: 90%;
+    }
+}

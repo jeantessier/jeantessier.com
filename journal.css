@@ -17,3 +17,9 @@ dl {
 .centered-triplet td:last-child, .centered-triplet th:last-child {
     text-align: left;
 }
+
+@media screen and (max-width: 760px) {
+    dl {
+        width: 90%;
+    }
+}
