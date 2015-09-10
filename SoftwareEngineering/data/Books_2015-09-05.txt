@@ -7,7 +7,7 @@ author: Lukas Ruebbelke
 publisher: Manning
 year: 2015
 acquired: 2015-04-14
+start: 2015-09-05
 
 I started reading about AngularJS and did one quick tutorial.  I'm looking
 forward to learning more through this book.
-
