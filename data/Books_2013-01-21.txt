@@ -64,13 +64,12 @@ hiding?  It is up to the reader to finish the story for themselves.
 
 ---++ Quotes
 
-Somewhere between pages 331-378:
-
-<div class="quote">
+<blockquote>
 
 Nothing is more original than something that's already been published.
 
-</div>
+<footer>somewhere between pages 331-378</footer>
+</blockquote>
 
 What he means is that when trying to convince people that a fake document is
 genuine, it helps if the target audience is already familiar with the material.
@@ -80,14 +79,13 @@ was published some time ago and the audience's recollection is a little fuzzy.
 It will _feel_ right since it matches prior recollections.  Most people won't
 go through the trouble of double checking.
 
-On page 421:
-
-<div class="quote">
+<blockquote>
 
 Most of those who join secret societies are opportunists who seek to make their
 own way and have no worthy purposes.
 
-</div>
+<footer>page 421</footer>
+</blockquote>
 
 This is said in the context of jews-are-infiltrating-secret-societies-as-part-of-their-plan-to-take-over-the-world.
 What it means is that members of secret societies are looking for a sense of

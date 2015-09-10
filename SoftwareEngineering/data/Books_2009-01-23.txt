@@ -26,9 +26,7 @@ But JavaScript has a rather unique take on objects and it pays to reframe your
 thinking along its lines of strength.  It really clarified closures and the use
 of functions to control scope for me.
 
-<blockquote><em>
-Additional note: the author did a presentation at Google on the contents of this
-book.  [[http://www.youtube.com/watch?v=hQVTIJBZook][See it on YouTube.]]  I'm
-sitting in the first row.  I'm the guy with dark hair and a bald spot on the
-right.
-</em></blockquote>
+<p><span class="newthought">Additional note:</span> the author did a
+presentation at Google on the contents of this book.
+[[http://www.youtube.com/watch?v=hQVTIJBZook][See it on YouTube.]]  I'm sitting
+in the first row.  I'm the guy with dark hair and a bald spot on the right.</p>

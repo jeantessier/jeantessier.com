@@ -1,85 +1,38 @@
-.title {
-    font-family: "Fertigo Pro";
+.book-metadata {
+    font-size: 0.9rem;
 }
 
-.google_ad {
-    padding-bottom: 1.0em;
-    text-align: center;
-}
-
-.book {
-    font-family: "Museo Slab", serif;
+.book-metadata .author {
     text-align: left;
-    vertical-align: top;
-}
-
-table .author {
-    font-family: Fontin, serif;
-    text-align: center;
     vertical-align: top;
     white-space: nowrap;
 }
 
-.publisher {
-    font-family: Fontin, serif;
+.book-metadata .publisher {
     text-align: center;
     vertical-align: top;
 }
 
-table .published_year {
-    font-family: Fontin, serif;
-    text-align: center;
+.book-metadata .published-year {
+    text-align: right;
     vertical-align: top;
 }
 
-.review {
-    font-family: "Fontin Sans", sans-serif;
+.reading-metadata {
+    font-size: 0.9rem;
+    width: auto;
 }
 
-.quote {
-    background-color: #656565;
-    border-radius: 13px;
-    border-style: dashed;
-    border-width: 2px;
-    color: #ccc;
-    margin-left: 30px;
-    margin-right: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+.reading-metadata td {
+    text-align: left;
 }
 
-.time {
-    font-family: Fontin, serif;
+.reading-metadata td.code {
+    font-size: 0.9rem;
+    text-align: left;
 }
 
-.no_time {
-    font-family: Fontin, serif;
+.reading-metadata td.no_time {
     font-style: italic;
     font-variant: small-caps;
-}
-
-h2 {
-    font-size: 1em;
-    font-style: italic;
-    font-weight: normal;
-}
-
-th {
-    font-family: Fontin, serif;
-    text-transform: uppercase;
-}
-
-.index_entry {
-    margin-bottom: 0.5em;
-}
-
-.index_entry .published_year {
-    font-family: Fontin, serif;
-    font-size: smaller;
-}
-
-.index_entry .author {
-    font-family: Fontin, serif;
-    font-size: smaller;
-    margin-left: 10px;
 }

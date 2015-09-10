@@ -8,10 +8,8 @@ year: 2004
 start: 2006-10-02
 stop: 2006-10-11
 
-<blockquote><em>
-I waited two years before writing my comments.
-I don't remember much anymore.
-</em></blockquote>
+<p><span class="newthought">Note:</span> I waited two years before writing my
+comments.  I don't remember much anymore.</p>
 
 The book was pretty good, very practical, steeped in the
 author's extensive experience.  The presentation style was very

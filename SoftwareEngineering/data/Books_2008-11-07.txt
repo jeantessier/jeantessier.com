@@ -38,7 +38,5 @@ at work: JavaScript, AJAX, CSS, JSON.
 I can only hope that in the years since Resig wrote the book, we've made
 progress in making JavaScript less horrible to work with.
 
-<blockquote><em>
-Additional note: it turns out Resig is the author of
-[[http://jquery.com/][jQuery]].
-</em></blockquote>
+<p><span class="newthought">Additional note:</span> it turns out Resig is the
+author of [[http://jquery.com/][jQuery]].</p>

@@ -19,7 +19,7 @@ nostalgia, I decided to take a look at it and maybe even re-read the
 second discourse.  I wanted to see what I might have missed the
 first time around.
 
-_Discourse on the Arts and Sciences_
+---++ Discourse on the Arts and Sciences
 
 Already, Rousseau has idea that man is fundamentally good and
 that it is civilization that makes him bad.  He upholds his version
@@ -54,7 +54,7 @@ purpose as the Christian Bible?  And what about Eastern religions?
 Maybe the thought didn't occur to him, immersed as he was in a
 Christian world.
 
-_Discourse on the Origin and Basis of Inequality Among Men_
+---++ Discourse on the Origin and Basis of Inequality Among Men
 
 The first discourse was drawing comparisons to ancient Greeks.
 The second discourse goes on straight through to the most primitive

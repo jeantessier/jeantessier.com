@@ -9,6 +9,7 @@ starts with "I am a software engineer," but is that really what I want to
 project?  What do people read in this?  Here are some alternatives and what I
 think of each:
 
+<div class="table-wrapper">
 <dl>
 	<dt><b>programmer</b></dt>
 	<dd>
@@ -54,6 +55,7 @@ think of each:
 		scientists belong in academia and are disconnected from reality.
 	</dd>
 </dl>
+</div>
 
 Robert Grady, in
 [[http://www.amazon.com/exec/obidos/tg/detail/-/0137203845/qid%3D1063431134/sr%3D1-1/ref%3Dsr%5F1%5F1/102-2068667-3875341?v%3Dglance&s%3Dbooks][Practical Software Metrics for Project Management and Process Improvement]],

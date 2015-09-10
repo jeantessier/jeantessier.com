@@ -28,9 +28,11 @@ _The Silmarillion_.  Like the one with Saeros, for instance.
 I also liked the writing style too; it suggests old heroic tales and
 myths.  For instance:
 
-<blockquote><em>
+<blockquote>
+
 Huor, his brother was tall, the tallest of all the Edain
 save his own son Tuor only, and a swift runner; but if the race were
 long and hard H&uacute;rin would be the first home, for he ran as
 strongly at the end of the course as at the beginning.
-</em></blockquote>
+
+</blockquote>

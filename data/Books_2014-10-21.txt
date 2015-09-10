@@ -47,7 +47,7 @@ I had to throw all that away and try again from scratch.
 Lastly, I have two issues with his writing style.  The overall writing suffers
 from wordiness.  Right from the first paragraph
 
-<div class="quote">
+<blockquote>
 
 La cloche retentit.  Un murmure se fait graduellement entendre, tel un troupeau
 lointain qui s'approche &agrave; grands pas.  Le sol vibre comme pour avertir
@@ -57,11 +57,11 @@ r&eacute;fl&eacute;chissent le bourdonnement pour en amplifier la cacophonie.
 Le brouhaha envahit soudainement la grande salle.  Les corridors, tels des
 volcans en &eacute;ruption, crachent des &eacute;tudiants par dizaines.
 
-</div>
+</blockquote>
 
 Which roughly translates to:
 
-<div class="quote">
+<blockquote>
 
 The bell rings. A murmur is heard gradually, as a distant herd is approaching
 briskly. The floor vibrates as if to warn a prey of the impending approach of
@@ -69,7 +69,7 @@ raging predators. The high walls, partially dressed in metal lockers, reflect
 the buzz to amplify the cacophony. The hubbub suddenly invades the main hall.
 The corridors, like volcanoes that are erupting, spew students by the tens.
 
-</div>
+</blockquote>
 
 Each sentence evokes multiple clashing images and only confuse the reader.  One
 sentence has a _herd_ as the source of the noise, and the next sentence has

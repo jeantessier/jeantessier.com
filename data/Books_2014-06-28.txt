@@ -29,15 +29,14 @@ imaginary one if there are no real enemies at hand.  We reuse the same elements
 to describe this enemy and vilify them, whether the "enemy" is Jews, women,
 Arabs, or some other group.
 
-On page 2:
-
-<div class="quote">
+<blockquote>
 
 Having an enemy is important not only to define our identity but also to provide
 us with an obstacle against which to measure our system of values and, in
 seeking to overcome it, to demonstrate our own worth.
 
-</div>
+<footer>page 2</footer>
+</blockquote>
 
 Jean-Paul Sartre reduced this theme to its simplest form in his novel _No Exit_,
 which I got to read back in high school.
@@ -114,14 +113,13 @@ heavens, about the earth, etc.  They've also forged histories about them to
 foster political agendas.  Prester John's letter helped spur European expansion
 into Asia and Africa.
 
-On page 161:
-
-<div class="quote">
+<blockquote>
 
 Remember the greatness of those imaginary geographies and astronomies, and those
 errors that often bore fruit.
 
-</div>
+<footer>page 161</footer>
+</blockquote>
 
 ---++ Living by Proverbs (2007)
 

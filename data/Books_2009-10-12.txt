@@ -10,12 +10,15 @@ year: 2005
 start: 2009-10-12
 stop: 2009-10-15
 
-The books open with a passage by St. Augustine:
+The books open with this passage:
 
-<blockquote><em>
+<blockquote>
+
 If no one asks me about it, then I know what it is; but if someone asks me about
 it and I try to explain it to him, then I do not know what it is.
-</em></blockquote>
+
+<footer>St. Augustine</footer>
+</blockquote>
 
 I just love Patrick S&uuml;skind.
 

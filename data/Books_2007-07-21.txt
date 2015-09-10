@@ -141,7 +141,8 @@ you get to
 the world is fully defined by the author and the reader's role
 becomes much more passive.
 
-<blockquote><em>
+<blockquote>
+
 It may seem ironic that I rail against Rowling for
 defining everything in her novels when that's what I admire in
 Tolkien.  And maybe it's not exactly fair to compare Rowling to
@@ -149,7 +150,8 @@ Tolkien.  But in Tolkien, while everything has a backstory, not
 everything is intimately related to the main story.  Rowling goes
 the other way and tries to relate every element in the universe to
 Harry's struggles.
-</em></blockquote>
+
+</blockquote>
 
 I quick point of curiosity: Rowling never even mentions the
 Americas or Asia or Africa.  All the action takes place in
