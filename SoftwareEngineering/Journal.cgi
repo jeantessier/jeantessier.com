@@ -81,6 +81,7 @@ sub PrintDocumentHeader {
     print "<link rel=\"stylesheet\" type=\"text/css\" href=\"../journal.css\" />\n";
     print "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n";
     print "<title>$title</title>\n";
+    print "<script type=\"text/javascript\" src=\"../google_analytics.js\"></script>";
     print "</head>\n";
     print "\n";
     print "<body>\n";
