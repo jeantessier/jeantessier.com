@@ -10,8 +10,10 @@ beat you to it by thousands of years?  Today I came upon this quote attributed
 to Thucydides, allegedly over 2,300 years ago:
 
 <blockquote>
-<i>A man who has the knowledge but lacks the power to express it is
-no better off than if he never had any ideas at all.</i>
+
+A man who has the knowledge but lacks the power to express it is no better off
+than if he never had any ideas at all.
+
 </blockquote>
 
 A little more research showed that Thucydides was a historian.  The quote is

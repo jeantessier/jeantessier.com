@@ -5,16 +5,13 @@ A friend of mine is participating in
 the following piece of advice:
 
 <blockquote>
-<i>Don't try to make it <u>beautiful</u>--try to make it <u>finished</u>.</i>
-</blockquote>
 
-<blockquote>
-<i><u>Don't</u> do unnecessary drawing--<u>don't</u> do thumbnails--<u>don't</u>
-do character design--do minimal pencils and plow through it.</i>
-</blockquote>
+Don't try to make it <u>beautiful</u>--try to make it <u>finished</u>.
 
-<blockquote>
-<i>Your primary goal is to <u>get done</u>.  Make it bare bones--do rough
+<p><u>Don't</u> do unnecessary drawing--<u>don't</u> do thumbnails--<u>don't</u>
+do character design--do minimal pencils and plow through it.</p>
+
+Your primary goal is to <u>get done</u>.  Make it bare bones--do rough
 outlines--and plan to render and sweeten it AFTER you have 24-pages finished in
 some form.  If you run out of time because you decided to make every page
 awesome--you've failed.  It's okay to do shitty work.  People expect them to be
@@ -22,14 +19,13 @@ shitty--they always look pretty sloppy--the bigger shame is failing to finish.
 So plan on doing 24-rough, barebones pages.  Anything more is gravy.  I suggest
 that you work on it all as one piece--don't tackle it page by page or it'll
 deteriorate as you go--don't stop for anything--if a panel is giving you
-grief--move on and come back to it--keep your hands moving at all times.</i>
-</blockquote>
+grief--move on and come back to it--keep your hands moving at all times.
 
-<blockquote>
-<i>Use tools that allow you to work fast. You may think using a proper dip pen
+Use tools that allow you to work fast. You may think using a proper dip pen
 and brush would be fine but you'll lose a lot of time dipping--you're better off
 using markers (I used a Pentel Rolling Writer and a Sharpie to fill in
-blacks--the originals are pretty ugly 15-years later but what the hell).</i>
+blacks--the originals are pretty ugly 15-years later but what the hell).
+
 </blockquote>
 
 Now, this advice is for a very specific task: writing a 24-page comic in 24
@@ -42,7 +38,9 @@ This is eerily similar to a piece of advice in software development regarding
 premature optimization:
 
 <blockquote>
-<i>Make it run.  Make it right.  Make it fast.</i>
+
+Make it run.  Make it right.  Make it fast.
+
 </blockquote>
 
 That is, get something running first, however ugly it might be.  Once you have

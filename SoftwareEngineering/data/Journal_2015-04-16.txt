@@ -8,10 +8,12 @@ Grails 2.0.
 Now, Grails 3.0.1 just came out.  The migration guide says:
 
 <blockquote>
+
 The best approach to take when upgrading a plugin or application (and if your
 application is using several plugins the plugins will need upgrading first) is
 to create a new Grails 3.0 application of the same name and copy the source
 files into the correct locations in the new application.
+
 </blockquote>
 
 So, basically a new port all over again.  Maybe we'll be able to port our app
@@ -26,7 +28,7 @@ developers to do major rewrites in order to upgrade to their latest and greatest
 version.
 
 Then, I came upon a tweet that said
-[[https://twitter.com/agile_memes/status/568718928345583616][One does not simply upgrade Rails]],
+"[[https://twitter.com/agile_memes/status/568718928345583616][One does not simply upgrade Rails]]",
 as a parody of Boromir saying "One does not simply walk into Mordor."
 
 And then, I saw this

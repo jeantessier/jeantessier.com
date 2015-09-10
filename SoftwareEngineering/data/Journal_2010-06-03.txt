@@ -2,13 +2,19 @@ Refresher look at the [[http://hadoop.apache.org/][Hadoop project]].  I see a
 number of sub-projects that look a lot like the parts of Google's MapReduce
 stack.
 
-<center><table>
-<tr><th>Hadoop</th><th width="33%"></th><th>Google</th></tr>
-<tr><td>HBase</td><td align="center">%3D&gt;</td><td>Bigtable</td></tr>
-<tr><td>HDFS</td><td align="center">%3D&gt;</td><td>GFS</td></tr>
-<tr><td>Hive</td><td align="center">%3D&gt;</td><td>???</td></tr>
-<tr><td>Pig</td><td align="center">%3D&gt;</td><td>Sawzall</td></tr>
-</table></center>
+<div class="table-wrapper">
+<table class="centered-triplet">
+    <thead>
+        <tr><th>Hadoop</th><th width%3D"33%"></th><th>Google</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>HBase</td><td>%3D&gt;</td><td>Bigtable</td></tr>
+        <tr><td>HDFS</td><td>%3D&gt;</td><td>GFS</td></tr>
+        <tr><td>Hive</td><td>%3D&gt;</td><td>???</td></tr>
+        <tr><td>Pig</td><td>%3D&gt;</td><td>Sawzall</td></tr>
+    </tbody>
+</table>
+</div>
 
 When I saw the brief description of [[http://hadoop.apache.org/pig/][Pig]] on
 the Hadoop home page, I immediately thought of Google's

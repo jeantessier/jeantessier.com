@@ -1,11 +1,19 @@
-.title {
-    font-family: "Fertigo Pro";
+pre.code {
+    width: 100%;
 }
 
-.header {
-    font-family: Calluna, "Fertigo Pro", cursive;
-    font-size: 24px;
+dl {
+    width: 55%;
 }
 
-.body {
+.centered-triplet td:first-child, .centered-triplet th:first-child {
+    text-align: right;
+}
+
+.centered-triplet td, .centered-triplet th {
+    text-align: center;
+}
+
+.centered-triplet td:last-child, .centered-triplet th:last-child {
+    text-align: left;
 }
