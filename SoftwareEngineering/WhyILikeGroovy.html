@@ -4,6 +4,7 @@
 <html>
 
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <style type="text/css">
 .zone {
     background: rgb(235, 235, 235);
@@ -87,11 +88,11 @@ import org.apache.commons.lang.StringUtils
 <span class="overhead">public class </span><span class="substance">CopyMatcher</span><span class="overhead"> implements PreferenceMatcher {</span>
 
     <span class="overhead">private String </span><span class="substance">triggerWord</span><span class="overhead">;</span>
-    
+
     <span class="overhead">public CopyMatcher(String triggerWord) {</span>
         <span class="overhead">this.triggerWord = triggerWord;</span>
     <span class="overhead">}</span>
-       
+
     <span class="overhead">public boolean </span><span class="substance">matches</span><span class="overhead">(Product </span><span class="substance">product</span><span class="overhead">) {</span>
         <span class="overhead">Iterable&lt;ProductCopy&gt; </span><span class="substance">productCopies = product.</span><span class="overhead">get</span><span class="substance">ProductCopy</span><span class="overhead">();</span>
         <span class="overhead">boolean </span><span class="substance">matches</span><span class="overhead"> = false;</span>
@@ -115,7 +116,7 @@ import org.apache.commons.lang.StringUtils
 <span class="overhead">class </span><span class="substance">CopyMatcher</span><span class="overhead"> {</span>
 
     <span class="overhead">def </span><span class="substance">triggerWord</span>
-    
+
     <span class="overhead">def </span><span class="substance">matches</span><span class="overhead">(</span><span class="substance">product</span><span class="overhead">) {</span>
         <span class="substance">product.productCopy.any</span><span class="overhead"> { </span><span class="substance">StringUtils.containsIgnoreCase it.copy, triggerWord</span><span class="overhead"> }</span>
     <span class="overhead">}</span>
