@@ -12,16 +12,16 @@ stop: 2012-12-06
 
 I liked [[Books.cgi#The%5FNo%5FAsshole%5FRule][The No Asshole Rule]], so I
 thought I'd give this one a try too.  Sutton bills the book as a follow-up to
-_The No Asshole Rule_, but with more of a focus on good management practices and
-less on the bad.
+_The No Asshole Rule_, but with more focus on good management practices and less
+on the bad.
 
 The key takeaway is that the job of a boss seems engineered to breed assholes.
 Bosses suffer from a double bias: they overestimate their own abilities and
 they cannot see how they are perceived by others.  This leads people in boss
 positions to make poor decisions that everyone will notice but themselves.  A
-good boss is more self-aware to note when these missteps and is more graceful
-about accepting and acting on their failings.  They surround themselves with
-people who will keep them grounded.
+good boss is more self-aware to notice when they misstep, and is more graceful
+about accepting their failings and acting on them.  They surround themselves
+with people who will keep them grounded.
 
 It's a nice coincidence that I'm reading this book just as Steven Spielberg's
 movie _Lincoln_ is in theaters.  This books discusses how Lincoln appointed some
@@ -32,12 +32,12 @@ Kearns, on which the movie is based.
 The rest of the book has a number of tips and tricks to help bosses deal with
 this double bias trap.
 
-    * Use repetitive and concrete advice (and keep repeating it).  This is the basis for the KISS principle.  Focus on executing the steps and the results will take care of themselves.  This reminds me of kyudo (Japanese archery) where the focus on form rather than results, to the point where hitting the target is not really important.
-    * David Kelly of IDEO talks about the balance between what the business needs (performance) and what the subordinates need (humanity).
+    * Use repetitive and concrete advice (and keep repeating it).  This is the basis for the KISS principle.  Focus on executing the steps and the results will take care of themselves.  This reminds me of kyudo (Japanese archery) where the focus is on form rather than results, to the point where hitting the target is not really important.
+    * David Kelly of IDEO talks about the balance between the needs of the business (performance) and the needs of the subordinates (humanity).
     * More David Kelly: confidence breeds more confidence.  Act confident and it will come to you.  This reminded me of a part of the book _Starship Troopers_ where the main protagonist is told during officer training that officers must always look like they have all the answers, even when they do not.
     * Stand-up meetings to use people's time efficiently and respectfully.  He references a paper by Allen C. Bluedorn on "The Effects of Stand-Up and Sit-Down Meeting Formats on Meeting Outcomes."  He does not mention agile software development.
     * Asshole Tax: charging more when having to deal with assholes.  Assholes are costly in churn and lost productivity / innovation.
-    * Embarrassment and pride can be great motivators.  Image your child were following you around.
+    * Embarrassment and pride can be great motivators.  Imagine your child were following you around.
     * One manager took subordinates to a hospice to put evaluations into perspective.
     * Acid tests for good boss: 1) Would people work with the boss again? 2) Do they know what it's like working for them?
     * Favor small teams.  Complexity increases exponentially with team size.
