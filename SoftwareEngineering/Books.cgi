@@ -86,7 +86,7 @@ sub PrintDocumentHeader {
     print "\n";
     print "<body>\n";
     print "\n";
-    print "<article>\n";
+    print "<section>\n";
     print "<h1>$title</h1>\n";
 }
 
@@ -143,52 +143,56 @@ sub PrintDocumentPart {
     }
 
     print "\n";
-    print "<section>\n";
+    print "<article>\n";
     print "    <a name=\"" . $meta_data{"name"} . "\"></a>\n";
     print "    <h2>\n";
     print "        " . join("<br />", @titles) . "\n";
     print "    </h2>\n";
     print "\n";
-    print "    <div class=\"table-wrapper\">\n";
-    print "        <table class=\"book-metadata\">\n";
-    print "            <tbody>\n";
-    print "                <td class=\"author\">" . join("<br />", @authors) . "</td>\n";
-    print "                <td class=\"publisher\">" . $meta_data{"publisher"} . "</td>\n";
-    print "                <td class=\"published-year\">" . join("<br />", @years) . "</td>\n";
-    print "            </tbody>\n";
-    print "        </table>\n";
-    print "    </div>\n";
+    print "    <header>\n";
+    print "        <div class=\"table-wrapper\">\n";
+    print "            <table class=\"book-metadata\">\n";
+    print "                <tbody>\n";
+    print "                    <td class=\"author\">" . join("<br />", @authors) . "</td>\n";
+    print "                    <td class=\"publisher\">" . $meta_data{"publisher"} . "</td>\n";
+    print "                    <td class=\"published-year\">" . join("<br />", @years) . "</td>\n";
+    print "                </tbody>\n";
+    print "            </table>\n";
+    print "        </div>\n";
+    print "    </header>\n";
     print "\n";
 
     &PrintWikiContents(@lines);
 
     print "\n";
-    print "    <div class=\"table-wrapper\">\n";
-    print "        <table class=\"reading-metadata\">\n";
-    print "            <tbody>\n";
-    print "                <tr>\n";
-    print "                    <td class=\"time\">Started reading:</td>\n";
+    print "    <footer>\n";
+    print "        <div class=\"table-wrapper\">\n";
+    print "            <table class=\"reading-metadata\">\n";
+    print "                <tbody>\n";
+    print "                    <tr>\n";
+    print "                        <td class=\"time\">Started reading:</td>\n";
     if ($meta_data{"start"} =~ /(\d{4}-\d{2}-\d{2})/) {
-        print "                    <td class=\"time code\">$1</td>\n";
+        print "                        <td class=\"time code\">$1</td>\n";
     } else {
-        print "                    <td class=\"no_time\">not started</td>\n";
+        print "                        <td class=\"no_time\">not started</td>\n";
     }
-    print "                </tr>\n";
+    print "                    </tr>\n";
     print "\n";
-    print "                <tr>\n";
-    print "                    <td class=\"time\">Finished reading:</td>\n";
+    print "                    <tr>\n";
+    print "                        <td class=\"time\">Finished reading:</td>\n";
     if (defined $meta_data{"start"}) {
         if ($meta_data{"stop"} =~ /(\d{4}-\d{2}-\d{2})/) {
-            print "                    <td class=\"time code\">$1</td>\n";
+            print "                        <td class=\"time code\">$1</td>\n";
         } else {
-            print "                    <td class=\"no_time\">in progress</td>\n";
+            print "                        <td class=\"no_time\">in progress</td>\n";
         }
     }
-    print "                </tr>\n";
-    print "            </tbody>\n";
-    print "        </table>\n";
-    print "    </div>\n";
-    print "</section>\n";
+    print "                    </tr>\n";
+    print "                </tbody>\n";
+    print "            </table>\n";
+    print "        </div>\n";
+    print "    </footer>\n";
+    print "</article>\n";
 }
 
 sub PrintWikiContents {
@@ -278,7 +282,7 @@ sub PrintWikiContents {
 
 sub PrintDocumentFooter {
     print "\n";
-    print "</article>\n";
+    print "</section>\n";
     print "\n";
     print "</body>\n";
     print "\n";

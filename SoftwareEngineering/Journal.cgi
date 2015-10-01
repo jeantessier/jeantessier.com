@@ -86,7 +86,7 @@ sub PrintDocumentHeader {
     print "\n";
     print "<body>\n";
     print "\n";
-    print "<article>\n";
+    print "<section>\n";
     print "<h1>$title</h1>\n";
 }
 
@@ -117,14 +117,14 @@ sub PrintDocumentPart {
     close(FILEHANDLE);
 
     print "\n";
-    print "<section>\n";
+    print "<article>\n";
     print "    <h2><a name=\"$year-$month-$day\">$MONTH{$month} $day, $year</a></h2>\n";
     print "\n";
 
     &PrintWikiContents(@lines);
 
     print "\n";
-    print "</section>\n";
+    print "</article>\n";
 }
 
 sub PrintWikiContents {
@@ -214,7 +214,7 @@ sub PrintWikiContents {
 
 sub PrintDocumentFooter {
     print "\n";
-    print "</article>\n";
+    print "</section>\n";
     print "\n";
     print "</body>\n";
     print "\n";

@@ -41,6 +41,10 @@ dl {
     width: 55%;
 }
 
+h2 {
+    line-height: 1.25;
+}
+
 @media screen and (max-width: 760px) {
     .book-metadata {
         width: 100%;

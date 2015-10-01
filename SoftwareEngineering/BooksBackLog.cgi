@@ -86,7 +86,7 @@ sub PrintDocumentHeader {
     print "\n";
     print "<body>\n";
     print "\n";
-    print "<article>\n";
+    print "<section>\n";
     print "<h1>$title</h1>\n";
 }
 
@@ -143,27 +143,29 @@ sub PrintDocumentPart {
     }
 
     print "\n";
-    print "<section>\n";
+    print "<article>\n";
     print "    <a name=\"" . $meta_data{"name"} . "\"></a>\n";
     print "    <h2>\n";
     print "        " . join("<br />", @titles) . "\n";
     print "    </h2>\n";
     print "\n";
-    print "    <div class=\"table-wrapper\">\n";
-    print "        <table class=\"book-metadata\">\n";
-    print "            <tbody>\n";
-    print "                <td class=\"author\">" . join("<br />", @authors) . "</td>\n";
-    print "                <td class=\"publisher\">" . $meta_data{"publisher"} . "</td>\n";
-    print "                <td class=\"published-year\">" . join("<br />", @years) . "</td>\n";
-    print "            </tbody>\n";
-    print "        </table>\n";
-    print "    </div>\n";
+    print "    <header>\n";
+    print "        <div class=\"table-wrapper\">\n";
+    print "            <table class=\"book-metadata\">\n";
+    print "                <tbody>\n";
+    print "                    <td class=\"author\">" . join("<br />", @authors) . "</td>\n";
+    print "                    <td class=\"publisher\">" . $meta_data{"publisher"} . "</td>\n";
+    print "                    <td class=\"published-year\">" . join("<br />", @years) . "</td>\n";
+    print "                </tbody>\n";
+    print "            </table>\n";
+    print "        </div>\n";
+    print "    </header>\n";
     print "\n";
 
     &PrintWikiContents(@lines);
 
     print "\n";
-    print "</section>\n";
+    print "</article>\n";
 }
 
 sub PrintWikiContents {
@@ -253,7 +255,7 @@ sub PrintWikiContents {
 
 sub PrintDocumentFooter {
     print "\n";
-    print "</article>\n";
+    print "</section>\n";
     print "\n";
     print "</body>\n";
     print "\n";
