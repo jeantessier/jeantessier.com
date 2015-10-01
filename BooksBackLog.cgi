@@ -206,7 +206,7 @@ sub PrintWikiContents {
                 $line = "<li>$content</li>\n";
             }
 
-            if (!$in_paragraph && !$in_quote && !$in_html && !$in_ordered_list && !$in_unordered_list && !$in_html) {
+            if (!$in_paragraph && !$in_quote && !$in_ordered_list && !$in_unordered_list && !$in_html) {
                 if ($indent_level) {
                     if ($marker =~ /^\d+$/ && !$in_ordered_list) {
                         $in_ordered_list = !$in_ordered_list;
