@@ -1,0 +1,4 @@
+I remembered to use Python's
+=[[https://docs.python.org/2/library/simplehttpserver.html][SimpleHTTPServer]]=
+to create a very simple web server that only serves a folder and its files (and
+subfolders).  Makes debugging my AngularJS app that much easier.
