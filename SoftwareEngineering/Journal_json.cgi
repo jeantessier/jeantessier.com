@@ -90,10 +90,14 @@ sub PrintDocumentParts {
 
 sub PrintDocumentPart {
     local ($filename) = @_;
+    local ($date, $year, $month, $day);
 
     local ($date);
-    if ($filename =~ /(\d{4}-\d{2}-\d{2})/) {
+    if ($filename =~ /((\d{4})-(\d{2})-(\d{2}))/) {
         $date = $1;
+        $year = $2;
+        $month = $3;
+        $day = $4;
     }
 
     open(FILEHANDLE, $filename);
@@ -102,6 +106,7 @@ sub PrintDocumentPart {
 
     print "        {\n";
     print "            \"date\": \"$date\",\n";
+    print "            \"pretty_date\": \"$MONTH{$month} $day, $year\",\n";
     print "            \"body\": \"" . &PrintWikiContents(@lines) . "\",\n";
     print "        },\n";
 }
