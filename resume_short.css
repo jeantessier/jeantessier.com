@@ -126,6 +126,14 @@
     font-style: italic;
 }
 
+.recent_work {
+    display: inline-block;
+}
+
+.recent_work span {
+    font-family: Calluna;
+}
+
 .job {
     margin: 1em 0em;
 }
@@ -156,7 +164,7 @@
 .goal {
     font-family: Calluna;
     font-size: 90%;
-    margin: 1em 0em;
+    margin: 0.5em 0em;
 }
 
 .keyword_label {
