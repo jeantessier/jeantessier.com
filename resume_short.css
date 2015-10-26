@@ -134,6 +134,10 @@
     font-family: Calluna;
 }
 
+table.keyword {
+    white-space: nowrap;
+}
+
 .job {
     margin: 1em 0em;
 }
