@@ -16,8 +16,10 @@ if (defined $ENV{'CONTENT_LENGTH'}) {
     $digest = "sha1=" . hmac_sha1_hex($contents, $secret);
 
     if ($digest == $ENV{'HTTP_X_HUB_SIGNATURE'}) {
-        eval "git pull";
         print "OK\n";
+        print "\n";
+        print "git pull\n";
+        print `git pull`;
     } else {
         print "HTTP_X_HUB_SIGNATURE: $ENV{'HTTP_X_HUB_SIGNATURE'}\n";
         print "digest: $digest\n";
