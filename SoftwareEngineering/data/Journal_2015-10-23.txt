@@ -1,0 +1,3 @@
+Reading on GitHub webhooks, so I can automate updating the website whenever I
+push commits to the repo.  There is some code about verifying the origin of the
+webhook, but it is only in Ruby.  I need to find the Perl equivalent.
