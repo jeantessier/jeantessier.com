@@ -13,7 +13,7 @@ if (defined $ENV{'CONTENT_LENGTH'}) {
     $contents = "";
     read (STDIN, $contents, $ENV{'CONTENT_LENGTH'});
 
-    $digest = hmac_sha1_hex($contents, $secret);
+    $digest = "sha1=" . hmac_sha1_hex($contents, $secret);
 
     if ($digest == $ENV{'HTTP_X_HUB_SIGNATURE'}) {
         eval "git pull";
