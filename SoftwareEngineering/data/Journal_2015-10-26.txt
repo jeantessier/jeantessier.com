@@ -1,0 +1,2 @@
+Figured out how to verify, using Perl, the GitHub secret digests used to
+authenticate webhooks.
