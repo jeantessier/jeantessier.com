@@ -1,2 +1,2 @@
 Figured out how to verify, using Perl, the GitHub secret digests used to
-authenticate webhooks.
+authenticate webhooks.  I also move the secret key to an external file.
