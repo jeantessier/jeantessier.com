@@ -144,7 +144,7 @@ sub PrintDocumentPart {
     }
     print "            ],\n";
     print "            \"publisher\": \"" . $meta_data{"publisher"} . "\",\n";
-    print "            \"years\": [" . join(", ", @years) . "]\n";
+    print "            \"years\": [" . join(", ", @years) . "],\n";
     print "            \"body\": \"" . &PrintWikiContents(@lines) . "\",\n";
     print "        },\n";
 }

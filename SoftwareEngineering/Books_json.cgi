@@ -144,7 +144,7 @@ sub PrintDocumentPart {
     }
     print "            ],\n";
     print "            \"publisher\": \"" . $meta_data{"publisher"} . "\",\n";
-    print "            \"years\": [" . join(", ", @years) . "]\n";
+    print "            \"years\": [" . join(", ", @years) . "],\n";
     print "            \"start\": \"" . $meta_data{"start"} . "\",\n";
     if ($meta_data{"stop"}) {
         print "            \"stop\": \"" . $meta_data{"stop"} . "\",\n";
