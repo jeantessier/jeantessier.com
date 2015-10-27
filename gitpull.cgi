@@ -2,7 +2,7 @@
 
 use Digest::SHA qw(hmac_sha1_hex);
 
-open(KEYFILE, "github.secret");
+open(KEYFILE, "gitpull.secret");
 chomp($secret = <KEYFILE>);
 close(KEYFILE);
 
@@ -21,8 +21,6 @@ if (defined $ENV{'CONTENT_LENGTH'}) {
         print "git pull\n";
         print `git pull`;
     } else {
-        print "HTTP_X_HUB_SIGNATURE: $ENV{'HTTP_X_HUB_SIGNATURE'}\n";
-        print "digest: $digest\n";
         print "No match!\n";
     }
 } else {
