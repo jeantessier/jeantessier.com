@@ -1,2 +1,4 @@
 Figured out how to verify, using Perl, the GitHub secret digests used to
-authenticate webhooks.  I also move the secret key to an external file.
+authenticate webhooks.  I also move the secret key to an external file.  Now,
+whenever I push a commit to my repo on GitHub, my website is updated
+automatically.  Continuous delivery FTW.
