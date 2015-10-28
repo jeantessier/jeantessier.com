@@ -1,0 +1,7 @@
+Found a really interesting article where Richard Feynman talks about
+[[http://fabiusmaximus.com/2009/02/12/feynman/][integrity in scientific discourse]].
+He emphasizes the importance of "bending over backwards to show how you’re maybe
+wrong."  While this kind of integrity is par for the course when I talk to
+fellow technologists, I find that it doesn't work quite as well with non-STEM
+people.  And don't get me started on demanding it from others: challenging their
+glib statements is tantamount to calling them liars.
