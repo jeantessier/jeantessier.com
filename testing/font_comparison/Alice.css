@@ -6,6 +6,12 @@
 
 /* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
 @font-face {
+    font-family: "Calluna Sans";
+    src: url(fonts/CallunaSans-Regular.otf) format("opentype");
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
     font-family: "Fertigo Pro";
     src: url(fonts/Fertigo_PRO.otf) format("opentype");
 }
@@ -102,6 +108,19 @@
 
 /* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
 @font-face {
+    font-family: "Museo Sans";
+    src: url(fonts/MuseoSans-500.otf) format("opentype");
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: "Museo Sans";
+    src: url(fonts/MuseoSans-500italic.otf) format("opentype");
+    font-style: italic;
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
     font-family: "Museo Slab";
     src: url(fonts/Museo_Slab_500.otf) format("opentype");
 }
@@ -111,6 +130,16 @@
     font-family: "Museo Slab";
     src: url(fonts/Museo_Slab_500italic.otf) format("opentype");
     font-style: italic;
+}
+
+@font-face {
+    font-family: "Novel Sans Hair";
+    src: url(fonts/NovelSansHair-DEMO.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "Ainslie Sans";
+    src: url(fonts/AinslieSans-NorReg.otf) format("opentype");
 }
 
 .TimesNewRoman {
@@ -141,6 +170,10 @@
     font-family:"Calluna",  monospace;
 }
 
+.CallunaSans {
+    font-family:"Calluna Sans",  monospace;
+}
+
 .FertigoPro {
     font-family:"Fertigo Pro",  monospace;
 }
@@ -159,4 +192,16 @@
 
 .MuseoSlab {
     font-family:"Museo Slab",  monospace;
+}
+
+.MuseoSans {
+    font-family:"Museo Sans",  monospace;
+}
+
+.NovelSansHair {
+    font-family:"Novel Sans Hair",  monospace;
+}
+
+.AinslieSans {
+    font-family:"Ainslie Sans",  monospace;
 }

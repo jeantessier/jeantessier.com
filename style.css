@@ -6,6 +6,12 @@
 
 /* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
 @font-face {
+    font-family: "Calluna Sans";
+    src: url(fonts/CallunaSans-Regular.otf) format("opentype");
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
     font-family: "Fertigo Pro";
     src: url(fonts/Fertigo_PRO.otf) format("opentype");
 }
@@ -102,6 +108,19 @@
 
 /* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
 @font-face {
+    font-family: "Museo Sans";
+    src: url(fonts/MuseoSans-500.otf) format("opentype");
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
+    font-family: "Museo Sans";
+    src: url(fonts/MuseoSans-500italic.otf) format("opentype");
+    font-style: italic;
+}
+
+/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
+@font-face {
     font-family: "Museo Slab";
     src: url(fonts/Museo_Slab_500.otf) format("opentype");
 }
@@ -111,6 +130,11 @@
     font-family: "Museo Slab";
     src: url(fonts/Museo_Slab_500italic.otf) format("opentype");
     font-style: italic;
+}
+
+@font-face {
+    font-family: "Ainslie Sans";
+    src: url(fonts/AinslieSans-NorReg.otf) format("opentype");
 }
 
 body {
