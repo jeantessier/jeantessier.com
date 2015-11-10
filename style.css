@@ -115,7 +115,7 @@
 /* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
 @font-face {
     font-family: "Museo Sans";
-    src: url(fonts/MuseoSans-500italic.otf) format("opentype");
+    src: url(fonts/MuseoSans-500Italic.otf) format("opentype");
     font-style: italic;
 }
 
