@@ -6,49 +6,6 @@
 
 /* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
 @font-face {
-    font-family: "Calluna Sans";
-    src: url(fonts/CallunaSans-Regular.otf) format("opentype");
-}
-
-/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
-@font-face {
-    font-family: "Fertigo Pro";
-    src: url(fonts/Fertigo_PRO.otf) format("opentype");
-}
-
-/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
-@font-face {
-    font-family: Fontin;
-    src: url(fonts/Fontin-Regular.otf) format("opentype"), url(fonts/Fontin-Regular.ttf) format("truetype");
-}
-
-/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
-@font-face {
-    font-family: Fontin;
-    src: url(fonts/Fontin-Bold.otf) format("opentype"), url(fonts/Fontin-Bold.ttf) format("truetype");
-    font-weight: bold;
-}
-
-/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
-@font-face {
-    font-family: Fontin;
-    src: url(fonts/Fontin-Italic.otf) format("opentype"), url(fonts/Fontin-Italic.ttf) format("truetype");
-    font-style: italic;
-}
-
-/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
-/*
- * Commenting out because it conflicts with Regular in Firefox.
- *
- * @font-face {
- *     font-family: Fontin;
- *     src: url(fonts/Fontin-SmallCaps.otf) format("opentype"), url(fonts/Fontin-SmallCaps.ttf) format("truetype");
- *     font-variant: small-caps;
- * }
- */
-
-/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
-@font-face {
     font-family: "Fontin Sans";
     src: url(fonts/Fontin_Sans_R_45b.otf) format("opentype");
 }
@@ -106,32 +63,6 @@
     font-weight: 700;
 }
 
-/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
-@font-face {
-    font-family: "Museo Sans";
-    src: url(fonts/MuseoSans-500.otf) format("opentype");
-}
-
-/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
-@font-face {
-    font-family: "Museo Sans";
-    src: url(fonts/MuseoSans-500Italic.otf) format("opentype");
-    font-style: italic;
-}
-
-/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
-@font-face {
-    font-family: "Museo Slab";
-    src: url(fonts/Museo_Slab_500.otf) format("opentype");
-}
-
-/* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
-@font-face {
-    font-family: "Museo Slab";
-    src: url(fonts/Museo_Slab_500italic.otf) format("opentype");
-    font-style: italic;
-}
-
 @font-face {
     font-family: "Ainslie Sans";
     src: url(fonts/AinslieSans-NorReg.otf) format("opentype");
@@ -168,7 +99,7 @@ table.keyword {
 }
 
 .job {
-    margin: 0.66em 0em;
+    margin: 0.6em 0em;
 }
 
 .employer {
@@ -197,7 +128,7 @@ table.keyword {
 .goal {
     font-family: "Ainslie Sans";
     font-size: 90%;
-    margin-bottom: 0.75em;
+    margin-bottom: 0.66em;
     margin-top: 0em;
 }
 
@@ -232,23 +163,6 @@ table.keyword {
     font-style: italic;
 }
 
-.publication {
-    font-family: "Ainslie Sans";
-    margin: 0.75em 2.5em;
-}
-
-.publication .title {
-    font-weight: bold;
-}
-
-.publication .authors {
-    font-size: smaller;
-}
-
-.publication .reference {
-    font-size: smaller;
-}
-
 a {
     text-decoration: none;
 }
@@ -265,10 +179,6 @@ h3 {
     font-family: "Fontin Sans";
     margin: 0em;
     text-align: center;
-}
-
-sup {
-    text-decoration: underline;
 }
 
 footer {
