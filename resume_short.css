@@ -185,3 +185,7 @@ footer {
     font-family: "Ainslie Sans";
     font-size: 80%;
 }
+
+footer .copy {
+    float: right;
+}
