@@ -99,7 +99,7 @@ table.keyword {
 }
 
 .job {
-    margin: 0.6em 0em;
+    margin: 0.75em 0em;
 }
 
 .employer {
@@ -128,7 +128,7 @@ table.keyword {
 .goal {
     font-family: "Ainslie Sans";
     font-size: 90%;
-    margin-bottom: 0.66em;
+    margin-bottom: 0.75em;
     margin-top: 0em;
 }
 
@@ -184,6 +184,7 @@ h3 {
 footer {
     font-family: "Ainslie Sans";
     font-size: 80%;
+    margin-top: 2em;
 }
 
 footer .copy {
