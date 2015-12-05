@@ -1,0 +1,4 @@
+Got to pair program at work today.  It had been way too long.  I took the
+opportunity to show the new guy around the code base and explain some of the
+patterns we've been using.  And we even did a little bit of
+[[http://c2.com/cgi/wiki?PairProgrammingPingPongPattern][ping-pong programming]].
