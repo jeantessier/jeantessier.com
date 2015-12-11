@@ -10,49 +10,49 @@ project?  What do people read in this?  Here are some alternatives and what I
 think of each:
 
 <dl>
-	<dt><b>programmer</b></dt>
-	<dd>
-		I write code.  That's what I do.  And I am very good at it,
-		writing complex code that is highly flexible.  But some people think
-		that programmers are nothing more than code monkeys, and that's not
-		how I want to be perceived.  So I need something a little more fancy.
-		Plus, when I write code, I do a lot of design too.  The two activities
-		go hand in hand: do a little design, write a little code, repeat.
-		This is not captured in most definitions of _programmer_.
-	</dd>
-	<dt><b>software developer</b></dt>
-	<dd>
-		Not quite the code monkey, but still quite low in the food chain.
-		In people's mind, this is the new term for _programmer_, with all
-		the baggage.
-	</dd>
-	<dt><b>software designer</b></dt>
-	<dd>
-		Feels a little pigeonholed.  People who usually care about this
-		level of distinction also believe in rigid job seggregation.  The
-		analyst analyzes.  The designer designs.  The programmer codes.  I
-		don't see it that way.  I do any of the above at one time or
-		another, depending on the need of the moment.
-	</dd>
-	<dt><b>software engineer</b></dt>
-	<dd>
-		Am I an engineer?  I majored in computer science.  In some places,
-		that actually makes it illegal for me to use a title that includes the words
-		_engineer_ or _engineering_.  And when I was in college,
-		there was some competition between the computer science department and
-		the engineering school, so I don't even _want_ to be called an
-		engineer.  :-)
-	</dd>
-	<dt><b>software architect</b></dt>
-	<dd>
-		A lot of people say this is just title inflation.  Maybe it is a
-		little pretentious.
-	</dd>
-	<dt><b>computer scientist</b></dt>
-	<dd>
-		I did major in computer science.  But to most people, computer
-		scientists belong in academia and are disconnected from reality.
-	</dd>
+    <dt><b>programmer</b></dt>
+    <dd>
+        I write code.  That's what I do.  And I am very good at it,
+        writing complex code that is highly flexible.  But some people think
+        that programmers are nothing more than code monkeys, and that's not
+        how I want to be perceived.  So I need something a little more fancy.
+        Plus, when I write code, I do a lot of design too.  The two activities
+        go hand in hand: do a little design, write a little code, repeat.
+        This is not captured in most definitions of _programmer_.
+    </dd>
+    <dt><b>software developer</b></dt>
+    <dd>
+        Not quite the code monkey, but still quite low in the food chain.
+        In people's mind, this is the new term for _programmer_, with all
+        the baggage.
+    </dd>
+    <dt><b>software designer</b></dt>
+    <dd>
+        Feels a little pigeonholed.  People who usually care about this
+        level of distinction also believe in rigid job seggregation.  The
+        analyst analyzes.  The designer designs.  The programmer codes.  I
+        don't see it that way.  I do any of the above at one time or
+        another, depending on the need of the moment.
+    </dd>
+    <dt><b>software engineer</b></dt>
+    <dd>
+        Am I an engineer?  I majored in computer science.  In some places,
+        that actually makes it illegal for me to use a title that includes the words
+        _engineer_ or _engineering_.  And when I was in college,
+        there was some competition between the computer science department and
+        the engineering school, so I don't even _want_ to be called an
+        engineer.  :-)
+    </dd>
+    <dt><b>software architect</b></dt>
+    <dd>
+        A lot of people say this is just title inflation.  Maybe it is a
+        little pretentious.
+    </dd>
+    <dt><b>computer scientist</b></dt>
+    <dd>
+        I did major in computer science.  But to most people, computer
+        scientists belong in academia and are disconnected from reality.
+    </dd>
 </dl>
 
 Robert Grady, in
@@ -64,35 +64,35 @@ Engineering?  Here's my take on the subject:
 
 <div class="table-wrapper">
 <table class="centered-triplet">
-	<thead>
-	    <tr>
-			<th>endeavour</th>
-			<th></th>
-			<th>... what they're after</th>
-	    </tr>
-	</thead>
-	<tbody>
-	    <tr>
-			<td>art</td>
-			<td>=--&gt;=</td>
-			<td>beauty, esthetics</td>
-	    </tr>
-	    <tr>
-			<td>craft</td>
-			<td>=--&gt;=</td>
-			<td>well built</td>
-	    </tr>
-	    <tr>
-			<td>engineering</td>
-			<td>=--&gt;=</td>
-			<td>pratical solution</td>
-	    </tr>
-	    <tr>
-			<td>science</td>
-			<td>=--&gt;=</td>
-			<td>knowledge</td>
-	    </tr>
-	</tbody>
+    <thead>
+        <tr>
+            <th>endeavour</th>
+            <th></th>
+            <th>... what they're after</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>art</td>
+            <td>=--&gt;=</td>
+            <td>beauty, esthetics</td>
+        </tr>
+        <tr>
+            <td>craft</td>
+            <td>=--&gt;=</td>
+            <td>well built</td>
+        </tr>
+        <tr>
+            <td>engineering</td>
+            <td>=--&gt;=</td>
+            <td>pratical solution</td>
+        </tr>
+        <tr>
+            <td>science</td>
+            <td>=--&gt;=</td>
+            <td>knowledge</td>
+        </tr>
+    </tbody>
 </table>
 </div>
 
