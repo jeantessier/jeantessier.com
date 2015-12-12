@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 #
-#   Copyright (c) 2001-2009, Jean Tessier
+#   Copyright (c) 2001-2015, Jean Tessier
 #   All rights reserved.
 #
 #   Redistribution and use in source and binary forms, with or without
@@ -53,17 +53,11 @@ if ($0 =~ /(\w+)_json\./) {
     $DOCUMENT = $1;
 }
 
-&PrintContentType();
-&PrintDocumentHeader($DOCUMENT);
-&PrintDocumentParts($DOCUMENT);
-&PrintDocumentFooter();
+print "Content-type: application/json\n";
+print "\n";
+print &DocumentAsJson($DOCUMENT);
 
-sub PrintContentType {
-    print "Content-type: application/json\n";
-    print "\n";
-}
-
-sub PrintDocumentHeader {
+sub DocumentAsJson {
     local ($document) = @_;
 
     open(FILEHANDLE, "$DIRNAME/${document}_title.txt");
@@ -71,24 +65,23 @@ sub PrintDocumentHeader {
     chomp $title;
     close(FILEHANDLE);
 
-    print "{\n";
-    print "    \"title\": \"$title\",\n";
-    print "    \"entries\": [\n";
+    return &JsonRecord(
+        title => "\"$title\"",
+        entries => &DocumentPartsAsJson($document),
+    );
 }
 
-sub PrintDocumentParts {
+sub DocumentPartsAsJson {
     local ($document) = @_;
 
     opendir(DIRHANDLE, $DIRNAME);
     local (@files) = grep { /^${document}_\d{4}-\d{2}-\d{2}.txt$/ } readdir(DIRHANDLE);
     closedir(DIRHANDLE);
 
-    foreach $file (reverse sort @files) {
-        &PrintDocumentPart("$DIRNAME/$file");
-    }
+    return &JsonList(map { &DocumentPartAsJson("$DIRNAME/$_") } reverse sort @files);
 }
 
-sub PrintDocumentPart {
+sub DocumentPartAsJson {
     local ($filename) = @_;
     local ($date, $year, $month, $day);
 
@@ -104,14 +97,14 @@ sub PrintDocumentPart {
     local (@lines) = <FILEHANDLE>;
     close(FILEHANDLE);
 
-    print "        {\n";
-    print "            \"date\": \"$date\",\n";
-    print "            \"pretty_date\": \"$MONTH{$month} $day, $year\",\n";
-    print "            \"body\": \"" . &PrintWikiContents(@lines) . "\",\n";
-    print "        },\n";
+    return &JsonRecord(
+        date => "\"$date\"",
+        pretty_date => "\"$MONTH{$month} $day, $year\"",
+        body => "\"" . &WikiContentsAsJson(@lines) . "\"",
+    );
 }
 
-sub PrintWikiContents {
+sub WikiContentsAsJson {
     local (@lines) = @_;
 
     local ($in_paragraph, $in_quote, $in_ordered_list, $in_unordered_list, $in_html);
@@ -184,6 +177,7 @@ sub PrintWikiContents {
         $line =~ s/%3D/=/gi;
         $line =~ s/%5F/_/gi;
 
+        $line =~ s/\\/\\\\/g;
         $line =~ s/"/\\"/g;
         $line =~ s/\n/\\n/g;
 
@@ -203,7 +197,14 @@ sub PrintWikiContents {
     return $result
 }
 
-sub PrintDocumentFooter {
-    print "    ],\n";
-    print "}\n";
+sub JsonList {
+    local (@params) = @_;
+
+    return "[" . join(", ", @params) . "]";
+}
+
+sub JsonRecord {
+    local (%params) = @_;
+  
+    return "{" . join(", ", map { "\"$_\": $params{$_}" } keys %params) . "}";
 }
