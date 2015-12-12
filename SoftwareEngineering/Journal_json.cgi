@@ -34,6 +34,21 @@
 
 require '../lib/wiki_json.pl';
 
+%MONTH = (
+    "01" => "January",
+    "02" => "February",
+    "03" => "March",
+    "04" => "April",
+    "05" => "May",
+    "06" => "June",
+    "07" => "July",
+    "08" => "August",
+    "09" => "September",
+    "10" => "October",
+    "11" => "November",
+    "12" => "December",
+);
+
 $DIRNAME = "data";
 
 if ($0 =~ /(\w+)_json\./) {
@@ -53,7 +68,7 @@ sub DocumentAsJson {
     close(FILEHANDLE);
 
     return &JsonRecord(
-        title => "\"$title\"",
+        title => &JsonText($title),
         entries => &DocumentPartsAsJson($document),
     );
 }
@@ -85,8 +100,8 @@ sub DocumentPartAsJson {
     close(FILEHANDLE);
 
     return &JsonRecord(
-        date => "\"$date\"",
-        pretty_date => "\"$MONTH{$month} $day, $year\"",
-        body => "\"" . &WikiContentsAsJson(@lines) . "\"",
+        date => &JsonText($date),
+        pretty_date => &JsonText("$MONTH{$month} $day, $year"),
+        body => &JsonText(&WikiContentsAsJson(@lines)),
     );
 }

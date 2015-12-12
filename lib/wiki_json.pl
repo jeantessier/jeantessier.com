@@ -126,13 +126,19 @@ sub WikiContentsAsJson {
 sub JsonList {
     local (@params) = @_;
 
-    return "[" . join(", ", @params) . "]";
+    return "[" . join(",", @params) . "]";
 }
 
 sub JsonRecord {
     local (%params) = @_;
 
-    return "{" . join(", ", map { "\"$_\": $params{$_}" } keys %params) . "}";
+    return "{" . join(",", map { &JsonText($_) . ":" . $params{$_} } keys %params) . "}";
+}
+
+sub JsonText {
+    local ($text) = @_;
+
+    return "\"" . $text . "\"";
 }
 
 1;

@@ -53,7 +53,7 @@ sub DocumentAsJson {
     close(FILEHANDLE);
 
     return &JsonRecord(
-        title => "\"$title\"",
+        title => &JsonText($title),
         books => &DocumentPartsAsJson($document),
     );
 }
@@ -97,31 +97,30 @@ sub DocumentPartAsJson {
     } until ($line =~ /^\s*$/);
 
     return &JsonRecord(
-        name => "\"" . $meta_data{"name"} . "\"",
+        name => &JsonText($meta_data{"name"}),
         titles => &JsonList(map {
             if (/\[\[([^\]]*)\]\[_(.*)_\]\]/) {
                 &JsonRecord(
-                    title => "\"$2\"",
-                    link => "\"$1\"",
+                    title => &JsonText($2),
+                    link => &JsonText($1),
                 );
             } elsif (/\[\[([^\]]*)\]\[(.*)\]\]/) {
                 &JsonRecord(
-                    title => "\"$2\"",
-                    link => "\"$1\"",
+                    title => &JsonText($2),
+                    link => &JsonText($1),
                 );
             } else {
                 &JsonRecord(
-                    title => "\"$_\"",
+                    title => &JsonText($_),
                     link => "null",
                 );
             }
-
         } @titles),
-        authors => &JsonList(map { "\"$_\"" } @authors),
-        publisher => "\"" . $meta_data{"publisher"} . "\"",
+        authors => &JsonList(map { &JsonText($_) } @authors),
+        publisher => &JsonText($meta_data{"publisher"}),
         years => &JsonList(@years),
-        start => "\"" . $meta_data{"start"} . "\"",
-        stop => "\"" . ((exists $meta_data{"stop"}) ? $meta_data{"stop"} : "null") . "\"",
-        body => "\"" . &WikiContentsAsJson(@lines) . "\"",
+        start => &JsonText($meta_data{"start"}),
+        stop => (exists $meta_data{"stop"}) ? &JsonText($meta_data{"stop"}) : "null",
+        body => &JsonText(&WikiContentsAsJson(@lines)),
     );
 }
