@@ -67,7 +67,7 @@ sub PrintDocumentHeader {
     print "    <author>\n";
     print "        <name>Jean Tessier</name>\n";
     print "    </author>\n";
-    print "    <rights type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">Copyright (c) 2001-2009, Jean Tessier</div></rights>\n";
+    print "    <rights type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">Copyright (c) 2001-2015, Jean Tessier</div></rights>\n";
 }
 
 sub PrintDocumentParts {
