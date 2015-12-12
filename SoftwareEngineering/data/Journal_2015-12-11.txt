@@ -1,0 +1,9 @@
+Today, I got to replace one of my coworkers with a very small [Python] script.
+
+We are working on two applications that communicate via a
+[[https://www.rabbitmq.com/][RabbitMQ]] message bus.  I am working on one of the
+apps and he is working on the other.  My app sends a signal and his app replies
+with adjustments based on offline analysis.  In order to test my app, I needed
+to simulate his side of the conversation.  So I wrote a small Python script that
+listens to RabbitMQ for my signals and returns some canned adjustments on the
+message bus.
