@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 #
-#   Copyright (c) 2001-2009, Jean Tessier
+#   Copyright (c) 2001-2015, Jean Tessier
 #   All rights reserved.
 #
 #   Redistribution and use in source and binary forms, with or without
@@ -31,21 +31,6 @@
 #   NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 #   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
-
-%MONTH = (
-          "01" => "January",
-          "02" => "February",
-          "03" => "March",
-          "04" => "April",
-          "05" => "May",
-          "06" => "June",
-          "07" => "July",
-          "08" => "August",
-          "09" => "September",
-          "10" => "October",
-          "11" => "November",
-          "12" => "December",
-          );
 
 $DIRNAME = "data";
 
