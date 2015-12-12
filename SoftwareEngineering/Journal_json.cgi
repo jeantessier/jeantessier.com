@@ -32,7 +32,7 @@
 #   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-require '../wiki_json.pl';
+require '../lib/wiki_json.pl';
 
 $DIRNAME = "data";
 
