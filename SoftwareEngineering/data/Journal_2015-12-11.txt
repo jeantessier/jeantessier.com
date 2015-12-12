@@ -7,3 +7,6 @@ with adjustments based on offline analysis.  In order to test my app, I needed
 to simulate his side of the conversation.  So I wrote a small Python script that
 listens to RabbitMQ for my signals and returns some canned adjustments on the
 message bus.
+
+I have not replaced him definitively; we will need his fully fledged application
+with its real data.  But it was a start.  :-)
