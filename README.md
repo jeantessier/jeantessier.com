@@ -21,14 +21,15 @@ are folders for sub-sections of the site.  The most interesting one is
 `SoftwareEngineering`.  At both the top-level and in `SoftwareEngineering`,
 there are some blog-like features:
 
-- `Books.cgi`
-- `BooksBackLog.cgi`
-- `SoftwareEngineering/Books.cgi`
-- `SoftwareEngineering/BooksBackLog.cgi`
-- `SoftwareEngineering/Journal.cgi`
+- `Books.html`
+- `BooksBackLog.html`
+- `SoftwareEngineering/Books.html`
+- `SoftwareEngineering/BooksBackLog.html`
+- `SoftwareEngineering/Journal.html`
 
-They take their input from the `data` folder next to them.  The name of the
-script has to match the prefix of the files in the `data` folder.
+These [AngularJS](https://angularjs.org/) apps take their input from the `data`
+folder next to them.  The name of the app has to match the prefix of the files
+in the `data` folder.
 
 `Books` helps me document the books I read.  Lately, I've been copying the
 information into [Goodreads.com](http://goodreads.com/).
