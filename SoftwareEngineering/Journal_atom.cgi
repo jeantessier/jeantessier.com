@@ -178,7 +178,7 @@ sub PrintDocumentPart {
         $line =~ s/\[\[([^\]]*)\]\[(.*\.((gif)|(jpg)))\]\]/<a target="_blank" href="http:\/\/jeantessier.com\/SoftwareEngineering\/\1"><img border="0" src="http:\/\/jeantessier.com\/SoftwareEngineering\/\2" \/><\/a><br \/>/gi;
         $line =~ s/\[\[(http[^\]]*\.((gif)|(jpg)))\]\]/<img src="\1" \/><br \/>/gi;
         $line =~ s/\[\[([^\]]*\.((gif)|(jpg)))\]\]/<img src="http:\/\/jeantessier.com\/SoftwareEngineering\/\1" \/><br \/>/gi;
-        $line =~ s/\[\[(\d\d\d\d-\d\d-\d\d)\]\]/<a href="http:\/\/jeantessier.com\/SoftwareEngineering\/Journal.cgi#\1">\1<\/a>/gi;
+        $line =~ s/\[\[(\d\d\d\d-\d\d-\d\d)\]\]/<a href="http:\/\/jeantessier.com\/SoftwareEngineering\/Journal.html#\1">\1<\/a>/gi;
         $line =~ s/\[\[(http[^\]]*)\]\[(.*)\]\]/<a target="_blank" href="\1">\2<\/a>/g;
         $line =~ s/\[\[([^\]]*)\]\[(.*)\]\]/<a target="_blank" href="http:\/\/jeantessier.com\/SoftwareEngineering\/\1">\2<\/a>/g;
 

@@ -12,7 +12,7 @@ year: 2010
 
 Got a signed copy from my good friend Dave Astels.  I got exposed to
 [[http://rspec.info/][RSpec]] back on
-[[Journal.cgi#2008-11-07][2008-11-07]] and I have been waiting for this book
+[[Journal.html#2008-11-07][2008-11-07]] and I have been waiting for this book
 ever since.  I wish there was an RSpec for Java or Groovy.  I heard that
 [[http://jbehave.org/][JBehave]] is supposed to be similar, but the syntax is
 not the same.  RSpec reads just like English, with spaces and all!

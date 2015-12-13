@@ -31,13 +31,13 @@
         </exec>
     </target>
 
-    <target name="journal" depends="journal.html, journal.atom"
+    <target name="journal" depends="journal.json, journal.atom"
             description="Generate the Jean's Journal pages (for local debugging)."/>
 
-    <target name="journal.html">
+    <target name="journal.json">
         <exec executable="perl"
-              output="Journal.html">
-            <arg value="Journal.cgi"/>
+              output="Journal.json">
+            <arg value="Journal_json.cgi"/>
         </exec>
     </target>
 
