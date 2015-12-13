@@ -1,0 +1,26 @@
+<html ng-app="journalApp" ng-controller="JournalCtrl as journal">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../tufte.css" />
+    <link rel="stylesheet" type="text/css" href="../journal.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{journal.title}}</title>
+    <script src="../lib/angular.min.js"></script>
+    <script src="../lib/angular-resource.min.js"></script>
+    <script src="Journal.js"></script>
+</head>
+
+<body>
+
+<section>
+    <h1>{{journal.title}}</h1>
+
+    <article ng-repeat="entry in journal.entries">
+        <h2><a name="{{entry.date}}">{{entry.pretty_date}}</a></h2>
+        <div ng-bind-html="entry.body | sanitize"/>
+    </article>
+</section>
+
+</body>
+
+</html>
