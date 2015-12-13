@@ -1,7 +1,11 @@
 Books.atom
+Books.json
+BooksBackLog.json
 LeisureBooks_goodreads.csv
 LeisureBooksBackLog_goodreads.csv
 SoftwareEngineering/Books.atom
+SoftwareEngineering/Books.json
+SoftwareEngineering/BooksBackLog.json
 SoftwareEngineering/Journal.atom
 SoftwareEngineering/SoftwareBooks_goodreads.csv
 SoftwareEngineering/SoftwareBooksBackLog_goodreads.csv
