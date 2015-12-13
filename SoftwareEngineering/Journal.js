@@ -13,7 +13,7 @@ angular
     .controller("JournalCtrl", ['JournalModel', function(JournalModel) {
         var journal = this;
 
-        journal.title = "Someone's Journal";
+        journal.title = "My Journal";
 
         JournalModel.all().then(function(result) {
             journal.title = result.title;
