@@ -8,7 +8,7 @@ year: 2015
 acquired: 2015-08-06
 
 Ten years ago, I read
-[[Books.cgi#Working%5FEffectively%5Fwith%5FLegacy%5FCode][Working Effectively with Legacy Code]]
+[[Books.html#Working%5FEffectively%5Fwith%5FLegacy%5FCode][Working Effectively with Legacy Code]]
 by Michael Feathers and really liked it.  It had a strong focus on tests and
 refactoring.  I'm hoping this is an updated take on the subject, though the
 table of contents makes it more about the human factors involved.  This is a

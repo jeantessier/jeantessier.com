@@ -12,4 +12,4 @@ and how human constructs are built around it.  Sounds fascinating.
 
 I also found a reference to Bluedorn et al. "The Effects of Stand-Up and
 Sit-Down Meeting Formats on Meeting Outcomes" in
-[[Books.cgi#Good%5FBoss%5FBad%5FBoss][Good Boss, Bad Boss]].
+[[Books.html#Good%5FBoss%5FBad%5FBoss][Good Boss, Bad Boss]].

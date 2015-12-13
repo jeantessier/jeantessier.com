@@ -12,6 +12,6 @@ Eco.)
 The original quote is by Allen C. Bluedorn, a college professor at the
 University of Missouri, from a 1999 paper titled "The Effects of Stand-Up and
 Sit-Down Meeting Formats on Meeting Outcomes".  The one book I could find by him is
-[[../BooksBackLog.cgi#The%5FHuman%5FOrganization%5Fof%5FTime][The Human Organization of Time]].
+[[../BooksBackLog.html#The%5FHuman%5FOrganization%5Fof%5FTime][The Human Organization of Time]].
 The description promises a discussion of the nature of Time and how we perceive
 it.  Seems very interesting.

@@ -20,7 +20,7 @@ The first part started about continuous integration and how it helps reduce
 painful integrations.  "If it hurts, do it more often," as they say.  This
 part was probably aimed at laggards who still don't get continuous integration.
 Fowler mentioned the book
-[[Books.cgi#Continuous%5FIntegration][Continuous Integration]], part of his
+[[Books.html#Continuous%5FIntegration][Continuous Integration]], part of his
 Signature Series at Addison Wesley.  It is a good book if you're not
 technical and want to learn about software practices.  But any developer worth a
 dime only needs a single figure out of that book.  The talk got more interesting when
@@ -60,7 +60,7 @@ they live inside a host language.
 The evening concluded with some mild Q&amp;A.
 
 After the talk, I got Martin to sign my copy of
-[[Books.cgi#Planning%5FExtreme%5FProgramming][Planning Extreme Programming]], which
+[[Books.html#Planning%5FExtreme%5FProgramming][Planning Extreme Programming]], which
 was already signed by co-author Kent Beck.  Afterwards, he came to say hi to
 Jonny, at which point Jonny introduced me to Martin Fowler.  I've been
 introduced now, I'm no longer just a nerd in line after a talk.  :-)
@@ -70,4 +70,4 @@ Unrelated to this, but today I came upon a
 (of [[http://jmock.org/][jMock]] fame).  It is about writing good tests that are
 easy to maintain, as opposed to record-replay types that are very brittle.  It
 covers material from his new book:
-[[Books.cgi#Growing%5FObject%5FOriented%5FSoftware][Growing Object-Oriented Software, Guided by Tests]].
+[[Books.html#Growing%5FObject%5FOriented%5FSoftware][Growing Object-Oriented Software, Guided by Tests]].

@@ -1,4 +1,4 @@
-I'm rewriting "Books.cgi" to generate a set of static HTML pages that I can then
+I'm rewriting "Books.html" to generate a set of static HTML pages that I can then
 upload, instead of generating everything from scratch every time.  I will still
 need to assemble them into some kind of navigation structure.
 

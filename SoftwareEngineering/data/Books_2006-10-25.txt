@@ -28,5 +28,5 @@ are exposed and not always graceful, like prefixing methods with
 but not what I would call elegant or even readable.
 
 I know there is a
-[[http://jeantessier.com/SoftwareEngineering/Books.cgi#Python%5FEssential%5FReference%5F3ed][third edition]]
+[[http://jeantessier.com/SoftwareEngineering/Books.html#Python%5FEssential%5FReference%5F3ed][third edition]]
 out by now.  I'm curious as to what's been added since 2001.

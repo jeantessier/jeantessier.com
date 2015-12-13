@@ -7,13 +7,13 @@
     <target name="all" depends="books, journal"
             description="Generates all dynamic content and Atom feeds."/>
 
-    <target name="books" depends="books.html, books.atom, booksbacklog.html"
+    <target name="books" depends="books.json, books.atom, booksbacklog.json"
             description="Generate the Recent Readings pages (for local debugging)."/>
 
-    <target name="books.html">
+    <target name="books.json">
         <exec executable="perl"
-              output="Books.html">
-            <arg value="Books.cgi"/>
+              output="Books.json">
+            <arg value="Books_json.cgi"/>
         </exec>
     </target>
 
@@ -24,10 +24,10 @@
         </exec>
     </target>
 
-    <target name="booksbacklog.html">
+    <target name="booksbacklog.json">
         <exec executable="perl"
-              output="BooksBackLog.html">
-            <arg value="BooksBackLog.cgi"/>
+              output="BooksBackLog.json">
+            <arg value="BooksBackLog_json.cgi"/>
         </exec>
     </target>
 

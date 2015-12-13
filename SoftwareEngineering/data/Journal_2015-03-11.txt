@@ -1,5 +1,5 @@
 Just as I'm in the middle of reading
-[[Books.cgi#The%5FResponsive%5FWeb][The Responsive Web]], I get an email from
+[[Books.html#The%5FResponsive%5FWeb][The Responsive Web]], I get an email from
 [[https://www.google.com/webmasters/][Google Webmaster Tools]] to the effect
 that my website is not mobile-friendly.  I suspected as much, but now they
 suggest that Google will downgrade me in mobile searches because I am not

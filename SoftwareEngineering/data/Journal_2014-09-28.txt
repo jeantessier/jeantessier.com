@@ -1,5 +1,5 @@
 I was reading the second edition of
-[[Books.cgi#Grails%5Fin%5FAction%5FSecond%5FEdition][Grails in Action]] and it
+[[Books.html#Grails%5Fin%5FAction%5FSecond%5FEdition][Grails in Action]] and it
 has a whole chapter dealing with NoSQL.  It showcases some of the more common
 NoSQL databases and possible usage patterns.
 

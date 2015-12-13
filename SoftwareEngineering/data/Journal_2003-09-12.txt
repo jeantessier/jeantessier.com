@@ -1,6 +1,6 @@
 I'm catching blog fever.  I need to start expressing my views too.
 
-Started a [[Books.cgi][reading journal]] to keep track of the
+Started a [[Books.html][reading journal]] to keep track of the
 books I read and what I think of them.  I need to do the same for articles
 somehow.
 
