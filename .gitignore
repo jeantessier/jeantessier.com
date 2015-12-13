@@ -1,15 +1,12 @@
 Books.atom
 Books.html
-Books.xml
 BooksBackLog.html
 LeisureBooks_goodreads.csv
 LeisureBooksBackLog_goodreads.csv
 SoftwareEngineering/Books.atom
 SoftwareEngineering/Books.html
-SoftwareEngineering/Books.xml
 SoftwareEngineering/BooksBackLog.html
 SoftwareEngineering/Journal.atom
-SoftwareEngineering/Journal.xml
 SoftwareEngineering/SoftwareBooks_goodreads.csv
 SoftwareEngineering/SoftwareBooksBackLog_goodreads.csv
 build.properties
@@ -21,5 +18,4 @@ index_bootstrap.html
 pure/
 pure-release-0.6.0/
 pure-release-0.6.0.zip
-resume.old.html
 testing/tufte-css/
