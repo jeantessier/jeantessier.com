@@ -118,7 +118,7 @@ sub DocumentPartAsJson {
         } @titles),
         authors => &JsonList(map { &JsonText($_) } @authors),
         publisher => &JsonText($meta_data{"publisher"}),
-        years => &JsonList(@years),
+        years => &JsonList(map { &JsonText($_) } @years),
         start => &JsonText($meta_data{"start"}),
         stop => (exists $meta_data{"stop"}) ? &JsonText($meta_data{"stop"}) : "null",
         body => &JsonText(&WikiContentsAsJson(@lines)),

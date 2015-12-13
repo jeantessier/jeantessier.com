@@ -1,0 +1,69 @@
+<html ng-app="booksApp" ng-controller="BooksCtrl as books">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="tufte.css" />
+    <link rel="stylesheet" type="text/css" href="books.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{books.title}}</title>
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-resource.min.js"></script>
+    <script src="lib/Books.js"></script>
+    <script type="application/javascript">
+        angular
+                .module("booksApp")
+                .constant("BACKEND_URL", "Books.json");
+    </script>
+</head>
+
+<body>
+
+<section>
+    <h1>{{books.title}}</h1>
+
+    <article ng-repeat="book in books.books">
+        <a name="{{book.name}}"></a>
+        <h2>
+            <div ng-repeat="title in book.titles">
+                <a ng-if="title.link" href="{{title.link}}" ng-bind-html="title.title | sanitize"></a>
+                <span ng-if="!title.link" ng-bind-html="title.title | sanitize"></span>
+            </div>
+        </h2>
+        
+        <header>
+            <div class="table-wrapper">
+                <table class="book-metadata">
+                    <tbody>
+                        <td class="author"><div ng-repeat="author in book.authors" ng-bind-html="author | sanitize"></div></td>
+                        <td class="publisher" ng-bind-html="book.publisher | sanitize"></td>
+                        <td class="published-year"><div ng-repeat="year in book.years" ng-bind-html="year | sanitize"></div></td>
+                    </tbody>
+                </table>
+            </div>
+        </header>
+
+        <div ng-bind-html="book.body | sanitize"></div>
+
+        <footer>
+            <div class="table-wrapper">
+                <table class="reading-metadata">
+                    <tbody>
+                        <tr>
+                            <td class="time">Started reading:</td>
+                            <td ng-if="book.start" class="time code">{{book.start}}</td>
+                            <td ng-if="!book.start" class="no_time">not started</td>
+                        </tr>
+                        <tr ng-if="book.start">
+                            <td class="time">Finished reading:</td>
+                            <td ng-if="book.stop" class="time code">{{book.stop}}</td>
+                            <td ng-if="!book.stop" class="no_time">in progress</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </footer>
+    </article>
+</section>
+
+</body>
+
+</html>

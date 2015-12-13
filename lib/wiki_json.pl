@@ -138,6 +138,8 @@ sub JsonRecord {
 sub JsonText {
     local ($text) = @_;
 
+    $text =~ s/([^\\])"/\1\\"/g;
+
     return "\"" . $text . "\"";
 }
 
