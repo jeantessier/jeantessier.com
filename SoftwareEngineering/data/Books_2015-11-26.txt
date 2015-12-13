@@ -12,4 +12,7 @@ MEAN ties the lastest web development technologies together, the way LAMP tied
 the early open source stack years ago.  This book should be a decent intro to
 the key players.
 
+So far, the parts about [[https://nodejs.org/en/][node.js]] and
+[[https://angularjs.org/][AngularJS]] are pretty good.
+
 _More to come._

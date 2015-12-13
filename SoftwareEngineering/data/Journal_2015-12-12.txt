@@ -1,0 +1,8 @@
+Finally managed to replace some of my CGI scripts with
+[[https://angularjs.org/][AngularJS]] applications.  The apps get their contents
+from CGI scripts that read from the =data= directory and produce JSON.  I
+started working on them after reading
+[[Books.html#AngularJS_in_Action][AngularJS in Action]], but got stuck after my
+code landed in an infinite loop.  I caught a break by looking at the AngularJS
+chapters of
+[[Books.html#Getting_MEAN][Getting MEAN with Mongo, Express, Angular, and Node]].
