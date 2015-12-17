@@ -190,14 +190,16 @@ dl dd {
 
 .padded {
     font-family: Calluna;
+    line-height: 1.33;
     padding-left: 10px;
     padding-right: 10px;
-    vertical-align: top;
     text-align: center;
+    vertical-align: top;
 }
 
 .content {
     font-family: Fontin, sans-serif;
+    line-height: 1.33;
 }
 
 .portrait {
