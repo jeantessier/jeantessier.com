@@ -1,24 +1,24 @@
 #!/usr/bin/perl
 
-#   
-#   Copyright (c) 2001-2009, Jean Tessier
+#
+#   Copyright (c) 2001-2015, Jean Tessier
 #   All rights reserved.
-#   
+#
 #   Redistribution and use in source and binary forms, with or without
 #   modification, are permitted provided that the following conditions
 #   are met:
-#   
+#
 #       * Redistributions of source code must retain the above copyright
 #         notice, this list of conditions and the following disclaimer.
-#   
+#
 #       * Redistributions in binary form must reproduce the above copyright
 #         notice, this list of conditions and the following disclaimer in the
 #         documentation and/or other materials provided with the distribution.
-#   
+#
 #       * Neither the name of Jean Tessier nor the names of his contributors
 #         may be used to endorse or promote products derived from this software
 #         without specific prior written permission.
-#   
+#
 #   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
 #   "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
 #   LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
@@ -30,7 +30,7 @@
 #   LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
 #   NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 #   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-#   
+#
 
 use Getopt::Std;
 
@@ -151,26 +151,9 @@ sub PrintDocument {
     print OUTFILEHANDLE "<link rel=\"stylesheet\" type=\"text/css\" href=\"../style.css\" />\n";
     print OUTFILEHANDLE "<link rel=\"stylesheet\" type=\"text/css\" href=\"../books.css\" />\n";
     print OUTFILEHANDLE "<title>$title</title>\n";
-    print OUTFILEHANDLE "<script type=\"text/javascript\" src=\"google_analytics.js\"></script>\n";
     print OUTFILEHANDLE "</head>\n";
     print OUTFILEHANDLE "\n";
     print OUTFILEHANDLE "<body>\n";
-    print OUTFILEHANDLE "\n";
-    print OUTFILEHANDLE "<div class=\"google_ad\">\n";
-    print OUTFILEHANDLE "\n";
-    print OUTFILEHANDLE "<script type=\"text/javascript\"><!--\n";
-    print OUTFILEHANDLE "google_ad_client = \"pub-0113595750383868\";\n";
-    print OUTFILEHANDLE "/* 728x90, created 2/25/09 */\n";
-    print OUTFILEHANDLE "google_ad_slot = \"4082731877\";\n";
-    print OUTFILEHANDLE "google_ad_width = 728;\n";
-    print OUTFILEHANDLE "google_ad_height = 90;\n";
-    print OUTFILEHANDLE "//-->\n";
-    print OUTFILEHANDLE "</script>\n";
-    print OUTFILEHANDLE "<script type=\"text/javascript\"\n";
-    print OUTFILEHANDLE "src=\"http://pagead2.googlesyndication.com/pagead/show_ads.js\">\n";
-    print OUTFILEHANDLE "</script>\n";
-    print OUTFILEHANDLE "\n";
-    print OUTFILEHANDLE "</div>\n";
     print OUTFILEHANDLE "\n";
     print OUTFILEHANDLE "<table border=\"1\" cellspacing=\"1\" cellpadding=\"5\" rules=\"groups\" frame=\"below\">\n";
     print OUTFILEHANDLE "\n";
@@ -320,6 +303,8 @@ sub PrintDocument {
 sub PrintIndex {
     local ($document, @files) = @_;
 
+    print " --> $document/index.html\n";
+
     open OUTFILEHANDLE, "> $document/index.html";
 
     print OUTFILEHANDLE "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
@@ -331,7 +316,6 @@ sub PrintIndex {
     print OUTFILEHANDLE "<link rel=\"stylesheet\" type=\"text/css\" href=\"../style.css\" />\n";
     print OUTFILEHANDLE "<link rel=\"stylesheet\" type=\"text/css\" href=\"../books.css\" />\n";
     print OUTFILEHANDLE "<title>$document</title>\n";
-    print OUTFILEHANDLE "<script type=\"text/javascript\" src=\"google_analytics.js\"></script>\n";
     print OUTFILEHANDLE "</head>\n";
     print OUTFILEHANDLE "\n";
     print OUTFILEHANDLE "<body>\n";
