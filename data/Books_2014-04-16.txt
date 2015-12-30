@@ -11,12 +11,12 @@ start: 2014-04-16
 stop: 2014-06-16
 
 Kundera's latest book is a collection of short texts where he develops his
-understanding of Modernism across the arts and of the novel in particular.  The
-result is rather eclectic but an interesting peek into Modernism and some of its
-less famous proponents.
+understanding of Modernism, across the arts in general, and in novels in
+particular.  The result is a rather eclectic but interesting peek into Modernism
+and some of its less famous proponents.
 
-Each section as short enough that I could read each one in a single session and
-then write down my notes immediately thereafter.
+Each section as short enough that I could read each one in a single sitting and
+write down my notes immediately after.
 
 ---++ The Painter's Brutal Gesture: On Francis Bacon
 

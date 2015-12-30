@@ -18,23 +18,23 @@ The book walks you through all the steps to build a fully functional chat
 application.  It shows client-side interactions, abstracting a data layer,
 communicating with a server to exchange messages, and storing user profiles in a
 database on the server.  The example is just complex enough to showcase all the
-steps with drawing too much attention to itself.
+steps without drawing too much attention to itself.
 
 Overall, it's a decent walkthrough of DIY single page apps.  If you want to
-build a professional app, you might be better off with Dojo or some of the
-frameworks out there.  This will not become a reference that I would get back to
-very often.
+build a professional app, though, you might be better off with Dojo or some of
+the frameworks out there.  This will not become a reference book that I will get
+back to very often.
 
 ---++ Pros
 
 Throughout, the authors show you step-by-step how to write the code for all of
 the components.  They do a great job of starting with a barebone template and
-fill in the functionality gradually.  They use bold text judiciously to show the
-differences between each successive iteration of the development.
+filling in the functionality gradually.  They use bold text judiciously to show
+the differences between each successive iteration of the development.
 
-They use the URL itself to store the state of the app.  This lets the app lean
-on the browser's history mechanism to handle the back button and other
-navigation.
+In the app, they use the URL itself to store the state of the app.  This lets
+the app lean on the browser's history mechanism to handle the back button and
+other navigation.
 
 The authors mention "fractal MVC" as a means to structure the parts of the
 application.  The idea is great in principle, if the lower layers are completely
@@ -42,20 +42,20 @@ encapsulated in their enclosing component.  A container shouldn't have to dig
 into the details of its components.  But they messed it up by having the
 top-level shell control everything in the lower layers.
 
-There is a great introduction of Node.js and why it is well suited for use with
-Socket.IO for client-server communication.  Without getting bogged down in
-technical details, they make a case for resource management and how it is more
-lightweight than regular TCP connections.
+There is a great introduction of [[https://nodejs.org/en/][node.js]] and why it
+is well suited for use with Socket.IO for client-server communication.  Without
+getting bogged down in technical details, they make a case for resource
+management and how it is more lightweight than regular TCP connections.
 
-There is also a good introduction to MongoDB and how to connect it to Node.js.
+There is also a good introduction to MongoDB and how to connect it to node.js.
 Again, it is just enough to wet the appetite and start playing with the
 database.
 
 ---++ Cons
 
 Much of the writing is really juvenile.  The lead ins are repetitive and often
-condescending.  There are a few attempts at humor but they feel forced and fell
-flat.  The whole just felt unprofessional and reduced their credibility.
+condescending.  There are a few attempts at humor but they feel forced and fall
+flat.  The whole just feels unprofessional and reduces their credibility.
 
 They write their own custom frontend framework instead of relying on more
 widespread technology.  They complain that current frameworks all have tradeoffs
