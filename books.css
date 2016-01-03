@@ -45,12 +45,20 @@ h2 {
     line-height: 1.25;
 }
 
+header {
+    width: 55%;
+}
+
 @media screen and (max-width: 760px) {
     .book-metadata {
         width: 100%;
     }
 
     dl {
+        width: 90%;
+    }
+
+    header {
         width: 90%;
     }
 }

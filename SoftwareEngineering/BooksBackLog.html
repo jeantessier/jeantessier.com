@@ -28,17 +28,15 @@
                 <span ng-if="!title.link" ng-bind-html="title.title | sanitize"></span>
             </div>
         </h2>
-        
+
         <header>
-            <div class="table-wrapper">
-                <table class="book-metadata">
-                    <tbody>
-                        <td class="author"><div ng-repeat="author in book.authors" ng-bind-html="author | sanitize"></div></td>
-                        <td class="publisher" ng-bind-html="book.publisher | sanitize"></td>
-                        <td class="published-year"><div ng-repeat="year in book.years" ng-bind-html="year | sanitize"></div></td>
-                    </tbody>
-                </table>
-            </div>
+            <table class="book-metadata">
+                <tbody>
+                    <td class="author"><div ng-repeat="author in book.authors" ng-bind-html="author | sanitize"></div></td>
+                    <td class="publisher" ng-bind-html="book.publisher | sanitize"></td>
+                    <td class="published-year"><div ng-repeat="year in book.years" ng-bind-html="year | sanitize"></div></td>
+                </tbody>
+            </table>
         </header>
 
         <div ng-bind-html="book.body | sanitize"></div>
