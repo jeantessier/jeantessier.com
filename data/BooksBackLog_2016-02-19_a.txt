@@ -1,0 +1,10 @@
+name: Numero_Zero
+isbn: 0544635086
+isbn13: 9780544635081
+title: [[http://amzn.com/0544635086][Numero Zero]]
+author: Umberto Eco
+publisher: Houghton Mifflin Harcourt
+year: 2015
+acquired: 2016-02-19
+
+The last book by Umberto Eco, who passed away on 2016-02-19.
