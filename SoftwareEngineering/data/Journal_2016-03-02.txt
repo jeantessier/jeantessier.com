@@ -1,7 +1,7 @@
 Discovered [[http://pusher.com][Pusher]], a messaging service that connects
-frontends using websocket to backends.  The backend publishes messages to Pusher
-which distribute it to clients.  They have libraries for most popular frontend
-and backend stacks, and someone even wrote a
+frontends to backends using websockets.  The backend publishes messages to
+Pusher which distribute it to clients.  They have libraries for most popular
+frontend and backend stacks, and someone even wrote a
 [[https://github.com/micpango/pusher-plugin][Grails plugin]] for it.
 
 At Directly, I built a pull mechanism using jQuery that would call a _heartbeat_
