@@ -7,4 +7,4 @@ frontend and backend stacks, and someone even wrote a
 At Directly, I built a pull mechanism using jQuery that would call a _heartbeat_
 controller on the server every few seconds.  The lag was annoying and making it
 too small created unwanted load on the server.  This solution uses websockets,
-but their servers handle the websockets, not the servers hosting the app.
+but Pusher's servers handle the websockets, not the servers hosting the app.
