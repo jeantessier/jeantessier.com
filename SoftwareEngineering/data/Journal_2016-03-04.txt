@@ -1,7 +1,7 @@
 Two very different articles about one-on-one meetings:
 
-* [[http://jasonevanish.com/2014/05/29/101-questions-to-ask-in-1-on-1s/][101 Questions to Ask in One on Ones]]
-* [[https://blog.bufferapp.com/a-simple-guide-to-better-coaching-and-feedback-in-your-company][A Simple Guide to Better Coaching and Feedback in Your Company]]
+    * [[http://jasonevanish.com/2014/05/29/101-questions-to-ask-in-1-on-1s/][101 Questions to Ask in One on Ones]]
+    * [[https://blog.bufferapp.com/a-simple-guide-to-better-coaching-and-feedback-in-your-company][A Simple Guide to Better Coaching and Feedback in Your Company]]
 
 The first one is very condescending towards the employee.  It's really about the
 making the manager feel good that they are in control of the situation.  The
