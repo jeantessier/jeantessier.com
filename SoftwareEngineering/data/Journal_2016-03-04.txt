@@ -1,20 +1,19 @@
-Two very different articles about one-on-one meetings:
+Read two very different articles about one-on-one meetings.
 
-    * [[http://jasonevanish.com/2014/05/29/101-questions-to-ask-in-1-on-1s/][101 Questions to Ask in One on Ones]]
-    * [[https://blog.bufferapp.com/a-simple-guide-to-better-coaching-and-feedback-in-your-company][A Simple Guide to Better Coaching and Feedback in Your Company]]
-
-The first one is very condescending towards the employee.  It's really about the
-making the manager feel good that they are in control of the situation.  The
-manager owns the employee and should find what works best for them.  It reads
-like a get-rich-quick scam: do these _n_ easy steps and success will be yours.
-Many of the questions are very personal and may not be appropriate unless the
-two are close friends.  And what comes through is a pervasive feeling of
+The first one<label for="sn-condescending-article" class="margin-toggle sidenote-number"></label></span><input type="checkbox" id="sn-condescending-article" class="margin-toggle"/><span class="sidenote">[[http://jasonevanish.com/2014/05/29/101-questions-to-ask-in-1-on-1s/][101 Questions to Ask in One on Ones]]</span>
+is very condescending towards the employee.  It's really about the making the
+manager feel good that they are in control of the situation.  The manager owns
+the employee and should find what works best for them.  It reads like a
+get-rich-quick scam: do these _n_ easy steps and success will be yours.  Many of
+the questions are very personal and may not be appropriate unless the two are
+close friends.  And what comes through is a pervasive feeling of
 _how can you be a better employee, what else can you do for the company_.
 
-The second does a much better job of making the meeting about the employee and
-making sure it is empowering them.  They drive much of the interactions.  I felt
-it did a better job of treating the employee in a holistic manner, being mindful
-that they are whole persons, and each is best qualified to deal with their
+The second<label for="sn-humane-article" class="margin-toggle sidenote-number"></label></span><input type="checkbox" id="sn-humane-article" class="margin-toggle"/><span class="sidenote">[[https://blog.bufferapp.com/a-simple-guide-to-better-coaching-and-feedback-in-your-company][A Simple Guide to Better Coaching and Feedback in Your Company]]</span>
+does a much better job of making the meeting about the employee and making sure
+it is empowering them.  They drive much of the interactions.  I felt it did a
+better job of treating the employee in a holistic manner, being mindful that
+they are whole persons, and each is best qualified to deal with their
 challenges.  This reminds me of the organizing principle for teams at Google:
 let the contributors make the decisions, since they know best what is needed and
 they have to live with the consequences.  Empowering the team is the best way to
