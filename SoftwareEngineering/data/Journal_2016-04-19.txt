@@ -9,3 +9,10 @@ has an entire chapter on automated testing.  There is a framework called Mocha
 that seems the equivalent of Spock or RSpec.  There is an assertion library
 called Chai that looks similar to Hamcrest.  And there is SuperTest and Cheerio
 for integration testing akin to HttpUnit and HtmlUnit respectively.
+
+[[http://www.techtalkdc.com/which-javascript-test-library-should-you-use-qunit-vs-jasmine-vs-mocha/][This article]]
+describes qUnit as the old guard, Jasmine as the principal tool in use, and
+Mocha as the new kid on the block with improved support for testing
+asynchronous, or callback-based, code.  The
+[[https://docs.angularjs.org/guide/unit-testing][Angular documentation]] also
+covers Jasmine, along with Karma for running the tests.
