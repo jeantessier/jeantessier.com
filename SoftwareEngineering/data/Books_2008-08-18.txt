@@ -31,7 +31,7 @@ fails to capitalize on the testing terminology introduced by
 Gerard Meszaros in
 [[#xUnit%5FTest%5FPatterns][xUnit Test Patterns]].
 
-Asside from that, it is a great read so far and I highly
+Aside from that, it is a great read so far and I highly
 recommend it to anyone who want to write better code, code that is
 easier to maintain, code that is more testable.
 
