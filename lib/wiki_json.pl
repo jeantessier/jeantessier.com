@@ -121,6 +121,7 @@ sub WikiContentsAsJson {
         $result .= "</ul>";
     }
 
+    $result =~ s/((\w|")\/?>)\n(<\w)/\1\3/g;
     $result =~ s/\n(<\w)/ \1/g;
     $result =~ s/\n(\W)/\1/g;
     $result =~ s/([.;])\n/\1  /g;
