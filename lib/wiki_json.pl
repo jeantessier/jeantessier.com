@@ -105,7 +105,9 @@ sub WikiContentsAsJson {
 
         $line =~ s/\\/\\\\/g;
         $line =~ s/"/\\"/g;
-        $line =~ s/\n/\\n/g;
+        if ($in_quote) {
+            $line =~ s/\n/\\n/g;
+        }
 
         $result .= $line;
     }
@@ -120,10 +122,10 @@ sub WikiContentsAsJson {
         $result .= "</ul>";
     }
 
-    $result =~ s/\\n(<\w)/ \1/g;
-    $result =~ s/\\n(\W)/\1/g;
-    $result =~ s/([.;])\\n/\1  /g;
-    $result =~ s/\\n/ /g;
+    $result =~ s/\n(<\w)/ \1/g;
+    $result =~ s/\n(\W)/\1/g;
+    $result =~ s/([.;])\n/\1  /g;
+    $result =~ s/\n/ /g;
 
     return $result
 }
