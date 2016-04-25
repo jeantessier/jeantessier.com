@@ -105,9 +105,8 @@ sub WikiContentsAsJson {
 
         $line =~ s/\\/\\\\/g;
         $line =~ s/"/\\"/g;
-        if ($in_quote) {
-            $line =~ s/\n/\\n/g;
-        }
+        $line =~ s/\n/\\n/g if $in_quote;
+        $line =~ s/^\s+// if $in_html;
 
         $result .= $line;
     }
