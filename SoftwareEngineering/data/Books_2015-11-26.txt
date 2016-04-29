@@ -7,6 +7,7 @@ publisher: Manning
 year: 2015
 acquired: 2015-07-06
 start: 2015-11-26
+stop: 2016-04-29
 
 MEAN ties the latest web development technologies together, the way LAMP tied
 the early open source stack, years ago.  This book should be a decent intro to
