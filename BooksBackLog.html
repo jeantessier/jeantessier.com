@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{books.title}}</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-sanitize.min.js"></script>
     <script src="lib/Books.js"></script>
     <script type="application/javascript">
         angular
@@ -23,22 +24,22 @@
         <a name="{{book.name}}"></a>
         <h2>
             <div ng-repeat="title in book.titles">
-                <a ng-if="title.link" href="{{title.link}}" ng-bind-html="title.title | sanitize"></a>
-                <span ng-if="!title.link" ng-bind-html="title.title | sanitize"></span>
+                <a ng-if="title.link" href="{{title.link}}" ng-bind-html="title.title"></a>
+                <span ng-if="!title.link" ng-bind-html="title.title"></span>
             </div>
         </h2>
 
         <header>
             <table class="book-metadata">
                 <tbody>
-                    <td class="author"><div ng-repeat="author in book.authors" ng-bind-html="author | sanitize"></div></td>
-                    <td class="publisher" ng-bind-html="book.publisher | sanitize"></td>
-                    <td class="published-year"><div ng-repeat="year in book.years" ng-bind-html="year | sanitize"></div></td>
+                    <td class="author"><div ng-repeat="author in book.authors" ng-bind-html="author"></div></td>
+                    <td class="publisher" ng-bind-html="book.publisher"></td>
+                    <td class="published-year"><div ng-repeat="year in book.years" ng-bind-html="year"></div></td>
                 </tbody>
             </table>
         </header>
 
-        <div ng-bind-html="book.body | sanitize"></div>
+        <div ng-bind-html="book.body"></div>
     </article>
 </section>
 

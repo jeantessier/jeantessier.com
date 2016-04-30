@@ -37,6 +37,18 @@
     font-variant: small-caps;
 }
 
+.todo-list .list-title {
+    text-transform: uppercase;
+}
+
+.todo-list .todo.done {
+    text-decoration: line-through;
+}
+
+.todo-list .todo.new {
+    opacity: 0.75;
+}
+
 dl {
     width: 55%;
 }

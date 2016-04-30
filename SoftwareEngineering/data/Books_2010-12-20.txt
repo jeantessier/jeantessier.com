@@ -54,18 +54,18 @@ sample problem.  They kept a hand-written list of tasks on a sheet of paper,
 crossed out items as they completed them, and added tasks as they happened upon
 them.  Here's a snapshot from the somewhere halfway through:
 
-<blockquote>
-<span style="text-transform: uppercase">Todo</span><br />
-<span style="text-decoration: line-through">single item - join, lose without bidding</span><br />
-<span style="text-decoration: line-through">single item - join, bid & lose</span><br />
-<span style="text-decoration: line-through">single item - join, bid & win</span><br />
-<span style="text-decoration: line-through">single item - show price details</span><br />
-<span>multiple items</span><br />
-<span>add new item through the GUI</span><br />
-<span>stop bidding at stop price</span><br />
-<span style="opacity: 0.75">translator - invalid message from Auction</span><br />
-<span style="opacity: 0.75">translator - incorrect message version</span><br />
-<span style="opacity: 0.75">handle XMPException on send</span><br />
+<blockquote class="todo-list">
+<span class="list-title">Todo</span><br />
+<span class="todo done">single item - join, lose without bidding</span><br />
+<span class="todo done">single item - join, bid & lose</span><br />
+<span class="todo done">single item - join, bid & win</span><br />
+<span class="todo done">single item - show price details</span><br />
+<span class="todo">multiple items</span><br />
+<span class="todo">add new item through the GUI</span><br />
+<span class="todo">stop bidding at stop price</span><br />
+<span class="todo new">translator - invalid message from Auction</span><br />
+<span class="todo new">translator - incorrect message version</span><br />
+<span class="todo new">handle XMPException on send</span><br />
 </blockquote>
 
 I used a similar technique a long time ago to implement a feature with great
