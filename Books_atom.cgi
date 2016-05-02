@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 #
-#   Copyright (c) 2001-2015, Jean Tessier
+#   Copyright (c) 2001-2016, Jean Tessier
 #   All rights reserved.
 #
 #   Redistribution and use in source and binary forms, with or without
@@ -61,13 +61,13 @@ sub PrintDocumentHeader {
     print "<feed xmlns=\"http://www.w3.org/2005/Atom\">\n";
     print "\n";
     print "    <title>$title</title>\n";
-    print "    <id>http://jeantessier.com/$DOCUMENT.cgi</id>\n";
-    print "    <link href=\"http://jeantessier.com/$DOCUMENT.cgi\"/>\n";
+    print "    <id>http://jeantessier.com/$DOCUMENT.html</id>\n";
+    print "    <link href=\"http://jeantessier.com/$DOCUMENT.html\"/>\n";
     print "    <link href=\"http://jeantessier.com/${DOCUMENT}_atom.cgi\" rel=\"self\"/>\n";
     print "    <author>\n";
     print "        <name>Jean Tessier</name>\n";
     print "    </author>\n";
-    print "    <rights type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">Copyright (c) 2001-2015, Jean Tessier</div></rights>\n";
+    print "    <rights type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">Copyright (c) 2001-2016, Jean Tessier</div></rights>\n";
 }
 
 sub PrintDocumentParts {
