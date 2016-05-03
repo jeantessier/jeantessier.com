@@ -6,5 +6,9 @@ author: Umberto Eco
 publisher: Houghton Mifflin Harcourt
 year: 2015
 acquired: 2016-02-19
+start: 2016-05-02
 
 The last book by Umberto Eco, who passed away on 2016-02-19.
+
+_More to come._
+
