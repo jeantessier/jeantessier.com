@@ -7,7 +7,7 @@ I'm thinking of using my current [[Books.html][book review]] for this.  Reviews
 has a somewhat simple schema and I can add users for access control and to tie
 persistent entities together.
 
-[[BookReviews_ObjectModel.png]] 
+[[BookReviews_ObjectModel.png]]
 
 One the backend:
 
@@ -31,3 +31,7 @@ With different frontends:
     * HTML
     * AngularJS
     * React + ?
+
+I already have one done that is the combination of
+[[https://afternoon-cliffs-9951.herokuapp.com/Books.html][Node + REST + MongoBD + AngularJS]].
+Only 47 more to go.
