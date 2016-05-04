@@ -1,0 +1,16 @@
+I'm thinking of building a sample application on a number of technology stacks:
+
+    * Node + Express
+    * Grails
+    * Spring Root
+    * Ruby on Rails
+
+Producing a number of outputs:
+
+    * HTML from templates (Jade, GSP, JSP)
+    * REST API
+
+From a number of data sources:
+
+    * MongoDB
+    * MySQL
