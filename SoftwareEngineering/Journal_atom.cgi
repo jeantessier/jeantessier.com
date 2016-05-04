@@ -32,6 +32,8 @@
 #   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
+use POSIX qw(strftime);
+
 %MONTH = (
           "01" => "January",
           "02" => "February",
@@ -81,6 +83,8 @@ sub PrintDocumentHeader {
     print "    <link href=\"http://jeantessier.com/SoftwareEngineering/${DOCUMENT}_atom.cgi\" rel=\"self\"/>\n";
     print "    <author>\n";
     print "        <name>Jean Tessier</name>\n";
+    print "        <email>jean\@jeantessier.com</email>\n";
+    print "        <uri>http://jeantessier.com/</uri>\n";
     print "    </author>\n";
     print "    <rights type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">Copyright (c) 2001-2016, Jean Tessier</div></rights>\n";
 }
@@ -91,6 +95,16 @@ sub PrintDocumentParts {
     opendir(DIRHANDLE, $DIRNAME);
     local (@files) = grep { /^${document}_\d{4}-\d{2}-\d{2}.txt$/ } readdir(DIRHANDLE);
     closedir(DIRHANDLE);
+
+    local ($max_mtime) = 0;
+    foreach $file (@files) {
+        my $mtime = (stat("$DIRNAME/$file"))[9];
+        if ($mtime > $max_mtime) {
+            $max_mtime = $mtime;
+        }
+    }
+    local ($updated) = strftime "%Y-%m-%dT%H:%M:%S%z", localtime($max_mtime);
+    print "    <updated>$updated</updated>\n";
 
     foreach $file (reverse sort @files) {
         &PrintDocumentPart("$DIRNAME/$file");
@@ -107,12 +121,16 @@ sub PrintDocumentPart {
         $day = $3;
     }
 
+    local ($mtime) = (stat($filename))[9];
+    local ($updated) = strftime "%Y-%m-%dT%H:%M:%S%z", localtime($mtime);
+
     print "\n";
     print "    <entry>\n";
     print "        <title>$MONTH{$month} $day, $year</title>\n";
     print "        <id>http://jeantessier.com/SoftwareEngineering/$DOCUMENT.cgi#$year-$month-$day</id>\n";
     print "        <link href=\"http://jeantessier.com/SoftwareEngineering/$DOCUMENT.cgi#$year-$month-$day\"/>\n";
     print "        <published>${year}-${month}-${day}T00:00:00-00:00</published>\n";
+    print "        <updated>$updated</updated>\n";
     print "        <content type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">\n";
 
     local ($in_paragraph, $in_quote, $in_ordered_list, $in_unordered_list, $in_html);
@@ -189,6 +207,16 @@ sub PrintDocumentPart {
         $line =~ s/&(?!amp|lt|gt)/&amp;/g;
         $line =~ s/<-/&lt;-/g;
         $line =~ s/->/-&gt;/g;
+
+        $line =~ s/&nbsp;/&#160;/g;
+        $line =~ s/&agrave;/&#224;/g;
+        $line =~ s/&egrave;/&#232;/g;
+        $line =~ s/&eacute;/&#233;/g;
+        $line =~ s/&ecirc;/&#234;/g;
+        $line =~ s/&ocirc;/&#244;/g;
+        $line =~ s/&ouml;/&#246;/g;
+        $line =~ s/&uacute;/&#250;/g;
+        $line =~ s/&uuml;/&#252;/g;
 
         print $line;
     }

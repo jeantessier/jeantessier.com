@@ -32,6 +32,8 @@
 #   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
+use POSIX qw(strftime);
+
 $DIRNAME = "data";
 
 if ($0 =~ /(\w+)_atom\./) {
@@ -66,6 +68,8 @@ sub PrintDocumentHeader {
     print "    <link href=\"http://jeantessier.com/${DOCUMENT}_atom.cgi\" rel=\"self\"/>\n";
     print "    <author>\n";
     print "        <name>Jean Tessier</name>\n";
+    print "        <email>jean\@jeantessier.com</email>\n";
+    print "        <uri>http://jeantessier.com/</uri>\n";
     print "    </author>\n";
     print "    <rights type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">Copyright (c) 2001-2016, Jean Tessier</div></rights>\n";
 }
@@ -76,6 +80,16 @@ sub PrintDocumentParts {
     opendir(DIRHANDLE, $DIRNAME);
     local (@files) = grep { /^${document}_\d{4}-\d{2}-\d{2}.txt$/ } readdir(DIRHANDLE);
     closedir(DIRHANDLE);
+
+    local ($max_mtime) = 0;
+    foreach $file (@files) {
+        my $mtime = (stat("$DIRNAME/$file"))[9];
+        if ($mtime > $max_mtime) {
+            $max_mtime = $mtime;
+        }
+    }
+    local ($updated) = strftime "%Y-%m-%dT%H:%M:%S%z", localtime($max_mtime);
+    print "    <updated>$updated</updated>\n";
 
     foreach $file (reverse sort @files) {
         &PrintDocumentPart("$DIRNAME/$file");
@@ -91,6 +105,9 @@ sub PrintDocumentPart {
         $month = $2;
         $day = $3;
     }
+
+    local ($mtime) = (stat($filename))[9];
+    local ($updated) = strftime "%Y-%m-%dT%H:%M:%S%z", localtime($mtime);
 
     open(FILEHANDLE, $filename);
     local (@lines) = <FILEHANDLE>;
@@ -140,6 +157,7 @@ sub PrintDocumentPart {
     print "        <id>http://jeantessier.com/$DOCUMENT.cgi#" . $meta_data{'name'} . "</id>\n";
     print "        <link href=\"http://jeantessier.com/$DOCUMENT.cgi#" . $meta_data{'name'} . "\"/>\n";
     print "        <published>${year}-${month}-${day}T00:00:00-00:00</published>\n";
+    print "        <updated>$updated</updated>\n";
     print "        <content type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">\n";
 
     &PrintWikiContents(@lines);
@@ -242,8 +260,12 @@ sub PrintWikiContents {
         $line =~ s/%5F/_/gi;
 
         $line =~ s/&nbsp;/&#160;/g;
+        $line =~ s/&agrave;/&#224;/g;
         $line =~ s/&egrave;/&#232;/g;
         $line =~ s/&eacute;/&#233;/g;
+        $line =~ s/&ecirc;/&#234;/g;
+        $line =~ s/&ocirc;/&#244;/g;
+        $line =~ s/&ouml;/&#246;/g;
         $line =~ s/&uacute;/&#250;/g;
         $line =~ s/&uuml;/&#252;/g;
 
