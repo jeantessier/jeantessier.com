@@ -130,8 +130,14 @@ sub PrintDocumentPart {
                     $url =~ s/=/%3D/g;
                     $url =~ s/_/%5F/g;
                     $url =~ s/&/&amp;/g;
+                    $label =~ s/&agrave;/&#224;/g;
+                    $label =~ s/&egrave;/&#232;/g;
                     $label =~ s/&eacute;/&#233;/g;
+                    $label =~ s/&ecirc;/&#234;/g;
+                    $label =~ s/&ocirc;/&#244;/g;
+                    $label =~ s/&ouml;/&#246;/g;
                     $label =~ s/&uacute;/&#250;/g;
+                    $label =~ s/&uuml;/&#252;/g;
                     $value = "[[$url][$label]]";
                     $meta_data{'title'} = $label unless defined $meta_data{'title'};
                 }
