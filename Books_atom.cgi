@@ -88,7 +88,7 @@ sub PrintDocumentParts {
             $max_mtime = $mtime;
         }
     }
-    local ($updated) = strftime "%Y-%m-%dT%H:%M:%S%z", localtime($max_mtime);
+    local ($updated) = strftime "%Y-%m-%dT%H:%M:%SZ", gmtime($max_mtime);
     print "    <updated>$updated</updated>\n";
 
     foreach $file (reverse sort @files) {
@@ -107,7 +107,7 @@ sub PrintDocumentPart {
     }
 
     local ($mtime) = (stat($filename))[9];
-    local ($updated) = strftime "%Y-%m-%dT%H:%M:%S%z", localtime($mtime);
+    local ($updated) = strftime "%Y-%m-%dT%H:%M:%SZ", gmtime($mtime);
 
     open(FILEHANDLE, $filename);
     local (@lines) = <FILEHANDLE>;
@@ -156,7 +156,7 @@ sub PrintDocumentPart {
     print "        <title>" . $meta_data{'title'} . "</title>\n";
     print "        <id>http://jeantessier.com/$DOCUMENT.cgi#" . $meta_data{'name'} . "</id>\n";
     print "        <link href=\"http://jeantessier.com/$DOCUMENT.cgi#" . $meta_data{'name'} . "\"/>\n";
-    print "        <published>${year}-${month}-${day}T00:00:00-00:00</published>\n";
+    print "        <published>${year}-${month}-${day}T00:00:00Z</published>\n";
     print "        <updated>$updated</updated>\n";
     print "        <content type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">\n";
 

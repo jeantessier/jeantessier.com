@@ -103,7 +103,7 @@ sub PrintDocumentParts {
             $max_mtime = $mtime;
         }
     }
-    local ($updated) = strftime "%Y-%m-%dT%H:%M:%S%z", localtime($max_mtime);
+    local ($updated) = strftime "%Y-%m-%dT%H:%M:%S%z", gmtime($max_mtime);
     print "    <updated>$updated</updated>\n";
 
     foreach $file (reverse sort @files) {
@@ -122,14 +122,14 @@ sub PrintDocumentPart {
     }
 
     local ($mtime) = (stat($filename))[9];
-    local ($updated) = strftime "%Y-%m-%dT%H:%M:%S%z", localtime($mtime);
+    local ($updated) = strftime "%Y-%m-%dT%H:%M:%S%z", gmtime($mtime);
 
     print "\n";
     print "    <entry>\n";
     print "        <title>$MONTH{$month} $day, $year</title>\n";
     print "        <id>http://jeantessier.com/SoftwareEngineering/$DOCUMENT.cgi#$year-$month-$day</id>\n";
     print "        <link href=\"http://jeantessier.com/SoftwareEngineering/$DOCUMENT.cgi#$year-$month-$day\"/>\n";
-    print "        <published>${year}-${month}-${day}T00:00:00-00:00</published>\n";
+    print "        <published>${year}-${month}-${day}T00:00:00Z</published>\n";
     print "        <updated>$updated</updated>\n";
     print "        <content type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">\n";
 
