@@ -103,7 +103,7 @@ sub PrintDocumentParts {
             $max_mtime = $mtime;
         }
     }
-    local ($updated) = strftime "%Y-%m-%dT%H:%M:%S%z", gmtime($max_mtime);
+    local ($updated) = strftime "%Y-%m-%dT%H:%M:%SZ", gmtime($max_mtime);
     print "    <updated>$updated</updated>\n";
 
     foreach $file (reverse sort @files) {
@@ -122,7 +122,7 @@ sub PrintDocumentPart {
     }
 
     local ($mtime) = (stat($filename))[9];
-    local ($updated) = strftime "%Y-%m-%dT%H:%M:%S%z", gmtime($mtime);
+    local ($updated) = strftime "%Y-%m-%dT%H:%M:%SZ", gmtime($mtime);
 
     print "\n";
     print "    <entry>\n";
