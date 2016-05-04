@@ -1,4 +1,15 @@
-I'm thinking of building a sample application on a number of technology stacks:
+I'm thinking of building a sample application on a number of technology stacks
+in order to experience what it's like to develop on those stacks.  By building
+the same app in different environments, I might better see what their strengths
+and weaknesses are.
+
+I'm thinking of using my current [[Books.html][book review]] for this.  Reviews
+has a somewhat simple schema and I can add users for access control and to tie
+persistent entities together.
+
+[[BookReviews_ObjectModel.png]] 
+
+One the backend:
 
     * Node + Express
     * Grails
@@ -14,3 +25,9 @@ From a number of data sources:
 
     * MongoDB
     * MySQL
+
+With different frontends:
+
+    * HTML
+    * AngularJS
+    * React + ?
