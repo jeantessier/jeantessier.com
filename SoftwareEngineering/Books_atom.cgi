@@ -269,6 +269,10 @@ sub PrintWikiContents {
         $line =~ s/&uacute;/&#250;/g;
         $line =~ s/&uuml;/&#252;/g;
 
+        $line =~ s/&(?!amp|lt|gt)/&amp;/g;
+        $line =~ s/<-/&lt;-/g;
+        $line =~ s/->/-&gt;/g;
+
         print $line;
     }
 

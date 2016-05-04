@@ -204,10 +204,6 @@ sub PrintDocumentPart {
         $line =~ s/%3D/=/gi;
         $line =~ s/%5F/_/gi;
 
-        $line =~ s/&(?!amp|lt|gt)/&amp;/g;
-        $line =~ s/<-/&lt;-/g;
-        $line =~ s/->/-&gt;/g;
-
         $line =~ s/&nbsp;/&#160;/g;
         $line =~ s/&agrave;/&#224;/g;
         $line =~ s/&egrave;/&#232;/g;
@@ -217,6 +213,10 @@ sub PrintDocumentPart {
         $line =~ s/&ouml;/&#246;/g;
         $line =~ s/&uacute;/&#250;/g;
         $line =~ s/&uuml;/&#252;/g;
+
+        $line =~ s/&(?!amp|lt|gt)/&amp;/g;
+        $line =~ s/<-/&lt;-/g;
+        $line =~ s/->/-&gt;/g;
 
         print $line;
     }
