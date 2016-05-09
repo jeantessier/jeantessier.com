@@ -40,13 +40,15 @@ foreach $key (sort(keys(%ENV))) {
     }
 }
 
+$count = 0;
 $json .= "    \"headers\": {\n";
 foreach $key (sort(keys(%ENV))) {
     if ($key =~ /^HTTP_(.*)/) {
         $json .= "        \"$1\": \"$ENV{$key}\",\n";
+        $count++;
     }
 }
-$json .= "        \"total\": " . (length keys(%ENV)) . "\n";
+$json .= "        \"count\": $count\n";
 $json .= "    },\n";
 
 if (defined $ENV{'CONTENT_LENGTH'}) {
