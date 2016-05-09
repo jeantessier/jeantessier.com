@@ -23,12 +23,12 @@ if ($ENV{'REQUEST_METHOD'} eq 'GET') {
 $json = "";
 
 $json .= "{\n";
-$json .= "    'request': {\n";
+$json .= "    \"request\": {\n";
 if ($ENV{'REQUEST_METHOD'} eq 'GET') {
-    $json .= "        'method': '$ENV{'REQUEST_METHOD'},'\n";
-    $json .= "        'method': '$ENV{'QUERY_STRING'}'\n";
+    $json .= "        \"method\": \"$ENV{'REQUEST_METHOD'}\",\n";
+    $json .= "        \"query string\": \"$ENV{'QUERY_STRING'}\"\n";
 } else {
-    $json .= "        'method': '$ENV{'REQUEST_METHOD'}'\n";
+    $json .= "        \"method\": \"$ENV{'REQUEST_METHOD'}\"\n";
 }
 $json .= "    },\n";
 
@@ -40,13 +40,13 @@ foreach $key (sort(keys(%ENV))) {
     }
 }
 
-$json .= "    'headers': {\n";
+$json .= "    \"headers\": {\n";
 foreach $key (sort(keys(%ENV))) {
     if ($key =~ /^HTTP_(.*)/) {
-        $json .= "        '$1': '$ENV{$key}',\n";
+        $json .= "        \"$1\": \"$ENV{$key}\",\n";
     }
 }
-$json .= "        'total': " . (length %ENV) . "\n";
+$json .= "        \"total\": " . (length keys(%ENV)) . "\n";
 $json .= "    },\n";
 
 if (defined $ENV{'CONTENT_LENGTH'}) {
@@ -56,19 +56,19 @@ if (defined $ENV{'CONTENT_LENGTH'}) {
     print OUTFILE "Contents:\n";
     print OUTFILE "$contents\n";
 
-    $json .= "    'contents': '$contents',\n";
+    $json .= "    \"contents\": \"$contents\",\n";
 
     $digest = hmac_sha1_hex($contents, $secret);
 
     print OUTFILE "\n";
     print OUTFILE "Digest: sha1=" . $digest . "\n";
 
-    $json .= "    'digest': '$digest',\n";
+    $json .= "    \"digest\": \"$digest\",\n";
 }
 
-$json .= "    'author': {\n";
-$json .= "        'name': 'Jean Tessier',\n";
-$json .= "        'email': 'jean@jeantessier.com'\n";
+$json .= "    \"author\": {\n";
+$json .= "        \"name\": \"Jean Tessier\",\n";
+$json .= "        \"email\": \"jean\@jeantessier.com\"\n";
 $json .= "    }\n";
 $json .= "}\n";
 
