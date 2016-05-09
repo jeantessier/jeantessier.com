@@ -41,14 +41,13 @@ foreach $key (sort(keys(%ENV))) {
 }
 
 $count = 0;
-$xml .= "    <headers>\n";
+$xml .= "    <headers count=\"" . (scalar grep { /^HTTP_/ } keys(%ENV)) . "\">\n";
 foreach $key (sort(keys(%ENV))) {
     if ($key =~ /^HTTP_(.*)/) {
         $xml .= "        <header name=\"$1\">$ENV{$key}</header>\n";
         $count++;
     }
 }
-$xml .= "        <count>$count</count>\n";
 $xml .= "    </headers>\n";
 
 if (defined $ENV{'CONTENT_LENGTH'}) {
@@ -58,19 +57,17 @@ if (defined $ENV{'CONTENT_LENGTH'}) {
     print OUTFILE "Contents:\n";
     print OUTFILE "$contents\n";
 
-    $escapedContents = $contents;
-    $escapedContents =~ s/&/&amp;/g;
-    $escapedContents =~ s/</&lt;/g;
-    $escapedContents =~ s/>/&gt;/g;
-
-    $xml .= "    <contents>$escapedContents</contents>\n";
-
     $digest = hmac_sha1_hex($contents, $secret);
 
     print OUTFILE "\n";
     print OUTFILE "Digest: sha1=" . $digest . "\n";
 
-    $xml .= "    <digest>$digest</digest>\n";
+    $escapedContents = $contents;
+    $escapedContents =~ s/&/&amp;/g;
+    $escapedContents =~ s/</&lt;/g;
+    $escapedContents =~ s/>/&gt;/g;
+
+    $xml .= "    <contents digest=\"$digest\">$escapedContents</contents>\n";
 }
 
 $xml .= "    <author>\n";
