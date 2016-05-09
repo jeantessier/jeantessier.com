@@ -56,7 +56,12 @@ if (defined $ENV{'CONTENT_LENGTH'}) {
     print OUTFILE "Contents:\n";
     print OUTFILE "$contents\n";
 
-    $json .= "    \"contents\": \"$contents\",\n";
+    $contentsAsJson = $contents;
+    $contentsAsJson =~ s/"/\\"/g;
+    $contentsAsJson =~ s/\r/\\r/g;
+    $contentsAsJson =~ s/\n/\\n/g;
+
+    $json .= "    \"contents\": \"$contentsAsJson\",\n";
 
     $digest = hmac_sha1_hex($contents, $secret);
 
