@@ -2,11 +2,18 @@
 
 <head>
 <title>Echo</title>
+<script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
 <form action="dump.cgi" method="post">
+    <p>
+        output:
+        <input type="radio" name="output" value="dump.cgi" id="text_output" checked/><label for="text_output">text</label>
+        <input type="radio" name="output" value="dump_json.cgi" id="json_output"/><label for="json_output">json</label>
+    </p>
+
     <table>
         <tr>
             <td>Name</td>
@@ -21,6 +28,16 @@
         </tr>
     </table>
 </form>
+
+<script type="">
+$(function() {
+
+    $("form input[type=radio]").click(function() {
+        $("form").attr("action", $(this).val());
+    });
+
+});
+</script>
 
 </body>
 
