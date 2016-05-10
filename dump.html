@@ -7,14 +7,14 @@
 
 <body>
 
-<form action="dump.cgi" method="post">
-    <p>
-        output:
-        <input type="radio" name="output" value="dump.cgi" id="text_output" checked/><label for="text_output">text</label>
-        <input type="radio" name="output" value="dump_json.cgi" id="json_output"/><label for="json_output">json</label>
-        <input type="radio" name="output" value="dump_xml.cgi" id="xml_output"/><label for="xml_output">XML</label>
-    </p>
+<p>
+    output:
+    <input type="radio" name="output" value="dump.cgi" id="text_output" checked/><label for="text_output">text</label>
+    <input type="radio" name="output" value="dump_json.cgi" id="json_output"/><label for="json_output">json</label>
+    <input type="radio" name="output" value="dump_xml.cgi" id="xml_output"/><label for="xml_output">XML</label>
+</p>
 
+<form action="dump.cgi" method="post">
     <table>
         <tr>
             <td>Name</td>
@@ -30,10 +30,10 @@
     </table>
 </form>
 
-<script type="">
+<script type="text/javascript">
 $(function() {
 
-    $("form input[type=radio]").click(function() {
+    $("form input[name=output]").click(function() {
         $("form").attr("action", $(this).val());
     });
 
