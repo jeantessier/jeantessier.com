@@ -1,0 +1,10 @@
+Getting more familiar with [[https://www.mongodb.org/][MongoDB]].  I worked on
+the schema for my sample Book Review app.  I kept the entities in separate
+collections and used manual references to tie them together.  I could have used
+embedded sub-documents, but I wanted to experiment with resolving references
+anyway.
+
+There is a lot of
+[[https://docs.mongodb.com/master/reference/][decent documentation for MongoDB]].
+I still had to do a lot of trial and error to get the queries right.  And I
+still need to work on creating the right indices.
