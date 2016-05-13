@@ -37,3 +37,14 @@ I also tried this:
 But I have a feeling that it might be inefficient with that inner lookup that
 might lead to an "N + 1" problem.  Plus, the output is not neatly filtered the
 way I was able to with =$project= in the first example.
+
+I'm also looking for ways to attach a [[https://nodejs.org/en/][node.js]] app to
+MySQL instead of MongoDB.  So far, I've found three possible solutions:
+
+* node-mysql
+* [[https://github.com/sidorares/node-mysql2][node-mysql2]]
+* [[https://github.com/plus3network/hyena][hyena]]
+
+=hyena= seems like an ORM layer similar to =mongoose= for MongoDB, but hasn't
+been touched in over two years.  =node-mysql= and =node-mysql2=  are more direct
+SQL manipulations with slight differences between the two of them.
