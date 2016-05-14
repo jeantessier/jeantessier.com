@@ -10,8 +10,8 @@ acquired: 2012-04-26
 start: 2012-11-14
 stop: 2012-12-06
 
-I liked [[Books.html#The%5FNo%5FAsshole%5FRule][The No Asshole Rule]], so I
-thought I'd give this one a try too.  Sutton bills the book as a follow-up to
+I liked [[#The%5FNo%5FAsshole%5FRule][The No Asshole Rule]], so I thought I'd
+give this one a try too.  Sutton bills the book as a follow-up to
 _The No Asshole Rule_, but with more focus on good management practices and less
 on the bad.
 
