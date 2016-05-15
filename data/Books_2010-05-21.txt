@@ -1,6 +1,6 @@
 name: The_Long_Tail
 isbn: 1401309666
-title: [[http://www.amazon.com/Long-Tail-Revised-Updated-Business/dp/1401309666/ref=sr_1_2?ie=UTF8&s=books&qid=1275373257&sr=8-2][The Long Tail]]
+title: [[http://amzn.com/1401309666][The Long Tail]]
 author: Chris Anderson
 publisher: Hyperion
 year: 2008

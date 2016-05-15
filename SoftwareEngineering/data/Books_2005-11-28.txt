@@ -1,6 +1,6 @@
 name: Pragmatic_Unit_Testing
 isbn: 0974514012
-title: [[http://www.amazon.com/gp/product/0974514012/103-7955321-4623009?v=glance&n=283155&n=507846&s=books&v=glance][Pragmatic Unit Testing]]
+title: [[http://amzn.com/0974514012][Pragmatic Unit Testing]]
 author: Andrew Hunt
 author: David Thomas
 publisher: The Pragmatic Bookself
@@ -30,5 +30,5 @@ entry-level for me.  I would definitely recommend it to anyone who
 was not test-infected yet, though.
 
 Very much like the authors' other book,
-[[http://www.amazon.com/gp/product/020161622X/qid%3D1133416253/sr%3D8-1/ref%3Dpd%5Fbbs%5F1/103-2157166-8264666?n%3D507846&amp;s%3Dbooks&amp;v%3Dglance][The Pragmatic Programmer]].
+[[http://amzn.com/020161622X][The Pragmatic Programmer]].
 I think DRY more or less originated in that book, actually.

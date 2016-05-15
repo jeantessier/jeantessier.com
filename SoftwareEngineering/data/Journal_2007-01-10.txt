@@ -1,6 +1,6 @@
 I attended a BayXP meeting with guest speaker Alistair Cockburn.  It was hosted
 at Google.  He covered many of the ideas in his latest book:
-[[http://www.amazon.com/Agile-Software-Development-Cooperative-Game/dp/0321482751/sr%3D8-2/qid%3D1169932533/ref%3Dpd%5Fbbs%5Fsr%5F2/002-8459785-4397603?ie%3DUTF8&s%3Dbooks][Agile Software Development, 2nd Edition]].
+[[http://amzn.com/0321482751][Agile Software Development, 2nd Edition]].
 His latest interests have taken him in an interesting direction: maybe the
 expression _software engineering_ isn't so bad after all, as long as you adjust
 your definition of _engineering_.
@@ -18,7 +18,7 @@ framework is based on three _legs_:
     1 cooperative game of invention and communication
     1 theory of constraints
 
-The crafts are skills that all practicioners must learn and refine continuously.
+The crafts are skills that all practitioners must learn and refine continuously.
 His list of crafts for software engineering includes:
 
     * Deciding what to build (what some might call _requirements_)

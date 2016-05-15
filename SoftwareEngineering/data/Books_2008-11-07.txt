@@ -1,7 +1,7 @@
 name: Pro_JavaScript_Techniques
 isbn13: 9781590597279
 isbn: 1590597273
-title: [[http://www.amazon.com/Pro-JavaScript-Techniques-John-Resig/dp/1590597273/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1231312112&sr=8-1][Pro JavaScript Techniques]]
+title: [[http://amzn.com/1590597273][Pro JavaScript Techniques]]
 author: John Resig
 publisher: Apress
 year: 2006

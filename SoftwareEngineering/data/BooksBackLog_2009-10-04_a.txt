@@ -1,7 +1,7 @@
 name: Beautiful_Evidence
 isbn13: 9780961392178
 isbn: 0961392177
-title: [[http://www.amazon.com/Beautiful-Evidence-Edward-R-Tufte/dp/0961392177/ref=sr_1_1?s=books&ie=UTF8&qid=1281512758&sr=1-1][Beautiful Evidence]]
+title: [[http://amzn.com/0961392177][Beautiful Evidence]]
 author: Edward Tufte
 publisher: Graphics Press
 year: 2006

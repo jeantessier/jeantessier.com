@@ -1,6 +1,6 @@
 name: Harry_Potter_and_the_Deathly_Hallows
 isbn: 0545010225
-title: [[http://www.amazon.com/Harry-Potter-Deathly-Hallows-Book/dp/0545010225/ref=pd_bbs_sr_1/103-3589099-3771861?ie=UTF8&s=books&qid=1185551985&sr=8-1][Harry Potter and the Deathly Hallows]]
+title: [[http://amzn.com/0545010225][Harry Potter and the Deathly Hallows]]
 author: J. K. Rowling
 publisher: Scholastic
 year: 2007
@@ -87,7 +87,7 @@ the ones in the story and the behaviors Rowling has them
 display.
 
 I was re-reading the scene in
-[[http://www.amazon.com/Harry-Potter-Order-Phoenix-Book/dp/043935806X/ref%3Ded%5Foe%5Fh/104-7978562-3892761?ie%3DUTF8&qid%3D1185745137&sr%3D8-5][Harry Potter and the Order of the Phoenix]]
+[[http://amzn.com/043935806X][Harry Potter and the Order of the Phoenix]]
 where Harry kisses Cho Chan.  Afterwards, Hermione comments on
 Cho's state of mind and her conflicting feelings towards Cedric
 and Harry.  She goes so far as to hint Cho could suffer socially
@@ -120,7 +120,7 @@ is fleeting and amounts to nothing in the end.
 
 What I really liked of the first three Harry Potter novels was
 how Rowling kept expanding her fantastic universe.  But by
-[[http://www.amazon.com/Harry-Potter-Goblet-Fire-Book/dp/0439139597/ref%3Dpd%5Fsim%5Fb%5F2%5Fimg/104-7978562-3892761?ie%3DUTF8&qid%3D1185745137&sr%3D8-1][Harry Potter and the Goblet of Fire]],
+[[http://amzn.com/0439139597][Harry Potter and the Goblet of Fire]],
 she had started to close down on expansion and starting tying
 everything together.  In this book, she finishes this process and
 ties the last few knots that close the entire construction.  It
@@ -133,11 +133,11 @@ imagination roam.  It is not necessary to fully specify every
 single detail and relate everything to the action that is going on
 at the time.  The universe does not have to be hermetic.  When you
 first read
-[[http://www.amazon.com/Harry-Potter-Sorcerers-Stone-Book/dp/0590353403/ref%3Dpd%5Fsim%5Fb%5F1%5Fimg/104-7978562-3892761?ie%3DUTF8&qid%3D1185745137&sr%3D8-1][Harry Potter and the Sorcerer's Stone]],
+[[http://amzn.com/0590353403][Harry Potter and the Sorcerer's Stone]],
 there is a rich tapestry of things that are thrown in off the cuff
 and that the reader is free to flesh out as they like.  By the time
 you get to
-[[http://www.amazon.com/Harry-Potter-Deathly-Hallows-Book/dp/0545010225/ref%3Dpd%5Fbbs%5Fsr%5F1/104-7978562-3892761?ie%3DUTF8&s%3Dbooks&qid%3D1185745137&sr%3D8-1][Harry Potter and the Deathly Hallows]],
+[[http://amzn.com/0545010225][Harry Potter and the Deathly Hallows]],
 the world is fully defined by the author and the reader's role
 becomes much more passive.
 

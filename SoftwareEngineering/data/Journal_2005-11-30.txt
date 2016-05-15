@@ -1,6 +1,6 @@
 I learned today, quite by accident, that John Vlissides passed away a few
 days ago.  He was one of the "Gang of Four", the writers of
-[[http://www.amazon.com/exec/obidos/tg/detail/-/0201633612/qid%3D1042781541/sr%3D8-1/ref%3Dsr%5F8%5F1/104-8608372-8129501?v%3Dglance&s%3Dbooks&n%3D507846][Design Patterns]].
+[[http://amzn.com/0201633612][Design Patterns]].
 I was fortunate enough to meet him, once, at PLoP '96.  He was on my workgroup
 and he was a very positive influence.  He was very nice and he liked my paper
 a lot.  :-)

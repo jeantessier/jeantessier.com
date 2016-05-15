@@ -1,7 +1,7 @@
 name: Target_Iraq
 isbn13: 9781893956391
 isbn: 1893956393
-title: [[http://www.amazon.com/Target-Iraq-What-Media-Didnt/dp/1893956393/ref=pd_bbs_sr_1/103-9546333-5131002?ie=UTF8&s=books&qid=1190955593&sr=8-1][Target Iraq: What The News Media Didn't Tell You]]
+title: [[http://amzn.com/1893956393][Target Iraq: What The News Media Didn't Tell You]]
 author: Norman Solomon
 author: Reese Erlich
 publisher: Context Books
@@ -10,7 +10,7 @@ start: 2007-09-25
 stop: 2007-10-01
 
 Reese Erlich was at Google to promote his book
-[[http://www.amazon.com/Iran-Agenda-Policy-Middle-Crisis/dp/0977825353/ref%3Dsr%5F1%5F1/105-9305181-3929227?ie%3DUTF8&s%3Dbooks&qid%3D1190955844&sr%3D1-1][The Iran Agenda]]
+[[http://amzn.com/0977825353][The Iran Agenda]]
 and though I was too late to get a copy of it, he had a few copies
 of this book for sale, so I got one for $10.  It was published just
 before the U.S. went in Iraq, so the tone throughout is of

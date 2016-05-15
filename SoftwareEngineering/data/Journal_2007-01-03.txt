@@ -2,11 +2,11 @@ Got Python for my PCs from [[http://python.org/][python.org]].
 
 I found some good candidates for books on Python:
 
-    * [[http://www.amazon.com/gp/product/0596100469/ref%3Dwl%5Fit%5Fdp/103-5245472-8565461?ie%3DUTF8&coliid%3DI6NZIJ81HZ56Z&colid%3D9C8YXIMI8EO3][Python in a Nutshell, 2nd Edition]]
-    * [[http://www.amazon.com/gp/product/0596002815/ref%3Dwl%5Fitt%5Fdp/103-5245472-8565461?ie%3DUTF8&coliid%3DI2L7PBKN6P2ZGH&colid%3D9C8YXIMI8EO3][Learning Python]]
-    * [[http://www.amazon.com/gp/product/0596009259/ref%3Dwl%5Fitt%5Fdp/103-5245472-8565461?ie%3DUTF8&coliid%3DI1D4IMGIOIJS42&colid%3D9C8YXIMI8EO3][Programming Python]]
-    * [[http://www.amazon.com/gp/product/0596007973/ref%3Dwl%5Fitt%5Fdp/103-5245472-8565461?ie%3DUTF8&coliid%3DI4MQQJG8HMEYL&colid%3D9C8YXIMI8EO3][Python Cookbook]]
-    * [[http://www.amazon.com/gp/product/0672328623/ref%3Dwl%5Fitt%5Fdp/103-5245472-8565461?ie%3DUTF8&coliid%3DI14HK5SUXCIYSO&colid%3D9C8YXIMI8EO3][Python Essential Reference, 3rd Edition]]
+    * [[http://amzn.com/0596100469][Python in a Nutshell, 2nd Edition]]
+    * [[http://amzn.com/0596002815][Learning Python]]
+    * [[http://amzn.com/0596009259][Programming Python]]
+    * [[http://amzn.com/0596007973][Python Cookbook]]
+    * [[http://amzn.com/0672328623][Python Essential Reference, 3rd Edition]]
 
 Obviously, they modelled "Learning Python" and "Programming Python" on the very
 popular titles for Perl.  But wheras "Programming Python" is much more popular

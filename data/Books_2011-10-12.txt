@@ -1,8 +1,8 @@
 name: The_Little_Prince
 isbn13: 9780156012195
 isbn: 1461190460
-title: [[http://www.amazon.com/Little-Prince-Antoine-Saint-Exup%C3%A9ry/dp/1461190460/ref=ntt_at_ep_dpt_1][The Little Prince]]
-title: [[http://www.amazon.com/Petit-Prince-Antoine-Saint-Exupery/dp/2070331008/ref=sr_1_1?s=books&ie=UTF8&qid=1317511966&sr=1-1][<i>Le Petit Prince</i>]]
+title: [[http://amzn.com/0156012197][The Little Prince]]
+title: [[http://www.amazon.ca/dp/0156013983][<i>Le Petit Prince</i>]]
 author: Antoine de Saint-Exup&eacute;ry
 publisher: Harcourt
 year: 2000

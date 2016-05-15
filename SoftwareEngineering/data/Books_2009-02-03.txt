@@ -1,7 +1,7 @@
 name: The_Secrets_of_Consulting
 isbn13: 9780932633019
 isbn: 0932633013
-title: [[http://www.amazon.com/Secrets-Consulting-Giving-Getting-Successfully/dp/0932633013/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1233729556&sr=8-1][The Secrets of Consulting]]
+title: [[http://amzn.com/0932633013][The Secrets of Consulting]]
 author: Gerald Weinberg
 publisher: Dorset House
 year: 1985

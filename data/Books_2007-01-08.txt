@@ -3,9 +3,9 @@ isbn13: 9782253044901
 isbn: 2253044903
 isbn: 0375725849
 isbn: 3257228007
-title: [[http://www.amazon.ca/Parfum-Patrick-S%C3%BCskind/dp/2253044903/sr=8-1/qid=1168330652/ref=pd_ka_1/702-9304944-1810461?ie=UTF8&s=books][Le Parfum, Histoire d'un meurtrier]]
-title: [[http://www.amazon.com/Perfume-Story-Murderer-Patrick-Suskind/dp/0375725849/sr=8-1/qid=1168330690/ref=pd_bbs_1/103-9162915-6693433?ie=UTF8&s=books][<i>Perfume: The Story of a Murderer</i>]]
-title: [[http://www.amazon.de/Parfum-Geschichte-M%C3%B6rders-Fiction-Poetry/dp/3257228007/sr=8-2/qid=1168330734/ref=pd_ka_2/302-8151018-8903230?ie=UTF8&s=books][<i>Das Parfum.  Die Geschichte eines M&ouml;rders</i>]]
+title: [[http://www.amazon.ca/dp/2253044903][Le Parfum, Histoire d'un meurtrier]]
+title: [[http://amzn.com/0375725849][<i>Perfume: The Story of a Murderer</i>]]
+title: [[http://www.amazon.de/dp/3257228007][<i>Das Parfum.  Die Geschichte eines M&ouml;rders</i>]]
 author: Patrick S&uuml;skind
 publisher: Livre de Poche
 year: 1985

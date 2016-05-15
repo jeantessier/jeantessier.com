@@ -1,8 +1,8 @@
 name: Kinkakuji
 isbn: 2070366491
 isbn: 0679752706
-title: [[http://www.renaud-bray.com/francais/menu/gabarit.asp?Entete=Livre&Section=Livre&Page=fiche_wsc.asp&RBCode=123806498+&PRCleunik=114662][Le Pavillon d'Or]]
-title: [[http://www.amazon.com/gp/product/0679752706/sr=8-4/qid=1156106614/ref=pd_bbs_4/104-8014345-4809546?ie=UTF8][<i>The Temple of the Golden Pavilion</i>]]
+title: [[http://www.amazon.ca/dp/2070366499][Le Pavillon d'Or]]
+title: [[http://amzn.com/0679752706][<i>The Temple of the Golden Pavilion</i>]]
 title: <i>Kinkakuji</i>
 author: Yukio Mishima
 publisher: Gallimard

@@ -38,7 +38,7 @@ strong in the world of design.
 
 _Randy Komisar_: There was a nice interview with Randy Komisar, a VC with
 Kleiner Perkins, where he talked about his latest book,
-[[http://www.amazon.com/exec/obidos/ASIN/1422126692/1n9867a-20][Getting to Plan B]],
+[[http://amzn.com/1422126692][Getting to Plan B]],
 about a company's ability to _pivot_, or realize what they are currently doing
 is not going to lead to success and they need to start going in a new direction.
 He mentioned working with [[http://pinger.com][Pinger]], the VP Eng there is a

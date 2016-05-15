@@ -1,6 +1,6 @@
 name: Groovy_in_Action
 isbn: 1932394842
-title: [[http://www.amazon.com/Groovy-Action-Dierk-Koenig/dp/1932394842/ref=sr_1_1?ie=UTF8&s=books&qid=1256493779&sr=8-1][Groovy in Action]]
+title: [[http://amzn.com/1932394842][Groovy in Action]]
 author: Dierk K&ouml;nig
 author: Andrew Glover
 author: Paul King

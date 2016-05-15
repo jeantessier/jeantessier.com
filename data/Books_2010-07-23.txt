@@ -1,6 +1,6 @@
 name: Why_Orwell_Matters
 isbn: 0465030505
-title: [[http://www.amazon.com/Why-Orwell-Matters-Christopher-Hitchens/dp/0465030505/ref=sr_1_1?ie=UTF8&s=books&qid=1280465270&sr=1-1][Why Orwell Matters]]
+title: [[http://amzn.com/0465030505][Why Orwell Matters]]
 author: Christopher Hitchens
 publisher: Basic Books
 year: 2002
@@ -22,7 +22,7 @@ harsh about this friend than about the other detractors.
 Personally, I am not very familiar with Orwell's life, so a timeline of major
 events and publications would have been useful.  I knew that
 [[#Animal%5FFarm][Animal Farm]] came before
-[[http://www.amazon.com/Nineteen-Eighty-Four-George-Orwell/dp/0452284236/ref%3Dsr%5F1%5F3/103-5945611-5370201?ie%3DUTF8&s%3Dbooks&qid%3D1182493863&sr%3D1-3][Nineteen Eighty-Four]],
+[[http://amzn.com/0452284236][Nineteen Eighty-Four]],
 but I hadn't realized that Orwell had died right after publishing the latter.
 
 _Imperialism_: About imperialism in general, and British imperialism in

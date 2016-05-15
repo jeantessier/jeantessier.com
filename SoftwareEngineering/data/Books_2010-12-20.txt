@@ -1,6 +1,6 @@
 name: Growing_Object_Oriented_Software
 isbn: 0321503627
-title: [[http://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627/ref=sr_1_1?s=books&ie=UTF8&qid=1281511166&sr=1-1][Growing Object-Oriented Software, Guided by Tests]]
+title: [[http://amzn.com/0321503627][Growing Object-Oriented Software, Guided by Tests]]
 author: Steve Freeman
 author: Nat Pryce
 publisher: Addison-Wesley

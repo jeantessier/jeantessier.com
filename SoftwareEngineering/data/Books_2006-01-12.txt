@@ -1,6 +1,6 @@
 name: WebWork_in_Action
 isbn: 1932394532
-title: [[http://www.amazon.com/gp/product/1932394532/qid=1138001660/sr=8-1/ref=pd_bbs_1/104-3136459-8431142?n=507846&s=books&v=glance][WebWork in Action]]
+title: [[http://amzn.com/1932394532][WebWork in Action]]
 author: Patrick Lightbody
 author: Jason Carreira
 publisher: Manning

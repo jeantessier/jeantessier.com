@@ -34,7 +34,7 @@ around the word _accountability_.  Not as who gets the blame, but rather
 as being able to render account, why and how you did what you did.  TDD helps
 us do this by recording our assumptions at the time we did the development.  A
 new edition of his book,
-[[http://www.amazon.com/exec/obidos/tg/detail/-/0201616416/ref%3Dpd%5Fsim%5Fbooks%5F2/104-8608372-8129501?v%3Dglance&s%3Dbooks][eXtreme Programming Explained]],
+[[http://amzn.com/0201616416][eXtreme Programming Explained]],
 is due out soon, with updated practices and more feedback from real life
 experience.
 

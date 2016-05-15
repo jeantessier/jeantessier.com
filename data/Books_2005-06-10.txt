@@ -1,8 +1,8 @@
 name: Les_fleurs_du_mal
 isbn: 2070315088
 isbn: 0192835459
-title: [[http://www.amazon.ca/exec/obidos/ASIN/2070315088/qid=1119423505/sr=1-1/ref=sr_1_3_1/701-1090181-4898757][Les fleurs du mal]]
-title: [[http://www.amazon.com/exec/obidos/tg/detail/-/0192835459/ref=sib_rdr_dp/104-9275638-5574332?%5Fencoding=UTF8&no=283155&me=ATVPDKIKX0DER&st=books][<i>The Flowers of Evil</i>]]
+title: [[http://www.amazon.ca/dp/2070315088][Les fleurs du mal]]
+title: [[http://amzn.com/0192835459][<i>The Flowers of Evil</i>]]
 author: Charles Baudelaire
 publisher: 
 year: 1861

@@ -1,7 +1,7 @@
 name: MC_Escher
 isbn13: 9781435124882
 isbn: 1435124882
-title: [[http://www.amazon.com/M-C-Escher-29-Master-Prints/dp/143512488X/ref=sr_1_1?ie=UTF8&qid=1309754016&sr=8-1][M.C. Escher: 29 Master Prints]]
+title: [[http://amzn.com/143512488X][M.C. Escher: 29 Master Prints]]
 author: Darlene Geis
 author: M.C. Escher
 publisher: Abrams

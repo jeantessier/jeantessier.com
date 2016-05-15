@@ -1,6 +1,6 @@
 name: Waltzing_with_Bears
 isbn: 0932633609
-title: [[http://www.amazon.com/exec/obidos/tg/detail/-/0932633609/qid=1098079889/sr=8-1/ref=sr_8_xs_ap_i1_xgl14/002-0239368-1943234?v=glance&s=books&n=507846][Waltzing with Bears: Managing Risk on Software Projects]]
+title: [[http://amzn.com/0932633609][Waltzing with Bears: Managing Risk on Software Projects]]
 author: Tom DeMarco
 author:  Timothy Lister
 publisher: Dorset House
@@ -8,8 +8,7 @@ year: 2003
 start: 2004-10-14
 stop: 2004-10-27
 
-The guys from
-[[http://www.amazon.com/exec/obidos/tg/detail/-/0932633439/ref%3Dpd%5Fsim%5Fb%5F2/002-0239368-1943234?%5Fencoding%3DUTF8&amp;v%3Dglance][Peopleware]]
+The guys from [[http://amzn.com/0932633439][Peopleware]]
 are at it again.  This time, they tackle the management attitude that plays the
 ostrich and keeps its head in the sand, denying reality instead of facing it.
 They are making a case for knowing what risks lie ahead, how to notice them, and

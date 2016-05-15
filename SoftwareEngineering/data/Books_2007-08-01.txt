@@ -1,6 +1,6 @@
 name: Continuous_Integration
 isbn: 0321336380
-title: [[http://www.amazon.com/Continuous-Integration-Improving-Addison-Wesley-Signature/dp/0321336380/ref=pd_bbs_sr_1/104-7143783-6750325?ie=UTF8&s=books&qid=1187407904&sr=1-1][Continuous Integration: Improving Software Quality and Reducing Risk]]
+title: [[http://amzn.com/0321336380][Continuous Integration: Improving Software Quality and Reducing Risk]]
 author: Paul Duvall
 author: Steve Matyas
 author: Andrew Glover

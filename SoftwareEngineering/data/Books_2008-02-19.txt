@@ -1,7 +1,7 @@
 name: Programming_Ruby
 isbn13: 9780974514055
 isbn: 0974514055
-title: [[http://www.amazon.com/Programming-Ruby-Pragmatic-Programmers-Second/dp/0974514055/ref=pd_bbs_2?ie=UTF8&s=books&qid=1205992436&sr=8-2][Programming Ruby: The Pragmatic Programmers' Guide, 2nd Ed.]]
+title: [[http://amzn.com/0974514055][Programming Ruby: The Pragmatic Programmers' Guide, 2nd Ed.]]
 author: Dave Thomas
 publisher: The Pragmatic Bookshelf
 year: 2005

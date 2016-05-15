@@ -1,7 +1,7 @@
 name: Working_Effectively_with_Legacy_Code
 isbn13: 9780131177055
 isbn: 0131177052
-title: [[http://www.amazon.com/exec/obidos/tg/detail/-/0131177052/103-9682398-3873411?%5Fencoding=UTF8&v=glance][Working Effectively with Legacy Code]]
+title: [[http://amzn.com/0131177052][Working Effectively with Legacy Code]]
 author: Michael Feathers
 publisher: Prentice Hall
 year: 2005

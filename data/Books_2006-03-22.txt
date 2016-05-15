@@ -2,8 +2,8 @@ name: La_misteriosa_fiamma_della_regina_Loana
 isbn13: 9782246670810
 isbn: 2246670810
 isbn: 0151011400
-title: [[http://www.amazon.ca/exec/obidos/ASIN/2246670810/qid%3D1144432871/701-4094526-8976368][La myst&eacute;rieuse flamme de la reine Loana]]
-title: [[http://www.amazon.com/gp/product/0151011400/sr=1-2/qid=1144432653/ref=pd_bbs_2/104-0885442-4376756?%5Fencoding=UTF8&s=books][<i>The Mysterious Flame of Queen Loana</i>]]
+title: [[http://www.amazon.ca/dp/2246670810][La myst&eacute;rieuse flamme de la reine Loana]]
+title: [[http://amzn.com/0151011400][<i>The Mysterious Flame of Queen Loana</i>]]
 title: <i>La misteriosa fiamma della regina Loana</i>
 author: Umberto Eco
 publisher: Grasset

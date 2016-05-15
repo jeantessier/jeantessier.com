@@ -2,8 +2,8 @@ name: L_immortalite
 isbn13: 9782070718399
 isbn: 2070718395
 isbn: 0060932384
-title: [[http://www.amazon.ca/Limmortalit%C3%A9-Milan-Kundera/dp/2070718395/sr=8-2/qid=1164691373/ref=sr_1_2/701-2445891-1400312?ie=UTF8&s=books][L'immortalit&eacute;]]
-title: [[http://www.amazon.com/Immortality-Perennial-Classics-Milan-Kundera/dp/0060932384/sr=8-1/qid=1164691145/ref=pd_bbs_sr_1/103-7855131-1685460?ie=UTF8&s=books][<i>Immortality</i>]]
+title: [[http://www.amazon.ca/dp/2070718395][L'immortalit&eacute;]]
+title: [[http://amzn.com/0060932384][<i>Immortality</i>]]
 title: <i>Nesmrtelnost</i>
 author: Milan Kundera
 publisher: Gallimard

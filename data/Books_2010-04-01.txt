@@ -1,6 +1,6 @@
 name: Prenez_le_control_de_votre_appetit
 isbn: 2761927036
-title: [[http://www.amazon.ca/Prenez-contr%C3%B4le-votre-app%C3%A9tit-poids/dp/2761927036/ref=sr_1_1?ie=UTF8&s=books&qid=1270183314&sr=8-1][Prenez le contr&ocirc;le de votre app&eacute;tit ... et de votre poids]]
+title: [[http://www.amazon.ca/dp/2761927036][Prenez le contr&ocirc;le de votre app&eacute;tit ... et de votre poids]]
 author: Angelo Tremblay
 publisher: Les &Eacute;ditions de l'Homme
 year: 2010

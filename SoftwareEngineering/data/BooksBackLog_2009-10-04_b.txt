@@ -1,7 +1,7 @@
 name: Dependency_Injection
 isbn13: 9781933988559
 isbn: 193398855X
-title: [[http://www.amazon.com/Dependency-Injection-Dhanji-R-Prasanna/dp/193398855X/ref=sr_1_1?s=books&ie=UTF8&qid=1281512954&sr=1-1][Dependency Injection]]
+title: [[http://amzn.com/193398855X][Dependency Injection]]
 author: Dhanji Prasanna
 publisher: Manning
 year: 2009

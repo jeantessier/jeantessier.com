@@ -1,7 +1,7 @@
 name: JavaScript_The_Good_Parts
 isbn13: 9780596517748
 isbn: 0596517742
-title: [[http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1232865578&sr=8-1][JavaScript: The Good Parts]]
+title: [[http://amzn.com/0596517742][JavaScript: The Good Parts]]
 author: Douglas Crockford
 publisher: O'Reilly
 year: 2008

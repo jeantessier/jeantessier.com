@@ -1,7 +1,7 @@
 name: The_Children_of_Hurin
 isbn13: 9780618894642
 isbn: 0618894640
-title: [[http://www.amazon.com/Children-Hurin-J-R-R-Tolkien/dp/0618894640/ref=pd_bbs_2/002-8843931-0488822?ie=UTF8&s=books&qid=1180709012&sr=8-2][The Children of H&uacute;rin]]
+title: [[http://amzn.com/0618894640][The Children of H&uacute;rin]]
 author: J.R.R. Tolkien
 publisher: Houghton Mifflin
 year: 2007
@@ -10,7 +10,7 @@ stop: 2007-06-10
 
 Christopher Tolkien strikes again.  This time, he worked really hard
 to limit the editorial work, like he did in
-[[http://www.amazon.com/Silmarillion-J-R-R-Tolkien/dp/0618391118/ref%3Dpd%5Fbbs%5Fsr%5F1/103-6261862-0305400?ie%3DUTF8&s%3Dbooks&qid%3D1181545832&sr%3D8-1][The Silmarillion]],
+[[http://amzn.com/0618391118][The Silmarillion]],
 and to present a cohesive text out of all the different versions found
 in _The History of Middle-Earth_.  Mission accomplished.  The
 introduction does a half-decent job of setting the stage from all the

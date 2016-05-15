@@ -1,6 +1,6 @@
 name: The_Omnivore_s_Dilemma
 isbn: 1594200823
-title: [[http://www.amazon.com/Omnivores-Dilemma-Natural-History-Meals/dp/1594200823/ref=pd_bbs_sr_1/104-7627097-4536732?ie=UTF8&s=books&qid=1176593759&sr=8-1][The Omnivore's Dilemma: A Natural History of Four Meals]]
+title: [[http://amzn.com/1594200823][The Omnivore's Dilemma: A Natural History of Four Meals]]
 author: Michael Pollan
 publisher: Penguin Press
 year: 2006
@@ -9,7 +9,7 @@ stop: 2007-05-12
 
 A colleague suggested this book to me, saying it was in the somewhat
 along the same line as
-[[http://www.amazon.com/Fast-Food-Nation-Eric-Schlosser/dp/0060838582/ref%3Dpd%5Fbbs%5Fsr%5F1/104-7627097-4536732?ie%3DUTF8&s%3Dbooks&qid%3D1176593911&sr%3D8-1][Fast Food Nation]].
+[[http://amzn.com/0060838582][Fast Food Nation]].
 
 Pollan identifies four _food chains_ that go from where the
 food is produced to our plates.

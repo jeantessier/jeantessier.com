@@ -2,9 +2,9 @@ name: The_Paratwa_Saga
 isbn: 0812530756
 isbn: 0812530780
 isbn: 0812530934
-title: [[http://www.amazon.com/Liege-Killer-Paratwa-Saga-Book-1/dp/0812530756/ref=sr_1_1?ie=UTF8&s=books&qid=1264355451&sr=8-1][Liege-Killer]]
-title: [[http://www.amazon.com/Ash-Ock-Book-Paratwa-Saga/dp/0812530780/ref=sr_1_3?ie=UTF8&s=books&qid=1264355451&sr=8-3][Ash Ock]]
-title: [[http://www.amazon.com/Paratwa-Christopher-Hinz/dp/0812530934/ref=sr_1_4?ie=UTF8&s=books&qid=1264355451&sr=8-4][The Paratwa]]
+title: [[http://amzn.com/0812530756][Liege-Killer]]
+title: [[http://amzn.com/0812530780][Ash Ock]]
+title: [[http://amzn.com/0812530934][The Paratwa]]
 author: Christopher Hinz
 publisher: Tor
 year: 1987

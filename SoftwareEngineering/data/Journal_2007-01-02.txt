@@ -12,5 +12,5 @@ quickly process a file.  :-(
 I borrowed some books from a colleague until I can get my own (his are a little
 out of date):
 
-    * [[http://www.amazon.com/Python-Nutshell-Alex-Martelli/dp/0596001886/ref%3Ded%5Foe%5Fp/103-5245472-8565461][Python in a Nutshell]]
-    * [[http://www.amazon.com/Python-Essential-Reference-David-Beazley/dp/0735710910/sr%3D8-2/qid%3D1162356885/ref%3Dpd%5Fbbs%5F2/103-6041063-6658211?ie%3DUTF8&s%3Dbooks][Python Essential Reference]]
+    * [[http://amzn.com/0596001886][Python in a Nutshell]]
+    * [[http://amzn.com/0735710910][Python Essential Reference]]

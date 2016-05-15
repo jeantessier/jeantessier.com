@@ -1,6 +1,6 @@
 name: I_Robot
 isbn: 0553803700
-title: [[http://www.amazon.com/exec/obidos/tg/detail/-/0553803700/qid=1095306786/sr=12-1/103-6970707-0635809?v=glance&s=books][I, Robot]]
+title: [[http://amzn.com/0553803700][I, Robot]]
 author: Isaac Asimov
 publisher: Doubleday
 year: 1950

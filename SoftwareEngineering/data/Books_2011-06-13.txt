@@ -1,7 +1,7 @@
 name: The_Clean_Coder
 isbn13: 9780137081073
 isbn: 0137081073
-title: [[http://www.amazon.com/gp/product/0137081073][The Clean Coder]]
+title: [[http://amzn.com/0137081073][The Clean Coder]]
 author: Robert C. Martin
 publisher: Prentice Hall
 year: 2011

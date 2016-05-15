@@ -1,7 +1,7 @@
 name: Hadoop_The_Definitive_Guide
 isbn13: 9780596521974
 isbn: 0596521979
-title: [[http://www.amazon.com/Hadoop-Definitive-Guide-Tom-White/dp/0596521979/ref=sr_1_1?ie=UTF8&s=books&qid=1281509962&sr=8-1-spell][Hadoop: The Definitive Guide]]
+title: [[http://amzn.com/0596521979][Hadoop: The Definitive Guide]]
 author: Tom White
 publisher: O'Reilly
 year: 2009

@@ -1,7 +1,7 @@
 name: Clean_Code
 isbn13: 9780132350884
 isbn: 0132350882
-title: [[http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1219294995&sr=8-1][Clean Code: A Handbook of Agile Software Craftsmanship]]
+title: [[http://amzn.com/0132350882][Clean Code: A Handbook of Agile Software Craftsmanship]]
 author: Robert C. Martin
 publisher: Prentice Hall
 year: 2009

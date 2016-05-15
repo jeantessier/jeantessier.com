@@ -56,7 +56,7 @@ think of each:
 </dl>
 
 Robert Grady, in
-[[http://www.amazon.com/exec/obidos/tg/detail/-/0137203845/qid%3D1063431134/sr%3D1-1/ref%3Dsr%5F1%5F1/102-2068667-3875341?v%3Dglance&s%3Dbooks][Practical Software Metrics for Project Management and Process Improvement]],
+[[http://amzn.com/0137203845][Practical Software Metrics for Project Management and Process Improvement]],
 says engineers are after solutions, whereas scientists are after knowledge.  I
 tried to looked into it a little further and now there is a debate going on
 regarding the nature of programming.  Is is an art?  A craft?  A science?
