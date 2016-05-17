@@ -39,7 +39,7 @@ Finally, we can learn from _lean manufacturing_ by replacing units of production
 by decisions and they optimizing the flow of decisions throughout the process.
 
 Cockburn also brought up the latest acronym: =XXD= or "Dos Equis"-Driven
-development.  Just like TDD is not about testin, XXD is not about beer.  Really,
+development.  Just like TDD is not about testing, XXD is not about beer.  Really,
 the tests are eXecutable eXamples, hence the name.  Funny.
 
 Cockburn closed with some quotes from a NATO conference that was held in 1968
