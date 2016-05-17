@@ -6,6 +6,7 @@ author: Chris Birchall
 publisher: Manning
 year: 2015
 acquired: 2015-08-06
+start: 2016-05-17
 
 Ten years ago, I read
 [[Books.html#Working%5FEffectively%5Fwith%5FLegacy%5FCode][Working Effectively with Legacy Code]]
@@ -14,3 +15,18 @@ refactoring.  I'm hoping this is an updated take on the subject, though the
 table of contents makes it more about the human factors involved.  This is a
 problem that I'm currently struggling with: how to modernize a sizeable code
 base that is too unwieldy for my small team.
+
+Right off the bat:
+
+<blockquote>
+
+This book is ambitious in scope, setting itself the aim of teaching you
+everything you need to do in order to transform a neglected legacy codebase into
+a maintainable, well-functioning piece of software that can provide value to
+your organization.
+
+<footer>p. xvi</footer>
+</blockquote>
+
+The book is barely 200 pages long!!  And it's going to cover _everything_?!?
+This book is setting itself up to be a disappointment.
