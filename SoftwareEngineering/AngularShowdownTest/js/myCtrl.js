@@ -1,7 +1,11 @@
-app.controller('myCtrl', function($scope, $sce) {
-    $scope.converter = new Showdown.converter();
-    $scope.textarea = "# Title";
-    $scope.markdown = function() {
-        return $sce.trustAsHtml($scope.converter.makeHtml($scope.textarea));
-    };
-});
+angular
+
+    .module("myApp")
+
+    .controller("myCtrl", ["$scope", function($scope) {
+        $scope.converter = new Showdown.converter();
+        $scope.textarea = "# Title";
+        $scope.markdown = function() {
+            return $scope.converter.makeHtml($scope.textarea);
+        };
+    }]);
