@@ -1,0 +1,5 @@
+[[https://www.linkedin.com/pulse/aging-industry-miha-kralj][Aging in the IT industry]]
+echoes some of the feelings I've been having lately.  I feel I have become
+complacent with my skill set and it is slowly becoming obsolete.  This is why I
+have been tinkering with my sample Book Review app "project" to get myself
+familiar with the new wave of web-based development tools.
