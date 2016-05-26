@@ -124,7 +124,7 @@ sub DocumentPartAsMongo {
             start => &JsonText($meta_data{"start"}),
             stop => (exists $meta_data{"stop"}) ? &JsonText($meta_data{"stop"}) : "null",
             book => "book.insertedId",
-            writer => "jean._id",
+            reviewer => "jean._id",
         ) . ");";
 
     local ($user_review_stmt) = "db.user.updateOne(" .
