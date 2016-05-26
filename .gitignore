@@ -19,3 +19,4 @@ pure/
 pure-release-0.6.0/
 pure-release-0.6.0.zip
 testing/tufte-css/
+*.zargo~
