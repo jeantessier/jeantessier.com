@@ -96,5 +96,5 @@ more trouble than they’re worth.
 I have been struggling with this very problem lately, trying to make one change
 and having to update over a hundred tests, which is discouraging.  The author
 goes so far as to recommend deleting unit tests when you have higher-level tests
-to provide coverage.  I'm not completely sold on the idea yet, but does
+to provide coverage.  I'm not completely sold on the idea yet, but it does
 resonate.
