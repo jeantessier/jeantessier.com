@@ -86,9 +86,9 @@ I will end with an interesting quote near the end regarding unit tests:
 
 <blockquote>
 
-If, for example, you can’t refactor a piece of code without having to fix or
+If, for example, you can't refactor a piece of code without having to fix or
 rewrite dozens of tests, that may be a sign that your unit tests are becoming
-more trouble than they’re worth.
+more trouble than they're worth.
 
 <footer>p. 203</footer>
 </blockquote>
