@@ -76,7 +76,7 @@ I really liked the discussion of splitting a large monolithic application into
 services vs. SOA vs. microservices, with decent coverage of the pros and cons of
 each.  The section on refactoring code was also a welcomed refresher.  I had
 never heard of the Macbeth Syndrome:
-_I've come this far, it'll be as hard to finish as to undo everything_ (not to
+_I've come this far, it'll be as hard to finish as to go back_ (not to
 be confused with the
 [[https://en.wikipedia.org/wiki/Lady%5FMacbeth%5Feffect][Lady Macbeth effect]]).
 
