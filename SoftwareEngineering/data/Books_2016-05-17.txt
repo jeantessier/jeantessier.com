@@ -47,12 +47,13 @@ deployment, the fewer things that depend on human intervention and arcane
 knowledge, the better it is for the project.  It lists quite a few tools for all
 these tasks ([[https://www.vagrantup.com/][Vagrant]],
 [[https://www.ansible.com/][Ansible]],
-[[http://findbugs.sourceforge.net/][FindBugs]], [[http://pmd.github.io/][PMD]],
-[[https://jenkins.io/][Jenkins]], [[http://www.fabfile.org/][Fabric]], etc.).
-My personal favorites, such as [[https://www.docker.com/][Docker]] and
-microservices, only get passing mentions.  Some of these tools include trivial
-examples on how to set them up.  But any substantial use case is left as an
-exercise for the reader.
+[[http://findbugs.sourceforge.net/][FindBugs]],
+[[http://pmd.github.io/][PMD]],
+[[https://jenkins.io/][Jenkins]],
+[[http://www.fabfile.org/][Fabric]], etc.).  My personal favorites, such as
+[[https://www.docker.com/][Docker]] and microservices, only get passing
+mentions.  Some of these tools include trivial examples on how to set them up.
+But any substantial use case is left as an exercise for the reader.
 
 <blockquote>
 
