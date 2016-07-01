@@ -7,6 +7,7 @@ publisher: Manning
 year: 2015
 acquired: 2015-08-06
 start: 2016-05-17
+stop: 2016-06-30
 
 Ten years ago, I read
 [[Books.html#Working%5FEffectively%5Fwith%5FLegacy%5FCode][Working Effectively with Legacy Code]]
@@ -30,3 +31,6 @@ your organization.
 
 The book is barely 200 pages long!!  And it's going to cover _everything_?!?
 This book is setting itself up to be a disappointment.
+
+_More to come._
+
