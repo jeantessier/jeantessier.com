@@ -127,8 +127,8 @@ sub PrintDocumentPart {
     print "\n";
     print "    <entry>\n";
     print "        <title>$MONTH{$month} $day, $year</title>\n";
-    print "        <id>http://jeantessier.com/SoftwareEngineering/$DOCUMENT.cgi#$year-$month-$day</id>\n";
-    print "        <link href=\"http://jeantessier.com/SoftwareEngineering/$DOCUMENT.cgi#$year-$month-$day\"/>\n";
+    print "        <id>http://jeantessier.com/SoftwareEngineering/$DOCUMENT.html#$year-$month-$day</id>\n";
+    print "        <link href=\"http://jeantessier.com/SoftwareEngineering/$DOCUMENT.html#$year-$month-$day\"/>\n";
     print "        <published>${year}-${month}-${day}T00:00:00Z</published>\n";
     print "        <updated>$updated</updated>\n";
     print "        <content type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">\n";

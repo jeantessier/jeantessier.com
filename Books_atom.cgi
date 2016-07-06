@@ -160,8 +160,8 @@ sub PrintDocumentPart {
     print "\n";
     print "    <entry>\n";
     print "        <title>" . $meta_data{'title'} . "</title>\n";
-    print "        <id>http://jeantessier.com/$DOCUMENT.cgi#" . $meta_data{'name'} . "</id>\n";
-    print "        <link href=\"http://jeantessier.com/$DOCUMENT.cgi#" . $meta_data{'name'} . "\"/>\n";
+    print "        <id>http://jeantessier.com/$DOCUMENT.html#" . $meta_data{'name'} . "</id>\n";
+    print "        <link href=\"http://jeantessier.com/$DOCUMENT.html#" . $meta_data{'name'} . "\"/>\n";
     print "        <published>${year}-${month}-${day}T00:00:00Z</published>\n";
     print "        <updated>$updated</updated>\n";
     print "        <content type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">\n";
