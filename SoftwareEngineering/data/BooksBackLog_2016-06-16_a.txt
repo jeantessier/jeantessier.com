@@ -1,0 +1,11 @@
+name: Design_for_the_Mind
+isbn: 1617292958
+isbn13: 9781617292958
+title: [[https://amzn.com/1617292958][Design for the Mind: Seven Psychological Principles of Persuasive Design]]
+author: Victor S. Yocco
+publisher: Manning
+year: 2016
+acquired: 2016-06-16
+
+How to apply principles from psychology and cognitive science when building user
+interfaces that are used by humans.
