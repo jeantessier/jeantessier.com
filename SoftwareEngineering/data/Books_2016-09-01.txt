@@ -6,6 +6,9 @@ author: Victor S. Yocco
 publisher: Manning
 year: 2016
 acquired: 2016-06-16
+start: 2016-09-01
 
 How to apply principles from psychology and cognitive science when building user
 interfaces that are used by humans.
+
+_More to come._
