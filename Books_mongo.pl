@@ -55,9 +55,9 @@ sub DocumentPartsAsMongo {
     local (@files) = grep { /^${document}_\d{4}-\d{2}-\d{2}.txt$/ } readdir(DIRHANDLE);
     closedir(DIRHANDLE);
 
-    local ($user_stmt) = "var jean = db.user.findOne(" . &JsonRecord(email => &JsonText("jean\@jeantessier.com")) . ");";
-    local ($clear_user_stmt) = "db.user.updateOne(" . &JsonRecord("_id" => "jean._id") . "," . &JsonRecord("\$unset" => &JsonRecord(reviews => &JsonText(""))) . ");";
-    local ($drop_stmt) = join("\n", "db.book.drop();", "db.review.drop();");
+    local ($user_stmt) = "var jean = db.users.findOne(" . &JsonRecord(email => &JsonText("jean\@jeantessier.com")) . ");";
+    local ($clear_user_stmt) = "db.users.updateOne(" . &JsonRecord("_id" => "jean._id") . "," . &JsonRecord("\$unset" => &JsonRecord(reviews => &JsonText(""))) . ");";
+    local ($drop_stmt) = join("\n", "db.books.drop();", "db.reviews.drop();");
     local (@book_stmts) = map { &DocumentPartAsMongo("$DIRNAME/$_") } reverse sort @files;
 
     return join("\n\n", $user_stmt, $clear_user_stmt, $drop_stmt, @book_stmts);
@@ -91,7 +91,7 @@ sub DocumentPartAsMongo {
         }
     } until ($line =~ /^\s*$/);
 
-    local ($book_stmt) = "var book = db.book.insertOne(" .
+    local ($book_stmt) = "var book = db.books.insertOne(" .
         &JsonRecord(
             name => &JsonText($meta_data{"name"}),
             authors => &JsonList(map { &JsonText($_) } @authors),
@@ -118,7 +118,7 @@ sub DocumentPartAsMongo {
             reviews => &JsonList(),
         ) . ");";
 
-    local ($review_stmt) = "var review = db.review.insertOne(" .
+    local ($review_stmt) = "var review = db.reviews.insertOne(" .
         &JsonRecord(
             body => &JsonText(&WikiContentsAsJson(@lines)),
             start => &JsonText($meta_data{"start"}),
@@ -127,11 +127,11 @@ sub DocumentPartAsMongo {
             reviewer => "jean._id",
         ) . ");";
 
-    local ($user_review_stmt) = "db.user.updateOne(" .
+    local ($user_review_stmt) = "db.users.updateOne(" .
         &JsonRecord("_id" => "jean._id") . "," .
         &JsonRecord("\$addToSet" => &JsonRecord(reviews => "review.insertedId")) . ");";
 
-    local ($book_review_stmt) = "db.book.updateOne(" .
+    local ($book_review_stmt) = "db.books.updateOne(" .
         &JsonRecord("_id" => "book.insertedId") . "," .
         &JsonRecord("\$addToSet" => &JsonRecord(reviews => "review.insertedId")) . ");";
 
