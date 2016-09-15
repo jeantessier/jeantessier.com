@@ -13,3 +13,12 @@ but I had to make sure it exposed the right port.
 
 I had to compile a local copy of Redis to get =redis-cli=, but after that it had
 no problem connecting to the instance in the container.
+
+I also came across an interesting
+[[http://www.forbes.com/sites/stevedenning/2016/09/08/explaining-agile/][article on agile organizations]]
+where the author argues against the hierarchical, top-down nature of traditional
+organizations, what he calls _20<sup>th</sup> century organizations_.  As he
+walks down the history of the Agile movement, he shows how early efforts focused
+on small teams and more recent efforts have been focusing on providing value to
+the customer.  Now, we're coming to realize the impact of de-centralized
+networks, where collaboration is more powerful than top-down delegation.
