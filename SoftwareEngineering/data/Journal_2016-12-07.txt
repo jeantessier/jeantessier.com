@@ -28,7 +28,7 @@ parameter to the closures.
         if (handler.match.maximumNumberOfParameters == 1) {
             handler.match notification
         } else {
-            handler.match notification, event.origin
+            handler.match notification, origin
         }
     }.each { name, handler ->
         if (handler.handle.maximumNumberOfParameters == 1) {
