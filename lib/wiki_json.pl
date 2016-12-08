@@ -91,9 +91,9 @@ sub WikiContentsAsJson {
             }
         }
 
-        $line =~ s/=([^=]*)=/<span class=\"code\">\1<\/span>/g;
-        $line =~ s/_([^_]*)_/<i>\1<\/i>/g;
-        $line =~ s/\*([^*]*)\*/<b>\1<\/b>/g;
+        $line =~ s/=([^=]+)=/<span class=\"code\">\1<\/span>/g;
+        $line =~ s/_([^_]+)_/<i>\1<\/i>/g;
+        $line =~ s/\*([^*]+)\*/<b>\1<\/b>/g;
         $line =~ s/\[\[([^\]]*)\]\[(.*\.((gif)|(jpg)|(png)))\]\]/<a target="_blank" href="\1"><img border="0" src="\2" \/><\/a><br \/>/gi;
         $line =~ s/\[\[([^\]]*\.((gif)|(jpg)|(png)))\]\]/<img src="\1" \/><br \/>/gi;
         $line =~ s/\[\[(\d\d\d\d-\d\d-\d\d)\]\]/<a href="#\1">\1<\/a>/gi;
