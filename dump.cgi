@@ -6,6 +6,7 @@ use POSIX qw(strftime);
 $timestamp = strftime "%Y-%m-%d %H:%M:%W", localtime;
 
 open(OUTFILE, ">>dump.out");
+print OUTFILE "============================================================\n";
 print OUTFILE "$timestamp $ENV{'SCRIPT_URI'}\n";
 
 open(KEYFILE, "github.secret");
@@ -54,4 +55,5 @@ if (defined $ENV{'CONTENT_LENGTH'}) {
 }
 
 print OUTFILE "\n";
+print OUTFILE "============================================================\n";
 close(OUTFILE);
