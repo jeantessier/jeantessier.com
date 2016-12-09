@@ -138,8 +138,8 @@
 }
 
 body {
-    background: rgb( 66,  66, 111);
-    color: rgb(255, 235, 205);
+    background: #fffff8;
+    color: #111;
 }
 
 a {
@@ -147,37 +147,26 @@ a {
 }
 
 a:link {
-    color: rgb(198, 230, 255);
+    color: #111;
 }
 
 a:visited {
-    color: rgb(198, 230, 255);
+    color: #111;
 }
 
 a:active {
-    color: rgb(255, 255, 112);
+    color: #111;
 }
-
-/*
-a:hover {
-    text-decoration: underline;
-}
-*/
 
 h1 {
-    color: white;
+    font-family: ETBembo, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-weight: 400;
+    font-size: 3.2em;
+    line-height: 1;
 }
 
 h1.highlight {
     text-align: center;
-}
-
-h2 {
-    color: white;
-}
-
-.lowlight {
-    color: rgb(191, 176, 154);
 }
 
 ol ol li {
@@ -189,7 +178,7 @@ dl dd {
 }
 
 .padded {
-    font-family: Calluna;
+    font-family: Ainslie Sans;
     line-height: 1.33;
     padding-left: 10px;
     padding-right: 10px;
@@ -198,8 +187,14 @@ dl dd {
 }
 
 .content {
-    font-family: Fontin, sans-serif;
-    line-height: 1.33;
+    font-family: ETBembo, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-size: 1.1em;
+    line-height: 2em;
+}
+
+.content a {
+    border-bottom: 1px solid #777;
+    padding-bottom: 1px;
 }
 
 .portrait {
