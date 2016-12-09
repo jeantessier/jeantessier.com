@@ -187,9 +187,9 @@ sub PrintDocumentPart {
             }
         }
 
-        $line =~ s/=([^=]*)=/<code>\1<\/code>/g;
-        $line =~ s/_([^_]*)_/<i>\1<\/i>/g;
-        $line =~ s/\*([^*]*)\*/<b>\1<\/b>/g;
+        $line =~ s/=([^=]+)=/<code>\1<\/code>/g;
+        $line =~ s/_([^_]+)_/<i>\1<\/i>/g;
+        $line =~ s/\*([^*]+)\*/<b>\1<\/b>/g;
         $line =~ s/\[\[(http[^\]]*)\]\[(http.*\.((gif)|(jpg)))\]\]/<a target="_blank" href="\1"><img border="0" src="\2" \/><\/a><br \/>/gi;
         $line =~ s/\[\[(http[^\]]*)\]\[(.*\.((gif)|(jpg)))\]\]/<a target="_blank" href="\1"><img border="0" src="http:\/\/jeantessier.com\/SoftwareEngineering\/\2" \/><\/a><br \/>/gi;
         $line =~ s/\[\[([^\]]*)\]\[(http.*\.((gif)|(jpg)))\]\]/<a target="_blank" href="http:\/\/jeantessier.com\/SoftwareEngineering\/\1"><img border="0" src="\2" \/><\/a><br \/>/gi;
