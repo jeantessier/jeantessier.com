@@ -17,7 +17,7 @@ print STDOUT "Content-type: application/json\n";
 print STDOUT "\n";
 
 print OUTFILE "REQUEST_METHOD: $ENV{'REQUEST_METHOD'}\n";
-if ($ENV{'REQUEST_METHOD'} eq 'GET') {
+if (defined $ENV{'QUERY_STRING'}) {
     print OUTFILE "QUERY_STRING: $ENV{'QUERY_STRING'}\n";
 }
 
