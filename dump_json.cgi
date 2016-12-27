@@ -20,17 +20,32 @@ print OUTFILE "REQUEST_METHOD: $ENV{'REQUEST_METHOD'}\n";
 if (defined $ENV{'QUERY_STRING'}) {
     print OUTFILE "QUERY_STRING: $ENV{'QUERY_STRING'}\n";
 }
+if (defined $ENV{'CONTENT_TYPE'}) {
+    print OUTFILE "CONTENT_TYPE: $ENV{'CONTENT_TYPE'}\n";
+}
+if (defined $ENV{'CONTENT_LENGTH'}) {
+    print OUTFILE "CONTENT_LENGTH: $ENV{'CONTENT_LENGTH'}\n";
+}
+
+$metadata{'method'} = $ENV{'REQUEST_METHOD'};
+if ($ENV{'REQUEST_METHOD'} eq 'GET') {
+    $metadata{'query string'} = $ENV{'QUERY_STRING'};
+}
+if (defined $ENV{'CONTENT_TYPE'}) {
+    $metadata{'content type'} = $ENV{'CONTENT_TYPE'};
+}
+if (defined $ENV{'CONTENT_LENGTH'}) {
+    $metadata{'content length'} = $ENV{'CONTENT_LENGTH'};
+}
+while (my ($k, $v) = each %metadata) {
+    push @metadata, '"' . $k . '": "' . $v . '"';
+}
 
 $json = "";
 
 $json .= "{\n";
 $json .= "    \"request\": {\n";
-if ($ENV{'REQUEST_METHOD'} eq 'GET') {
-    $json .= "        \"method\": \"$ENV{'REQUEST_METHOD'}\",\n";
-    $json .= "        \"query string\": \"$ENV{'QUERY_STRING'}\"\n";
-} else {
-    $json .= "        \"method\": \"$ENV{'REQUEST_METHOD'}\"\n";
-}
+$json .= "        " . join(",\n        ", @metadata) . "\n";
 $json .= "    },\n";
 
 print OUTFILE "\n";

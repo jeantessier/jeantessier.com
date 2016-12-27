@@ -20,6 +20,12 @@ print OUTFILE "REQUEST_METHOD: $ENV{'REQUEST_METHOD'}\n";
 if (defined $ENV{'QUERY_STRING'}) {
     print OUTFILE "QUERY_STRING: $ENV{'QUERY_STRING'}\n";
 }
+if (defined $ENV{'CONTENT_TYPE'}) {
+    print OUTFILE "CONTENT_TYPE: $ENV{'CONTENT_TYPE'}\n";
+}
+if (defined $ENV{'CONTENT_LENGTH'}) {
+    print OUTFILE "CONTENT_LENGTH: $ENV{'CONTENT_LENGTH'}\n";
+}
 
 $xml = "";
 
@@ -30,6 +36,12 @@ $xml .= "    <request>\n";
 $xml .= "        <method>$ENV{'REQUEST_METHOD'}</method>\n";
 if ($ENV{'REQUEST_METHOD'} eq 'GET') {
     $xml .= "        <query-string>$ENV{'QUERY_STRING'}</query-string>\n";
+}
+if (defined $ENV{'CONTENT_TYPE'}) {
+    $xml .= "        <content-type>$ENV{'CONTENT_TYPE'}</content-type>\n";
+}
+if (defined $ENV{'CONTENT_LENGTH'}) {
+    $xml .= "        <content-length>$ENV{'CONTENT_LENGTH'}</content-length>\n";
 }
 $xml .= "    </request>\n";
 

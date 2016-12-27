@@ -22,6 +22,14 @@ if (defined $ENV{'QUERY_STRING'}) {
     print STDOUT "QUERY_STRING: $ENV{'QUERY_STRING'}\n";
     print OUTFILE "QUERY_STRING: $ENV{'QUERY_STRING'}\n";
 }
+if (defined $ENV{'CONTENT_TYPE'}) {
+    print STDOUT "CONTENT_TYPE: $ENV{'CONTENT_TYPE'}\n";
+    print OUTFILE "CONTENT_TYPE: $ENV{'CONTENT_TYPE'}\n";
+}
+if (defined $ENV{'CONTENT_LENGTH'}) {
+    print STDOUT "CONTENT_LENGTH: $ENV{'CONTENT_LENGTH'}\n";
+    print OUTFILE "CONTENT_LENGTH: $ENV{'CONTENT_LENGTH'}\n";
+}
 
 print STDOUT "\n";
 print OUTFILE "\n";
