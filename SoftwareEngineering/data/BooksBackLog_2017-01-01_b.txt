@@ -1,0 +1,18 @@
+name: Remote_Office_Not_Required
+isbn: 0804137501
+isbn13: 9780804137508
+title: [[http://a.co/8oX2MVq][Remote: Office Not Required]]
+author: Jason Fried
+author: David Heinemeier Hansson
+publisher: Crown Business
+year: 2013
+acquired: 2017-01-01
+
+After reading a few articles by DHH on
+[[https://m.signalvnoise.com/@dhh][Medium]], I figured I'd look at his books.
+
+This book is about both running an distributed organization and working for one.
+Companies need to go after the best talent, wherever it is, and not limit
+themselves to the local talent pool.  Employees need to look for the best
+opportunities, wherever they are, and not limit themselves to local employers.
+Today's technology can really make remote work happen.

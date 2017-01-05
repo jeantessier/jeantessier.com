@@ -1,0 +1,16 @@
+name: Rework
+isbn: 0307463745
+isbn13: 9780307463746
+title: [[http://a.co/d8Hi38q][Rework]]
+author: Jason Fried
+author: David Heinemeier Hansson
+publisher: Crown Business
+year: 2010
+acquired: 2017-01-01
+
+After reading a few articles by DHH on
+[[https://m.signalvnoise.com/@dhh][Medium]], I figured I'd look at his books.
+
+This book is about the corporate culture at [[http://37signals.com/][37signals]]
+and how it differs from traditional top-down structures and trying to plan
+everything.  I'm hoping it resonates with what I experienced at Google.
