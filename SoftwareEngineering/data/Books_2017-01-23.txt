@@ -7,10 +7,13 @@ author: David Heinemeier Hansson
 publisher: Crown Business
 year: 2010
 acquired: 2017-01-01
+start: 2017-01-23
 
-After reading a few articles by DHH on
+After reading a few articles by [[http://david.heinemeierhansson.com/][DHH]] on
 [[https://m.signalvnoise.com/@dhh][Medium]], I figured I'd look at his books.
 
 This book is about the corporate culture at [[http://37signals.com/][37signals]]
 and how it differs from traditional top-down structures and trying to plan
 everything.  I'm hoping it resonates with what I experienced at Google.
+
+_More to come._
