@@ -7,6 +7,7 @@ author: David Heinemeier Hansson
 publisher: Crown Business
 year: 2013
 acquired: 2017-01-01
+start: 2017-01-31
 
 After reading a few articles by [[http://david.heinemeierhansson.com/][DHH]] on
 [[https://m.signalvnoise.com/@dhh][Medium]], I figured I'd look at his books.
@@ -16,3 +17,8 @@ Companies need to go after the best talent, wherever it is, and not limit
 themselves to the local talent pool.  Employees need to look for the best
 opportunities, wherever they are, and not limit themselves to local employers.
 Today's technology can really make remote work happen.
+
+Much like [[#Rework][Rework]], it reads so far more like collection of opinions
+in a blog than an in-depth exploration of their subject.
+
+_More to come._
