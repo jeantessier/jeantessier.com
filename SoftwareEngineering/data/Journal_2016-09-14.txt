@@ -1,10 +1,10 @@
 While I was researching [[http://redis.io/][Redis]], I stumbled upon a Grails 3
 plugin to do JWT:
 
-    * =[[https://grails.org/plugins.html#plugin/spring-security-rest][grails-spring-security]]=
-        * =[[http://alvarosanchez.github.io/grails-spring-security-rest/latest/docs/][documentation]]=
-        * =[[https://grails.org/plugins.html#plugin/spring-security-rest-redis][Redis backing]]=
-    * =[[https://grails.org/plugins.html#plugin/redis][redis]]=
+    * =[[https://grails.org/plugins.html#plugin/spring-security-rest][spring-security-rest]]=
+    * =spring-security-rest= [[http://alvarosanchez.github.io/grails-spring-security-rest/latest/docs/][documentation]]
+    * =[[https://grails.org/plugins.html#plugin/spring-security-rest-redis][spring-security-rest-redis]]= for Redis backing
+    * general =[[https://grails.org/plugins.html#plugin/redis][redis]]= plugin
 
 I was able to start a Redis instance using [[https://www.docker.com/][Docker]]
 but I had to make sure it exposed the right port.
