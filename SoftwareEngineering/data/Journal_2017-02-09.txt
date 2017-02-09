@@ -1,0 +1,10 @@
+I was listening to the
+[[http://ryanripley.com/agile-for-humans/][Agile for Humans]] podcast and I came
+upon a great episode:
+
+* [[http://ryanripley.com/hr-insights-with-esther-derby-and-stacy-johnston/][HR Insights with Esther Derby and Stacy Johnston]]
+
+In it, they discuss the role of managers in a post-factory work setting.  They
+talk the importance of trust in the workplace culture, both between the manager
+and the employee, and between the team members themselves.  This reminds me of
+my earlier thoughts on [[2016-02-26]] about _psychological safety_.
