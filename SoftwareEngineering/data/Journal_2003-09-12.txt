@@ -1,13 +1,12 @@
 I'm catching blog fever.  I need to start expressing my views too.
 
-Started a [[Books.html][reading journal]] to keep track of the
-books I read and what I think of them.  I need to do the same for articles
-somehow.
+I started a [[Books.html][reading journal]] to keep track of the books I read
+and what I think of them.  I need to do the same for articles, somehow.
 
-I have been struggling lately with how to define myself.  My web page
-starts with "I am a software engineer," but is that really what I want to
-project?  What do people read in this?  Here are some alternatives and what I
-think of each:
+I have been struggling lately with how to define myself.  My web page starts
+with "I am a software engineer," but is that really what I want to project?
+What do people read in this?  Here are some alternatives and what I think of
+each:
 
 <dl>
     <dt><b>programmer</b></dt>
@@ -58,9 +57,9 @@ think of each:
 Robert Grady, in
 [[http://amzn.com/0137203845][Practical Software Metrics for Project Management and Process Improvement]],
 says engineers are after solutions, whereas scientists are after knowledge.  I
-tried to looked into it a little further and now there is a debate going on
-regarding the nature of programming.  Is is an art?  A craft?  A science?
-Engineering?  Here's my take on the subject:
+tried to look into it a little further and found a debate going on regarding the
+nature of programming.  Is is an art?  A craft?  A science? Engineering?  Here's
+my take on the subject:
 
 <div class="table-wrapper">
 <table class="centered-triplet">
@@ -80,12 +79,12 @@ Engineering?  Here's my take on the subject:
         <tr>
             <td>craft</td>
             <td>=--&gt;=</td>
-            <td>well built</td>
+            <td>skill, well built</td>
         </tr>
         <tr>
             <td>engineering</td>
             <td>=--&gt;=</td>
-            <td>pratical solution</td>
+            <td>practical solution</td>
         </tr>
         <tr>
             <td>science</td>
@@ -96,17 +95,15 @@ Engineering?  Here's my take on the subject:
 </table>
 </div>
 
-Based on that, I think I'm a computer scientist, but not I am not formal
-enough to belong in academia.  And I need to share my what I know a little
-more.
+Based on this, I'd say I'm a computer scientist.  But I am not formal enough to
+belong in academia.  And I need to share my what I know a little more.
 
-I visited Martin Fowler's website and read his latest articles on
-architecture and architects.  He has some good insights into what one should
-look for in an _software architect_.  I would like to think it fitted
-me.
+I visited Martin Fowler's website and read his latest articles on architecture
+and architects.  He has some good insights into what one should look for in an
+_software architect_.  I would like to think it fits me.
 
-Also found [[http://www.johnlevyconsulting.com/][John Levy]]'s
-website and read some of his thoughts on process.  He's obviously given the
-topic a lot of thought.  It is nice to see someone with his vast experience
-who believes in eXtreme Programming.  I always have the impression that
-high level managers from large firms are more of waterfall type.
+Also found [[http://www.johnlevyconsulting.com/][John Levy]]'s website and read
+some of his thoughts on process.  He's obviously given the topic a lot of
+thought.  It is nice to see someone with his vast experience who believes in
+eXtreme Programming.  I always have the impression that high level managers from
+large firms are more of waterfall type.
