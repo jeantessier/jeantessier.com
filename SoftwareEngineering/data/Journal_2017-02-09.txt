@@ -8,3 +8,21 @@ In it, they discuss the role of managers in a post-factory work setting.  They
 talk the importance of trust in the workplace culture, both between the manager
 and the employee, and between the team members themselves.  This reminds me of
 my earlier thoughts on [[2016-02-26]] about _psychological safety_.
+
+Excerpt:
+
+<blockquote>
+
+*Ryan Ripley*: We hire somebody.  We onboard them.  They might get a few days of
+training around corporate history and culture, if they're lucky.  Then, they're
+thrown into the fire of "Here, now you need to be productive."  And we may or
+may not define that for them.  And then, at the end of the year, we'll ask them
+how they think they did, and them we'll sit them down and give them the right
+answer.
+
+*Ester Derby*: Oh!  That just sounds painful when you describe it that way.
+
+<footer>at 4'00"</footer>
+</blockquote>
+
+Happened to me more than once.  It rarely ended well.
