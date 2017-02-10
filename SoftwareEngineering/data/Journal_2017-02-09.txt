@@ -9,7 +9,7 @@ talk the importance of trust in the workplace culture, both between the manager
 and the employee, and between the team members themselves.  This reminds me of
 my earlier thoughts on [[2016-02-26]] about _psychological safety_.
 
-Excerpt:
+Excerpt about performance:
 
 <blockquote>
 
@@ -25,4 +25,5 @@ answer.
 <footer>at 4'00"</footer>
 </blockquote>
 
-Happened to me more than once.  It rarely ended well.
+I have been on the receiving end of this more than once, and it rarely ended
+well.
