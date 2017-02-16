@@ -8,6 +8,7 @@ publisher: Crown Business
 year: 2013
 acquired: 2017-01-01
 start: 2017-01-31
+stop: 2017-02-16
 
 After reading a few articles by [[http://david.heinemeierhansson.com/][DHH]] on
 [[https://m.signalvnoise.com/@dhh][Medium]], I figured I'd look at his books.
