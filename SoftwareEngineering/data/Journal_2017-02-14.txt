@@ -18,6 +18,8 @@ users and roles in Grails.
 
 When I connect to the company's LDAP server, I can sign in with my company
 credentials, but I am not picking up roles from the LDAP data.  I still have
-work to do to setup a local system to test against.  LDAP is not so simple.
-It's X.500 roots show.  The only thing more convoluted than "design by
-committee" is "design by _international_ committee".
+work to do to setup a local system to test against.  LDAP is not so simple;
+it's X.500 roots are showing.  The only thing more convoluted than "design by
+committee" is "design by _international_ committee".  (Full disclosure: I worked
+on [[https://www.itu.int/rec/T-REC-X.462/en][X.462]], the ITU standard for
+managing X.400 email.)
