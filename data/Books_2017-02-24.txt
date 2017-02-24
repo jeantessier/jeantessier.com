@@ -8,11 +8,10 @@ year: 2002
 acquired: 2013-01-16
 start: 2017-02-24
 
-Back when I was reading
-[[Books.html#Good%5FBoss%5FBad%5FBoss][Good Boss, Bad Boss]], I came upon a
-discussion of stand-up meetings that referenced "The Effects of Stand-Up and
-Sit-Down Meeting Formats on Meeting Outcomes" by Bluedorn et al.  Digging a
-little further led me to this book.
+Back when I was reading [[#Good%5FBoss%5FBad%5FBoss][Good Boss, Bad Boss]], I
+came upon a discussion of stand-up meetings that referenced "The Effects of
+Stand-Up and Sit-Down Meeting Formats on Meeting Outcomes" by Bluedorn et al.
+Digging a little further led me to this book.
 
 The description promises a discussion on the nature of Time, how we perceive it,
 and how human constructs are built around it.  Sounds fascinating.
