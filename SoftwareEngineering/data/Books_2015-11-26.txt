@@ -34,9 +34,9 @@ community (as far as I can tell).  This is particularly evident in the
 [[https://angularjs.org/][AngularJS]] code, where the official documentation
 recommends a coding style that is quite different from what is widespread in the
 community.  I find this style much easier to follow and work with.  I got quite
-stuck after reading [[Books.html#AngularJS%5Fin%5FAction][AngularJS in Action]] with
-an app that had an infinite loop and I was only able to fix it after I
-refactored the code to make it closer to what is in this book.
+stuck after reading [[#AngularJS%5Fin%5FAction][AngularJS in Action]] with an
+app that had an infinite loop and I was only able to fix it after I refactored
+the code to make it closer to what is in this book.
 
 I also really appreciated the parts where they show you how to host your
 application for free on [[https://heroku.com/][Heroku]] and
