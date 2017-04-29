@@ -1,3 +1,3 @@
 angular
 
-  .module('myApp', ['ngSanitize'])
+    .module("myApp", ["ngSanitize"]);
