@@ -1,11 +1,11 @@
 angular
 
-    .module("myApp")
+  .module('myApp')
 
-    .controller("myCtrl", ["$scope", function($scope) {
-        $scope.converter = new Showdown.converter();
-        $scope.textarea = "# Title";
-        $scope.markdown = function() {
-            return $scope.converter.makeHtml($scope.textarea);
-        };
-    }]);
+  .controller('myCtrl', ['$scope', $scope => {
+    $scope.converter = new Showdown.converter() // eslint-disable-line new-cap, no-undef
+    $scope.textarea = '# Title'
+    $scope.markdown = () => {
+      return $scope.converter.makeHtml($scope.textarea)
+    }
+  }])
