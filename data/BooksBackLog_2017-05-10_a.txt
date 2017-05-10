@@ -15,4 +15,4 @@ criticism, as long as it's about things that you care about.
 It seems pretty short, so it wouldn't take too long.  But I'm already fearing
 that it will be lightweight and anecdotal, much like
 [[Books.html#Rework][Rework]] and
-[[Books.html#Remote_Office_Not_Required][Remote]].
+[[Books.html#Remote%5FOffice%5FNot%5FRequired][Remote]].
