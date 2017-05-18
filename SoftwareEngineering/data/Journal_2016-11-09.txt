@@ -1,4 +1,4 @@
-I was reading the [[https://www.thoughtworks.com/][ThoughtWorks]]
+I was reading the [[https://www.thoughtworks.com/][ThoughtWorks]] 
 [[https://assets.thoughtworks.com/assets/technology-radar-nov-2016-en.pdf][Technology Radar]]
 where they were signing the praise of [[http://emberjs.com/][Ember.js]].  So I
 made my way through their quickstart tutorial.

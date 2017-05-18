@@ -66,7 +66,7 @@ Jonny, at which point Jonny introduced me to Martin Fowler.  I've been
 introduced now, I'm no longer just a nerd in line after a talk.  :-)
 
 Unrelated to this, but today I came upon a
-[[http://www.infoq.com/presentations/Sustainable-Test-Driven-Development][great talk by Steve Freeman]]
+[[http://www.infoq.com/presentations/Sustainable-Test-Driven-Development][great talk by Steve Freeman]] 
 (of [[http://jmock.org/][jMock]] fame).  It is about writing good tests that are
 easy to maintain, as opposed to record-replay types that are very brittle.  It
 covers material from his new book:

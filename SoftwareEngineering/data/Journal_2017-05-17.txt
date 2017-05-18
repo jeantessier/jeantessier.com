@@ -20,7 +20,7 @@ and make sure you're building something that people will want to use and find
 useful.  You must not get stuck in your own head.
 
 Also, I read a great Harvard Business Review article on
-[[https://hbr.org/2017/05/the-biggest-mistakes-new-executives-make][mistakes by new executives]]
+[[https://hbr.org/2017/05/the-biggest-mistakes-new-executives-make][mistakes by new executives]] 
 (and many leadership positions too).  I have struggled with people who come into
 a team and don't have the humility to listen first.  They are so convinced that
 they know better that they completely dismiss the institutional knowledge.  This

@@ -1,5 +1,5 @@
 I was listening to French programming podcast
-[[http://lescastcodeurs.com/][Les Cast Codeurs]]
+[[http://lescastcodeurs.com/][Les Cast Codeurs]] 
 [[http://lescastcodeurs.com/2012/11/29/les-cast-codeurs-podcast-episode-68-devoxx-2012-et-les-putchettes/][episode 68]]
 about [[http://devoxx.com/display/DV12/Home][Devoxx 2012]].  They asked
 attendees about their favorite session and a majority of them mentioned the

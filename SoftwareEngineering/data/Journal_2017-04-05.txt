@@ -1,4 +1,4 @@
-A new edition of the [[https://www.thoughtworks.com/][ThoughtWorks]]
+A new edition of the [[https://www.thoughtworks.com/][ThoughtWorks]] 
 [[https://assets.thoughtworks.com/assets/technology-radar-vol-16-en.pdf][Technology Radar]]
 is out.  It is still very favorable to [[http://emberjs.com/][Ember.js]] and
 much less so for [[https://angularjs.org/][AngularJS]], though still curious
