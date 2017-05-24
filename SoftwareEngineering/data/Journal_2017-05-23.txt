@@ -1,0 +1,7 @@
+Played a little bit with Grails 3.3.0.M1 and explored some of the latest
+features, such as URL rewriting to hyphenated or snake case for URL elements
+(=someAction= vs. =some-action= vs. =some_action=) and the latest =async= plugin
+for dealing with instance of =Promise= instead of the regular Java =Future=
+class.  This must me the third mechanism for asynchronous processing, not
+counting the =spring-event= plugin we used back in Grails 1.x.  The new =async=
+plugin also has a new event model, with annotations to drive the logic.
