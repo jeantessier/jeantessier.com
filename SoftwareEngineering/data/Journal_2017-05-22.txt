@@ -3,4 +3,4 @@ about [[http://graphql.org/][GraphQL]] as the latest favorite way to build
 service APIs.  Today, [[https://github.com/][GitHub]] announced that
 [[https://developer.github.com/v4/][their service API now uses GraphQL]].  They
 even include an Explorer that lets you issue queries and inspect results.  Or,
-you can use =curl= or Postman with an Oauth token.
+you can use =curl= or Postman with an OAuth token.
