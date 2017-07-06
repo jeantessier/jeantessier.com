@@ -1,0 +1,15 @@
+Coraline Ada Ehmke described a
+[[http://where.coraline.codes/blog/my-year-at-github/][somewhat toxic environment]]
+when she worked at GitHub.  It is not as scathing as Susan Fowler's
+[[https://www.susanjfowler.com/blog/2017/2/19/reflecting-on-one-very-strange-year-at-uber][experience at Uber]],
+but Coraline's manager definitely had it in for her.  According to her, the
+manager discounted her later efforts to improve.  And by the time she got put on
+the performance improvement plan, it was clear that the manager was just going
+through the motions to get her terminated.  It's very sad.  I am so impressed
+with GitHub's product, it is disappointing to hear some of the goings on behind
+the scene.
+
+Coraline's website had another interesting article on
+[[https://modelviewculture.com/pieces/the-dehumanizing-myth-of-the-meritocracy][meritocracy]]
+and its supposed benefits, which may only be a means for the people in power to
+remain in power and exclude everyone else.
