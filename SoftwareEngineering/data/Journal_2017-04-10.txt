@@ -6,8 +6,8 @@ it and tried it out on my JavaScript samples.  I like omitting semicolons and
 using the ES6 arrow functions.  I don't like using single quotes or two-space
 indents.
 
-At first, I put =/* global angular */= at the top of each file, to suppress the
-angular-not-defined messages.  Then, I switched to calling
+At first, I put =/%2A global angular %2A/= at the top of each file, to suppress
+the angular-not-defined messages.  Then, I switched to calling
 =standard --global angular= instead.  I still had to use a specially formatted
 comment to suppress errors around the
 [[https://github.com/showdownjs/showdown][Showdown]] library, though.
