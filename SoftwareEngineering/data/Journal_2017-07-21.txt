@@ -1,0 +1,7 @@
+Catching up on Groovy news, I found an
+[[https://yermilov.github.io/blog/2017/06/27/groovy-static-sites-with-grain/?utm_campaign=Groovy%2BCalamari&utm_medium=rss&utm_source=Groovy_Calamari86][article about Grain]].
+It is a Groovy equivalent to [[http://jekyllrb.com/][Jekyll]].  You download a
+pre-configured theme with a =grainw= wrapper that automatically downloads the
+right version of Grain.  I had to upgrade its Gradle version from 1.8 to 4.0.1
+to get it to work, but otherwise it was fine.  It can generate the all-static
+website and it can also automate its deployment to GitHub Pages.
