@@ -2,7 +2,7 @@ name: Waltzing_with_Bears
 isbn: 0932633609
 title: [[http://amzn.com/0932633609][Waltzing with Bears: Managing Risk on Software Projects]]
 author: Tom DeMarco
-author:  Timothy Lister
+author: Timothy Lister
 publisher: Dorset House
 year: 2003
 start: 2004-10-14
