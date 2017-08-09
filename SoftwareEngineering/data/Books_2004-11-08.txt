@@ -1,7 +1,7 @@
 name: Planning_Extreme_Programming
 isbn: 0201710919
 title: [[http://amzn.com/0201710919][Planning Extreme Programming]]
-author: Kent Beck 
+author: Kent Beck
 author: <a href="MartinFowler.html">Martin Fowler</a>
 publisher: Addison Wesley
 year: 2001

@@ -2,7 +2,7 @@ name: Extreme_Programming_Explained_2ed
 isbn13: 9780321278654
 isbn: 0321278658
 title: [[http://amzn.com/0321278658][Extreme Programming Explained, 2nd Ed.]]
-author: Kent Beck 
+author: Kent Beck
 author: Cynthia Andres
 publisher: Addison Wesley
 year: 2004

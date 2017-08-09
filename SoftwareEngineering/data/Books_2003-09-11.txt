@@ -2,7 +2,7 @@ name: Design_Patterns_Explained
 isbn13: 9780201715941
 isbn: 0201715945
 title: [[http://amzn.com/0201715945][Design Patterns Explained]]
-author: Alan Shalloway 
+author: Alan Shalloway
 author: James R. Trott
 publisher: Addison Wesley
 year: 2002

@@ -1,7 +1,7 @@
 name: Programming_Interviews_Exposed
 isbn: 0471383562
 title: [[http://amzn.com/0471383562][Programming Interviews Exposed]]
-author: John Mongan 
+author: John Mongan
 author: Noah Suojanen
 publisher: Wiley
 year: 2000

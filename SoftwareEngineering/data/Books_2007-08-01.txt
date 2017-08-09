@@ -13,8 +13,8 @@ The entire book can be reduced to two slides: one diagram and
 one bullet list of pros and cons.  The diagram shows up again and
 again; they use it as a map to the contents, highlighting the
 current section.  Each time, the diagram takes about three quarters
-of the page.  It is not a very busy diagram and if could easily
-have 
+of the page.  It is not a very busy diagram and it could easily
+have been made smaller.
 
 So far, it is very repetitive.  They keep repeating the same
 things over and over.  They keep promising that topics will be
