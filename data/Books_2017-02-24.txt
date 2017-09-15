@@ -7,6 +7,7 @@ publisher: Stanford Business Press
 year: 2002
 acquired: 2013-01-16
 start: 2017-02-24
+stop: 2017-09-15
 
 Back when I was reading [[#Good%5FBoss%5FBad%5FBoss][Good Boss, Bad Boss]], I
 came upon a discussion of stand-up meetings that referenced "The Effects of
@@ -15,3 +16,5 @@ Digging a little further led me to this book.
 
 The description promises a discussion on the nature of Time, how we perceive it,
 and how human constructs are built around it.  Sounds fascinating.
+
+_More to come._
