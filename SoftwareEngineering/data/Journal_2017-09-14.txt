@@ -1,0 +1,8 @@
+Yet another article on
+[[https://hbr.org/2017/08/high-performing-teams-need-psychological-safety-heres-how-to-create-it][psychological safety]],
+this time from Harvard Business Review, that follows from
+[[https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/][Google's Project Aristotle]],
+where they had set out to answer the question: _What makes a great manager?_
+This latest article focuses on nurturing a sense of safety even in situations of
+conflict at work.  It takes empathy and self-awareness to treat others like we
+would like to be treated.

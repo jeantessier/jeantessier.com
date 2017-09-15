@@ -1,0 +1,5 @@
+Martin Fowler tweeted another article on
+[[https://blog.intercom.com/psychological-safety/][psychological safety]]
+written by John Looney, a former Google SRE.  It feeds off the same research
+that inspired a [[http://nyti.ms/20Vn3sz][NY Times article]] that I mentioned
+on [[2016-02-26]].
