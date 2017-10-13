@@ -1,7 +1,7 @@
 name: Outliers
 isbn: 0316017930
 isbn13: 9780316017930
-title: [[http://a.co/48Toc8y][Ourliers: The Story of Success]]
+title: [[http://a.co/48Toc8y][Outliers: The Story of Success]]
 author: Malcolm Gladwell
 publisher: Back Bay Books
 year: 2011
