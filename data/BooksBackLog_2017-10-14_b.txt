@@ -1,0 +1,12 @@
+name: Meditations
+isbn: 0140449337
+isbn13: 9780140449334
+title: [[http://a.co/3AzFC0V][Meditations]]
+author: Marcus Aurelius
+publisher: Penguin Classics
+year: 161-180
+year: 2006
+acquired: 2017-10-14
+
+Marcus Aurelius is a major figure of the Stoics.  This book looked like a recent
+translation with an introduction and lots of notes.

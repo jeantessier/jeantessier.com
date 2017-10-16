@@ -1,0 +1,14 @@
+name: Six_Easy_Pieces
+isbn: 0465025277
+isbn13: 978-0465025275
+title: [[http://a.co/gGYpRvg][Six Easy Pieces: Essentials of Physics Explained by Its Most Brilliant Teacher]]
+author: Richard P. Feynman
+publisher: Basic Books
+year: 1961-1963
+year: 2011
+acquired: 2017-10-14
+
+I while back, I bought
+[[#Mathematics%5Fin%5F10%5FLessons][a book that introduced math topics]] to the lay
+person.  This looks like it could do the same for physics.  And by none other
+that Feynman himself.
