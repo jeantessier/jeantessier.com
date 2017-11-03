@@ -9,6 +9,7 @@ author: Bryan Helmkamp
 author: Dan North
 publisher: Pragmatic Bookshelf
 year: 2010
+acquired: 2010-12-15
 
 Got a signed copy from my good friend Dave Astels.  I got exposed to
 [[http://rspec.info/][RSpec]] back on

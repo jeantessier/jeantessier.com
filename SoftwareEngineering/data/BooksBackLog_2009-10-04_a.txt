@@ -5,5 +5,6 @@ title: [[http://amzn.com/0961392177][Beautiful Evidence]]
 author: Edward Tufte
 publisher: Graphics Press
 year: 2006
+acquired: 2009-10-04
 
 Ed Tufte's latest book.

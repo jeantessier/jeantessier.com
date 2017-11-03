@@ -5,6 +5,7 @@ title: [[http://amzn.com/1591026865][Mathematics in 10 Lessons]]
 author: Jerry King
 publisher: Prometheus Books
 year: 2009
+acquired: 2010-06-03
 
 I read about this book in Science News.  It is an attempt by a mathematician to
 explain the beauty of mathematics to those who did not study physical sciences

@@ -6,7 +6,7 @@ author: Reid Hoffman
 author: Ben Casnocha
 publisher: Crown Business
 year: 2012
-acquired: 2012
+acquired: 2012-02-01
 
 I used to work with author Reid Hoffman back at
 [[http://linkedin.com/][LinkedIn]], so I'm curious about his book.
