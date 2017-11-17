@@ -7,7 +7,10 @@ publisher: Houghton Mifflin Harcourt
 year: 2010
 year: 2015
 acquired: 2017-10-14
+started: 2017-11-17
 
 Tolkien tried to write a tale in the style of the Finnish Kalevala.  It was very
 early material that paved the way for The Silmarillion and T&uacute;rin
 Turambar.
+
+_More to come._
