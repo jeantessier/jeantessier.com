@@ -33,15 +33,11 @@
 }
 
 /* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
-/*
- * Commenting out because it conflicts with Regular in Firefox.
- *
- * @font-face {
- *     font-family: "Fontin Sans";
- *     src: url(fonts/Fontin_Sans_SC_45b.otf) format("opentype");
- *     font-variant: small-caps;
- * }
- */
+@font-face {
+    font-family: "Fontin Sans";
+    src: url(fonts/Fontin_Sans_SC_45b.otf) format("opentype");
+    font-variant: small-caps;
+}
 
 /* A font by Jos Buivenga (exljbris) -> http://www.exljbris.nl */
 @font-face {
@@ -133,14 +129,15 @@ table.keyword {
 }
 
 .keyword_label {
-    font-family: Calluna, sans-serif;
+    font-family: "Fontin Sans", Calluna, sans-serif;
     font-size: 80%;
-    color: gray;
+    font-variant: small-caps;
+    color: darkgray;
 }
 
 .keyword {
     font-family: "Ainslie Sans", sans-serif;
-    font-size: 75%;
+    font-size: 66%;
 }
 
 .location {
