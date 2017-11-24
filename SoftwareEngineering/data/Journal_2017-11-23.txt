@@ -1,0 +1,12 @@
+Reformatting my resume.  I have been trying to replace HTML tables with proper
+=div= and =span= elements, but I can't get them to flow quite right.  Friend
+suggested I look into
+[[https://www.w3schools.com/css/css3_flexbox.asp][Flexbox]].  I found
+[[https://css-tricks.com/snippets/css/a-guide-to-flexbox/][a handy tutorial]]
+and I was able to clean up the hand-crafted HTML for my resume.  No more
+=float:&nbsp;right= mysteries.
+
+There is also some nice documentation for them
+[[https://www.w3schools.com/css/css_grid.asp][Grid Layout]] and it has its own
+[[https://css-tricks.com/snippets/css/complete-guide-grid/][handy tutorial]]
+too.

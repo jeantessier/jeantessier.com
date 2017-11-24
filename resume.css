@@ -64,6 +64,13 @@
     src: url(fonts/AinslieSans-NorReg.otf) format("opentype");
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+}
+
 .heading {
     font-family: Museo;
     text-align: center;
@@ -73,38 +80,85 @@
     margin: 0em 0.5em;
 }
 
-.email {
+.heading .name {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.heading .email {
     font-style: italic;
 }
 
-.education {
-    display: inline-block;
-    padding-top: 0.75em;
+.goal {
+    font-family: "Ainslie Sans";
+    font-size: 90%;
+    margin-bottom: 0.5em;
+    margin-top: 0em;
+    text-align: center;
+    width: 80%;
 }
 
-.education .heading {
+.quick-facts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.quick-facts .education {
+    display: flex;
+    flex-direction: column;
+}
+
+.quick-facts .education .heading {
     font-family: "Fontin Sans";
+    font-size: initial;
 }
 
-.education .school {
+.quick-facts .education > div {
+    font-family: "Ainslie Sans", sans-serif;
+    font-size: 66%;
+}
+
+.quick-facts .education .school {
+    font-family: "Ainslie Sans", sans-serif;
     font-size: smaller;
 }
 
-table.keyword {
-    white-space: nowrap;
+.quick-facts .keywords {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Ainslie Sans", sans-serif;
+    font-size: 66%;
+    border-color: lightgrey;
+    border-style: double none;
+    padding: 0.75em 0em;
+    width: 300px;
+}
+
+.quick-facts .keywords > div {
+    display: flex;
+    flex-direction: column;
 }
 
 .job {
     margin: 0.75em 0em;
 }
 
-.employer {
+.job .employer {
     font-family: "Ainslie Sans";
     font-weight: bold;
 }
 
 .job .location {
     font-family: "Ainslie Sans";
+    font-size: smaller;
 }
 
 .job .title {
@@ -121,39 +175,23 @@ table.keyword {
     margin-left: 2.5em;
 }
 
-.goal {
-    font-family: "Ainslie Sans";
-    font-size: 90%;
-    margin-bottom: 0.75em;
-    margin-top: 0em;
+.job ul {
+    margin: 0em;
 }
 
-.keyword_label {
+.job .keyword-label {
     font-family: "Fontin Sans", Calluna, sans-serif;
     font-size: 80%;
     font-variant: small-caps;
-    color: darkgray;
+    color: lightgray;
 }
 
-.keyword {
+.job .keyword {
     font-family: "Ainslie Sans", sans-serif;
     font-size: 66%;
 }
 
-.location {
-    font-size: smaller;
-}
-
-.name {
-    font-size: x-large;
-    font-weight: bold;
-}
-
-.narrow {
-    width: 80%;
-}
-
-.time_span {
+.job .time-span {
     float: right;
     font-family: "Fontin Sans";
     font-size: 75%;
@@ -179,11 +217,11 @@ h3 {
 }
 
 footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     font-family: "Ainslie Sans";
     font-size: 80%;
-    margin-top: 2em;
-}
-
-footer .copy {
-    float: right;
+    margin-top: 0.75em;
+    width: 100%;
 }
