@@ -1,0 +1,5 @@
+Getting back into [[https://angular.io/][Angular]].  I'm slowly making my way
+through their basic [[https://angular.io/tutorial][tutorial]].  It hints at
+being a lot of what I need for my
+[[https://github.com/jeantessier/book-reviews][book reviews]] project: a
+data-driven application with a few pages for managing entities.
