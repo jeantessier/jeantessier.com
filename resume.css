@@ -113,6 +113,7 @@ body {
 .quick-facts .education {
     display: flex;
     flex-direction: column;
+    margin-bottom: 0.25em;
 }
 
 .quick-facts .education .heading {
@@ -151,19 +152,29 @@ body {
     margin: 0.75em 0em;
 }
 
+.job header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: stretch;
+}
+
 .job .employer {
     font-family: "Ainslie Sans";
     font-weight: bold;
-}
-
-.job .location {
-    font-family: "Ainslie Sans";
-    font-size: smaller;
+    margin-right: 0.5em;
 }
 
 .job .title {
     font-family: "Ainslie Sans";
     font-weight: bold;
+    margin: 0em 0.5em;
+}
+
+.job .location {
+    font-family: "Ainslie Sans";
+    font-size: smaller;
 }
 
 .job .description {
@@ -192,10 +203,11 @@ body {
 }
 
 .job .time-span {
-    float: right;
+    flex-grow: 1;
     font-family: "Fontin Sans";
     font-size: 75%;
     font-style: italic;
+    text-align: right;
 }
 
 a {
