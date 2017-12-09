@@ -1,0 +1,10 @@
+name: Star_Wars_Super_Graphic
+isbn: 1452161208
+isbn13: 978-1452161204
+title: [[http://a.co/aOFJLNS][Star Wars Super Graphic: A Visual Guide to a Galaxy Far, Far Away]]
+author: Tim Leong
+publisher: Chronicle Books
+year: 2017
+acquired: 2017-12-09
+
+A gift from other Star Wars fans at the office.
