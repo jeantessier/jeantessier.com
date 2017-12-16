@@ -8,6 +8,7 @@ year: 2010
 year: 2015
 acquired: 2017-10-14
 start: 2017-11-17
+stop: 2017-12-16
 
 Tolkien tried to write a tale in the style of the Finnish Kalevala.  It was very
 early material that paved the way for The Silmarillion and T&uacute;rin
