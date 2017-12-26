@@ -2,7 +2,7 @@ name: Beren_and_Luthien
 isbn: 1328791823
 isbn13: 978-1328791825
 title: [[http://a.co/9En3O9B][Beren and L&uacute;thien]]
-author: Christopher Tolkien
+author: J.R.R. Tolkien
 publisher: Houghton Mifflin Harcourt
 year: 2017
 acquired: 2017-12-25
