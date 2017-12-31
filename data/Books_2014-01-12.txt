@@ -1,5 +1,5 @@
 name: Mortality
-isbn13: 978-1455502752
+isbn13: 9781455502752
 isbn: 1455502758
 title: [[http://amzn.com/1455502758][Mortality]]
 author: Christopher Hitchens

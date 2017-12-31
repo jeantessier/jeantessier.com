@@ -1,5 +1,5 @@
 name: Mockingjay
-isbn13: 978-0439023511
+isbn13: 9780439023511
 isbn: 0439023513
 title: [[http://amzn.com/0439023513][Mockingjay]]
 author: Suzanne Collins

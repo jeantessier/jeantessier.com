@@ -1,5 +1,5 @@
 name: Catching_Fire
-isbn13: 978-0439023498
+isbn13: 9780439023498
 isbn: 0439023491
 title: [[http://amzn.com/0439023491][Cathing Fire]]
 author: Suzanne Collins

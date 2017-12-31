@@ -1,5 +1,5 @@
 name: Good_Boss_Bad_Boss
-isbn13: 978-0446556071
+isbn13: 9780446556071
 isbn: 0446556076
 title: [[http://amzn.com/0446556076][Good Boss, Bad Boss]]
 author: Robert I. Sutton

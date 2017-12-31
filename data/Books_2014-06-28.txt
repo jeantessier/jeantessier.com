@@ -1,5 +1,5 @@
 name: Inventing_the_Enemy
-isbn13: 978-0547640976
+isbn13: 9780547640976
 isbn: 0547640978
 title: [[http://amzn.com/0547640978][Inventing the Enemy and Other Occasional Writings]]
 title: <i>Costruire il nemico e altri scritti occasionali</i>

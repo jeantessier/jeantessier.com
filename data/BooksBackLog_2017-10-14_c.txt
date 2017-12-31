@@ -1,6 +1,6 @@
 name: Six_Easy_Pieces
 isbn: 0465025277
-isbn13: 978-0465025275
+isbn13: 9780465025275
 title: [[http://a.co/gGYpRvg][Six Easy Pieces: Essentials of Physics Explained by Its Most Brilliant Teacher]]
 author: Richard P. Feynman
 publisher: Basic Books

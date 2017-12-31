@@ -1,5 +1,5 @@
 name: Pakistan_on_the_Brink
-isbn13: 978-0670023462
+isbn13: 9780670023462
 isbn: 0670023469
 title: [[http://amzn.com/0670023469][Pakistan on the Brink: The Future of America, Pakistan, and Afghanistan]]
 author: Ahmed Rashid

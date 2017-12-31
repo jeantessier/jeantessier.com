@@ -1,5 +1,5 @@
 name: Une_rencontre
-isbn13: 978-2070122844
+isbn13: 9782070122844
 isbn: 2070122840
 title: [[http://www.amazon.ca/dp/2070122840][Une rencontre]]
 title: [[http://amzn.com/0061894435][Encounter]]
