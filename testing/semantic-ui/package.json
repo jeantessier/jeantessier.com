@@ -1,0 +1,14 @@
+{
+  "name": "plain-semantic-ui",
+  "version": "1.0.0",
+  "description": "Test to include Semantic UI into a plain HTML page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jean Tessier <jean@jeantessier.com>",
+  "license": "ISC",
+  "dependencies": {
+    "semantic-ui": "^2.2.13"
+  }
+}
