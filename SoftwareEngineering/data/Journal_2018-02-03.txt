@@ -1,0 +1,12 @@
+Found a new tool for formatting code snippets:
+[[https://carbon.now.sh/][Carbon]].  Before, there was GitHub
+[[https://gist.github.com/][Gist]] to render code with syntax highlighting.  But
+the snippet was hosted on GitHub and the embedded view was branded by GitHub.
+With Carbon, you get an unbranded image that you can host anywhere and load
+with a simple =&lt;img&gt;= tag.  They cover an expansive list of languages and
+have multiple styles; though most are dark, I prefer "Solarized (Light)".
+
+[[handlers.png]]
+
+In the past, I thought you needed a separate gist for each code snippet.  But
+the lastest GitHub UI lets you put multiple files in a single gist.
