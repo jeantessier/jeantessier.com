@@ -9,4 +9,4 @@ have multiple styles; though most are dark, I prefer "Solarized (Light)".
 [[handlers.png]]
 
 In the past, I thought you needed a separate gist for each code snippet.  But
-the lastest GitHub UI lets you put multiple files in a single gist.
+the latest GitHub UI lets you put multiple files in a single gist.
