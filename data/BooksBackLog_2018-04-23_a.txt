@@ -1,0 +1,12 @@
+name: The_Hedgehog_and_the_Fox
+isbn: 069115600X
+isbn13: 9780691156002
+title: [[http://a.co/gf9DAjh][The Hedgehog and the Fox]]
+author: Isaiah Berlin
+publisher: Princeton
+year: 1951
+year: 1953
+year: 2013
+acquired: 2018-04-23
+
+I received this book as part of a White Elephant book exchange at work.
