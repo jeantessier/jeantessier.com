@@ -7,5 +7,5 @@ publisher: Houghton Mifflin Harcourt
 year: 2017
 acquired: 2017-12-25
 
-Christopher Tolkien pull out all the Beren and L&uacute;thien materials and put
+Christopher Tolkien pulls out all the Beren and L&uacute;thien materials and puts
 them under one set of covers.
