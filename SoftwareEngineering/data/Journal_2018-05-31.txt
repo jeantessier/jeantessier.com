@@ -1,0 +1,7 @@
+One more note on pull vs. push management.  This
+[[https://hbr.org/2018/05/agile-at-scale][HBR article on scaling agile]]
+contrasts _creative teams_ with _command-and-control groups_.  Agile teams have
+more autonomy, push decisions closer to people doing the work, leaders remove
+obstacles.  Looks like pull management to me.  Traditional teams have layers of
+control, chain-of-command bureaucracies, top-down plans, leaders that delegate
+to subordinates.  Push management, anyone?
