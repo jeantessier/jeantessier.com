@@ -3,3 +3,6 @@ I learned
 through a tweet from Sam Newman.  I only see second hand mentions on the
 Internet; nothing on the GitHub blog.  I'm not sure if I should believe it.  I
 know I don't want to believe it.
+
+It started with
+[[https://www.theverge.com/2018/6/3/17422752/microsoft-github-acquisition-rumors][rumors from The Verge]].
