@@ -1,4 +1,4 @@
 It is confirmed that Microsoft is acquiring GitHub.  :-(
 
-* [[https://blog.github.com/2018-06-04-github-microsoft/][GitHub blog]]
-* [[https://news.microsoft.com/2018/06/04/microsoft-to-acquire-github-for-7-5-billion/][Microsoft blog]]
+    * [[https://blog.github.com/2018-06-04-github-microsoft/][GitHub blog]]
+    * [[https://news.microsoft.com/2018/06/04/microsoft-to-acquire-github-for-7-5-billion/][Microsoft blog]]
