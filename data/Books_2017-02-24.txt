@@ -161,3 +161,7 @@ relevant, but it seems worth it to have a balanced look at this topic.  Perhaps
 the benefits outweigh the inconveniences.
 
 The book is really dense with information and these notes leave out a lot more.
+
+On 2018-05-29, [[https://zachholman.com/][Zach Holman]] wrote
+[[https://zachholman.com/talk/utc-is-enough-for-everyone-right][a lengthy article about time]]
+that nicely complements this book.
