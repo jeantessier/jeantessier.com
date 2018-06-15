@@ -8,7 +8,9 @@ publisher: Two Scoops Press
 year: 2013
 year: 2017
 acquired: 2018-06-11
+start: 2018-06-14
 
 I was looking for a good book to learn
 [[https://www.djangoproject.com/][Django]] and this one was at the top of the
-lists.
+lists.  Now, Django is now at version 2.0.6 but the book is about version 1.11.
+I hope the differences will not be to hard to manage.
