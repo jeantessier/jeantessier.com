@@ -8,5 +8,12 @@ year: 1951
 year: 1953
 year: 2013
 acquired: 2018-04-23
+start: 2018-06-13
 
 I received this book as part of a White Elephant book exchange at work.
+
+So far, it is much more about Tolstoy and his theory of history than it is about
+the metaphor of the hedgehog (who knows one big thing, specialist?) and the fox
+(who knows many things, generalist?).
+
+_More to come._
