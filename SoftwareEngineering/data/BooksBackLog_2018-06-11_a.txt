@@ -5,7 +5,8 @@ title: [[http://a.co/eYbE79z][Two Scoops of Django 1.11]]
 author: Daniel Roy Greenfeld
 author: Audrey Roy Greenfeld
 publisher: Two Scoops Press
-year: 2018
+year: 2013
+year: 2017
 acquired: 2018-06-11
 
 I was looking for a good book to learn
