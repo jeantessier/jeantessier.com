@@ -1,0 +1,13 @@
+name: Two_Scoops_of_Django_1.11
+isbn: 0692915729
+isbn13: 9780692915721
+title: [[http://a.co/eYbE79z][Two Scoops of Django 1.11]]
+author: Daniel Roy Greenfeld
+author: Audrey Roy Greenfeld
+publisher: Two Scoops Press
+year: 2018
+acquired: 2018-06-11
+
+I was looking for a good book to learn
+[[https://www.djangoproject.com/][Django]] and this one was at the top of the
+lists.

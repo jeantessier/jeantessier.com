@@ -1,0 +1,13 @@
+name: Modern_Java_in_Action
+isbn: 1617293563
+isbn13: 9781617293566
+title: [[https://www.manning.com/books/modern-java-in-action][Modern Java in Action]]
+author: Raoul-Gabriel Urma
+author: Mario Fusco
+author: Alan Mycroft
+publisher: Manning
+year: 2018
+acquired: 2018-06-11
+
+I have been doing Groovy for many, many years.  I need to get up to speed on the
+latest Java idioms, like lambdas and streams.
