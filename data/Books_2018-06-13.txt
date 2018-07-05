@@ -9,6 +9,7 @@ year: 1953
 year: 2013
 acquired: 2018-04-23
 start: 2018-06-13
+stop: 2018-07-05
 
 I received this book as part of a White Elephant book exchange at work.
 
