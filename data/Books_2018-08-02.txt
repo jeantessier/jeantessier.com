@@ -6,6 +6,9 @@ author: J.R.R. Tolkien
 publisher: Houghton Mifflin Harcourt
 year: 2017
 acquired: 2017-12-25
+start: 2018-08-02
 
-Christopher Tolkien pulls out all the Beren and L&uacute;thien materials and puts
-them under one set of covers.
+Christopher Tolkien pulls out all the Beren and L&uacute;thien materials and
+puts them under one set of covers.
+
+_More to come._
