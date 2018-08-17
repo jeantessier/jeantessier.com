@@ -1,0 +1,15 @@
+I tried to create a trivial [[http://micronaut.io][Micronaut]] app to test what
+was the minimal code I would need to write to have a server handle an HTTP call.
+At first, Micronaut wouldn't work at all and gave me some blank error message.
+Lucky for me,
+[[https://github.com/micronaut-projects/micronaut-core/issues/486][isssue 486]]
+in the [[https://github.com/micronaut-projects/micronaut-core][GitHub project]]
+had a fix that worked out fine for me.
+
+Once I had my trivial server up and running, I looked at the documentation for
+message-driven architecture.  At work, I've been working with
+[[https://www.rabbitmq.com/][RabbitMQ]] quite a bit.  The Micronaut
+documentation says that it is common for microservices to work with RabbitMQ or
+[[https://kafka.apache.org/][Kafka]], but it only provides instructions on how
+to connect to Kafka.  I spent 5 minutes trying to setup a Kafka server using
+=docker-compose=, but I couldn't quite get it right.  Some other time, perhaps.
