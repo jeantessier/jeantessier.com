@@ -7,5 +7,5 @@ year: 2002
 start: 2004-05-10
 stop: 2004-05-20
 
-Magnus opus on enterprise software and multi-tiered applications
+Magnum opus on enterprise software and multi-tiered applications
 with object-relational mapping layers.
