@@ -1,14 +1,14 @@
 I watched a great [[https://youtu.be/E8-e-3fRHBw][talk on microservices]] by
-Randy Shoup of Stich Fix (at the time).  The talk was recorded back in 2017, but
-I only found it today.
+Randy Shoup of Stitch Fix (at the time).  The talk was recorded back in 2017,
+but I only found it today.
 
 Some highlights:
 
     * eBay's monolith: [[https://youtu.be/E8-e-3fRHBw?t=16m38s][now that's a monolith]].
-    * [[https://youtu.be/E8-e-3fRHBw?t=20m33s][Isolated persistence]]
-    * [[https://youtu.be/E8-e-3fRHBw?t=23m2s][Events as first-class constructs]]
+    * [[https://youtu.be/E8-e-3fRHBw?t=20m33s][Isolated persistence]].
+    * [[https://youtu.be/E8-e-3fRHBw?t=23m2s][Events as first-class constructs]].
     * [[https://youtu.be/E8-e-3fRHBw?t=32m6s][Single system of record with ]], every other copy is a read-only, non-authoritative cache.
-    * [[https://youtu.be/E8-e-3fRHBw?t=37m52s][Materialize the View]] instead of using =join=
+    * [[https://youtu.be/E8-e-3fRHBw?t=37m52s][Materialize the View]] instead of using =join=.
     * [[https://youtu.be/E8-e-3fRHBw?t=41m44s][Workflows and sagas]], just like financial systems.
 
 At Directly, we've had events as first-class constructs since 2011-02-02.  We
