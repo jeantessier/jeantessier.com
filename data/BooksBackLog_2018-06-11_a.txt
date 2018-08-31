@@ -1,0 +1,11 @@
+name: The_Fall_of_Gondolin
+isbn: 1328613046
+isbn13: 9781328613042
+title: [[http://a.co/d/1GUBPyW][The Fall of Gondolin]]
+author: J.R.R. Tolkien
+publisher: Houghton Mifflin Harcourt
+year: 2018
+acquired: 2018-06-11
+
+Christopher Tolkien pulls out all the Gondolin materials, along with the story
+of Tuor, son of Huor, and puts them under one set of covers.
