@@ -7,7 +7,7 @@ Some highlights:
     * eBay's monolith: [[https://youtu.be/E8-e-3fRHBw?t=16m38s][now that's a monolith]].
     * [[https://youtu.be/E8-e-3fRHBw?t=20m33s][Isolated persistence]].
     * [[https://youtu.be/E8-e-3fRHBw?t=23m2s][Events as first-class constructs]].
-    * [[https://youtu.be/E8-e-3fRHBw?t=32m6s][Single system of record with ]], every other copy is a read-only, non-authoritative cache.
+    * [[https://youtu.be/E8-e-3fRHBw?t=32m6s][Single system of record]], with every other copy is a read-only, non-authoritative cache.
     * [[https://youtu.be/E8-e-3fRHBw?t%3D37m52s][Materialize the View]] instead of using =join=.
     * [[https://youtu.be/E8-e-3fRHBw?t=41m44s][Workflows and sagas]], just like financial systems.
 
