@@ -1,7 +1,7 @@
-name: Microservice_Patterns
+name: Microservices_Patterns
 isbn: 1617294543
 isbn13: 9781617294549
-title: [[https://www.manning.com/books/microservice-patterns][Microservice Patterns]]
+title: [[https://www.manning.com/books/microservice-patterns][Microservices Patterns]]
 author: Chris Richardson
 publisher: Manning
 year: 2018
