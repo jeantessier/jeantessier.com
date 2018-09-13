@@ -3,6 +3,7 @@ isbn13: 9780618894642
 isbn: 0618894640
 title: [[http://amzn.com/0618894640][The Children of H&uacute;rin]]
 author: J.R.R. Tolkien
+author: Christopher Tolkien
 publisher: Houghton Mifflin
 year: 2007
 start: 2007-05-30

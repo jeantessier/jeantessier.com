@@ -2,7 +2,8 @@ name: The_Story_of_Kullervo
 isbn: 0544706269
 isbn13: 9780544706262
 title: [[http://a.co/7nVM1Wd][The Story of Kullervo]]
-author: J. R. R. Tolkien
+author: J.R.R. Tolkien
+author: Christopher Tolkien
 publisher: Houghton Mifflin Harcourt
 year: 2010
 year: 2015
