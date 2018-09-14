@@ -7,12 +7,12 @@ publisher: St. Martin's Press
 year: 2017
 acquired: 2017-05-10
 
-A friend of mine recommended I read [[http://a.co/65Lo0qh][Radial Candor]] by
-Kim Scott.  I'm not sure if there's isn't a hidden message in this
-recommendation.  The premise seems interesting: have the courage to give
-criticism, as long as it's about things that you care about.
+A friend of mine recommended I read this book when it came out.  I'm not sure if
+there is a hidden message behind this recommendation.  The premise seems
+interesting: have the courage to give criticism, as long as it's about things
+that you care about.
 
-It seems pretty short, so it wouldn't take too long.  But I'm already fearing
-that it will be lightweight and anecdotal, much like
-[[Books.html#Rework][Rework]] and
-[[Books.html#Remote%5FOffice%5FNot%5FRequired][Remote]].
+It seems pretty short, so it shouldn't take too long to read through.  But I'm
+already thinking that it will be too lightweight and anecdotal, much like
+_[[Books.html#Rework][Rework]]_ and
+_[[Books.html#Remote%5FOffice%5FNot%5FRequired][Remote]]_.
