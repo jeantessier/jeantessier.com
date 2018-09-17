@@ -6,6 +6,7 @@ author: Kim Malone Scott
 publisher: St. Martin's Press
 year: 2017
 acquired: 2017-05-10
+start: 2018-09-14
 
 A friend of mine recommended I read this book when it came out.  I'm not sure if
 there is a hidden message behind this recommendation.  The premise seems
@@ -16,3 +17,5 @@ It seems pretty short, so it shouldn't take too long to read through.  But I'm
 already thinking that it will be too lightweight and anecdotal, much like
 _[[Books.html#Rework][Rework]]_ and
 _[[Books.html#Remote%5FOffice%5FNot%5FRequired][Remote]]_.
+
+_More to come._
