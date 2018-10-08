@@ -1,0 +1,14 @@
+name: It_Doesnt_Have_to_Be_Crazy_at_Work
+isbn: 0062874780
+isbn13: 9780062874788
+title: [[https://www.amazon.com/gp/product/0062874780][It Doesn't Have to Be Crazy at Work]]
+author: Jason Fried
+author: David Heinemeier Hansson
+publisher: Harper Business
+year: 2018
+acquired: 2018-10-04
+
+The latest book by Fried and [[http://david.heinemeierhansson.com/][DHH]].  I'm
+already thinking that it will be too lightweight and anecdotal, much like
+_[[#Rework][Rework]]_ and
+_[[#Remote%5FOffice%5FNot%5FRequired][Remote]]_.  But I'm curious nonetheless.
