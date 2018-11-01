@@ -1,0 +1,5 @@
+I watched another great [[https://youtu.be/j6ow-UemzBc][talk on microservices]],
+this time by Michael Bryzek of [[https://www.flow.io/][Flow]].  They take
+development based on microservices to the next level.  They start by defining
+artifacts (APIs, events, etc.) using language-agnostic descriptors in JSON and
+using code generation to automate all the glue code.  Very impressive.
