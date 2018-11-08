@@ -1,6 +1,6 @@
 I learned about [[https://github.com/prettier/prettier][Prettier]], a code
 formatter for JavaScript that is a little less opinionated than
 [[https://standardjs.com/][JavaScript Standard Style]].  It has a really nice
-integration with the Atom editor.  And it lets me fine tune some of the rules
+integration with the Atom editor.  And it lets me fine tune some of the rules 
 (that's what I mean by _less opinionated_).  It won't automatically convert your
 callbacks to ES6 arrow functions, though.

@@ -18,7 +18,7 @@ enjoyable and a great gift for your favorite geek.
 
 The author also added all kinds of little puzzles around the strips for the
 hard-core code breakers and problem solvers.  Some are really easy to decode,
-like the one where each letter is replaced with its position in the alphabet
+like the one where each letter is replaced with its position in the alphabet 
 (A%3D01, B%3D02, etc.) or using
 [[http://en.wikipedia.org/wiki/Braille][Braille]] patterns.  Others use 2D
 barcodes that require more work to crack.

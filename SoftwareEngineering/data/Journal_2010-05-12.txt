@@ -42,7 +42,7 @@ helps to have one platform expert on hand to answer questions.  Jonny also
 told me about ThoughtWorks' system of T's: broad skill sets with one or two deep
 areas of knowledge.  Just make sure the T's on your team don't all line up
 exactly, so you have appropriate coverage.  Other questions dealt with how to
-write stories (strict templates are for process weennies), planning defect fixes
+write stories (strict templates are for process weennies), planning defect fixes 
 (beware of _broken windows_), and active objects (use lazy loading at first and
 optimize only as needed).
 
@@ -66,7 +66,7 @@ Jonny, at which point Jonny introduced me to Martin Fowler.  I've been
 introduced now, I'm no longer just a nerd in line after a talk.  :-)
 
 Unrelated to this, but today I came upon a
-[[http://www.infoq.com/presentations/Sustainable-Test-Driven-Development][great talk by Steve Freeman]] 
+[[http://www.infoq.com/presentations/Sustainable-Test-Driven-Development][great talk by Steve Freeman]]
 (of [[http://jmock.org/][jMock]] fame).  It is about writing good tests that are
 easy to maintain, as opposed to record-replay types that are very brittle.  It
 covers material from his new book:

@@ -21,7 +21,7 @@ the Hadoop home page, I immediately thought of Google's
 [[http://labs.google.com/papers/sawzall.html][Sawzall]] language which you can
 describe as scripting for MapReduce.  Sawzall is extremely powerfull.  You can
 express fairly involved analysis logic in very few lines of code.  I was hoping
-for something as powerful in Pig, but the sample code seems a lot more verbose
+for something as powerful in Pig, but the sample code seems a lot more verbose 
 (and obtuse) than Sawzall.
 
 Also, Hive reminded me of Google's cluster for running Sawzall scripts on log
