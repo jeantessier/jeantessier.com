@@ -1,10 +1,11 @@
 name: Les_fleurs_du_mal
 isbn: 2070315088
 isbn: 0192835459
+isbn13: 9782070315086
 title: [[http://www.amazon.ca/dp/2070315088][Les fleurs du mal]]
 title: [[http://amzn.com/0192835459][<i>The Flowers of Evil</i>]]
 author: Charles Baudelaire
-publisher: 
+publisher: Gallimard
 year: 1861
 start: 2005-06-10
 stop: 2005-06-29
