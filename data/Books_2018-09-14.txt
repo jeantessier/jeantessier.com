@@ -15,7 +15,16 @@ that you care about.
 
 It seems pretty short, so it shouldn't take too long to read through.  But I'm
 already thinking that it will be too lightweight and anecdotal, much like
-_[[Books.html#Rework][Rework]]_ and
-_[[Books.html#Remote%5FOffice%5FNot%5FRequired][Remote]]_.
+_[[SoftwareEngineering/Books.html#Rework][Rework]]_ and
+_[[SoftwareEngineering/Books.html#Remote%5FOffice%5FNot%5FRequired][Remote]]_.
+
+<blockquote>
+
+They didn't answer by interpreting Scripture or reasoning from the armchair or
+drawing hasty conclusions from casual observations.  They conducted detailed
+scientific experiments to find out.
+
+<footer>[[https://youtu.be/kyrKMIDSVYE?t=18m14s][Richard Carrier]]</footer>
+</blockquote>
 
 _More to come._
