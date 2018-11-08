@@ -10,4 +10,4 @@ stop: 2007-07-11
 
 I needed something to browse on the train while I'm waiting for
 the latest Harry Potter book to come out:
-[[http://jeantessier.com/Books.html#Harry%5FPotter%5Fand%5Fthe%5FDeathly%5FHallows][Harry Potter and the Deathly Hallows]].
+[[/Books.html#Harry%5FPotter%5Fand%5Fthe%5FDeathly%5FHallows][Harry Potter and the Deathly Hallows]].
