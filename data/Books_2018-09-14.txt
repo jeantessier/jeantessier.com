@@ -7,6 +7,7 @@ publisher: St. Martin's Press
 year: 2017
 acquired: 2017-05-10
 start: 2018-09-14
+stop: 2018-11-13
 
 A friend of mine recommended I read this book when it came out.  I'm not sure if
 there is a hidden message behind this recommendation.  The premise seems
@@ -26,5 +27,9 @@ scientific experiments to find out.
 
 <footer>[[https://youtu.be/kyrKMIDSVYE?t=18m14s][Richard Carrier]]</footer>
 </blockquote>
+
+Radical Candor got mentioned in passing in a
+[[http://www.greaterthancode.com/2018/09/12/097-the-job-of-a-manager-with-brandon-hays/][Greater Than Code]]
+podcast episode.
 
 _More to come._
