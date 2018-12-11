@@ -17,48 +17,46 @@
 
 <body>
 
-<section>
-    <h1>{{books.title}}</h1>
+<h1>{{books.title}}</h1>
 
-    <article ng-repeat="book in books.books">
-        <a name="{{book.name}}"></a>
-        <h2>
-            <div ng-repeat="title in book.titles">
-                <a ng-if="title.link" href="{{title.link}}" ng-bind-html="title.title"></a>
-                <span ng-if="!title.link" ng-bind-html="title.title"></span>
-            </div>
-        </h2>
+<article ng-repeat="book in books.books">
+    <a name="{{book.name}}"></a>
+    <h2>
+        <div ng-repeat="title in book.titles">
+            <a ng-if="title.link" href="{{title.link}}" ng-bind-html="title.title"></a>
+            <span ng-if="!title.link" ng-bind-html="title.title"></span>
+        </div>
+    </h2>
 
-        <header>
-            <table class="book-metadata">
-                <tbody>
-                    <td class="author"><div ng-repeat="author in book.authors" ng-bind-html="author"></div></td>
-                    <td class="publisher" ng-bind-html="book.publisher"></td>
-                    <td class="published-year"><div ng-repeat="year in book.years" ng-bind-html="year"></div></td>
-                </tbody>
-            </table>
-        </header>
+    <header>
+        <table class="book-metadata">
+            <tbody>
+                <td class="author"><div ng-repeat="author in book.authors" ng-bind-html="author"></div></td>
+                <td class="publisher" ng-bind-html="book.publisher"></td>
+                <td class="published-year"><div ng-repeat="year in book.years" ng-bind-html="year"></div></td>
+            </tbody>
+        </table>
+    </header>
 
-        <div ng-bind-html="book.body"></div>
+    <section ng-bind-html="book.body"></section>
 
-        <footer>
-            <table class="reading-metadata">
-                <tbody>
-                    <tr>
-                        <td class="time">Started reading:</td>
-                        <td ng-if="book.start" class="time code">{{book.start}}</td>
-                        <td ng-if="!book.start" class="no_time">not started</td>
-                    </tr>
-                    <tr ng-if="book.start">
-                        <td class="time">Finished reading:</td>
-                        <td ng-if="book.stop" class="time code">{{book.stop}}</td>
-                        <td ng-if="!book.stop" class="no_time">in progress</td>
-                    </tr>
-                </tbody>
-            </table>
-        </footer>
-    </article>
-</section>
+    <footer>
+        <table class="reading-metadata">
+            <tbody>
+                <tr>
+                    <td class="time">Started reading:</td>
+                    <td ng-if="book.start" class="time"><code>{{book.start}}</code></td>
+                    <td ng-if="!book.start" class="no_time">not started</td>
+                </tr>
+                <tr ng-if="book.start">
+                    <td class="time">Finished reading:</td>
+                    <td ng-if="book.stop" class="time"><code>{{book.stop}}</code></td>
+                    <td ng-if="!book.stop" class="no_time">in progress</td>
+                </tr>
+            </tbody>
+        </table>
+    </footer>
+</article>
 
 </body>
 

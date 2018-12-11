@@ -12,14 +12,12 @@
 
 <body>
 
-<section>
-    <h1>{{journal.title}}</h1>
+<h1>{{journal.title}}</h1>
 
-    <article ng-repeat="entry in journal.entries">
-        <h2><a name="{{entry.date}}">{{entry.pretty_date}}</a></h2>
-        <div ng-bind-html="entry.body"/>
-    </article>
-</section>
+<article ng-repeat="entry in journal.entries">
+    <h2><a name="{{entry.date}}">{{entry.pretty_date}}</a></h2>
+    <section ng-bind-html="entry.body"/>
+</article>
 
 </body>
 
