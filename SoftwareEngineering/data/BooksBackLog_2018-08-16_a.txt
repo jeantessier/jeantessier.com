@@ -1,0 +1,11 @@
+name: Refactoring_Second_Edition
+isbn: 0134757599
+isbn13: 9780134757599
+title: [[http://a.co/d/d98Vmak][Refactoring: Improving the Design of Existing Code, Second Edition]]
+author: Martin Fowler
+publisher: Addison-Wesley
+year: 2019
+acquired: 2018-08-16
+
+An update to the 2001 classic _Refactoring_.  The original used code examples in
+Java.  This new edition uses JavaScript instead.
