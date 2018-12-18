@@ -1,4 +1,4 @@
-Found some more free fonts, 
+Found some more free fonts,
 [[http://www.josbuivenga.demon.nl/fontin.html][Fontin]] and
 [[http://www.josbuivenga.demon.nl/fontinsans.html][Fontin Sans]], that include
 bold and italics.  Fontin Sans even has bold-italics.  Both also include small

@@ -1,7 +1,7 @@
 Read a
 [[http://pup.princeton.edu/books/rochlin/chapter_04.html][chapter on Taylorism]]
 by Prof. Rochlin.  It is interesting that I am currently reading
-Pete McBreen's "Software Craftsmanship" where he advocates that we turn away
+Pete McBreen's _Software Craftsmanship_ where he advocates that we turn away
 from from modern, neo-Taylorist, deskilled software engineering and return to
 the traditional ways of craftsmen.
 

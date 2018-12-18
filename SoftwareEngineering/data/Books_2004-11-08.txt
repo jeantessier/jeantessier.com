@@ -16,7 +16,7 @@ authors can make it interesting still.
 I was pleasantly surprised that something apparently so simple as the planning
 game could have almost infinite subtleties.  The authors have streamlined it
 somewhat but the original intent stays.  Divide the work into manageable chunks
-and let technical people make the technical calls and the business people 
+and let technical people make the technical calls and the business people
 (customer) make the business calls.  This is not only when to schedule stories,
 but when to split them and actually when they are done.  Well worth the small
 investment in time.

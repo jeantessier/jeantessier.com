@@ -11,11 +11,11 @@ acquired: 2017-10-14
 start: 2017-11-17
 stop: 2017-12-16
 
-The book has three parts: Tolkien's "The Story of Kullervo" itself, essays he
+The book has three parts: Tolkien's _The Story of Kullervo_ itself, essays he
 wrote on the Finnish _Kalevala_, and a final essay by editor Verlyn Flieger on
 how Tolkien drew inspiration from Finnish stories.
 
-In "The Story of Kullervo" Tolkien is giving his own rendition of the story of
+In _The Story of Kullervo_ Tolkien is giving his own rendition of the story of
 Kullervo from the _Kalevala_, adding his own touches.  Just like Elias
 L&ouml;nnrot first collected Finnish stories in the early 19th Century and
 synthesized them, taking some creative liberties, Tolkien is going a step
@@ -59,7 +59,7 @@ rhyme, I think French speakers can find a small taste of the playful sound of
 the Finnish _runos_ that make up the _Kalevala_.
 
 The final essay by editor Verlyn Flieger traces the lineage for how the Finnish
-Kullervo leads to Tolkien's "The Story of Kullervo", which leads to
+Kullervo leads to Tolkien's _The Story of Kullervo_, which leads to
 _The Silmarillion_, _The Hobbit_, and _The Lord of the Rings_.  She clearly
 traces how elements of Kullervo become part of the story of T&uacute;rin
 Turambar in _The Silmarillion_, down to the speech from his sword before he

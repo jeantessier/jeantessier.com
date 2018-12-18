@@ -12,12 +12,12 @@ year: (1750&nbsp;&amp;&nbsp;1755)
 start: 2006-08-24
 stop: 2006-09-21
 
-Back in high school, I had to read the "Discourse on the Origin
-and Basis of Inequality Among Men", but I had never read the first
-part of the book we had.  Now, in part out of curiosity and in part out of
-nostalgia, I decided to take a look at it and maybe even re-read the
-second discourse.  I wanted to see what I might have missed the
-first time around.
+Back in high school, I had to read the
+_Discourse on the Origin and Basis of Inequality Among Men_, but I had never
+read the first part of the book we had.  Now, in part out of curiosity and in
+part out of nostalgia, I decided to take a look at it and maybe even re-read the
+second discourse.  I wanted to see what I might have missed the first time
+around.
 
 ---++ Discourse on the Arts and Sciences
 
@@ -58,10 +58,10 @@ Christian world.
 
 The first discourse was drawing comparisons to ancient Greeks.
 The second discourse goes on straight through to the most primitive
-societies.  He is trying to paint a picture of man's _natural
-state_ from before he started living in society.
+societies.  He is trying to paint a picture of man's _natural state_
+from before he started living in society.
 
-I keep comparing this text to Desmond Morris' "The Naked Ape".
+I keep comparing this text to Desmond Morris' _The Naked Ape_.
 Rousseau keeps ranting about how people take their assumptions about
 the way they live and put them on how people lived in the past.  He
 chastizes other philosophers that put modern ideas in the head of
@@ -76,7 +76,7 @@ man, barely more than an animal, to discover and develop the basic
 tools for living in a society: language, building, fire,
 agriculture, metal working, etc.
 
-It also reminds me of Daniel Dennett's "Breaking the Spell" where
+It also reminds me of Daniel Dennett's _Breaking the Spell_ where
 he sees the development of religion and faith as an evolutionary
 process.  Rousseau cannot articulate the impact of a small
 differential over many generations, but his reasoning follows in the
@@ -98,8 +98,8 @@ stage and questioned his dominion over Nature.  No wonder his
 contemporaries found it shocking.
 
 Just as the first discourse laid the foundation for the second
-one, this one lays the foundation in its turn for Rousseau's "Social
-Contract".  I'm tempted to read that one, now.
+one, this one lays the foundation in its turn for Rousseau's
+_The Social Contract_.  I'm tempted to read that one, now.
 
 Links:
 

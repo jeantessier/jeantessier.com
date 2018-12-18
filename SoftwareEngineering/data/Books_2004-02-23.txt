@@ -11,15 +11,13 @@ stop: 2004-03-02
 I'm taking a second, deeper look at it.  I borrowed a copy from
 a coworker and I read it through this time.
 
-Great, short intro to minimalist UML.  This is followed by a
-quick review of OOD principles; they are covered at greater length
-in is other book: "Agile Software Development: Principles, Patterns,
-and Practices", but the quick review is still good.  He ties it all
-together with two case studies, including his now recurring SMC
-compiler.
+Great, short intro to minimalist UML.  This is followed by a quick review of OOD
+principles; they are covered at greater length in is other book:
+_Agile Software Development: Principles, Patterns, and Practices_, but the quick
+review is still good.  He ties it all together with two case studies, including
+his now recurring SMC compiler.
 
-Quick to read, loads of good stuff.  Lots of editing mistakes
-also, they should hire a new editor.  He also suggests people use
-JDepend when he talks about dependency management.  I beg to differ.
-People should be using [[http://depfind.sourceforge.net/][Dependency Finder]]
-instead.  :-)
+Quick to read, loads of good stuff.  Lots of editing mistakes also, they should
+hire a new editor.  He also suggests people use JDepend when he talks about
+dependency management.  I beg to differ.  People should be using
+[[http://depfind.sourceforge.net/][Dependency Finder]] instead.  :-)

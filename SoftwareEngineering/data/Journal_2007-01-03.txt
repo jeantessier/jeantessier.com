@@ -8,10 +8,10 @@ I found some good candidates for books on Python:
     * [[http://amzn.com/0596007973][Python Cookbook]]
     * [[http://amzn.com/0672328623][Python Essential Reference, 3rd Edition]]
 
-Obviously, they modelled "Learning Python" and "Programming Python" on the very
-popular titles for Perl.  But wheras "Programming Python" is much more popular
-than "Learning Perl", it appears to be the reverse with Python and "Learning
-Python" gets more stars on Amazon than "Programming Python".  Curious.
+Obviously, they modeled _Learning Python_ and _Programming Python_ on the very
+popular titles for Perl.  But whereas _Programming Python_ is much more popular
+than _Learning Perl_, it appears to be the reverse with Python and
+_Learning Python_ gets more stars on Amazon than _Programming Python_.  Curious.
 
 There is also a pretty cool
 [[http://docs.python.org/tut/tut.html][online tutorial]].

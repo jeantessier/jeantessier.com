@@ -20,7 +20,7 @@ The first part started about continuous integration and how it helps reduce
 painful integrations.  "If it hurts, do it more often," as they say.  This
 part was probably aimed at laggards who still don't get continuous integration.
 Fowler mentioned the book
-[[Books.html#Continuous%5FIntegration][Continuous Integration]], part of his
+_[[Books.html#Continuous%5FIntegration][Continuous Integration]]_, part of his
 Signature Series at Addison Wesley.  It is a good book if you're not
 technical and want to learn about software practices.  But any developer worth a
 dime only needs a single figure out of that book.  The talk got more interesting when
@@ -28,7 +28,7 @@ he moved past this into "continuous delivery" territory.  He talked about build
 pipelines and introduced terminology to help communication about the various
 stages (commit, acceptance, performance, deploy) and the degrees of automation
 required by each.  There is a new book in the works,
-[[http://amzn.com/0321601912][Continuous Delivery]],
+_[[http://amzn.com/0321601912][Continuous Delivery]]_,
 due out later this year.
 
 For the second part of the evening, Fowler answered some questions
@@ -42,14 +42,14 @@ helps to have one platform expert on hand to answer questions.  Jonny also
 told me about ThoughtWorks' system of T's: broad skill sets with one or two deep
 areas of knowledge.  Just make sure the T's on your team don't all line up
 exactly, so you have appropriate coverage.  Other questions dealt with how to
-write stories (strict templates are for process weennies), planning defect fixes 
+write stories (strict templates are for process weenies), planning defect fixes
 (beware of _broken windows_), and active objects (use lazy loading at first and
 optimize only as needed).
 
 The last part was about domain specific languages (DSLs).  Fowler has been
 blogging and tweeting about this for the past couple years, so it was to be expected.
 He has a book coming out on the topic,
-[[http://amzn.com/0321712943][Domain Specific Languages]].
+_[[http://amzn.com/0321712943][Domain Specific Languages]]_.
 He talked about the _Unix tradition_ of creating a new language and writing a
 parser for it, using =yacc= or =YAML=, what he calls _external DSLs_.  He
 compared to the Lisp tradition of writing languages as flavors of Lisp and
@@ -60,9 +60,9 @@ they live inside a host language.
 The evening concluded with some mild Q&amp;A.
 
 After the talk, I got Martin to sign my copy of
-[[Books.html#Planning%5FExtreme%5FProgramming][Planning Extreme Programming]], which
-was already signed by co-author Kent Beck.  Afterwards, he came to say hi to
-Jonny, at which point Jonny introduced me to Martin Fowler.  I've been
+_[[Books.html#Planning%5FExtreme%5FProgramming][Planning Extreme Programming]]_,
+which was already signed by co-author Kent Beck.  Afterwards, he came to say hi
+to Jonny, at which point Jonny introduced me to Martin Fowler.  I've been
 introduced now, I'm no longer just a nerd in line after a talk.  :-)
 
 Unrelated to this, but today I came upon a
@@ -70,4 +70,4 @@ Unrelated to this, but today I came upon a
 (of [[http://jmock.org/][jMock]] fame).  It is about writing good tests that are
 easy to maintain, as opposed to record-replay types that are very brittle.  It
 covers material from his new book:
-[[Books.html#Growing%5FObject%5FOriented%5FSoftware][Growing Object-Oriented Software, Guided by Tests]].
+_[[Books.html#Growing%5FObject%5FOriented%5FSoftware][Growing Object-Oriented Software, Guided by Tests]]_.

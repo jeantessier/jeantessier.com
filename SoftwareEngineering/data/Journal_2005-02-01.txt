@@ -6,7 +6,7 @@ finding what works best for each individual team.  This point was completely
 lost on Skowronski.
 
 Of course, Skowronski had to respond.  When he is not dismissive of the
-critique, he simply repeats himself.  He really sees the problem-solver / 
+critique, he simply repeats himself.  He really sees the problem-solver /
 people skill relationship as a zero-sum game.  If you try to better skills on
 one side, it can only be at the expense of the other.  Poppycock!  I thought
 we'd moved past this idea in our understanding of personalities a long time
@@ -17,12 +17,12 @@ working on hard problems in favor of delivering features.  As a result, they
 can let prevent a project from discovering fatal flaws until a lot of resources
 have been spent already.  They must had skipped some pages when reading on
 agile methods.  My understanding has always been that you tackle risk early on
-agile peojects, precisely to ferret out risk and identify those possibly fatal
+agile projects, precisely to ferret out risk and identify those possibly fatal
 flaws as quickly as possible.  Such flaws may very well include the team not
 being able to come up with a solution to a particular problem.  But the agile
 team makes sure that the customer gets the most out of the project before they
 possibly decide to cancel it.  And the customer, _in discussion with the agile team_,
 controls priorities and decides which risks to tackle in which order.  The
-customer holds the strings of the purse and gets to stear the project.  He or
-she does not do so blindly, but informed from the regular and frequent
-feedback from the developers.
+customer holds the strings of the purse and gets to steer the project.  He or
+she does not do so blindly, but informed by the regular and frequent feedback
+from the developers.
