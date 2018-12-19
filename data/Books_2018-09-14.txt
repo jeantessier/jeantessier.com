@@ -156,3 +156,11 @@ Everyone is watching you, but that doesn't mean it's all about you.
 an episode of the
 [[http://www.greaterthancode.com/2018/09/12/097-the-job-of-a-manager-with-brandon-hays/][Greater Than Code]]
 podcast.</p>
+
+<p><span class="newthought">Note:</span> On 2018-12-17, after having read about
+candor and caring, I came upon an article titled
+[[https://www.theatlantic.com/magazine/archive/2019/01/charles-duhigg-american-anger/576424/][The Real Roots of American Rage]]
+in _The Atlantic_.  It talks about how anger can be a useful
+emotion, helping us feel heard when we are angry and focusing our attention when
+someone is angry at us.  But it is also easy for less well-meaning people to use
+our anger to manipulate us and even direct us against our best self-interest.</p>
