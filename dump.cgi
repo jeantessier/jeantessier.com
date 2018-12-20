@@ -45,21 +45,23 @@ foreach $key (sort(keys(%ENV))) {
 if (defined $ENV{'CONTENT_LENGTH'}) {
     $contents = "";
     read (STDIN, $contents, $ENV{'CONTENT_LENGTH'});
-    print STDOUT "\n";
+
     print OUTFILE "\n";
-    print STDOUT "Contents:\n";
     print OUTFILE "Contents:\n";
-    print STDOUT "\n";
     print OUTFILE "\n";
-    print STDOUT "$contents\n";
     print OUTFILE "$contents\n";
 
     $digest = hmac_sha1_hex($contents, $secret);
 
-    print STDOUT "\n";
     print OUTFILE "\n";
-    print STDOUT "Digest: sha1=" . $digest . "\n";
     print OUTFILE "Digest: sha1=" . $digest . "\n";
+
+    print STDOUT "\n";
+    print STDOUT "Contents:\n";
+    print STDOUT "\n";
+    print STDOUT "$contents\n";
+    print STDOUT "\n";
+    print STDOUT "Digest: sha1=" . $digest . "\n";
 }
 
 print OUTFILE "\n";

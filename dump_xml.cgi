@@ -66,8 +66,10 @@ $xml .= "    </headers>\n";
 if (defined $ENV{'CONTENT_LENGTH'}) {
     $contents = "";
     read (STDIN, $contents, $ENV{'CONTENT_LENGTH'});
+
     print OUTFILE "\n";
     print OUTFILE "Contents:\n";
+    print OUTFILE "\n";
     print OUTFILE "$contents\n";
 
     $digest = hmac_sha1_hex($contents, $secret);

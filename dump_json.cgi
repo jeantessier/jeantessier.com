@@ -70,9 +70,16 @@ $json .= "    },\n";
 if (defined $ENV{'CONTENT_LENGTH'}) {
     $contents = "";
     read (STDIN, $contents, $ENV{'CONTENT_LENGTH'});
+
     print OUTFILE "\n";
     print OUTFILE "Contents:\n";
+    print OUTFILE "\n";
     print OUTFILE "$contents\n";
+
+    $digest = hmac_sha1_hex($contents, $secret);
+
+    print OUTFILE "\n";
+    print OUTFILE "Digest: sha1=" . $digest . "\n";
 
     $contentsAsJson = $contents;
     $contentsAsJson =~ s/"/\\"/g;
@@ -80,12 +87,6 @@ if (defined $ENV{'CONTENT_LENGTH'}) {
     $contentsAsJson =~ s/\n/\\n/g;
 
     $json .= "    \"contents\": \"$contentsAsJson\",\n";
-
-    $digest = hmac_sha1_hex($contents, $secret);
-
-    print OUTFILE "\n";
-    print OUTFILE "Digest: sha1=" . $digest . "\n";
-
     $json .= "    \"digest\": \"$digest\",\n";
 }
 
