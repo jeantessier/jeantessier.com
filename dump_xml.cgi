@@ -82,7 +82,7 @@ if (defined $ENV{'CONTENT_LENGTH'}) {
     $escapedContents =~ s/</&lt;/g;
     $escapedContents =~ s/>/&gt;/g;
 
-    $xml .= "    <contents digest=\"$digest\">$escapedContents</contents>\n";
+    $xml .= "    <contents digest=\"$digest\" length=\"$ENV{'CONTENT_LENGTH'}\">$escapedContents</contents>\n";
 }
 
 $xml .= "    <author>\n";
