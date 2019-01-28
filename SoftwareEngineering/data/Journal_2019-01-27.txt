@@ -1,0 +1,16 @@
+New term going around: [[https://cobwwweb.com/wtf-is-jamstack][JAMstack]].  It
+stands for JavaScript, APIs, and Markdown.  It describes a philosophy for
+building _static_ websites, but using modern site-building tools.  For example:
+
+* [[https://jekyllrb.com/][Jekyll]] for building from Markdown
+* [[https://forestry.io/][Forestry]] for CMS to create contents
+* [[https://www.netlify.com/][Netlify]] for refreshing the website after commits
+
+You can create content using Markdown, keep it under source control using a Git
+repository hosted somewhere, and trigger automatic rebuilds when you commit your
+changes.
+
+The toolset is getting better integrated.  I used to balk at the amount of setup
+that I would need to do.  But newer solutions are taking up more and more of
+that hassle.  Maybe one day I'll finally move off of my custom wiki notation and
+be able to just do Markdown instead.
