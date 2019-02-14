@@ -7,10 +7,10 @@ publisher: Addison-Wesley
 year: 2019
 acquired: 2018-08-16
 start: 2019-01-04
+stop: 2019-02-13
 
 An update to the 1999 classic _Refactoring_.  I still have my autographed copy
 of the first edition.  The original used code examples in Java.  This new
 edition uses JavaScript instead.
 
 _More to come._
-
