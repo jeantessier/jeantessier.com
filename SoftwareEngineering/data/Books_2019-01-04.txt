@@ -53,8 +53,8 @@ any.  You should concentrate on where the risk is.
 <footer>page 98</footer>
 </blockquote>
 
-Fowler refers to the Law of Demeter as the Occasionally Useful Suggestion of
-Demeter.
+Fowler refers to the Law of Demeter as "the Occasionally Useful Suggestion of
+Demeter" (p. 192).
 
 On a personal note, since I started been programming in Groovy and using
 closures, I find myself using
