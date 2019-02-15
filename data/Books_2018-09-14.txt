@@ -26,7 +26,7 @@ them towards a common objective, with motivators specific to each one.
 ... Help people conduct their careers in the way _they_ desire, not in the way
 _you_ think they should want to.
 
-<footer>p.47</footer>
+<footer>page 47</footer>
 </blockquote>
 
 It is a relatively quick read.  And I was right to think that it would be
@@ -40,7 +40,7 @@ For example, she says:
 Ruinous Empathy is responsible for the vast majority of management mistakes I've
 seen in my career.
 
-<footer>p.32</footer>
+<footer>page 32</footer>
 </blockquote>
 
 That's still anecdotal.  She is implying that her career has been long enough
@@ -88,21 +88,21 @@ Aside from that, she does make some good points.  Her approach is very humane.
 
 Sometimes two people just don't work that well together.
 
-<footer>p.62</footer>
+<footer>page 62</footer>
 </blockquote>
 
 <blockquote>
 
 Everyone can be excellent at _something_.
 
-<footer>p.64</footer>
+<footer>page 64</footer>
 </blockquote>
 
 <blockquote>
 
 Don't put people in boxes and leave them there.
 
-<footer>p.74</footer>
+<footer>page 74</footer>
 </blockquote>
 
 The humanity comes through especially when she recommends caution before being
@@ -134,7 +134,7 @@ I'll end with a few more quotable bits.
 ... if Keynes's genius was locked inside his head, it may as well not have
 existed.
 
-<footer>p.92</footer>
+<footer>page 92</footer>
 </blockquote>
 
 <blockquote>
@@ -142,14 +142,14 @@ existed.
 Is there anything I could do or stop doing that would make it easier to work
 with me?
 
-<footer>p.132</footer>
+<footer>page 132</footer>
 </blockquote>
 
 <blockquote>
 
 Everyone is watching you, but that doesn't mean it's all about you.
 
-<footer>p.220</footer>
+<footer>page 220</footer>
 </blockquote>
 
 <p><span class="newthought">Note:</span> Radical Candor got a passing mention in

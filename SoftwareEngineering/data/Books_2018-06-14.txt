@@ -20,7 +20,7 @@ lists.  So, let's start with a quote.
 This book is not a tutorial.  If you are new to Django, this book will be
 helpful but large parts will be challenging for you.
 
-<footer>p. xxxi</footer>
+<footer>page xxxi</footer>
 </blockquote>
 
 I've been doing web apps for many years, and I've dabbled in Python a while

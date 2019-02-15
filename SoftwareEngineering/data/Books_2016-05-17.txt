@@ -27,7 +27,7 @@ everything you need to do in order to transform a neglected legacy codebase into
 a maintainable, well-functioning piece of software that can provide value to
 your organization.
 
-<footer>p. xvi</footer>
+<footer>page xvi</footer>
 </blockquote>
 
 The book is barely 200 pages long!!  And it's going to cover _everything_?!?
@@ -60,7 +60,7 @@ But any substantial use case is left as an exercise for the reader.
 First we need to decide what to measure. This depends largely on the particular
 software, but the simple answer is measure everything you can.
 
-<footer>p. 22</footer>
+<footer>page 22</footer>
 </blockquote>
 
 This can be dangerous advice, both politically if measurements are misused or
@@ -90,7 +90,7 @@ If, for example, you can't refactor a piece of code without having to fix or
 rewrite dozens of tests, that may be a sign that your unit tests are becoming
 more trouble than they're worth.
 
-<footer>p. 203</footer>
+<footer>page 203</footer>
 </blockquote>
 
 I have been struggling with this very problem lately, trying to make one change
