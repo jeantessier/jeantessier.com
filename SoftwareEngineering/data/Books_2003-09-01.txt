@@ -8,6 +8,6 @@ year: 1992
 start: 2003-09-01
 stop: 2003-09-05
 
-I good book on how to monitor your process and
+A good book on how to monitor your process and
 track that your improvements are paying off (or not).  Filled with
 examples drawn from projects at Hewlett-Packard.
