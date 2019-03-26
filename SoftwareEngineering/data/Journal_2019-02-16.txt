@@ -1,8 +1,9 @@
 Took another swing at making [[http://micronaut.io][Micronaut]] and
-[[https://www.rabbitmq.com/][RabbitMQ]] together.  Now, there is an experimental
-integration named =micronaut-rabbitmq= to help out.  The project creator doesn't
-put a version number on the =micronaut-rabbitmq= and because only a milestone
-version is currently on Maven, you have to put its version number explicitly.
+[[https://www.rabbitmq.com/][RabbitMQ]] work together.  Now, there is an
+experimental integration named =micronaut-rabbitmq= to help out.  The project
+creator doesn't put a version number on the =micronaut-rabbitmq= and because
+only a milestone version is currently on Maven, you have to put its version
+number explicitly in your =build.gradle= file.
 
 It is not quite as absolutely awesome as the =rabbitmq-native= plugin for
 [[http://grails.org/][Grails]]; it's missing the super easy declarative topic
