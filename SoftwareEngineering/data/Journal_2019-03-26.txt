@@ -1,0 +1,26 @@
+I've been tinkering with Node as part of my
+[[https://github.com/jeantessier/book-reviews][book reviews]] project.  I can
+now cover the following needs:
+
+    * Node
+    * MongoDB
+    * REST
+    * JSON
+    * JWT
+
+I'm still missing the frontend and unit tests.  I read something about Mocha and
+Chai and Sinon and =sinon-mongoose= to do BDD, but I'm still struggling to make
+them all work together.  And I know there is an AMQP plugin, but I haven't tried
+it out, yet.
+
+I'm also looking at the Micronaut angle, especially for a microservice-based
+solution.  I have separate bits of code for the following combinations:
+
+    * Micronaut + GORM
+    * Micronaut + MongoDB
+    * Micronaut + JWT
+    * Micronaut + RabbitMQ
+
+But I haven't tried to put them all together at once.  The MongoDB integration
+is still struggling to put UUIDs in JSON payloads, so I'll probably have to stay
+with MySQL for the time being.
