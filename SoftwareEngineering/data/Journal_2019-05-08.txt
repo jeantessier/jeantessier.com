@@ -8,9 +8,9 @@ receive it.
 
 Some publish-subscribe technologies I've played with:
 
-* [[https://www.rabbitmq.com/][RabbitMQ]]
-* [[http://activemq.apache.org/][ActiveMQ]]
-* [[https://aws.amazon.com/sns/][Amazon SNS]]
+    * [[https://www.rabbitmq.com/][RabbitMQ]]
+    * [[http://activemq.apache.org/][ActiveMQ]]
+    * [[https://aws.amazon.com/sns/][Amazon SNS]]
 
 I like the decoupling between senders and receivers that I get when I use
 publish-subscribe.  Seems much easier to me than relying on a service locator.
