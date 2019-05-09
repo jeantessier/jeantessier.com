@@ -19,7 +19,7 @@ engineers;" suddely I feel like a [[http://www.realcaliforniacheese.com/][cow]].
 
 Next was a disussion panel with Rob Mee (Pivotal Computer Systems), Russell
 Gold (Oracle and HttpUnit), Sri Muthu (Wells Fargo), and David Vydra
-([[http://testdriven.com/][testdriven.com]]).  The main message was
+([[https://testdriven.com/][testdriven.com]]).  The main message was
 that the business side has always assumed that the development side was doing
 appropriate testing, even though it was not always true.  But lately, they have
 started to ask for the artifacts of our testing.  Since they always assumed we
@@ -51,7 +51,7 @@ invariants.
 Closed the day with a [[http://www.jera.com/bayxp/][BayXP]]
 meeting with Jeff McKenna.  We discussed the planning game.  He mentioned how
 you can use the release plan to provide a bound context for the iterations, so
-it doesn't look like an endless sucession of work.  He found that for him, it
+it doesn't look like an endless succession of work.  He found that for him, it
 was not worth the effort to estimate individual tasks to refine the estimates.
 Whether or not he does it, he gets the same accuracy.  You still need to break
 down stories into tasks, but don't waste too much time estimating them.  A lot
