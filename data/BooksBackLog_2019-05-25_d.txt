@@ -9,5 +9,5 @@ year: 1934
 year: 2013
 acquired: 2019-05-25
 
-Much like _[[#The%5FStory%5Fof%5FKullervo][The Story of Kullervo]]_, this is
+Much like _[[Books.html#The%5FStory%5Fof%5FKullervo][The Story of Kullervo]]_, this is
 Tolkien delving into Arthurian legends.
