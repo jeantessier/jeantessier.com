@@ -1,0 +1,11 @@
+name: Serendipities_Language_and_Lunacy
+isbn: 0231111347
+isbn13: 9780231111348
+title: [[https://www.amazon.com/dp/0231111347][Serendipities: Language and Lunacy]]
+author: Umberto Eco
+publisher: Columbia University Press
+year: 1998
+acquired: 2019-05-25
+
+Umberto Eco explores forgeries and mistakes that nonetheless led to important
+developments and discoveries.

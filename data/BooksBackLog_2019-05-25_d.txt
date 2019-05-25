@@ -1,0 +1,13 @@
+name: The_Fall_of_Arthur
+isbn: 0544115899
+isbn13: 9780544115897
+title: [[https://www.amazon.com/dp/0544115899][The Fall of Arthur]]
+author: J.R.R. Tolkien
+author: Christopher Tolkien
+publisher: Houghton Mifflin Harcourt
+year: 1934
+year: 2013
+acquired: 2019-05-25
+
+Much like _[[#The%5FStory%5Fof%5FKullervo][The Story of Kullervo]]_, this is
+Tolkien delving into Arthurian legends.

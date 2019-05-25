@@ -1,0 +1,13 @@
+name: The_Lay_of_Aotrou_and_Itroun
+isbn: 1328557529
+isbn13: 9781328557520
+title: [[https://www.amazon.com/dp/1328557529][The Lay of Autrou &amp; Itroun]]
+author: J.R.R. Tolkien
+author: Verlyn Flieger
+publisher: Mariner Books
+year: 1930
+year: 2016
+acquired: 2019-05-25
+
+Much like _[[#The%5FStory%5Fof%5FKullervo][The Story of Kullervo]]_, this is
+Tolkien delving into obscure Breton myth.
