@@ -1,7 +1,7 @@
 name: The_Lay_of_Aotrou_and_Itroun
 isbn: 1328557529
 isbn13: 9781328557520
-title: [[https://www.amazon.com/dp/1328557529][The Lay of Autrou &amp; Itroun]]
+title: [[https://www.amazon.com/dp/1328557529][The Lay of Aotrou &amp; Itroun]]
 author: J.R.R. Tolkien
 author: Verlyn Flieger
 publisher: Mariner Books
