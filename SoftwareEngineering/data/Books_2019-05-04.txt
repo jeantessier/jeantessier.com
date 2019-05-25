@@ -8,6 +8,7 @@ author: Alan Mycroft
 publisher: Manning
 year: 2018
 acquired: 2018-06-11
+start: 2019-05-04
 
 I have been doing Groovy for many, many years.  I need to get up to speed on the
 latest Java idioms, like lambdas and streams.
