@@ -59,7 +59,7 @@ sub WikiContentsAsJson {
             local $title = $2;
 
             $line = "<h$level>$title</h$level>\n";
-        } elsif ($line =~ /^(\s*)((\S+)\s*(\S.*))/) {
+        } elsif ($line =~ /^(\s*)((\S+)\s*(\S.*)?)/) {
             local ($indent, $text, $marker, $content) = ($1, $2, $3, $4);
 
             local ($indent_level) = length $indent;
