@@ -2,9 +2,9 @@ I was watching a video on [[https://youtu.be/ZS_kXvOeQ5Y][SQL vs. NoSQL]] and
 the presenter kept talking about standalone collections in MongoDB.  In his
 example, there is a =Users= collection where each document describes a user
 fully.  There is also an =Orders= collection where each order has a user.  I'm
-used to simply having the user's ID in that `user` field and let the calling
+used to simply having the user's ID in that =user= field and let the calling
 code merge the order and user documents.  Like you'd do in a relational database
-with a =JOIN= statement.  But in their example, `user` field was an actual
+with a =JOIN= statement.  But in their example, =user= field was an actual
 subset of the matching user document, with just the parts that are needed when
 dealing with an order.
 
