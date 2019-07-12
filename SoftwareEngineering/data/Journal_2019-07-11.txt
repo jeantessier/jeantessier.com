@@ -1,4 +1,5 @@
 Reading up on [[https://www.fastify.io/][Fastify]] as a replacement for the
 [[http://expressjs.com/][Express]] framework.  Some people say Fastify is a more
 modern web application framework that makes use of the latest JavaScript
-language additions.
+language additions.  I also found a nice
+[[https://devhints.io/fastify][cheatsheet]].
