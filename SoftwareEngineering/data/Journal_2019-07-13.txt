@@ -1,0 +1,17 @@
+There have been competing threads on Twitter about "10x engineers", the
+supposedly superhuman developers who are so much better than _ordinary_ ones.
+
+[[https://twitter.com/skirani/status/1149302828420067328][One thread is so bad]],
+I don't know if the author was being sarcastic or if they really believes what
+they said.  What I do know is that there are people out there who agree with
+their toxic description of 10x engineers.  The author lists a bunch of traits of
+assholes who can't be bothered to work with other people.  I wouldn't want to
+be anywhere near the people they describe.
+
+[[https://twitter.com/jaymaymo/status/1149893214037368837][Another thread]] is
+much more in line with what I want to see in my fellow software engineers.  The
+desired traits are all about collaborating with others and uplifting everyone.
+That is what I aspire to be.  Now, I try to be helpful and compassionate, but
+you also need an environment where such attitudes are welcomed and supported.
+If everyone has large egos and cannot afford to look weak, it will be very
+difficult to build a team spirit where everyone helps each other.
