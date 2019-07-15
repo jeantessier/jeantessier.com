@@ -13,6 +13,7 @@ open(KEYFILE, "github.secret");
 chomp($secret = <KEYFILE>);
 close(KEYFILE);
 
+print STDOUT "Status: 500 Internal Server Error\n";
 print STDOUT "Content-type: text/plain\n";
 print STDOUT "\n";
 

@@ -3,7 +3,7 @@
 use Digest::SHA qw(hmac_sha1_hex);
 use POSIX qw(strftime);
 
-$timestamp = strftime "%Y-%m-%d %H:%M:%W", localtime;
+$timestamp = strftime "%Y-%m-%d %H:%M:%S", localtime;
 
 open(OUTFILE, ">>dump.out");
 print OUTFILE "============================================================\n";
