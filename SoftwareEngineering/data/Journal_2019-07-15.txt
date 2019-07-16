@@ -6,5 +6,5 @@ he calls
 [[https://medium.com/@jackskeels/the-humanist-agile-manifesto-1f9000d00fd7][Humanist Agile]].
 I like how his solution is to massively empower teams by removing management.
 It is the complete opposite of Taylor's Scientific Management and
-_plan-and-control_ hierarchies.  I would not believe that it could work if I had
-not lived it at Google, years ago.
+_plan-and-control_ hierarchies.  I would not have believed that it could work if
+I had not been exposed to a similar approach at Google, years ago.
