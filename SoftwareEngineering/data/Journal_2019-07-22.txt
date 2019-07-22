@@ -1,4 +1,4 @@
-[[https://nerdstagram.com/][Nerdstagram]]
+[[http://nerdstagram.com/][Nerdstagram]]
 
     *[[https://twitter.com/shanselman][Scott Hanselman]]*
     I explained in several paragraphs what @github is to my niece.
