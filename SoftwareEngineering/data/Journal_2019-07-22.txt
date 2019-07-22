@@ -1,6 +1,6 @@
 [[http://nerdstagram.com/][Nerdstagram]]
 
-    *[[https://twitter.com/shanselman][Scott Hanselman]]*
+    *[[https://twitter.com/shanselman][shanselman]]*
     I explained in several paragraphs what @github is to my niece.
     Niece: “So, it’s Nerdstagram?”
     Me: “That’s fair.”
