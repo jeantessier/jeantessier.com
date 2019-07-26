@@ -1,0 +1,3 @@
+More information on
+[[https://guides.micronaut.io/micronaut-token-propagation/guide/index.html][Micronaut + JWT]].
+It looks like Micronaut can read JWTs right out of the box.
