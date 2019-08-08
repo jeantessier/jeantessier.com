@@ -1,10 +1,11 @@
 name: The_Great_Gatsby
-isbn:
+isbn: 0743273567
 isbn13: 9780743273565
 title: [[https://www.amazon.com/dp/0743273567][The Great Gatsby]]
 author: F. Scott Fitzgerald
 publisher: Scribner
 year: 1925
+acquired: 2019-08-06
 
 I read this back in High School.  I recently saw the Baz Luhrmann movie
 adaptation and I think it's time for me to read it again.
