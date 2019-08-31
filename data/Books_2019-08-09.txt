@@ -7,6 +7,7 @@ publisher: Scribner
 year: 1925
 acquired: 2019-08-06
 start: 2019-08-09
+stop: 2019-08-30
 
 I read this back in High School.  I recently saw the Baz Luhrmann movie
 adaptation and I think it's time for me to read it again.
@@ -24,3 +25,5 @@ beyond the source material.  I'm eager to re-discover the original story and
 Fitzgerald's unmodified vision.  The introduction talks about how youth and
 adults can have different interpretations of the story.  I'm curious as to how
 I will perceive it this time around.
+
+_More to come._
