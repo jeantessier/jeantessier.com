@@ -1,0 +1,19 @@
+Trying to understand [[https://hibernate.org/orm/][Hibernate JPA]].  There sure
+is a lot of boilerplate code.  I found
+[[https://www.javahelps.com/2015/08/jpa-hello-world-using-hibernate.html][examples in Java]],
+but they require a lot of code to use the entities defined with Hibernate.
+
+I'm trying to get a sample application working with
+=[[https://github.com/micronaut-projects/micronaut-data][micronaut-data]]=.  It
+can either use a JPA configuration or straight SQL, without Hibernate.  I'm
+trying to figure out which would be easiest to use, but I can't quite get them
+to work right.  I picked up some JPA configuration from the =hibernate-jpa=
+feature in Micronaut, but I'm still getting some errors:
+
+<blockquote>
+
+_Interface method reference: =CrudRepository.findAll()=, is in an indirect superinterface_
+
+</blockquote>
+
+that I can't quite shake off.
