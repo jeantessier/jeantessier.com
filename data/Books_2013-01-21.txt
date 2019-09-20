@@ -37,10 +37,9 @@ There are all kinds of characters involved in manipulating history from the
 shadows.  Eco needs different narrators to help convey the principal archetypes.
 Simonini is a forger, in it for the money.  Abb&eacute; Dalla Piccola is a
 manipulating priest, led by a grand plan, a more noble ambition.  To help
-transition between the two, there is an omniscient Narrator who can fill as
-needed in the other to separate the other two narration, or humanize them by
-letting them succumb to human frailties, such as confusion, or willful
-forgetfulness, or fatigue.
+transition between the two, there is an omniscient Narrator who can fill in as
+needed.  This Narrator can also serve to humanize them, so that they can succumb
+to human frailties, such as confusion or willful forgetfulness or fatigue.
 
 ---++ Unsatisfying, Gratuitous Sex Scene
 
