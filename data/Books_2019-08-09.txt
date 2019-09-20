@@ -45,7 +45,7 @@ Here is an example from when Gatsby's father visits Gatsby's impressive house:
 He had shown [the photograph] so often that I think it was more real to him now
 than the house itself.
 
-<footer>p. 172</footer>
+<footer>page 172</footer>
 </blockquote>
 
 Gatsby's father had never seen the house before and latched on to the photograph
@@ -73,7 +73,7 @@ creatures and then retreated back into their money or their vast carelessness,
 or whatever it was that kept them together, and let other people clean up the
 mess they had made...
 
-<footer>p. 179</footer>
+<footer>page 179</footer>
 </blockquote>
 
 In the end, Gastby was a character trapped in a past that he had constructed out
