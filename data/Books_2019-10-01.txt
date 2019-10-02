@@ -6,6 +6,9 @@ author: Umberto Eco
 publisher: Columbia University Press
 year: 1998
 acquired: 2019-05-25
+start: 2019-10-01
 
 Umberto Eco explores forgeries and mistakes that nonetheless led to important
 developments and discoveries.
+
+_More to come._
