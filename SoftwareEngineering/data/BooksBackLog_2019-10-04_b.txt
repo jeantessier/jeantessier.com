@@ -1,0 +1,11 @@
+name: Rails_5_Test_Prescriptions
+isbn: 1680502506
+isbn13: 9781680502503
+title: [[https://pragprog.com/book/nrtest3/rails-5-test-prescriptions][Rails 5 Test Prescriptions]]
+author: Noel Rappin
+publisher: Pragmatic Bookshelf
+year: 2018
+acquired: 2019-10-04
+
+Looks like a good start for patterns for testing Ruby on Rails applications.
+Claims to cover Rails 5.2 and RSpec 3.7.  Rails 6.0 came out not too long ago.

@@ -1,0 +1,11 @@
+name: The_Well_Grounded_Rubyist_3ed
+isbn: 1617295213
+isbn13: 9781617295218
+title: [[https://www.amazon.com/dp/1617295213][The Well-Grounded Rubyist, Third Edition]]
+author: David A. Black
+author: Joseph Leo III
+publisher: Manning
+year: 2019
+acquired: 2019-10-04
+
+This book on the Ruby programming language had good reviews on Goodreads.

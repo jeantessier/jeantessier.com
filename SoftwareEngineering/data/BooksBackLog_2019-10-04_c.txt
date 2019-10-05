@@ -1,0 +1,11 @@
+name: Effective_Testing_with_RSpec_3
+isbn: 1680501988
+isbn13: 9781680501988
+title: [[https://pragprog.com/book/rspec3/effective-testing-with-rspec-3][Effective Testing with RSpec 3]]
+author: Myron Marston
+author: Ian Dees
+publisher: Pragmatic Bookshelf
+year: 2017
+acquired: 2019-10-04
+
+Looks like an up-to-date resource for using RSpec.

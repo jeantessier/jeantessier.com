@@ -1,0 +1,10 @@
+name: The_Rails_5_Way_4ed
+isbn: 0134657675
+isbn13: 9780134657677
+title: [[https://www.amazon.com/dp/0134657675][The Rails 5 Way, Fourth Edition]]
+author: Obie Fernandez
+publisher: Addison-Wesley
+year: 2017
+acquired: 2010-10-04
+
+The Internet seems to agree this is the best reference for Ruby on Rails.
