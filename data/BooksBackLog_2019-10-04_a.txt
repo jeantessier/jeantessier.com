@@ -1,0 +1,11 @@
+name: Talking_to_Strangers
+isbn: 0316478520
+isbn13: 9780316478526
+title: [[https://www.amazon.com/dp/0316478520][Talking to Strangers]]
+author: Malcolm Gladwell
+publisher: Little, Brown and Company
+year: 2019
+acquired: 2019-10-04
+
+Malcolm Gladwell's latest book, about "the tools and strategies we use to make
+sense of people we don't know."
