@@ -34,7 +34,7 @@
 
 use POSIX qw(strftime);
 
-push @INC, 'lib';
+use lib './lib';
 require 'wiki.pl';
 
 &PrintContentType();

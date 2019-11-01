@@ -32,7 +32,7 @@
 #   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-push @INC, '../lib';
+use lib '../lib';
 require 'wiki_json.pl';
 
 %MONTH = (
