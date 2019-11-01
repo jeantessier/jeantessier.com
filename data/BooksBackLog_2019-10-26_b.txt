@@ -1,0 +1,10 @@
+name: Outgrowing_God
+isbn: 1984853910
+isbn13: 9781984853912
+title: [[https://www.amazon.com/dp/1984853910][Outgrowing God: A Beginner's Guide]]
+author: Richard Dawkins
+publisher: Random House
+year: 2019
+acquired: 2019-10-26
+
+I bought a signed copy when Richard Dawkins came to my town to promote the book.
