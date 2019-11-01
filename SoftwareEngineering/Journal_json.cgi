@@ -52,7 +52,7 @@ require 'wiki_json.pl';
 
 print "Content-type: application/json\n";
 print "\n";
-print &DocumentAsJson($DOCUMENT);
+print &DocumentAsJson();
 
 sub DocumentAsJson {
     local ($title) = &GetWikiTitle();
