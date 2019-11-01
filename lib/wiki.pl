@@ -1,7 +1,5 @@
-#!/usr/bin/perl
-
 #
-#   Copyright (c) 2001-2015, Jean Tessier
+#   Copyright (c) 2001-2019, Jean Tessier
 #   All rights reserved.
 #
 #   Redistribution and use in source and binary forms, with or without
@@ -32,62 +30,31 @@
 #   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-push @INC, '../lib';
-require 'wiki_json.pl';
+$WIKI_DIRNAME = "data";
 
-%MONTH = (
-    "01" => "January",
-    "02" => "February",
-    "03" => "March",
-    "04" => "April",
-    "05" => "May",
-    "06" => "June",
-    "07" => "July",
-    "08" => "August",
-    "09" => "September",
-    "10" => "October",
-    "11" => "November",
-    "12" => "December",
-);
-
-print "Content-type: application/json\n";
-print "\n";
-print &DocumentAsJson($DOCUMENT);
-
-sub DocumentAsJson {
-    local ($title) = &GetWikiTitle();
-
-    return &JsonRecord(
-        title => &JsonText($title),
-        books => &DocumentPartsAsJson(),
-    );
+if ($0 =~ /(\w+)_\w+\./) {
+    $WIKI_NAME = $1;
 }
 
-sub DocumentPartsAsJson {
-    local (@files) = &GetWikiFiles();
-
-    return &JsonList(map { &DocumentPartAsJson($_) } @files);
+sub GetWikiName {
+    return $WIKI_NAME;
 }
 
-sub DocumentPartAsJson {
-    local ($filename) = @_;
-    local ($date, $year, $month, $day);
-
-    local ($date);
-    if ($filename =~ /((\d{4})-(\d{2})-(\d{2}))/) {
-        $date = $1;
-        $year = $2;
-        $month = $3;
-        $day = $4;
-    }
-
-    open(FILEHANDLE, $filename);
-    local (@lines) = <FILEHANDLE>;
+sub GetWikiTitle {
+    open(FILEHANDLE, "$WIKI_DIRNAME/${WIKI_NAME}_title.txt");
+    local ($title, @subtitle) = <FILEHANDLE>;
+    chomp $title;
     close(FILEHANDLE);
 
-    return &JsonRecord(
-        date => &JsonText($date),
-        pretty_date => &JsonText("$MONTH{$month} $day, $year"),
-        body => &JsonText(&WikiContentsAsJson(@lines)),
-    );
+    return $title;
 }
+
+sub GetWikiFiles {
+  opendir(DIRHANDLE, $WIKI_DIRNAME);
+  local (@files) = grep { /^${WIKI_NAME}_\d{4}-\d{2}-\d{2}(_\w)?.txt$/ } readdir(DIRHANDLE);
+  closedir(DIRHANDLE);
+
+  return map { "${WIKI_DIRNAME}/$_" } reverse sort @files;
+}
+
+1;

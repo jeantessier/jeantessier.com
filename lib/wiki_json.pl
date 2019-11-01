@@ -30,6 +30,8 @@
 #   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
+require 'wiki.pl';
+
 sub WikiContentsAsJson {
     local (@lines) = @_;
 

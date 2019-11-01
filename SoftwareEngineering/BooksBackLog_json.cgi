@@ -32,40 +32,26 @@
 #   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-require '../lib/wiki_json.pl';
-
-$DIRNAME = "data";
-
-if ($0 =~ /(\w+)_json\./) {
-    $DOCUMENT = $1;
-}
+push @INC, '../lib';
+require 'wiki_json.pl';
 
 print "Content-type: application/json\n";
 print "\n";
-print &DocumentAsJson($DOCUMENT);
+print &DocumentAsJson();
 
 sub DocumentAsJson {
-    local ($document) = @_;
-
-    open(FILEHANDLE, "$DIRNAME/${document}_title.txt");
-    local ($title, @subtitle) = <FILEHANDLE>;
-    chomp $title;
-    close(FILEHANDLE);
+    local ($title) = &GetWikiTitle();
 
     return &JsonRecord(
         title => &JsonText($title),
-        books => &DocumentPartsAsJson($document),
+        books => &DocumentPartsAsJson(),
     );
 }
 
 sub DocumentPartsAsJson {
-    local ($document) = @_;
+    local (@files) = &GetWikiFiles();
 
-    opendir(DIRHANDLE, $DIRNAME);
-    local (@files) = grep { /^${document}_\d{4}-\d{2}-\d{2}_\w+.txt$/ } readdir(DIRHANDLE);
-    closedir(DIRHANDLE);
-
-    return &JsonList(map { &DocumentPartAsJson("$DIRNAME/$_") } reverse sort @files);
+    return &JsonList(map { &DocumentPartAsJson($_) } @files);
 }
 
 sub DocumentPartAsJson {

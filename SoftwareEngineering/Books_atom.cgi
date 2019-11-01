@@ -34,15 +34,12 @@
 
 use POSIX qw(strftime);
 
-$DIRNAME = "data";
-
-if ($0 =~ /(\w+)_atom\./) {
-    $DOCUMENT = $1;
-}
+push @INC, '../lib';
+require 'wiki.pl';
 
 &PrintContentType();
-&PrintDocumentHeader($DOCUMENT);
-&PrintDocumentParts($DOCUMENT);
+&PrintDocumentHeader();
+&PrintDocumentParts();
 &PrintDocumentFooter();
 
 sub PrintContentType {
@@ -51,21 +48,17 @@ sub PrintContentType {
 }
 
 sub PrintDocumentHeader {
-    local ($document) = @_;
-
-    open(FILEHANDLE, "$DIRNAME/${document}_title.txt");
-    local ($title, @subtitle) = <FILEHANDLE>;
-    chomp $title;
-    close(FILEHANDLE);
+    local ($document) = &GetWikiName();
+    local ($title) = &GetWikiTitle();
 
     print "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n";
     print "\n";
     print "<feed xmlns=\"http://www.w3.org/2005/Atom\">\n";
     print "\n";
     print "    <title>$title</title>\n";
-    print "    <id>http://jeantessier.com/SoftwareEngineering/$DOCUMENT.html</id>\n";
-    print "    <link href=\"http://jeantessier.com/SoftwareEngineering/$DOCUMENT.html\"/>\n";
-    print "    <link href=\"http://jeantessier.com/SoftwareEngineering/${DOCUMENT}_atom.cgi\" rel=\"self\"/>\n";
+    print "    <id>http://jeantessier.com/SoftwareEngineering/${document}.html</id>\n";
+    print "    <link href=\"http://jeantessier.com/SoftwareEngineering/${document}.html\"/>\n";
+    print "    <link href=\"http://jeantessier.com/SoftwareEngineering/${document}_atom.cgi\" rel=\"self\"/>\n";
     print "    <author>\n";
     print "        <name>Jean Tessier</name>\n";
     print "        <email>jean\@jeantessier.com</email>\n";
@@ -75,15 +68,12 @@ sub PrintDocumentHeader {
 }
 
 sub PrintDocumentParts {
-    local ($document) = @_;
-
-    opendir(DIRHANDLE, $DIRNAME);
-    local (@files) = grep { /^${document}_\d{4}-\d{2}-\d{2}.txt$/ } readdir(DIRHANDLE);
-    closedir(DIRHANDLE);
+    local ($document) = &GetWikiName();
+    local (@files) = &GetWikiFiles();
 
     local ($max_mtime) = 0;
     foreach $file (@files) {
-        my $mtime = (stat("$DIRNAME/$file"))[9];
+        my $mtime = (stat($file))[9];
         if ($mtime > $max_mtime) {
             $max_mtime = $mtime;
         }
@@ -92,12 +82,12 @@ sub PrintDocumentParts {
     print "    <updated>$updated</updated>\n";
 
     foreach $file (reverse sort @files) {
-        &PrintDocumentPart("$DIRNAME/$file");
+        &PrintDocumentPart($document, $file);
     }
 }
 
 sub PrintDocumentPart {
-    local ($filename) = @_;
+    local ($document, $filename) = @_;
 
     local ($year, $month, $day);
     if ($filename =~ /(\d{4})-(\d{2})-(\d{2})/) {
@@ -160,8 +150,8 @@ sub PrintDocumentPart {
     print "\n";
     print "    <entry>\n";
     print "        <title>" . $meta_data{'title'} . "</title>\n";
-    print "        <id>http://jeantessier.com/SoftwareEngineering/$DOCUMENT.html#" . $meta_data{'name'} . "</id>\n";
-    print "        <link href=\"http://jeantessier.com/SoftwareEngineering/$DOCUMENT.html#" . $meta_data{'name'} . "\"/>\n";
+    print "        <id>http://jeantessier.com/SoftwareEngineering/${document}.html#" . $meta_data{'name'} . "</id>\n";
+    print "        <link href=\"http://jeantessier.com/SoftwareEngineering/${document}.html#" . $meta_data{'name'} . "\"/>\n";
     print "        <published>${year}-${month}-${day}T00:00:00Z</published>\n";
     print "        <updated>$updated</updated>\n";
     print "        <content type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">\n";
