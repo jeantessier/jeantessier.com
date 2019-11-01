@@ -59,7 +59,7 @@ sub DocumentAsJson {
 
     return &JsonRecord(
         title => &JsonText($title),
-        books => &DocumentPartsAsJson(),
+        entries => &DocumentPartsAsJson(),
     );
 }
 
