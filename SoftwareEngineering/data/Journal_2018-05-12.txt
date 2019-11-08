@@ -16,7 +16,7 @@ have power over others, but it leaves very little room for employees to exercise
 their creativity.
 
 I was reading
-[[https://hackernoon.com/beyond-outcomes-over-outputs-6b2677044214][Beyond “Outcomes Over Outputs”]],
+[[https://hackernoon.com/beyond-outcomes-over-outputs-6b2677044214][Beyond "Outcomes Over Outputs"]],
 an article that discusses whether it is better to appear busy, even if this
 busyness is not completely aligned with the company's objectives.  The article
 mentioned _pull vs. push management_.  A quick search yielded

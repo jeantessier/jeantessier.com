@@ -2,8 +2,8 @@
 
     *[[https://twitter.com/shanselman][shanselman]]*
     I explained in several paragraphs what @github is to my niece.
-    Niece: “So, it’s Nerdstagram?”
-    Me: “That’s fair.”
+    Niece: "So, it's Nerdstagram?"
+    Me: "That's fair."
     <span style="font-size: smaller">2:30 PM - 21 Jul 2019</span>
 
 He then proceeded to buy the domain =nerdstagram.com= and point it to
