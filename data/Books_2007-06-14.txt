@@ -1,5 +1,6 @@
 name: Animal_Farm
 isbn: 0451526341
+isbn13: 9780451526342
 title: [[http://amzn.com/0451526341][Animal Farm]]
 author: George Orwell
 publisher: Signet Classic
@@ -9,19 +10,19 @@ stop: 2007-06-20
 
 Short and to the point.
 
-Orwell shows again his theory of revolutions where the middle class
-(pigs) harness the lower class (other animals) to overthrow the upper
-class (humans), but only to put themselves as the new upper class.  For
-the lower class, nothing changes.  Orwell will expound further on this
-principle in [[http://amzn.com/0452284236][Nineteen Eighty-Four]].
+Orwell shows again his theory of revolutions where the middle class (pigs)
+harness the lower class (other animals) to overthrow the upper class (humans),
+but only to put themselves as the new upper class.  For the lower class, nothing
+changes.  Orwell will expound further on this principle in
+[[http://amzn.com/0452284236][Nineteen Eighty-Four]].
 
-It is quite obvious that Napoleon refers to Stalin and Snowball to
-Trotsky, but I wonder if Orwell was thinking of anyone else in
-particular with other characters like Squealer or Boxer or Minimus, or
-Benjamin.  Most of the other named characters are most likely just
-generic proles.  But Benjamin with his long memory and Boxer with his
-unwavering devotion to Napoleon stand out from the crowd and could very
-well refer to proeminent participants of the Communist Revolution.
+It is quite obvious that Napoleon refers to Stalin and Snowball to Trotsky, but
+I wonder if Orwell was thinking of anyone else in particular with other
+characters like Squealer or Boxer or Minimus, or Benjamin.  Most of the other
+named characters are most likely just generic proles.  But Benjamin with his
+long memory and Boxer with his unwavering devotion to Napoleon stand out from
+the crowd and could very well refer to proeminent participants of the Communist
+Revolution.
 
 <blockquote>
 
@@ -31,13 +32,12 @@ confirms and expands on my initial thoughts.
 
 </blockquote>
 
-I like how right from day one, Napoleon is already scheming and
-doing things behind the backs of the other animals, such as the
-business with the milk.  He is also very quick to get the pigs
-preferential treatment on the grounds that their work is so much more
-important than anybody else's.  Right from the start, the other animals
-didn't stand a chance.
+I like how right from day one, Napoleon is already scheming and doing things
+behind the backs of the other animals, such as the business with the milk.  He
+is also very quick to get the pigs preferential treatment on the grounds that
+their work is so much more important than anybody else's.  Right from the start,
+the other animals didn't stand a chance.
 
-In this book, Orwell shows how the Revolution's transition happens
-and how the new status quo is achieved.  In Nineteen Eighty-Four, he
-will show how this status quo is maintained, at least for a while.
+In this book, Orwell shows how the Revolution's transition happens and how the
+new status quo is achieved.  In Nineteen Eighty-Four, he will show how this
+status quo is maintained, at least for a while.

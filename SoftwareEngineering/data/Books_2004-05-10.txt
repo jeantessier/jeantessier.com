@@ -1,7 +1,7 @@
 name: Patterns_of_Enterprise_Application_Architecture
 isbn: 0321127420
 title: [[http://amzn.com/0321127420][Patterns of Enterprise Application Architecture]]
-author: <a href="MartinFowler.html">Martin Fowler</a>
+author: <a target="_blank" href="MartinFowler.html">Martin Fowler</a>
 publisher: Addison Wesley
 year: 2002
 start: 2004-05-10
