@@ -1,0 +1,11 @@
+I learned much more than I ever cared to know about the =file(1)= Unix command.
+
+[[https://fatbusinessman.com/2019/my-favourite-git-commit][This article] talks
+about crafting Git commit messages, but I lost myself in the example that they
+give.  The author of that commit was using =find(1)= and =file(1)= to make sure
+all their files were good.  I applied the same treatment to my website and found
+some interesting tidbits.  Some files had non-ASCII characters.  One text file
+came up as C++ because one line started with the word "class".  Some text files
+came up as HTML because they had snippets in them.  I got to read up on how
+=file(1)= uses _magic_ files to try and guess the types of files.  And I also
+got to search for ways to coax it to the correct answer, sometimes.
