@@ -1,6 +1,6 @@
 I learned much more than I ever cared to know about the =file(1)= Unix command.
 
-[[https://fatbusinessman.com/2019/my-favourite-git-commit][This article] talks
+[[https://fatbusinessman.com/2019/my-favourite-git-commit][This article]] talks
 about crafting Git commit messages, but I lost myself in the example that they
 give.  The author of that commit was using =find(1)= and =file(1)= to make sure
 all their files were good.  I applied the same treatment to my website and found
