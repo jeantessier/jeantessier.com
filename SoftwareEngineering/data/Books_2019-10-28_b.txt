@@ -10,6 +10,6 @@ start: 2019-10-28
 
 The Internet seems to agree this is the best reference for Ruby on Rails.
 
-It is a veryy Comprehensive list of everything in Rails.  But you need to
-already know how things work in Rails.  This book is an amazing reference for
-all that is possible at every step of the way.
+It is a very comprehensive list of everything in Rails.  But you need to already
+know how things work in Rails.  This book is an amazing reference for all that
+is possible at every step of the way.
