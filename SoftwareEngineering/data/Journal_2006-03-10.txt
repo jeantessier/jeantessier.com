@@ -1,5 +1,5 @@
 I finished reading an updated version of [[MartinFowler.html][Martin Fowler]]'s
-[[http://martinfowler.com/articles/newMethodology.html][The New Methodology]],
+[[https://martinfowler.com/articles/newMethodology.html][The New Methodology]],
 his article on agile processes.  In it, he talks about how they distinguish
 themselves by focusing on the iterative nature of development and being
 people-centric.

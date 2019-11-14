@@ -3,7 +3,7 @@ interfaces versus abstract base classes.  We came to the realization that my
 coworker wants to expose the minimum API possible, taking into account issues
 of backward compatibility, whereas I want to grant maximum freedom to our
 customers.  These two goals are not always easy to reconcile.  Today, I found
-a [[http://martinfowler.com/bliki/SoftwareDevelopmentAttitude.html][bliki entry]]
+a [[https://martinfowler.com/bliki/SoftwareDevelopmentAttitude.html][bliki entry]]
 on [[MartinFowler.html][Martin Fowler]]'s website that sums
 it up pretty well.  He calls it the directing attitude (my cowoker) versus the
 enabling attitude (me).

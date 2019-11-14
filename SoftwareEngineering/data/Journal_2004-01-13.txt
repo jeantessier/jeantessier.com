@@ -1,9 +1,9 @@
 I read an
-[[http://martinfowler.com/ieeeSoftware/dataAccessRoutines.pdf][article by Martin Fowler on accessors]].
+[[https://martinfowler.com/ieeeSoftware/dataAccessRoutines.pdf][article by Martin Fowler on accessors]].
 It reiterated some of the ground rules regarding an object's state and how
 you expose it to other objects.
 
-His [[http://www.martinfowler.com/bliki/][bliki]] also had a
+His [[https://www.martinfowler.com/bliki/][bliki]] also had a
 reference to a
 [[http://www.williamcaputo.com/archives/000053.html][Bill Caputo]]
 piece on XP.  It's a reaction to a criticism of XP from

@@ -1,5 +1,5 @@
 A colleague started a discussion of the
-[[http://martinfowler.com/bliki/TestPyramid.html][test pyramid]], with lots of
+[[https://martinfowler.com/bliki/TestPyramid.html][test pyramid]], with lots of
 unit tests at the bottom, fewer integration tests in the middle, and a few
 end-to-end tests at the top.  I'm afraid of the inertia that all these unit
 tests can create.  On more than one project, I've happily created many, many

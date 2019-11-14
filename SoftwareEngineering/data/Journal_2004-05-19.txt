@@ -2,7 +2,7 @@ Attended tonight's BayXP meeting with guest Eric Evans.  During the talk,
 there were some comments about what _software architecture_ really means
 and it brought back memories of [[MartinFowler.html][Martin Fowler]]'s
 article on the topic:
-[[http://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf][Who Needs an Architect?]]
+[[https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf][Who Needs an Architect?]]
 
 Eric's talk was very enlightening.  He discussed his book
 _Domain-Driven Development_ and how it applies to extreme programming.
