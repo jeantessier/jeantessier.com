@@ -4,14 +4,16 @@ title: [[http://amzn.com/0131428489][UML for Java Programmers]]
 author: Robert C. Martin
 publisher: Prentice Hall
 year: 2003
+start: 2003-09-02
+stop: 2003-09-02
 
-I've been working on a "UML Lite" presentation to introduce
-coworkers to UML.  I need it no longer; I can just point them to
-this book.  I browsed through it at the bookstore and it hits the
-spot with good coverage of essential UML notation an also pointing
+I did a "UML Lite" presentation to introduce coworkers to UML a while back.  I
+don't need my presentation anymore, now that I know this book exists;  I can
+just point my coworkers to this book.  I browsed through it at the bookstore and
+it hits the spot with good coverage of essential UML notation an also pointing
 out what is "nice, but I've never had to use it, so don't bother."
 
-I already have a whole shelf of UML books and I already know what
-minimal subset I really need, so I didn't bother to buy the book.
-But if I had to recommend only one UML book, I'd be torn between
-Martin Fowler's _UML Distilled_ and this one.
+I already have a whole shelf of UML books and I already know what minimal subset
+I really need, so I didn't bother to buy the book.  But if I had to recommend
+only one UML book, I'd be torn between Martin Fowler's _UML Distilled_ and this
+one.
