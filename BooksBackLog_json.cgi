@@ -106,5 +106,6 @@ sub DocumentPartAsJson {
         publisher => &JsonText($meta_data{"publisher"}),
         years => &JsonList(map { &JsonText($_) } @years),
         body => &JsonText(&WikiContentsAsJson(@lines)),
+        acquired => &JsonText($meta_data{"acquired"}),
     );
 }

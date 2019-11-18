@@ -19,6 +19,13 @@
 
 <h1>{{books.title}}</h1>
 
+<p>Contents</p>
+<div class="table-of-contents">
+    <div ng-repeat="book in books.books">
+        <span class="marker">{{book.start.substring(0, 4)}}</span> <a href="#{{book.name}}" ng-bind-html="book.titles[0].title"></a>
+    </div>
+</div>
+
 <article ng-repeat="book in books.books">
     <a name="{{book.name}}"></a>
     <h2>
