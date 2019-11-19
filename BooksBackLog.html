@@ -22,7 +22,7 @@
 <p>Contents</p>
 <div class="table-of-contents">
     <div ng-repeat="book in books.books">
-        <span class="marker">{{book.acquired.substring(0, 4)}}</span> <a href="#{{book.name}}" ng-bind-html="book.titles[0].title"></a>
+        <span class="marker">{{book.acquired.substring(0, 4)}}</span> <a href="#{{book.name}}" ng-bind-html="book.titles[0].title.split(':', 1)[0]"></a>
     </div>
 </div>
 
