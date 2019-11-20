@@ -5,13 +5,13 @@ use POSIX qw(strftime);
 
 $timestamp = strftime "%Y-%m-%d %H:%M:%S", localtime;
 
-open(OUTFILE, ">>dump.out");
-print OUTFILE "============================================================\n";
-print OUTFILE "$timestamp $ENV{'SCRIPT_URI'}\n";
-
 open(KEYFILE, "github.secret");
 chomp($secret = <KEYFILE>);
 close(KEYFILE);
+
+open(OUTFILE, ">>dump.out");
+print OUTFILE "============================================================\n";
+print OUTFILE "$timestamp $ENV{'SCRIPT_URI'}\n";
 
 print STDOUT "Content-type: application/json\n";
 print STDOUT "\n";
@@ -71,15 +71,14 @@ if (defined $ENV{'CONTENT_LENGTH'}) {
     $contents = "";
     read (STDIN, $contents, $ENV{'CONTENT_LENGTH'});
 
+    $digest = hmac_sha1_hex($contents, $secret);
+
     print OUTFILE "\n";
     print OUTFILE "Contents:\n";
     print OUTFILE "\n";
     print OUTFILE "$contents\n";
-
-    $digest = hmac_sha1_hex($contents, $secret);
-
     print OUTFILE "\n";
-    print OUTFILE "Digest: sha1=" . $digest . "\n";
+    print OUTFILE "Digest: sha1=$digest\n";
 
     $contentsAsJson = $contents;
     $contentsAsJson =~ s/"/\\"/g;
