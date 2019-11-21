@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 #
-#   Copyright (c) 2001-2015, Jean Tessier
+#   Copyright (c) 2001-2020, Jean Tessier
 #   All rights reserved.
 #
 #   Redistribution and use in source and binary forms, with or without
@@ -33,79 +33,8 @@
 #
 
 use lib '../lib';
-require 'wiki_json.pl';
+require 'books_json.pl';
 
 print "Content-type: application/json\n";
 print "\n";
 print &DocumentAsJson();
-
-sub DocumentAsJson {
-    local ($title) = &GetWikiTitle();
-
-    return &JsonRecord(
-        title => &JsonText($title),
-        books => &DocumentPartsAsJson(),
-    );
-}
-
-sub DocumentPartsAsJson {
-    local (@files) = &GetWikiFiles();
-
-    return &JsonList(map { &DocumentPartAsJson($_) } @files);
-}
-
-sub DocumentPartAsJson {
-    local ($filename) = @_;
-
-    open(FILEHANDLE, $filename);
-    local (@lines) = <FILEHANDLE>;
-    close(FILEHANDLE);
-
-    local (%meta_data, @titles, @authors, @years);
-
-    do {
-        $line = shift(@lines);
-        chomp $line;
-
-        if ($line =~ /(\w+):\s*(.*)/) {
-            local ($key, $value) = ($1, $2);
-
-            if ($key eq "title") {
-                push @titles, $value;
-            } elsif ($key eq "author") {
-                push @authors, $value;
-            } elsif ($key eq "year") {
-                push @years, $value;
-            } else {
-                $meta_data{$key} = $value;
-            }
-        }
-    } until ($line =~ /^\s*$/);
-
-    return &JsonRecord(
-        name => &JsonText($meta_data{"name"}),
-        titles => &JsonList(map {
-            if (/\[\[([^\]]*)\]\[_(.*)_\]\]/) {
-                &JsonRecord(
-                    title => &JsonText($2),
-                    link => &JsonText($1),
-                );
-            } elsif (/\[\[([^\]]*)\]\[(.*)\]\]/) {
-                &JsonRecord(
-                    title => &JsonText($2),
-                    link => &JsonText($1),
-                );
-            } else {
-                &JsonRecord(
-                    title => &JsonText($_),
-                    link => "null",
-                );
-            }
-        } @titles),
-        authors => &JsonList(map { &JsonText($_) } @authors),
-        publisher => &JsonText($meta_data{"publisher"}),
-        years => &JsonList(map { &JsonText($_) } @years),
-        body => &JsonText(&WikiContentsAsJson(@lines)),
-        acquired => &JsonText($meta_data{"acquired"}),
-    );
-}
