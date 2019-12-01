@@ -1,0 +1,13 @@
+name: Monolith_to_Microservices
+isbn: 1492047848
+isbn13: 9781492047841
+title: [[https://www.amazon.com/dp/1492047848][Monolith to Microservices]]
+author: Sam Newman
+publisher: O'Reilly
+year: 2019
+acquired: 2019-11-04
+
+A new book on microservices by Sam Newman.  The previous one,
+_[[Books.html#Building_Microservices][Building Microservices]]_, really opened
+my eyes to the world of microservices.  I'm eager to see what this one has to
+say.
