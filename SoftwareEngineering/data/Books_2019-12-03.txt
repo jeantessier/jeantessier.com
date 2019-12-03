@@ -6,8 +6,12 @@ author: Sam Newman
 publisher: O'Reilly
 year: 2019
 acquired: 2019-11-04
+start: 2019-12-03
 
 A new book on microservices by Sam Newman.  The previous one,
 _[[Books.html#Building%5FMicroservices][Building Microservices]]_, really opened
 my eyes to the world of microservices.  I'm eager to see what this one has to
 say.
+
+_More to come._
+
