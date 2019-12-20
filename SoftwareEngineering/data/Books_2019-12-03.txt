@@ -7,6 +7,7 @@ publisher: O'Reilly
 year: 2019
 acquired: 2019-11-04
 start: 2019-12-03
+stop: 2019-12-20
 
 A new book on microservices by Sam Newman.  The previous one,
 _[[Books.html#Building%5FMicroservices][Building Microservices]]_, really opened
