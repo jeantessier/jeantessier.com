@@ -11,10 +11,10 @@ start: 2019-03-27
 stop: 2019-05-09
 
 Following
-_[[Books.html#The%5FChildren%5Fof%5FHurin][The Children of H&uacute;rin]]_ and
-_[[Books.html#Beren%5Fand%5FLuthien][Beren and L&uacute;thien]]_, Christopher
-Tolkien pulls out all the Gondolin materials, along with the story of Tuor, son
-of Huor, and puts them under one set of covers.
+_[[#The%5FChildren%5Fof%5FHurin][The Children of H&uacute;rin]]_ and
+_[[#Beren%5Fand%5FLuthien][Beren and L&uacute;thien]]_, Christopher Tolkien
+pulls out all the Gondolin materials, along with the story of Tuor, son of Huor,
+and puts them under one set of covers.
 
 Once again, I appreciated the writing style that suggests old heroic tales and
 myths.  The archaisms didn't give me too much trouble and contributed to the
