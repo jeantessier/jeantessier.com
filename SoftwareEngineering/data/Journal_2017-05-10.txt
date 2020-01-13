@@ -18,5 +18,6 @@ nothing they can do about it.
 I might have to read the book to figure it out for myself.  It seems pretty
 short, so it wouldn't take too long.  But I'm already fearing that it will be
 lightweight and anecdotal, like
-[[Books.html#Rework][Rework]] and
-[[Books.html#Remote%5FOffice%5FNot%5FRequired][Remote]], which I've read recently.
+_[[Books.html#Rework][Rework]]_ and
+_[[Books.html#Remote%5FOffice%5FNot%5FRequired][Remote]]_, which I've read
+recently.

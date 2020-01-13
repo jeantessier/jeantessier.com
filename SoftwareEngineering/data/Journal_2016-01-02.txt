@@ -2,7 +2,7 @@ Continuing my exploration of the MEAN stack, I managed to write a
 [[https://nodejs.org/en/][node.js]] app using the
 [[http://expressjs.com/][Express]] framework to pull data from
 [[https://www.mongodb.org/][MongoDB]].  I followed the examples in
-[[Books.html#Getting%5FMEAN][Getting MEAN with Mongo, Express, Angular, and Node]]
+_[[Books.html#Getting%5FMEAN][Getting MEAN with Mongo, Express, Angular, and Node]]_
 and even setup the resulting app on [[https://www.heroku.com/][Heroku]] and
 [[https://mongolab.com/][MongoLab]].
 

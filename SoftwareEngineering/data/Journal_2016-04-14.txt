@@ -1,9 +1,9 @@
 Learned about [[https://jwt.io/][JSON Web Tokens]] (JWT, pronounced "jot") while
 reading
-[[Books.html#Getting%5FMEAN][Getting MEAN with Mongo, Express, Angular, and Node]].
+_[[Books.html#Getting%5FMEAN][Getting MEAN with Mongo, Express, Angular, and Node]]_.
 It is an emerging alternative to SAML, which is a lot more complicated, and an
 example of what Sam Newman called a _hash-based messaging code_ (HMAC) in
-[[Books.html#Building%5FMicroservices][Building Microservices]].
+_[[Books.html#Building%5FMicroservices][Building Microservices]]_.
 
 The server created the JWT and returns it to the client.  A client
 (i.e., browser) can easily decode the payload using JavaScript and return the

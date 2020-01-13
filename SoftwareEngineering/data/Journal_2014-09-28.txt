@@ -1,6 +1,6 @@
 I was reading the second edition of
-[[Books.html#Grails%5Fin%5FAction%5FSecond%5FEdition][Grails in Action]] and it
-has a whole chapter dealing with NoSQL.  It showcases some of the more common
+_[[Books.html#Grails%5Fin%5FAction%5FSecond%5FEdition][Grails in Action]]_ and
+it has a whole chapter dealing with NoSQL.  It showcases some of the more common
 NoSQL databases and possible usage patterns.
 
     * [[http://redis.io/][Redis]] for key/value pairs, good for caching and stats.

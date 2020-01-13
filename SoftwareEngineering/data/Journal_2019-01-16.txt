@@ -1,5 +1,5 @@
 I'm in the middle of re-reading
-[[Books.html#Refactoring%5FSecond%5FEdition][Refactoring]] and Martin Fowler
+_[[Books.html#Refactoring%5FSecond%5FEdition][Refactoring]]_ and Martin Fowler
 mentions [[https://langserver.org/][Language Servers]].  It is a new technology
 to help tools parse various languages by moving the language analysis to a
 tool-neutral server.  It is maintained by the people at
