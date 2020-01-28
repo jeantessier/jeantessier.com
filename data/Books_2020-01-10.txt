@@ -12,6 +12,14 @@ start: 2020-01-10
 stop: 2020-01-27
 
 Much like _[[#The%5FStory%5Fof%5FKullervo][The Story of Kullervo]]_, but this
-time Tolkien is delving into obscure Breton myth.
+time Tolkien is delving into an obscure Breton myth.  He draws from short poems
+about _corrigan_, Brittany's version of faeries, and the tricks they pull on
+humans.  Tolkien builds on this material to weave a tale of a childless couple
+making a deal with mythical agents with disastrous results.
 
-_More to come._
+It is very interesting to see Tolkien evolves his fable through various
+iterations and how he tries different wordings and archaic forms.
+
+_Aotrou_ and _Itroun_ are simply titles in Breton meaning lord and lady
+respectively.  The story's characters are never named and refer to one another
+by their title.
