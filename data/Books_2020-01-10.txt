@@ -9,6 +9,7 @@ year: 1930
 year: 2016
 acquired: 2019-05-25
 start: 2020-01-10
+stop: 2020-01-27
 
 Much like _[[#The%5FStory%5Fof%5FKullervo][The Story of Kullervo]]_, but this
 time Tolkien is delving into obscure Breton myth.
