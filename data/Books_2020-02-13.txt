@@ -7,5 +7,9 @@ publisher: Mariner Books
 year: 2006
 year: 2008
 acquired: 2019-10-26
+start: 2020-02-13
 
 A Richard Dawkins classic that I bought at a talk he gave in my town.
+
+_More to come._
+
