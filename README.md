@@ -1,7 +1,7 @@
 # jeantessier.com
 
 This project hosts the raw files I use to run
-[my personal website](http://jeantessier.com/).
+[my personal website](https://jeantessier.com/).
 
 ## Installation
 
@@ -27,12 +27,12 @@ there are some blog-like features:
 - `SoftwareEngineering/BooksBackLog.html`
 - `SoftwareEngineering/Journal.html`
 
-These [AngularJS](https://angularjs.org/) apps take their input from the `data`
-folder next to them.  The name of the app has to match the prefix of the files
-in the `data` folder.
+These [React](https://reactjs.org/) apps take their input from the `data` folder
+next to them.  The name of the app has to match the prefix of the files in the
+`data` folder.
 
-`Books` helps me document the books I read.  Lately, I've been copying the
-information into [Goodreads.com](http://goodreads.com/).
+`Books` helps me document the books I read.  I'm also copying the information to
+[Goodreads.com](http://goodreads.com/).
 
 `BooksBackLog` is just for me to keep track of the books on my to-do list.
 
