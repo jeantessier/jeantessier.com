@@ -27,9 +27,9 @@ there are some blog-like features:
 - `SoftwareEngineering/BooksBackLog.html`
 - `SoftwareEngineering/Journal.html`
 
-These [React](https://reactjs.org/) apps take their input from the `data` folder
-next to them.  The name of the app has to match the prefix of the files in the
-`data` folder.
+These [React](https://reactjs.org/) and [AngularJS](https://angularjs.org/) apps
+take their input from the `data` folder next to them.  The name of the app has
+to match the prefix of the files in the `data` folder.
 
 `Books` helps me document the books I read.  I'm also copying the information to
 [Goodreads.com](http://goodreads.com/).
