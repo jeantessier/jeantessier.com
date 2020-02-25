@@ -7,5 +7,5 @@ acquired: 2019-11-25
 
 A free ebook, self-published by [[http://www.codemanship.co.uk][Codemanship]].
 A brief scan looks promising.  I wonder how it will stack up against
-_[[Books.html#Growing_Object_Oriented_Software][Growing Object-Oriented Software, Guided by Tests]]_,
+_[[Books.html#Growing%5FObject%5FOriented%5FSoftware][Growing Object-Oriented Software, Guided by Tests]]_,
 or _Test-Driven Development_ by Kent Beck.
