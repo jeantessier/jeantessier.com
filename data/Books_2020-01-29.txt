@@ -11,9 +11,9 @@ stop: 2020-02-11
 
 Malcolm Gladwell's latest book, about "the tools and strategies we use to make
 sense of people we don't know."  It deals with communication, and how we
-interpret signals we're getting others.  The strategies we use on people we are
-familiar with do not work on strangers.  I was curious to see how much it would
-overlap with Umberto Eco's
+interpret signals we're getting from others.  The strategies we use on people we
+are familiar with do not work on strangers.  I was curious to see how much it
+would overlap with Umberto Eco's
 _The Role of the Reader_ or the ideas in Milan Kundera's
 _[[#Les%5Ftestaments%5Ftrahis][Testaments Betrayed]]_.
 
