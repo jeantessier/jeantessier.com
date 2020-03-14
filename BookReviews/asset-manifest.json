@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/BookReviews/static/css/main.e253f7ce.chunk.css",
-    "main.js": "/BookReviews/static/js/main.489bdef7.chunk.js",
-    "main.js.map": "/BookReviews/static/js/main.489bdef7.chunk.js.map",
-    "runtime-main.js": "/BookReviews/static/js/runtime-main.114a5008.js",
-    "runtime-main.js.map": "/BookReviews/static/js/runtime-main.114a5008.js.map",
-    "static/js/2.3854f7c8.chunk.js": "/BookReviews/static/js/2.3854f7c8.chunk.js",
-    "static/js/2.3854f7c8.chunk.js.map": "/BookReviews/static/js/2.3854f7c8.chunk.js.map",
+    "main.css": "/BookReviews/static/css/main.ca46261c.chunk.css",
+    "main.js": "/BookReviews/static/js/main.46eb3a7d.chunk.js",
+    "main.js.map": "/BookReviews/static/js/main.46eb3a7d.chunk.js.map",
+    "runtime-main.js": "/BookReviews/static/js/runtime-main.a94e4bc6.js",
+    "runtime-main.js.map": "/BookReviews/static/js/runtime-main.a94e4bc6.js.map",
+    "static/js/2.770a63e2.chunk.js": "/BookReviews/static/js/2.770a63e2.chunk.js",
+    "static/js/2.770a63e2.chunk.js.map": "/BookReviews/static/js/2.770a63e2.chunk.js.map",
     "index.html": "/BookReviews/index.html",
-    "precache-manifest.599e0233746627b6f260021a304cfa16.js": "/BookReviews/precache-manifest.599e0233746627b6f260021a304cfa16.js",
+    "precache-manifest.6b9a7cf58d7abed299f1942f704a386d.js": "/BookReviews/precache-manifest.6b9a7cf58d7abed299f1942f704a386d.js",
     "service-worker.js": "/BookReviews/service-worker.js",
-    "static/css/main.e253f7ce.chunk.css.map": "/BookReviews/static/css/main.e253f7ce.chunk.css.map",
+    "static/css/main.ca46261c.chunk.css.map": "/BookReviews/static/css/main.ca46261c.chunk.css.map",
     "static/media/tufte.css": "/BookReviews/static/media/et-book-roman-old-style-figures.fc7b0f1d.eot"
   },
   "entrypoints": [
-    "static/js/runtime-main.114a5008.js",
-    "static/js/2.3854f7c8.chunk.js",
-    "static/css/main.e253f7ce.chunk.css",
-    "static/js/main.489bdef7.chunk.js"
+    "static/js/runtime-main.a94e4bc6.js",
+    "static/js/2.770a63e2.chunk.js",
+    "static/css/main.ca46261c.chunk.css",
+    "static/js/main.46eb3a7d.chunk.js"
   ]
 }
