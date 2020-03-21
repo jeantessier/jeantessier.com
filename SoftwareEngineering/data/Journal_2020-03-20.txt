@@ -1,0 +1,12 @@
+First time I heard about
+[[https://en.wikipedia.org/wiki/Data%5FDistribution%5FService][Data Distribution Service]]
+(DDS) as an alternative to doing messaging with other technologies, like
+[[https://www.rabbitmq.com/][RabbitMQ]].  DDS comes from OMG, the same people
+who gave us
+[[https://en.wikipedia.org/wiki/Common%5FObject%5FRequest%5FBroker%5FArchitecture][CORBA]],
+back in the 90's, and somewhat builds on top of CORBA-related artifacts.  CORBA
+was overly complex and its binary aspect made it very difficult to debug.  I
+suspect that DDS suffers from the same ailments.
+
+Here is a [[https://docs.huihoo.com/opensplice/DDS-vs-AMQP.pdf][slide deck]]
+that compares DDS with AMQP (the model and protocol behind RabbitMQ).
