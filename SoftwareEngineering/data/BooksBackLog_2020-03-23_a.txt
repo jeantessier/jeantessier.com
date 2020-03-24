@@ -1,7 +1,7 @@
 name: Production_Ready_GraphQL
 title: [[https://book.productionreadygraphql.com/][Production Ready GraphQL]]
 author: Marc-Andr&eacute; Giroux
-publisher: _self-published_
+publisher: self-published
 year: 2020
 acquired: 2020-03-23
 
