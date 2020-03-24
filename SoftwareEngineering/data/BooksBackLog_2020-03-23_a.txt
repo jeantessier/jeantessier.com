@@ -1,0 +1,10 @@
+name: Production_Ready_GraphQL
+title: [[https://book.productionreadygraphql.com/][Production Ready GraphQL]]
+author: Marc-Andr&eacute; Giroux
+publisher: _self-published_
+year: 2020
+acquired: 2020-03-23
+
+Self-published, so the page setting is a little strange (I suspect LaTeX) and
+the text could have used some editing.  But the author built GraphQL APIs at
+Spotify and GitHub, so he knows his material.
