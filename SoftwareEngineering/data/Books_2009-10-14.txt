@@ -21,8 +21,8 @@ Subversion repository at work, work in my Git branches, and commit changes back
 to the repo, without the rest of the team having to worry about it.
 
 I also tried to keep both the Subversion and Git repos for
-[[https://depfind.sourceforge.io/][Dependency Finder]] up to date, but that has
-proven too difficult.  I wanted to use the Git repo as the canonical code
-repository and have the Subversion repo mirror it, but I couldn't keep my local
-Git repository up to snuff on both of them.  That's ok, I'll just drop the
+[[https://dependencyfinder.jeantessier.com/][Dependency Finder]] up to date, but
+that has proven too difficult.  I wanted to use the Git repo as the canonical
+code repository and have the Subversion repo mirror it, but I couldn't keep my
+local Git repository up to snuff on both of them.  That's ok, I'll just drop the
 Subversion support from the project, that's all.  :-)
