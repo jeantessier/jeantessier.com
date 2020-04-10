@@ -20,4 +20,4 @@ his now recurring SMC compiler.
 Quick to read, loads of good stuff.  Lots of editing mistakes also, they should
 hire a new editor.  He also suggests people use JDepend when he talks about
 dependency management.  I beg to differ.  People should be using
-[[http://depfind.sourceforge.net/][Dependency Finder]] instead.  :-)
+[[https://depfind.sourceforge.io/][Dependency Finder]] instead.  :-)
