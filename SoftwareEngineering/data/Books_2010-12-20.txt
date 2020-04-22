@@ -9,7 +9,7 @@ acquired: 2010-06-03
 start: 2010-12-20
 stop: 2011-02-09
 
-Came recommended by Kent Beck.  The authors wrote jMock.  This books explains
+Came recommended by Kent Beck.  The authors wrote jMock.  This book explains
 how they approach writing tests.
 
 Well worth the read, whether you're new to TDD or if you're a seasoned
