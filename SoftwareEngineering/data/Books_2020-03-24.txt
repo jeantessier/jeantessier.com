@@ -10,4 +10,17 @@ Self-published, so the page setting is a little strange (I suspect LaTeX) and
 the text could have used some editing.  But the author built GraphQL APIs at
 Spotify and GitHub, so he knows his material.
 
+He advocates for building APIs that are as specific as possible, instead of
+generic ones.  Especially when it comes to mutations.  The more specific the
+better.
+
+There is a complex description of using cursor-based pagination instead of the
+more common ones that use an offset.  They are more resilient to cases where new
+data gets added or removed in the list while paging through it.
+
+There is an interesting bit about how to deal with errors.  The author
+distinguishes between _client_ errors, essentially protocol errors, and _user_
+errors, errors in the business logic.  E.g., email already in use, password too
+weak.
+
 _More to come._
