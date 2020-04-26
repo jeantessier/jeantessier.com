@@ -17,6 +17,8 @@ it scrubs out the tag to prevent XSS exploits.
 
     &lt;script src="https://gist.github.com/jeantessier/c514cbb2071bf7badbc6356fc4210313.js"&gt;&lt;/script&tg;
 
+<script src="https://gist.github.com/jeantessier/c514cbb2071bf7badbc6356fc4210313.js"></script>
+
 I looked for ways to mark the blog content as trusted HTML, or even to turn off
 sanitization altogether, but no success.  This is AngularJS, old technology.  I
 could rewrite the app using [[https://angular.io/][Angular]].  Maybe the
