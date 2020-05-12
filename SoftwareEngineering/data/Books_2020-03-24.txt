@@ -23,4 +23,19 @@ distinguishes between _client_ errors, essentially protocol errors, and _user_
 errors, errors in the business logic.  E.g., email already in use, password too
 weak.
 
+The author acknowledges that GraphQL still needs to grow in a few areas.
+Companies use it mostly for internal, private APIs.  Best practices around error
+messages and observability (tracing, rate limiting, etc.) are still emerging.
+When you build a GraphQL client against a published API, you still need to learn
+the specific ways that API does everything besides queries and mutations.
+
+When the author presents his prefered workflow, it is front-loaded with a lot of
+analysis.  You craft the schema carefully before you  implement it, and gather a
+lot of feedback from beta clients before final publication.  This is very much
+a waterfall process and it does not work well in practice.  You need to put
+things in the hands of users to see how they will use them.  There is only so
+much you can really anticipate, or that users can tell you ahead of time.  We
+need a technology that can operate in tight feedback cycles and evolve
+side-by-side with real world usage.
+
 _More to come._
