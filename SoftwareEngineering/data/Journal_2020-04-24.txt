@@ -15,7 +15,7 @@ into this blog, but this is done with a =&lt;script&gt;= tag.  This blog happens
 to be a small [[https://angularjs.org/][AngularJS]] app that sanitizes data, so
 it scrubs out the tag to prevent XSS exploits.
 
-    &lt;script src="https://gist.github.com/jeantessier/c514cbb2071bf7badbc6356fc4210313.js"&gt;&lt;/script&tg;
+    &lt;script src="https://gist.github.com/jeantessier/c514cbb2071bf7badbc6356fc4210313.js"&gt;&lt;/script&gt;
 
 <script src="https://gist.github.com/jeantessier/c514cbb2071bf7badbc6356fc4210313.js"></script>
 
