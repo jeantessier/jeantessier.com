@@ -13,5 +13,5 @@ and may have a limited math background.
 
 I was hoping my teenagers, who are in Advanced Math in school, might find some
 interested bits that would show them the interesting parts of mathematics,
-beyond the rote exercises they do in school.  But it's way to advanced for
+beyond the rote exercises they do in school.  But it's way too advanced for
 middle schoolers.
