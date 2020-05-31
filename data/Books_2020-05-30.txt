@@ -7,8 +7,11 @@ publisher: Basic Books
 year: 1961-1963
 year: 2011
 acquired: 2017-10-14
+start: 2020-05-30
 
 I while back, I bought
 [[#Mathematics%5Fin%5F10%5FLessons][a book that introduced math topics]] to the lay
 person.  This looks like it could do the same for physics.  And by none other
 that Feynman himself.
+
+_More to come._
