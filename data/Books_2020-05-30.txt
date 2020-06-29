@@ -8,10 +8,15 @@ year: 1961-1963
 year: 2011
 acquired: 2017-10-14
 start: 2020-05-30
+stop: 2020-06-28
 
 I while back, I bought
 [[#Mathematics%5Fin%5F10%5FLessons][a book that introduced math topics]] to the lay
 person.  This looks like it could do the same for physics.  And by none other
 that Feynman himself.
+
+The chapter on the conservation of energy had me struggling a bit.  The chapters
+on gravitation and quantum mechanics were exceedingly clear.  The chapter on how
+physics relates to the other sciences was a lot of fun.
 
 _More to come._
