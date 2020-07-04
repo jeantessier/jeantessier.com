@@ -1,0 +1,13 @@
+name: How_to_Destroy_a_Tech_Startup_in_3_Easy_Steps
+isbn: 0998997617
+isbn13: 9780998997612
+title: [[https://www.amazon.com/dp/0998997617][How to Destroy a Tech Startup in 3 Easy Steps]]
+author: Lawrence Krubner
+author: Natalie Sidner
+publisher: Smash Company
+year: 2017
+acquired: 2020-07-02
+
+A somewhat funny story of a failed startup.  Taken from the lives of the
+authors.  I hear it resonates more with employees than with founders.  At 172
+pages, it should be a quick read.
