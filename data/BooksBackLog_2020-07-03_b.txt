@@ -1,0 +1,10 @@
+name: Fangs
+isbn: 1524860670
+isbn13: 9781524860677
+title: [[https://www.amazon.com/dp/1524860670][Fangs]]
+author: Sarah Andersen
+publisher: Andrews McMeel Publishing
+year: 2020
+acquired: 2020-07-03
+
+A funny graphic novel about a girl vampire and a boy  werewolf.
