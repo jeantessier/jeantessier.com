@@ -1,0 +1,11 @@
+name: Axioms_End
+isbn: 1250256739
+isbn13: 9781250256737
+title: [[https://www.amazon.com/dp/1250256739][Axiom's End]]
+author: Lindsay Ellis
+publisher: St. Martin's Press
+year: 2020
+acquired: 2020-07-03
+
+A first novel by [[https://www.youtube.com/user/chezapoctube][Lindsay Ellis]], a
+youtuber who does a lot of analysis of pop media.
