@@ -7,7 +7,11 @@ author: Natalie Sidner
 publisher: Smash Company
 year: 2017
 acquired: 2020-07-02
+start: 2020-07-09
+end: 2020-07-12
 
 A somewhat funny story of a failed startup.  Taken from the lives of the
 authors.  I hear it resonates more with employees than with founders.  At 172
-pages, it should be a quick read.
+pages, it was a quick read.
+
+_More to come._
