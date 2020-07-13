@@ -1,0 +1,20 @@
+The new [[https://launch.micronaut.io/][Micronaut Launch]] site lets you create
+Micronaut projects without having to install Micronaut a priori.  It works
+similar to the [[http://start.grails.org/][Grails Application Forge]].  You pick
+all your configuration options and it gives you a ZIP file with the initial app
+that the framework would have generated.
+
+You can use =curl= (or HTTPie) to call it from a script.
+
+I have a handful of starter Micronaut apps that I use to try out various
+features (GORM, Data, RabbitMQ).  I try to upgrade them every time Micronaut
+deploys a new version.  Each time, I'll create a blank app with the old version,
+a blank app  with the new version, and use =diff= to see what's changed.  I try
+my best to apply the changes to my starter apps.  I have scripts to automate the
+more tedious parts, but they require that I have both versions of Micronaut
+installed.  With Micronaut Launch, I could simply download the blank apps
+instead of creating them locally.
+
+One current limitation is that Micronaut Launch only does version 2.0 of
+Micronaut.  I took a quick look at the Swagger docs but I couldn't find a way to
+pass in the target version of Micronaut.
