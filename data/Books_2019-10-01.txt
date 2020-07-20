@@ -10,12 +10,12 @@ start: 2019-10-01
 stop: 2019-10-07
 
 In a collection of essays, Umberto Eco explores how mistaken reasoning can
-nonetheless led to important developments and discoveries.  The first essay
+nonetheless lead to important developments and discoveries.  The first essay
 focuses on forgeries, but the others explore the evolution of languages and how
 non-modern thinkers thought about the relationships between languages and the
 dynamic forces that shape them.
 
-This book is not a light reading.  Eco covers a lot of ground in a very slim
+This book is not light reading.  Eco covers a lot of ground in a very slim
 book.  Some prior familiarity with the material would definitely help.
 
 ---++ The Force of Falsity
