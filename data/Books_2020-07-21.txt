@@ -6,6 +6,9 @@ author: Lindsay Ellis
 publisher: St. Martin's Press
 year: 2020
 acquired: 2020-07-03
+start: 2020-07-21
 
 A first novel by [[https://www.youtube.com/user/chezapoctube][Lindsay Ellis]], a
 youtuber who does a lot of analysis of pop media.
+
+_More to come._
