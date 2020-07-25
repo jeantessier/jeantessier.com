@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 #
-#   Copyright (c) 2001-2016, Jean Tessier
+#   Copyright (c) 2001-2020, Jean Tessier
 #   All rights reserved.
 #
 #   Redistribution and use in source and binary forms, with or without
@@ -79,7 +79,7 @@ sub PrintDocumentHeader {
     print "        <email>jean\@jeantessier.com</email>\n";
     print "        <uri>http://jeantessier.com/</uri>\n";
     print "    </author>\n";
-    print "    <rights type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">Copyright (c) 2001-2016, Jean Tessier</div></rights>\n";
+    print "    <rights type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">Copyright (c) 2001-2020, Jean Tessier</div></rights>\n";
 }
 
 sub PrintDocumentParts {
