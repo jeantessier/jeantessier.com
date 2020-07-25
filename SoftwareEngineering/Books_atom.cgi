@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 #
-#   Copyright (c) 2001-2016, Jean Tessier
+#   Copyright (c) 2001-2020, Jean Tessier
 #   All rights reserved.
 #
 #   Redistribution and use in source and binary forms, with or without
@@ -162,19 +162,19 @@ sub PrintDocumentPart {
     print "<table>\n";
     print "    <tr>\n";
     print "        <td>Started reading:</td>\n";
-    if ($meta_data{"start"} =~ /(\d{4})-(\d{2})-(\d{2})/) {
-        print "        <td>$1</td><td>/</td><td>$2</td><td>/</td><td>$3</td>\n";
+    if ($meta_data{"start"} =~ /(\d{4}-\d{2}-\d{2})/) {
+        print "        <td><code>$1</code></td>\n";
     } else {
-        print "        <td colspan=\"5\"><i>not started</i></td>\n";
+        print "        <td><i>not started</i></td>\n";
     }
     print "    </tr>\n";
     print "    <tr>\n";
     print "        <td>Finished reading:</td>\n";
     if (defined $meta_data{"start"}) {
-        if ($meta_data{"stop"} =~ /(\d{4})-(\d{2})-(\d{2})/) {
-            print "        <td>$1</td><td>/</td><td>$2</td><td>/</td><td>$3</td>\n";
+        if ($meta_data{"stop"} =~ /(\d{4}-\d{2}-\d{2})/) {
+            print "        <td><code>$1</code></td>\n";
         } else {
-            print "        <td colspan=\"5\"><i>in progress</i></td>\n";
+            print "        <td><i>in progress</i></td>\n";
         }
     }
     print "    </tr>\n";
