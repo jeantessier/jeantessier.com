@@ -4,7 +4,8 @@ similar to the [[http://start.grails.org/][Grails Application Forge]].  You pick
 all your configuration options and it gives you a ZIP file with the initial app
 that the framework would have generated.
 
-You can use =curl= (or HTTPie) to call it from a script.
+You can use =curl= (or [[https://httpie.org/][HTTPie]]) to call it from a
+script.
 
 I have a handful of starter Micronaut apps that I use to try out various
 features (GORM, Data, RabbitMQ).  I try to upgrade them every time Micronaut

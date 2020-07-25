@@ -1,7 +1,7 @@
 The tools for developing [[https://graphql.org/][GraphQL]] APIs are not quite
 there, yet.  I'm working with a GraphQL server and it is quite difficult to
 send it simple requests to try things out.  With REST services, we'd used =curl=
-initially, until [[https://httpie.org/][Httpie]] and
+initially, until [[https://httpie.org/][HTTPie]] and
 [[https://www.postman.com/][Postman]] came along and made it much easier to call
 REST endpoints.
 
