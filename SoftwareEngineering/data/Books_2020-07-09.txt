@@ -8,7 +8,7 @@ publisher: Smash Company
 year: 2017
 acquired: 2020-07-02
 start: 2020-07-09
-end: 2020-07-12
+stop: 2020-07-12
 
 A somewhat funny story of a failed startup.  Claims to be a true story taken
 from the life of the main author.  I hear it resonates more with employees than
