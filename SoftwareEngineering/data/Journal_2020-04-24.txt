@@ -1,5 +1,5 @@
-I tried different ways to render the Rub code snippet from yesterday.  Once with
-[[https://carbon.now.sh/][Carbon]] and another way with a
+I tried different ways to render the Ruby code snippet from yesterday.  Once
+with [[https://carbon.now.sh/][Carbon]] and another way with a
 [[https://gist.github.com/][GitHub Gist]].
 
 Here is the result with Carbon:
