@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c65a539990536aaa3d8d5ca3a59d708",
+    "revision": "d190a7f049185e6ef5db9de1eba65fd7",
     "url": "/BookReviews/index.html"
   },
   {
-    "revision": "1496a99657e423a286b2",
-    "url": "/BookReviews/static/css/main.ca46261c.chunk.css"
+    "revision": "667b395c19a15c4fddc6",
+    "url": "/BookReviews/static/css/main.3c676bf3.chunk.css"
   },
   {
-    "revision": "93dffd72931828367278",
-    "url": "/BookReviews/static/js/2.d2a8d662.chunk.js"
+    "revision": "aaea13bde129d53f230b",
+    "url": "/BookReviews/static/js/2.9af5b4c9.chunk.js"
   },
   {
-    "revision": "1496a99657e423a286b2",
-    "url": "/BookReviews/static/js/main.23323cd9.chunk.js"
+    "revision": "667b395c19a15c4fddc6",
+    "url": "/BookReviews/static/js/main.4feb6252.chunk.js"
   },
   {
-    "revision": "ec32b86da3f78fb5d3eb",
-    "url": "/BookReviews/static/js/runtime-main.cdb46b21.js"
+    "revision": "94158ff9985f24e62f27",
+    "url": "/BookReviews/static/js/runtime-main.21271928.js"
   },
   {
     "revision": "13c073673fed13df2e115720aa3de09a",
