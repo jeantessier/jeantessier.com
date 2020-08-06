@@ -11,9 +11,9 @@ stop: 2020-07-28
 
 This is the first novel by
 [[https://www.youtube.com/user/chezapoctube][Lindsay Ellis]].  She normally does
-video essays on YouTube about various elements of pop culture.  She likes "The
-Lord of the Rings", as do I.  But then again, she also likes Transformers and
-Michael Bay movies.
+video essays on YouTube about various elements of pop culture.  She likes
+_The Lord of the Rings_, as do I.  But then again, she also likes Transformers
+and Michael Bay movies.
 
 I saw her [[https://youtu.be/tuRE55YH8yE][essay about getting published]] and it
 got me curious what her novel ended up looking like.
@@ -29,11 +29,11 @@ I had a lot of trouble centering my thoughts about this novel.  A few years ago,
 Lindsay Ellis made a
 [[https://www.youtube.com/playlist?list=PLJGOq3JclTH-2qkpzIPg_rpIiyhlLInjw][series of videos about writing a novel]]
 as an experiment in community-driven, collaborative writing.  In this series,
-they were trying to write the lamest "Twilight" knock-off possible.  It yielded
-the novel "Awoken".
+they were trying to write the lamest _Twilight_ knock-off possible.  It yielded
+the novel _Awoken_.
 
 A lot of the narrative elements that they make fun of during this project find
-echoes in "Axiom's End", leading me to wonder if Ellis might have written it,
+echoes in _Axiom's End_, leading me to wonder if Ellis might have written it,
 too, as a joke.  A young heroine with almost no agency.  An alien boyfriend who
 must hide his true nature.  Everyone thinks he's dangerous, but she knows
 better.  He's manipulative and controlling.  She is quite chaste, and ethnic.
@@ -97,9 +97,9 @@ of spending all the energy to explain their own.  It kept the names _alien_
 without making them hard on the reader.
 
 The linguistic issues with communicating between cultures was nicely done.  The
-movie "Arrival" had dealt with the very low-level issue of phonemes and grammar.
+movie _Arrival_ had dealt with the very low-level issue of phonemes and grammar.
 This story looks at it more from a semantic angle.  Much like like the episode
-"Darmok" in Star Trek: TNG.  Even in places where communication completely
+_Darmok_ in Star Trek: TNG.  Even in places where communication completely
 breaks down:
 
 <blockquote>
