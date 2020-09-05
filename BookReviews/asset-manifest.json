@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/BookReviews/static/css/main.3c676bf3.chunk.css",
-    "main.js": "/BookReviews/static/js/main.00b4ea33.chunk.js",
-    "main.js.map": "/BookReviews/static/js/main.00b4ea33.chunk.js.map",
+    "main.js": "/BookReviews/static/js/main.cb9ae080.chunk.js",
+    "main.js.map": "/BookReviews/static/js/main.cb9ae080.chunk.js.map",
     "runtime-main.js": "/BookReviews/static/js/runtime-main.21271928.js",
     "runtime-main.js.map": "/BookReviews/static/js/runtime-main.21271928.js.map",
     "static/js/2.06acfb61.chunk.js": "/BookReviews/static/js/2.06acfb61.chunk.js",
     "static/js/2.06acfb61.chunk.js.map": "/BookReviews/static/js/2.06acfb61.chunk.js.map",
     "index.html": "/BookReviews/index.html",
-    "precache-manifest.e8f8fa198f666aa93ad13feb0e1f24b0.js": "/BookReviews/precache-manifest.e8f8fa198f666aa93ad13feb0e1f24b0.js",
+    "precache-manifest.9c368bceab30847ab90b7f855b4b57f4.js": "/BookReviews/precache-manifest.9c368bceab30847ab90b7f855b4b57f4.js",
     "service-worker.js": "/BookReviews/service-worker.js",
     "static/css/main.3c676bf3.chunk.css.map": "/BookReviews/static/css/main.3c676bf3.chunk.css.map",
     "static/media/tufte.css": "/BookReviews/static/media/et-book-roman-old-style-figures.fc7b0f1d.eot"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.21271928.js",
     "static/js/2.06acfb61.chunk.js",
     "static/css/main.3c676bf3.chunk.css",
-    "static/js/main.00b4ea33.chunk.js"
+    "static/js/main.cb9ae080.chunk.js"
   ]
 }
