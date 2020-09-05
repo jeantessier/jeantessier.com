@@ -62,6 +62,7 @@
                 <patternset>
                     <include name="*.atom"/>
                     <include name="*.json"/>
+                    <exclude name="google_analytics.json"/>
                 </patternset>
             </fileset>
         </delete>
