@@ -37,8 +37,8 @@ level of intimate details.
 
 As the situation gets worse for the main characters, things start to improve
 from a literary perspective.  Just a little further, a passage really stands out
-for me, on page 40, as Katniss is coming to grips with having to fight others to
-the death (emphasis is mine):
+for me, as Katniss is coming to grips with having to fight others to the death
+(emphasis is mine):
 
 <blockquote>
 
@@ -54,6 +54,7 @@ the death (emphasis is mine):
 
 The awful thing is that _if I can forget they're people, it will be no different at all_.
 
+<footer>p. 40</footer>
 </blockquote>
 
 This passage talks to how people can do truly horrible things to other people if
@@ -61,7 +62,7 @@ they just dehumanize them first.  As soon as we don't perceive the other as a
 fellow human being, we can excuse anything we do to them.  This passage is clear
 and concise, without any superfluous sappy over-sensitivity.
 
-And there is another passage on page 65:
+And there is another passage:
 
 <blockquote>
 
@@ -69,6 +70,7 @@ What must it be like, I wonder, to live in a world where food appear at the
 press of a button?  How would I spend the hours I now commit to combing the
 woods for sustenance if it were so easy to come by?.
 
+<footer>p. 65</footer>
 </blockquote>
 
 The trick here is that while Katniss can hardly imagine a world of plenty, the

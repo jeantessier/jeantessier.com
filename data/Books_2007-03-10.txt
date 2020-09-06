@@ -7,7 +7,7 @@ year: 2007
 start: 2007-03-10
 stop: 2007-03-18
 
-A colleague suggested this book to me, saying it was about a manager
-we had had at a previous job.  Hehe.
+A colleague suggested this book to me, saying it was about a manager we had had
+at a previous job.  Hehe.
 
 Helps you recognize the bad people in your life.

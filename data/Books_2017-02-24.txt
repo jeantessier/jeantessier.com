@@ -73,9 +73,9 @@ Time is a nebulous concept and these are different aspects of it, akin to
 Here is a nice example: Bluedorn has a watch that tells time, which ties him to
 fungible time, and ancient sundials, and the primordial day/night cycle.  But
 his watch was an anniversary present, so it also ties him to more the personal
-experiences of his wedding and its 25th anniversary.  The watch stands at
-multiple positions on the continuum between fungible time and epochal time,
-depending on the perspective.
+experiences of his wedding and its 25<sup>th</sup> anniversary.  The watch
+stands at multiple positions on the continuum between fungible time and epochal
+time, depending on the perspective.
 
 Another aspect the book delves into is _polychronicity_, the preference for
 engaging in activities in parallel or one after the other.  There is a continuum

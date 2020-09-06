@@ -14,9 +14,9 @@ sarcastic humor, like:
 
 <blockquote>
 
-- We should have a baby.
+&ndash; We should have a baby.
 
-- For dinner?
+&ndash; For dinner?
 
 <footer>p. 86</footer>
 </blockquote>

@@ -8,10 +8,10 @@ start: 2010-04-28
 stop: 2010-05-07
 
 A collection of satyrical cartoons about brand management.  Not quite as
-disfunctional as Dilbert, it is written from an insider's perspective.  And
+dysfunctional as Dilbert, it is written from an insider's perspective.  And
 whereas Scott Adams is very critical of the corporate culture that he had to
-endure, Tom is very much in love with brand management and he takes us on a tour
-of its quirky landscape.
+endure, Tom is very much in love with brand management, and he takes us on a
+tour of its quirky landscape.
 
 Each page shows one cartoon in the top half and Tom provides some commentary in
 the bottom half.  The commentary are interesting when they talk about the

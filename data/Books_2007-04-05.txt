@@ -7,12 +7,11 @@ year: 2006
 start: 2007-04-05
 stop: 2007-05-12
 
-A colleague suggested this book to me, saying it was in the somewhat
-along the same line as
-[[http://amzn.com/0060838582][Fast Food Nation]].
+A colleague suggested this book to me, saying it was in the somewhat along the
+same line as [[http://amzn.com/0060838582][Fast Food Nation]].
 
-Pollan identifies four _food chains_ that go from where the
-food is produced to our plates.
+Pollan identifies four _food chains_ that go from where the food is produced to
+our plates.
 
 <dl>
     <dt><b>industrial</b></dt>
