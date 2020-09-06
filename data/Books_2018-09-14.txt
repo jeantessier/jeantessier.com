@@ -1,0 +1,166 @@
+name: Radical_Candor
+isbn: 1250103509
+isbn13: 9781250103505
+title: [[http://a.co/65Lo0qh][Radical Candor: Be a Kickass Boss Without Losing Your Humanity]]
+author: Kim Malone Scott
+publisher: St. Martin's Press
+year: 2017
+acquired: 2017-05-10
+start: 2018-09-14
+stop: 2018-11-13
+
+A friend of mine recommended I read this book when it came out.  I'm not sure
+there wasn't a hidden message behind this recommendation.
+
+At first, I thought the premise was to have the courage to give criticism, as
+long as it's about things that you care about.  This seemed interesting enough.
+But it turns out the actual premise is all about _people_: you should care about
+them personally, and you should challenge them directly, so they can maximize
+their potential.  It is about you as a _boss_ having empathy for your direct
+reports and not shying away from the tough discussions.  It's like being a
+coach: you have to understand where your players are in their head and steer
+them towards a common objective, with motivators specific to each one.
+
+<blockquote>
+
+... Help people conduct their careers in the way _they_ desire, not in the way
+_you_ think they should want to.
+
+<footer>page 47</footer>
+</blockquote>
+
+It is a relatively quick read.  And I was right to think that it would be
+somewhat lightweight and anecdotal, much like
+_[[SoftwareEngineering/Books.html#Rework][Rework]]_ and
+_[[SoftwareEngineering/Books.html#Remote%5FOffice%5FNot%5FRequired][Remote]]_.
+For example, she says:
+
+<blockquote>
+
+Ruinous Empathy is responsible for the vast majority of management mistakes I've
+seen in my career.
+
+<footer>page 32</footer>
+</blockquote>
+
+That's still anecdotal.  She is implying that her career has been long enough
+and varied enough that it is representative of all management in all companies
+in all countries.  Her career has not been long enough yet to be any of these
+things.  The plural of _anecdote_ is *not* _data_.  All of her stories suffer
+from a strong selection bias; she picked them because they confirm her
+hypotheses.
+
+Contrast these with the following quote by Richard Carrier:
+
+<blockquote>
+
+They didn't answer by interpreting Scripture or reasoning from the armchair or
+drawing hasty conclusions from casual observations.  They conducted detailed
+scientific experiments to find out.
+
+<footer>[[https://youtu.be/kyrKMIDSVYE?t=18m14s][Skepticon One Redux]]</footer>
+</blockquote>
+
+Jason Fried, DHH, and now Kim Scott, rely on personal anecdotes that are
+susceptible to all kinds of biases.  They talk from a position of privilege that
+may not be representative of their readers.  They were able to do things and
+take risks that may be completely outside the reach of their general audience.
+
+Authors like Allen Bluedorn, Robert Sutton, and Tom DeMarco take greater care to
+remove themselves from the equation.  Anecdotes still inform their premises, but
+they go to great lengths to confirm them via rigorous studies that use the
+scientific method to be as objective as possible.
+_Need to verify this for DeMarco._
+
+Kim Scott's sloppiness shows up in small phrases like "I once read an article
+that claimed ..." or "... as we'll see in later sections".  It projects an air
+of authority without giving any foundation for it.  She doesn't do it all the
+time, sometimes she does give references.  But it weakens her case every time
+she does.  The stories about AdWords, and those about Steve Jobs, could easily
+have had references.  And while I can attest to some of the things she says
+about Google (I was never at Apple, so I cannot speak to that), some dates would
+have been helpful because I know things have changed over the years and it may
+not all be true anymore.
+
+Aside from that, she does make some good points.  Her approach is very humane.
+
+<blockquote>
+
+Sometimes two people just don't work that well together.
+
+<footer>page 62</footer>
+</blockquote>
+
+<blockquote>
+
+Everyone can be excellent at _something_.
+
+<footer>page 64</footer>
+</blockquote>
+
+<blockquote>
+
+Don't put people in boxes and leave them there.
+
+<footer>page 74</footer>
+</blockquote>
+
+The humanity comes through especially when she recommends caution before being
+too candid with your boss.  It is also there when discussing the need to fire
+people because of performance problems.  They may not be bad people; it's just
+that the job sucks for them.
+
+Kim Scott mentions giving feedback immediately, in those 2-3 minutes between
+meetings.  This is very much like when I give personal instruction during kendo
+practice.  The more immediate, the better.  But in the middle of practice, I
+have to be selective of the one actionable piece of advice I have time to give.
+
+She describes a tool for giving recognition, dubbed the "Killer Whale", that
+resembles what we did at ShopWell with the ShopWheel, or at Directly with
+flamingoes, but everyone proposes candidates and the previous winner chooses.
+But she also had "Woops the Monkey" where people self-submit for messing up and
+they get instant forgiveness.
+
+Kim Scott also briefly touches on gender bias and gender politics. She describes
+how having to choose between being likable and being successful hurts women.  I
+would like to suggest that it hurts plenty of men, too.  The fact that some men
+get away with it doesn't mean we all get a free pass.  I wonder if it could be
+about being perceived as strong vs. weak, instead of being about gender per se.
+
+I'll end with a few more quotable bits.
+
+<blockquote>
+
+... if Keynes's genius was locked inside his head, it may as well not have
+existed.
+
+<footer>page 92</footer>
+</blockquote>
+
+<blockquote>
+
+Is there anything I could do or stop doing that would make it easier to work
+with me?
+
+<footer>page 132</footer>
+</blockquote>
+
+<blockquote>
+
+Everyone is watching you, but that doesn't mean it's all about you.
+
+<footer>page 220</footer>
+</blockquote>
+
+<p><span class="newthought">Note:</span> Radical Candor got a passing mention in
+an episode of the
+[[http://www.greaterthancode.com/2018/09/12/097-the-job-of-a-manager-with-brandon-hays/][Greater Than Code]]
+podcast.</p>
+
+<p><span class="newthought">Note:</span> On 2018-12-17, after having read about
+candor and caring, I came upon an article titled
+[[https://www.theatlantic.com/magazine/archive/2019/01/charles-duhigg-american-anger/576424/][The Real Roots of American Rage]]
+in _The Atlantic_.  It talks about how anger can be a useful
+emotion, helping us feel heard when we are angry and focusing our attention when
+someone is angry at us.  But it is also easy for less well-meaning people to use
+our anger to manipulate us and even direct us against our best self-interest.</p>

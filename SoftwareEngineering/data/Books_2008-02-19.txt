@@ -1,0 +1,17 @@
+name: Programming_Ruby
+isbn13: 9780974514055
+isbn: 0974514055
+title: [[http://amzn.com/0974514055][Programming Ruby: The Pragmatic Programmers' Guide, 2nd Ed.]]
+author: Dave Thomas
+publisher: The Pragmatic Bookshelf
+year: 2005
+start: 2008-02-19
+stop: 2008-03-19
+
+I'm reading the Pick Axe as part of learning Ruby for my new
+language for 2008.  I'm off to a great start.  The language has
+some really cool features and the author is very engaging.
+
+Ruby's blocks is a very cool feature.  And it has
+=-p= and =-i= switches just like Perl!  But
+support for web apps goes back to CGI (at least in this book).

@@ -1,0 +1,50 @@
+name: Grails_in_Action
+isbn: 1933988932
+title: [[http://amzn.com/1933988932][Grails in Action]]
+author: Glen Smith
+author: Peter Ledbrook
+publisher: Manning
+year: 2009
+start: 2009-10-20
+stop: 2009-11-19
+
+We're using [[http://grails.org/][Grails]] at work.  I went through the first
+chapter and the starting tutorial.  I was using Grails 1.1.1, but ran into some
+snags.  The =save()= method of domain objects didn't work.  I downgraded to
+version 1.1 and it worked fine.  I upgraded to version 1.2-M3 (experimental)
+and it worked, but something failed later on when I introduced a service, as per
+the example.  The section on testing talked about integration tests, but the
+code samples were for unit tests.  The book could have used more proof reading.
+
+Buying the physical book entitled me to download the PDF version for free.
+That's nice.
+
+It mentioned Guice in passing when talking about dependency injection.  I hoped
+there would be a way to use Guice with Grails.  That would have been awesome.
+But a look at the index and a search through the PDF showed one a single
+reference to the word "Guice".  Too bad.  It seems Grails uses Spring internally
+for its dependency injection needs.  It does have an interesting automatic
+injection mechanism for certain classes.  Controllers, for instance, only need
+to create a variable with a given service's name and it gets injected
+automagically.  It doesn't seem to work for tests, though; I can't ask for a
+service instance to be injected in my test for the service.
+
+There is a very nice section on testing that shows you how to unit test the
+various artifacts like domain classes, controllers, services, etc.  The examples
+include mocking.  There is also a section on integration tests.  I wrote some
+unit tests and the facilities added to Java's Collections API made creating test
+data a synch.
+
+There is a long list of plugins for Grails.  It would be nice to have a more
+exhaustive introduction to the major plugins.  There is a nice chapter that
+talks about a few plugins, but it is tied a little too closely to the sample
+application the authors are building throughout the book.  Some would be useful
+to me, others wouldn't.  Other plugins are introduced through other chapters,
+such as =acegi= when talking about security.  I understand that the list of
+plugins is ever-changing and that a book cannot really keep up, but I feel like
+there are gems hidden in there that I am going to miss because of information
+overload.
+
+Between this book and the
+[[http://grails.org/doc/latest/][online documentation]], I have found answers to
+almost all my questions.  I did have to peek at the code on a few occasions.

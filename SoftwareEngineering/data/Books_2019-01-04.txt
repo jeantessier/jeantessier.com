@@ -1,0 +1,64 @@
+name: Refactoring_Second_Edition
+isbn: 0134757599
+isbn13: 9780134757599
+title: [[http://a.co/d/d98Vmak][Refactoring: Improving the Design of Existing Code, Second Edition]]
+author: Martin Fowler
+publisher: Addison-Wesley
+year: 2019
+acquired: 2018-08-16
+start: 2019-01-04
+stop: 2019-02-13
+
+An update to the 1999 classic _Refactoring_.  I still have my autographed copy
+of the first edition.  The original used code examples in Java.  This new
+edition uses JavaScript instead.
+
+I followed Fowler's advice to "read the first four chapters completely, then
+skip-read the catalog."  It's the same approach I used when I read Gerard
+Meszaros' [[#xUnit%5FTest%5FPatterns][xUnit Test Patterns]].  The initial
+chapters make a case for refactoring and describe the general principles.  The
+remainder of the book is a nice catalog of specific refactorings, each using a
+clear template.
+
+Many people associate refactoring with the first edition of this book.  It is
+the seminal work on the topic.  Therefore, many people credit Fowler for
+bringing refactoring to the attention of the masses.  I did not remember, from
+reading the first edition, how much Fowler owed to Kent Beck.  In the
+introduction, he credits Beck for introducing him to refactoring.  It is very
+interesting to watch the interplay between these two strong players of
+contemporary software development.
+
+One constant concern is the importance of naming.  Many refactorings deal with
+putting good names on programming artifacts.
+
+Throughout the book, Fowler is always trying to find the balance between doing
+the right thing in general and doing the right thing for the particular case.
+Above all, he values flexibility and being able to adjust to the circumstances.
+This is why some refactorings have an inverse, so Fowler can modify his code
+back and forth, as dictated by his understanding of the moment.
+
+This flexibility shows up again in the topic of testing.  Some authors advocate
+lots of tests and maximize coverage, going so far as to fail the build if
+coverage gets too low.  This is a mindless application of testing and its
+strongest supporters often use it to mask their own poor skills at coding.
+Fowler supports a smarter approach that is more humanistic and tries to maximize
+the return on the effort invested in testing.
+
+<blockquote>
+
+There is a law of diminishing returns in testing, and there is the danger that
+by trying to write too many tests you become discouraged and end up not writing
+any.  You should concentrate on where the risk is.
+
+<footer>page 98</footer>
+</blockquote>
+
+Fowler refers to the Law of Demeter as "the Occasionally Useful Suggestion of
+Demeter" (p. 192).
+
+On a personal note, since I started been programming in Groovy and using
+closures, I find myself using
+[[https://martinfowler.com/articles/collection-pipeline/][collection pipelines]]
+a lot.  I have come to prefer that style of code over the previous, more
+procedural one.  As a result, I really liked the Replace Loop with Pipeline
+(231) refactoring.

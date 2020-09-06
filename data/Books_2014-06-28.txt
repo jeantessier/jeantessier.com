@@ -1,0 +1,162 @@
+name: Inventing_the_Enemy
+isbn13: 9780547640976
+isbn: 0547640978
+title: [[http://amzn.com/0547640978][Inventing the Enemy and Other Occasional Writings]]
+title: <i>Costruire il nemico e altri scritti occasionali</i>
+author: Umberto Eco
+publisher: Houghton Mifflin Harcourt
+year: 2011
+year: 2012
+acquired: 2013-07-11
+start: 2014-06-28
+stop: 2014-07-20
+
+The book is another collection of essays written by Umberto Eco for various
+conferences.  The opening essay, _Inventing the Enemy_, is somewhat
+approachable, though he does lay the anti-semitic descriptions rather thick.  By
+the time I started the second essay, I was wondering if I had bitten more than I
+could chew; a recurring possibility with Eco.
+
+In the preface, Eco explains that each essay was an imposed subject for some
+conference or journal article.  It shows in that most of them are rambling
+thoughts with no clear conclusion.  They are fanciful intellectual explorations
+that meander more than they enlighten.
+
+---++ Inventing the Enemy (2008)
+
+We often define ourselves by opposition to an "enemy", even creating an
+imaginary one if there are no real enemies at hand.  We reuse the same elements
+to describe this enemy and vilify them, whether the manufactured "enemy" is
+Jews, women, Arabs, or any other group.
+
+<blockquote>
+
+Having an enemy is important not only to define our identity but also to provide
+us with an obstacle against which to measure our system of values and, in
+seeking to overcome it, to demonstrate our own worth.
+
+<footer>page 2</footer>
+</blockquote>
+
+Jean-Paul Sartre reduced this theme to its simplest form in his novel _No Exit_,
+which I had to read when I was in high school.
+
+---++ Absolute and Relative (2007)
+
+A rather dense discussion of absolutism, relativism, and holistic thinking.  He
+cleverly quotes classical and modern writers. Whatever it is we decide to
+believe, there are objective truths in the world that won't be denied, such as
+death and solid walls.
+
+---++ The Beauty and the Flame (2008)
+
+This essay explores the mystical allure of fire.
+
+Fire and light take in various meanings across societies.  Celestial fire and
+light was the divine essence to medieval people.  Fire was knowledge and craft
+to the ancient Greeks, as illustrated in the myth of Hephaestos.  Terrestrial
+fire was hell to the ancients.  Fire was transformation to alchemists.  Fire
+consumes, reveals and is an agent of creation as well as destruction.
+Ekpyrosis: everything comes from fire and will return to fire, as in the phrase:
+Ashes to ashes, dust to dust.
+
+---++ Treasure Hunting (2009, 2011)
+
+European reliquaries are filled with hidden beauties.  It is faith that makes
+the relic, not secular truth of its origins, proven by science or otherwise.
+The political agendas of the faithful are revealed through the stories of these
+relics.
+
+There is a part of _[[http://amzn.com/0156029065][Baudolino]]_ that deals with
+the manufacture of relics.
+
+---++ Fermented Delights (2008)
+
+Piero Camporesi loved words; the more rare and forgotten the better.  He also
+loved food and putrefaction and lists.
+
+---++ No Embryos in Paradise (2008)
+
+When does human life begins?  St. Thomas Aquinas tackled the problem based on
+when the soul enters the body to make a human being.  He had concepts of a
+vegetative soul for plants, a sensitive soul for animals, and a rational soul
+for humans.  The embryo acquires each of them in stages, each one corrupting and
+then augmenting the previous one, in a similar process to how nutrients are
+corrupted in the body before being incorporated into through metabolism.  Except
+St. Thomas Aquinas predates our scientific understanding of chemistry, biology,
+and metabolism.
+
+---++ Hugo, H&eacute;las!: The Poetics of Excess
+
+Victor Hugo's novel are not about a specific character, or about a specifc
+event, for that matter.  Instead, he attempts to create an impression in the
+reader's mind, through massive excesses and seemingly infinite lists, similar to
+how Beethoven would weave a tapestry of sounds and melodies in his symphonies to
+convey a feeling.  Ultimately, Hugo's characters are the forces of Fate and
+Destiny themselves.
+
+---++ Censorship and Silence (2009)
+
+You can censor information by suppressing it, or by burying it with noise.  For
+example, news channels will distract the viewers with an unending stream of
+banal stories so they do not pay attention to the serious corruption stories.
+Advertisement is another case where advertisers pile meaningless noises one on
+top of the other; what matters is that you advertise your product, not so much
+what you actually say about it.
+
+We are so distracted by noise that we cannot think for ourselves anymore.  We
+should therefore be mindful of silence as a way to promote better thinking.
+
+---++ Imaginary Astronomies (2001, 2002)
+
+People have used their imagination to fill gaps in their knowledge: about the
+heavens, about the earth, etc.  They've also forged histories about them to
+foster political agendas.  Prester John's letter helped spur European expansion
+into Asia and Africa.
+
+<blockquote>
+
+Remember the greatness of those imaginary geographies and astronomies, and those
+errors that often bore fruit.
+
+<footer>page 161</footer>
+</blockquote>
+
+---++ Living by Proverbs (2007)
+
+An absurd piece of writing.  What if we took every silly proverb literally?  It
+makes absolutely no sense, which is the point, and is only barely entertaining.
+Many of the proverbs seem to come from English, so I'm curious what the original
+text in Italian must have been like.  I'm sure some of these proverbs might have
+existed in Latin and made their way into European languages.  But all of them?
+
+---++ I Am Edmond Dant&egrave;s (2008)
+
+Anagnorisis is a frequently used literary device that worked well for episodic
+feuilleton novels.  It can be overused at times, but is still very powerful.
+Anagnorisis is when the reader enjoys deceiving the characters.  Like Odysseus
+coming back to Ithaca and tricking the suitors.  Double anagnorisis is when the
+author deceives the reader, such that the reader was not aware of the real
+identity of the character.  I can think of the White Wizard being revealed as
+Gandalf in _The Lord of the Rings_ as an example, and extreme cases in movies
+could be _Fight Club_ and _The Sixth Sense_.  Anagnorisis is also frequently
+used in manga and anime, other serialized forms of story telling.
+
+---++ Ulysses: That's All We Needed... (2009)
+
+James Joyce, as seen by Italian commentators in the fascist years before World
+War II.  They criticize him for not being true to what they considered the
+formal form of the novel, of not being nationalistic enough, and accuse him of
+being a Jew.  All typical characterizations of the _enemy_.
+
+---++ Why the Island Is Never Found (2011)
+
+Lost islands have long held people's fascination.  For a long time, difficulty
+in determining longitude meant that islands were found then lost, misidentified,
+confused.  This essay ties to the Eco's novel
+_[[http://amzn.com/0156030373][The Island of the Day Before]]_.
+
+---++ Thoughts on WikiLeaks (2010)
+
+WikiLeaks showed that all Secret Services only repeat information in the public
+domain.  Conspirators only believe what they already know.

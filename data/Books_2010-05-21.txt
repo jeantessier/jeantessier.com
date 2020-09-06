@@ -1,0 +1,38 @@
+name: The_Long_Tail
+isbn: 1401309666
+title: [[http://amzn.com/1401309666][The Long Tail]]
+author: Chris Anderson
+publisher: Hyperion
+year: 2008
+start: 2010-05-21
+stop: 2010-07-22
+
+I first heard about the idea of the Long Tail on my first day at Google, back in
+2005.  Four years later, I borrowed the book from work, out of curiosity.  The
+shorter commute and new friends on the train mean less time for reading, so this
+one might take me a bit to get through.
+
+I like the three requisites for capitalizing on a long tail market:
+
+    1 Democratize the means of production to generate a lot of content.
+    1 Means of distribution that are essentially free make that content available to everyone.
+    1 Powerful technological tools help make sense of it all.
+
+These three factors combine to create large numbers of niche markets that can
+sustain themselves.  Essentially, what used to be the province of the privileged
+few is now in the hands of everyone.  There will be lots of low quality
+products, but technology can help us find the worthy pieces hiding in there.  I
+love how it democratizes everything.  There is still a large demand for _hits_
+and critics, but the elites don't hold all the cards anymore and anyone can
+contribute.
+
+The section on marketing in the Long Tail does a very good job of describing
+the new dynamics and some of the impact of end-user engagement.
+
+The book does a good job describing new businesses that exploit the long tail,
+like Amazon and Google.  But it was written just before the explosion of YouTube
+and Facebook and Twitter.  Now, more than ever, we're in a world of citizen
+journalists and an empowered general population.  The book is very "of the
+moment" and it shows its magazine roots.  It throws around a lot of names that
+were relevant at the time of publication but who are not so relevant just a few
+years down the line.  Blockbuster and Rhapsody are gone now.

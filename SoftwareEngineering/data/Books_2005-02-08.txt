@@ -1,0 +1,39 @@
+name: Working_Effectively_with_Legacy_Code
+isbn13: 9780131177055
+isbn: 0131177052
+title: [[http://amzn.com/0131177052][Working Effectively with Legacy Code]]
+author: Michael Feathers
+publisher: Prentice Hall
+year: 2005
+start: 2005-02-08
+stop: 2005-03-16
+
+Lots of very practical advice on how to take already existing
+code and bring it under test.  The author offers many techniques
+for minimal code transformations that allow you to write tests
+against the code.  Once the tests are in place, you are in a better
+position to launch larger refactorings.  While the transformations
+work better on objet-oriented code, many apply just as well to
+procedural code.
+
+The introduction to test-driven development is very nice.  The
+example feels genuine, not just a contrived example piece of code
+that bears no relation to your actual code.  This one guides you
+through a few iterations to show how the amount of work and
+refactoring vary from one to the next.
+
+The tone tries to remain casual and engaging, but it seemed
+forced in places.  [[MartinFowler.html][Martin Fowler]]
+and Robert C. Martin have had more practice at walking the fine
+line between humour that helps the medicine go down versus humour
+that's besides the point.  But still, the quality of the advice
+more than makes up for any stylistic shortfalls.
+
+I really liked the notion of _effect sketches_ and
+_feature sketches_.  They relate strongly to the transitive
+closures that I compute using
+[[http://dependencyfinder.jeantessier.com/][Dependency Finder]].
+My tool works automatically and will miss some impacts
+whereas the author derives his sketches manually.  Maybe the tool
+can help guide the manual process and make sure it covers all
+dependencies.

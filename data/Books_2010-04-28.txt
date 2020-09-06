@@ -1,0 +1,37 @@
+name: This_One_Time_At_Brand_Camp
+isbn: 1435759672
+title: [[http://amzn.com/1435759672][This One Time, At Brand Camp]]
+author: Tom Fishburne
+publisher: Tom Fishburne
+year: 2008
+start: 2010-04-28
+stop: 2010-05-07
+
+A collection of satyrical cartoons about brand management.  Not quite as
+dysfunctional as Dilbert, it is written from an insider's perspective.  And
+whereas Scott Adams is very critical of the corporate culture that he had to
+endure, Tom is very much in love with brand management, and he takes us on a
+tour of its quirky landscape.
+
+Each page shows one cartoon in the top half and Tom provides some commentary in
+the bottom half.  The commentary are interesting when they talk about the
+inspiration for a given cartoon, but too often they simply explain the cartoon
+for the audience.  I'm tempted to say that if a cartoon needs explanation, then
+it is a failed cartoon.  Unless you're being exclusive like
+=[[http://xkcd.com/][xkcd]]=,
+[[http://www.tomfishburne.com/tomfishburne/2010/03/sxsw-talk-innovation-lessons-from-cartooning.html][as Tom explains on his blog]],
+in which case the point is for the cartoon *not* to be understood by the general
+public but only by the limited community it targets.  Again,
+cartoon + explanation becomes a losing proposition.
+
+Nevertheless, it's a clever little book and a nice way to kill some time.  And
+you get to learn something about marketing and brand management at the same
+time.
+
+I like this cartoon about
+[[http://www.tomfishburne.com/tomfishburne/2008/06/the-consumers-d.html][the higher cost of organic]]
+products.  I agree that they are better for you, but it saddens me that the
+lower economic classes cannot afford them.  If it's better for you and will keep
+people healthy, then it should be made available to everybody.  Keeping all of
+society healthy is better for the overall economy than catering only to the rich
+and dealing with the sick poor.

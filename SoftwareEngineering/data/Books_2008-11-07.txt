@@ -1,0 +1,42 @@
+name: Pro_JavaScript_Techniques
+isbn13: 9781590597279
+isbn: 1590597273
+title: [[http://amzn.com/1590597273][Pro JavaScript Techniques]]
+author: John Resig
+publisher: Apress
+year: 2006
+start: 2008-11-07
+stop: 2009-01-06
+
+A horrible book for a horrible language.  First, pretty much the entire book is
+written in passive voice, making it really hard to grok.  Second, the author
+often makes broad sweeping statements but never dive any deeper.  Things along
+the lines of: _This bit is quite complicated but can be very powerful_, without
+any further explanation.
+
+Of course, the topic itself, JavaScript, does not help.  Everywhere you look,
+you have to take into account that JavaScript works one way in IE and another
+everywhere else.  Resig gives
+[[http://jspro.org/][plenty of code to deal with the differences]],
+but it is not clear if programmers wouldn't be better to use an abstraction
+framework such as [[http://dojotoolkit.org/][Dojo]].
+
+The books has roughly three parts.  The first part describes the language
+itself and it is simply horrendous.  Very confusing, the author tries to show
+everything indiscriminately.  The good is lumped in with the bad without enough
+information for the reader to decide which is which.  The second part describes
+manipulating the DOM.  Again, it is horrible.  Lots and lots of browser-specific
+hacks.  It would have been better if the author had described one shortcoming
+and then pointed to a framework that solves it and how.  Instead, he keeps
+writing utility functions and builds his own vocabulary.  For one thing, it is
+more procedural than OO, and it looks hastily put together.
+
+The third part almost redeems the book.  It is a series of case studies that
+show how to do AJAX in various contexts.  Here, you get to see all the pieces
+at work: JavaScript, AJAX, CSS, JSON.
+
+I can only hope that in the years since Resig wrote the book, we've made
+progress in making JavaScript less horrible to work with.
+
+<p><span class="newthought">Additional note:</span> it turns out Resig is the
+author of [[http://jquery.com/][jQuery]].</p>

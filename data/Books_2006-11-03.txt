@@ -1,0 +1,31 @@
+name: L_immortalite
+isbn13: 9782070718399
+isbn: 2070718395
+isbn: 0060932384
+title: [[http://www.amazon.ca/dp/2070718395][L'immortalit&eacute;]]
+title: [[http://amzn.com/0060932384][<i>Immortality</i>]]
+title: <i>Nesmrtelnost</i>
+author: Milan Kundera
+publisher: Gallimard
+year: 1990
+start: 2006-11-03
+stop: 2006-11-27
+
+I read this book when it came out and recently I felt the urge to
+read it again.  I remembered bits and pieces, but large chunks are
+missing.
+
+Once again, Kundera is exploring the human psyche using strongly
+typed characters that exemplify the aspects he wants to cover.  This
+one is interesting in that the author is himself a character in the
+novel.  He starts by describing how he got the idea for his main
+character, fleshes it out with secondary characters, and by the
+time we reach the end, he is actually meeting the characters
+himself.  You have to read it to really appreciate it.
+
+There are many clusters of characters.  Agn&egrave;s and Paul and
+Laura and Bernard (the nature of relationships).  Goethe and
+Bettina (the pursuit of fame and immortality).  Goethe and
+Hemmingway in the afterlife (on the consequences of fame and
+immortality).  Rubens (the pursuit of sex).  Kundera and Professor
+Avenarius (futility).

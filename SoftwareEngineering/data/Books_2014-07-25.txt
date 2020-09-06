@@ -1,0 +1,56 @@
+name: Grails_in_Action_Second_Edition
+isbn: 1617290963
+isbn13: 9781617290961
+title: [[http://amzn.com/1617290963][Grails in Action, Second Edition]]
+author: Glen Smith
+author: Peter Ledbrook
+publisher: Manning
+year: 2014
+acquired: 2014-07-18
+start: 2014-07-25
+stop: 2014-10-01
+
+This update brings it up to [[http://grails.org/][Grails]] 2.3.7.  Between final
+edits and actual publication, Grails is now on version 2.4.2 and some people are
+already pointing out incompatibilities.
+
+We're still using Grails 1.3.7 at work, so I got to read about all the cool new
+things in Grails 2 without being able to use any of them.  And there is plenty
+to get excited about!  Just about every chapter brought in some new piece that
+made me wish I could use it in my day-to-day job.
+
+The book itself was much better put together than the first edition.  The
+examples flow better from chapter to chapter and I didn't find any
+inconsistencies.
+
+The thing that impressed me the most was how they use
+[[https://code.google.com/p/spock/][Spock]] for all their testing.  It makes the
+tests much more readable and possibly much easier to manage.  I remember using
+[[http://rspec.info/][RSpec]] with
+[[https://www.ruby-lang.org/en/][Ruby]], and Spock brings the same
+expressiveness to Grails.  It still supports JUnit-based tests from before, so
+you don't have to rewrite all your tests when upgrading a project, but you
+should definitely switch to it for any new tests.
+
+The new =where= queries are much more flexible than the old =findAllBy...=
+dynamic queries.  Since they use AST transforms, they are much more flexible and
+can work beyond strictly SQL-based data stores.  They are also much easier to
+test, not requiring integration tests for anything beyond trivial queries.
+
+The chapter on Platform Core and pub/sub messaging showed me how large chunks of
+code that I've written are now baked in, for all intents and purposes.  I used
+Spring Events to build an event-based architecture, but the event in Platform
+Core are much better integrated and require a minimum of code.  And moving from
+there to distributed events (JMS-based or otherwise) is also now trivial to add
+to any application.
+
+Caching is now as simple as putting a few annotations here and there.  Much
+better than an intrusive service that needs to be wired by hand everywhere it's
+needed.
+
+The authors did a good job of showing how to include the latest technologies
+into a Grails application.  [[https://angularjs.org/][AngularJS]],
+[[http://redis.io/][Redis]],
+[[http://www.mongodb.org/][MongoDB]], and
+[[http://www.neo4j.org/][Neo4j]] all make guest appearances.  Everything you
+need to build a cutting edge app.

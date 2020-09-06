@@ -1,0 +1,26 @@
+name: jQuery_in_Action
+isbn: 1935182323
+title: [[http://amzn.com/1935182323][jQuery in Action, Second Edition]]
+author: Bear Bibeault
+author: Yehuda Katz
+publisher: Manning
+year: 2010
+acquired: 2011-05-12
+start: 2011-05-25
+stop: 2011-06-10
+
+At work, we use jQuery for client-side logic.  Since we don't have a front-end
+engineer yet, I need to be able to maintain and extend this code.  I like the
+other "... in Action" books and this one has good ratings on Amazon.  Plus, I
+get the PDF of it so I can search through it for specific keywords.
+
+Right off the bat, the introduction to jQuery really helped me make sense of the
+notation and some of the weird incantations.  It also mentioned some DOM
+navigation methods that I will be able to apply immediately to our codebase to
+make it a little better.
+
+I stopped reading half-way through after I had gotten enough to get my work
+done.  The second half deals with jQuery UI and looks promising for developing
+UI widgets.  Maybe I'll get back to it at some point in the future.  In the
+meantime, it makes a great reference book on jQuery, specially with the
+searchable electronic version.

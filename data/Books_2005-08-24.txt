@@ -1,0 +1,94 @@
+name: Le_rideau
+isbn: 207077435X
+isbn: 0060841958
+title: [[http://www.amazon.ca/dp/207077435X][Le rideau]]
+title: [[http://amzn.com/0060841958][<i>The Curtain</i>]]
+author: Milan Kundera
+publisher: Gallimard
+year: 2005
+start: 2005-08-24
+stop: 2005-09-02
+
+I love reading Kundera.  He opens my mind to the arts and makes
+me want to know so much more.  This book is no different.
+
+In this essay, Kundera explores further the nature of his art
+form: the novel.  He starts with an interesting idea that nothing
+happens in a vacuum and that art pieces take their value from their
+place in a continuum.  If a composer, today, wrote a piece exactly
+like Beethoven, it would be worthless.  The same piece, written in
+the days of Beethoven, would be a masterpiece.  The music continuum
+has moved forward and a given piece of music has a different value
+depending on where it is located in that continuum.  In the book,
+Kundera will try to map the continuum of the artform of the novel
+and highlight some of its landmarks.
+
+The first roadblock is that the history of an art is not tied to
+that of any one nation.  The evolution of a given art moves between
+countries without consideration for their individual national
+histories.  But each culture tends to highjack its artists in order
+to affirm itself in the face of the world.  Kundera calls it
+_provincialism_, or narrow-mindedness.
+
+And this is where Kundera's genius starts to show.  He grew up
+in Czechoslovakia and later emigrated to France.  He knows what it
+is like to be part of a culture that plays a small part in the world
+of literature, and to join a culture that plays a large part in it.  Each
+sees itself differently in how it relates to the rest of the world,
+and in how it deals with both its own artists and artists of other nations.
+
+When he describes the _narrow-mindedness of the small_, I
+can hear echoes of opinions expressed in my native Qu&eacute;bec;
+even though he is talking about Czechoslovakia, he could just as
+well be talking about the people and attitudes that I grew
+up with.  Small nations hang on to their culture so they don't get
+swallowed by their larger context.  Their artists are what keeps
+them distinct.  For an artist to leave their narrow context in order to take
+part in the greater world is nothing short of treason.
+
+Now that I live in the United States, I can also relate to what
+he calls the _narrow-mindedness of the great_.  After all,
+the US is a country that has what it calls a "World Series" with the US as the
+only participating nation.  :-)  Great nations come to think that their
+culture is sufficient; after all, why would anyone need anything more?
+
+From there, Kundera proceeds down the road of the evolution of
+the novel as an art form through the ages.  Starting with Rabelais
+and Cervantes, and going through a series of authors from the four
+corners of the western world, he explores the characteristics that
+are unique to the novel.  Novels explore human nature by looking at
+the mundane in the characters and showing them as products of their
+surroundings.  This is in contrast to the preceding literature
+where characters were predestined by their origin and dealt with
+profound moral choices.
+
+At one point, Kundera comments on the nature of tragedy.  Two
+characters hold on to two sides of a same coin and neither can win
+without destroying the other, thereby bringing their own downfall.  Each
+side becomes both justified and guilty at the same time. There lies the
+essence of tragedy, and with it, the possibility of reconciliation
+when both sides accept their share of guilt.  It shows the relativistic
+nature of what we hold to be true.  This way of thinking stopped after World
+War II; manichaeism reasserted its place and the world became black
+and white again, out went any relativism, and it took guilt and
+any hope for reconciliation with it.  From then on, it's been us versus
+them.
+
+The last thing I want to cover is Kundera's treatment of
+bureaucracy through the works of Adalbert Stifter, Max Weber, and
+Franz Kafka.  In a bureaucracy, the employee is not expected to
+understand the problems his office is dealing with, but rather to
+blindly execute the orders given to him.  Stifter's character
+cannot help dealing with things according to their nature and
+therefore finds himself ill-suited for being part of a bureaucracy.  By the
+time we get to Kafka, the bureaucracy has become omnipresent and
+there is no escaping it anymore.  Here, I find a parallel with my work
+as a software engineer.  I am actively fleeing bureaucracy in my
+work life; I want to deal with problems, not blindly follow
+instructions that come from someone else.  It is interesting to
+see how people that are otherwise well-intentioned can nonetheless
+fall into the trap of bureaucracy and create these large structures
+from which all thinking has been removed.
+
+Kundera is much more eloquent than me, so get this book and read
+it for yourself.

@@ -1,0 +1,20 @@
+name: Design_Patterns_Explained
+isbn13: 9780201715941
+isbn: 0201715945
+title: [[http://amzn.com/0201715945][Design Patterns Explained]]
+author: Alan Shalloway
+author: James R. Trott
+publisher: Addison Wesley
+year: 2002
+start: 2003-09-11
+stop: 2003-09-12
+
+Good introduction to design patterns and some of the higher
+principles of object-oriented design.  Follows my own personal
+discovery of the fundamental principle of isolating change.  I
+discovered it while I was reading Wolfgang Pree's
+_Design Patterns for Object-Oriented Software Development_, right
+after I had read the Gang of Four book in 1994.
+
+A good book for junior developers, but I am way beyond it by
+now.

@@ -1,0 +1,18 @@
+name: Implementation_Patterns
+isbn13: 9780321413093
+isbn: 0321413091
+title: [[http://amzn.com/0321413091][Implementation Patterns]]
+author: Kent Beck
+publisher: Addison-Wesley
+year: 2008
+start: 2008-09-04
+stop: 2008-09-12
+
+I learned about this book while reading [[#Clean_Code][Clean Code]] by
+Robert C. Martin.  Since it is written by Kent Beck, I just had to read it.
+
+This book and [[#Clean_Code][Clean Code]] by Robert C. Martin have a lot in
+common but address it in different ways.  While the later is more practical
+with lots of examples and case studies, this one reads more like
+[[http://en.wikipedia.org/wiki/The%5FBook%5Fof%5FFive%5FRings][The Book of Five Rings]]:
+here's a piece of advice, go think about it carefully.

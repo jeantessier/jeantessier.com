@@ -1,0 +1,17 @@
+name: Behind_Closed_Doors
+isbn: 0976694026
+title: [[http://amzn.com/0976694026][Behind Closed Doors: Secrets of Great Management]]
+author: Johanna Rothman
+author: Esther Derby
+publisher: The Pragmatic BookShelf
+year: 2005
+start: 2006-03-14
+stop: 2006-03-21
+
+A really quick read.  The agile bias of the authors shows when
+they limit planning to 3-4 weeks, or put emphasis on people rather
+than process.
+
+More than two years later, the only thing that really stuck to
+my mind is that one-on-one meetings with managers should be more
+about career development than status reporting.

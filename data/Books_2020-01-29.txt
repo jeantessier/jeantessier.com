@@ -1,0 +1,145 @@
+name: Talking_to_Strangers
+isbn: 0316478520
+isbn13: 9780316478526
+title: [[https://www.amazon.com/dp/0316478520][Talking to Strangers]]
+author: Malcolm Gladwell
+publisher: Little, Brown and Company
+year: 2019
+acquired: 2019-10-04
+start: 2020-01-29
+stop: 2020-02-11
+
+Malcolm Gladwell's latest book, about "the tools and strategies we use to make
+sense of people we don't know."  It deals with communication, and how we
+interpret signals we're getting from others.  The strategies we use on people we
+are familiar with do not work on strangers.  I was curious to see how much it
+would overlap with Umberto Eco's
+_The Role of the Reader_ or the ideas in Milan Kundera's
+_[[#Les%5Ftestaments%5Ftrahis][Testaments Betrayed]]_.
+
+Gladwell starts  with the
+[[https://en.wikipedia.org/wiki/Illusion%5Fof%5Fasymmetric%5Finsight][illusion of asymmetric insight]],
+where we're underestimate other people's ability to know others when they apply
+it to us, and overestimate this ability in ourselves when we apply it to others.
+This is a social
+[[https://en.wikipedia.org/wiki/List%5Fof%5Fcognitive%5Fbiases][cognitive bias]]
+that is somewhat related to
+[[https://en.wikipedia.org/wiki/Fundamental%5Fattribution%5Ferror][fundamental attribution error]].
+Fundamental attribution error is about explaining behaviors; illusion of
+asymmetric insight is about perceived knowledge.  Wikipedia has a nice
+[[https://upload.wikimedia.org/wikipedia/commons/6/65/Cognitive%5Fbias%5Fcodex%5Fen.svg][brain map]]
+showing all the biases and how they relate to each other.
+
+It turns out that when someone tells us something, we assume it is true.
+Psychologist Tim Levine calls it the _Truth-Default Theory_.  We gain a lot by
+trusting one another, much more than the cost of the occasional swindle.  The
+alternative is that we never trust anyone and remain paralysed by paranoia.
+Unfortunately, modern policing works against this default to truth: police
+officers end up suspecting everyone of criminal activity, which erodes the
+public's trust.
+
+<blockquote>
+
+A police officer approaches a civilian on the flimsiest of pretexts, looking for
+a needle in a haystack -- with the result that so many innocent people are
+caught up in the wave of suspicion that trust between police and community is
+obliterated.
+
+<footer>p. 336</footer>
+</blockquote>
+
+In a number of case studies, Gladwell demonstrates the dangers of defaulting to
+truth.  From spy networks to financial scams to sexual abuse cases, there is a
+very real cost to it.  But we have to remember that the cost of its opposite is
+even much, much greater.
+
+<blockquote>
+
+The issue with spies is not that there is something brilliant about them.  It is
+that there is something wrong with us.
+
+<footer>p. 68</footer>
+</blockquote>
+
+The Sandusky case hinged on fuzzy memories.  Repressed memories, and profiteers
+trying to take advantage of the settlement, cast doubts on the witnesses.  The
+Larry Nassar cas was pretty a very clear cut , and still people had doubts.
+Defaulting to truth is even easier when the alternative is horrible.
+
+<blockquote>
+
+The right question is: were there enough red flags to push you over the
+threshold of belief?  If there weren't, then by defaulting to truth you were
+only being human.
+
+<footer>p. 79</footer>
+</blockquote>
+
+Gladwell follows with a discussion of _transparency_.
+
+<blockquote>
+
+Transparency is the idea that people's behavior and demeanor [...] provides
+[...] the way they feel inside.  It is the second of the crucial tools we use to
+make sense of strangers.  When we don't know someone, [...] we believe we can
+make sense of them through their behavior and demeanor.
+
+<footer>p. 152</footer>
+</blockquote>
+
+And it's all wrong.  We know that our own body language does not exactly reflect
+how we feel inside.  This is even more pronounced when dealing with other
+cultures, where we make bad assumptions regarding their body language.  We are
+bad at interpreting people's cues when they don't match what we'd expect.  We
+find a lots of false positive and false negatives when there are mismatched
+expectations of transparency.  Even experts like law enforcement officers.
+
+Gladwell takes a look at the impact that alcohol could have played is some
+sexual assault cases, such as the Brock Turner case.  Some psychologists talk of
+alcohol as an agent of myopia.  It keeps us from making long-term calculations,
+such as understanding the ramifications of our immediate actions.  It keeps us
+in the here and now at the expense of consequences.  Drinking in the
+hyper-sexualized context of a party invites promiscuity.
+
+<blockquote>
+
+Is drunken consent still consent?  It has to be, the ruling goes on.  Otherwise
+the vast majority of people happily having sex while drunk belong in jail
+alongside the small number of people for whom having sex while drunk constituted
+a criminal act.
+
+<footer>p. 213</footer>
+</blockquote>
+
+<blockquote>
+
+If M can say that she was not responsible for her decisions because she was
+drunk, why couldn't Benjamin Bree say the same thing?
+
+<footer>p. 213</footer>
+</blockquote>
+
+Alcohol makes us less likely to present our true selves, therefore sending
+signals to others that will be misinterpreted.  In extreme cases, the results
+can be dire.
+
+The last topic covered by Gladwell is _coupling_.  Certain behaviors, such as
+crime or suicide, are tied to a place or a specific set of factors.  If you
+remove the means, the behavior does not move elsewhere, it simply disappears.
+Efforts to fight crime can make effective use of suspending the default to
+truth, but only if they are focused on the few locations where most crimes
+happen.  Otherwise, you risk recreating the case of Sandra Bland where the
+police officer didn't default to truth and assumed transparency in an area where
+it was not warranted, turning him into a paranoid delusional and with tragic
+consequences.
+
+Malcolm Gladwell is always a good read.  He has a real talent for presenting his
+material and weaves a good story.  But if we're being somewhat skeptical, we
+have to wonder at how perfectly the pieces of his puzzle fit together.  He has a
+lengthy bibliography, but his evidence is hand-picked to support his hypotheses.
+I would have liked to see more counter-evidence that he could have debunked to
+make his points even stronger, by showing how they can be attacked and how they
+respond to it.  For now, we have to take Gladwell at his word.  I'll reserve my
+final judgement for when there is more corroborating evidence.  But I'm sure
+these theories of Truth-Default and transparency and coupling will keep bouncing
+around in my head for some time to come.

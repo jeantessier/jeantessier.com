@@ -1,0 +1,82 @@
+name: The_Great_Gatsby
+isbn: 0743273567
+isbn13: 9780743273565
+title: [[https://www.amazon.com/dp/0743273567][The Great Gatsby]]
+author: F. Scott Fitzgerald
+publisher: Scribner
+year: 1925
+acquired: 2019-08-06
+start: 2019-08-09
+stop: 2019-08-30
+
+I read this back in High School.  I had recently seen the Baz Luhrmann movie
+adaptation and I thought it was time for me to read it again.
+
+I'd come to realize I remembered very little from the novel.  Maybe it's because
+it was a school assignment.  Maybe it's because I was a teenager, back then.
+Maybe it's because my English was not good enough back then for the level of
+language in the book.  I vaguely remembered there was an important scene at the
+Plaza Hotel, but I don't know if I remembered its importance from reading it or
+from quizzes later in class.  And I vaguely remembered the Valley of Ashes.  And
+that there was a lot of mystery around the character of Gatsby.
+
+The movie was a very good refresher, but Baz Luhrmann's vision tends to go far
+beyond the source material.  I was eager to re-discover the original story and
+Fitzgerald's unmodified vision.  The introduction talks about how youth and
+adults can have different interpretations of the story.  I was curious as to how
+I would perceive it this time around.
+
+The movie, it turns out, stays pretty close to the book.  It does dial up the
+extravagance: Gatsby drives recklessly, the parties are over the top.  I liken
+it to over-saturating the colors in a picture; it's the same picture, but
+everything in it is dialed up to 11.  One startling difference, though, is that
+in the book, Gatsby never loses his temper at Daisy the way he does at the
+Plaza Hotel in the movie.  And the framing device of Nick in an asylum was also
+in poor taste.
+
+The book is a nice study in contrasts.  Everywhere you look, the author is
+comparing things: rich vs. working class, Old Money vs. New Money, responsible
+vs. careless, yearnings vs. reality.
+
+Here is an example from when Gatsby's father visits Gatsby's impressive house:
+
+<blockquote>
+
+He had shown [the photograph] so often that I think it was more real to him now
+than the house itself.
+
+<footer>page 172</footer>
+</blockquote>
+
+Gatsby's father had never seen the house before and latched on to the photograph
+as proof of its existence.  In his mind, the photograph came to replace the
+actual object.
+
+It is tempting to apply the same process in Gatsby with regard to Daisy and the
+green light at the end of her dock.  But here, it is slightly different.  Gatsby
+is yearning for the green light because it stands closer to Daisy than he is.
+Once he's got Daisy by his side, he can forget about the green light and its
+supposed proximity to Daisy.
+
+Nick Carraway, the narrator, is always somewhere in the center of Fitzgerald's
+dichotomies.  His family is somewhat well off, but he still has to work.  He
+likes to think he is honest and responsible, but he willingly goes along with
+his friends' extravagances.  He shows some desire for Jordan, but it does not
+turn into an obsession.  He makes for a nice neutral narrator.
+
+Everyone else is pretty despicable:
+
+<blockquote>
+
+They were careless people, Tom and Daisy&mdash;they smashed up things and
+creatures and then retreated back into their money or their vast carelessness,
+or whatever it was that kept them together, and let other people clean up the
+mess they had made...
+
+<footer>page 179</footer>
+</blockquote>
+
+In the end, Gastby was a character trapped in a past that he had constructed out
+of thin air.  Tom and Daisy are trapped in the trappings of Old Money.  Jordan
+is trapped in her own constant dishonesty.  Nick is somewhat relieved to get
+away from it all.

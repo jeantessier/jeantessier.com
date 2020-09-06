@@ -1,0 +1,54 @@
+name: Monolith_to_Microservices
+isbn: 1492047848
+isbn13: 9781492047841
+title: [[https://www.amazon.com/dp/1492047848][Monolith to Microservices]]
+author: Sam Newman
+publisher: O'Reilly
+year: 2019
+acquired: 2019-11-04
+start: 2019-12-03
+stop: 2019-12-20
+
+This book focuses on transitioning from a monolith architecture to one more in
+tune with microservices.  The main motivation is to allow separate development
+efforts to proceed independently from one another and as quickly as possible.
+One issue when developing a monolith is how everything is intertwined together,
+making changes more risky, and tying everyone to a single release cadence.
+Instead, independent components can be smaller, more cohesive, and can release
+new versions on their own schedule.  The complexity does not go away, it just
+moves from inside one monolith to between multiple interacting services.
+
+Like his previous book, _[[#Building%5FMicroservices][Building Microservices]]_,
+Sam Newman keeps things high-level and technology agnostic.  This is not a
+detailed how-to guide with specific technologies.  It shows the big picture and
+provides advice that is applicable regardless of your specific technology stack.
+
+To Sam Newman, moving to microservices is a series of trade-offs.  He looks at
+the pros and cons at every step.  And at times, a move to microservices may not
+be the most appropriate.  He provides a lot of guidance on how to make an
+informed decision when evaluating possibilities.  The challenges are not all
+technical.  A move to microservices will bring with it changes in the
+organization, and you should not underestimate the difficulty of getting people
+to change.  I liked the use of spider graphs in assessing a team's capabilities,
+both at the beginning of the project and where they might need to be in the
+future.  With the usual caveats about bias in metrics and how what you measure
+will steer people's behavior, sometimes in unanticipated directions.
+
+There are many useful patterns for separating pieces of code.  From services to
+modules to database entities.  And not just the ideal decomposition ones, but
+also some more limiting patterns that may be your only options in some cases.  I
+was surprised to see a service exposing a SQL interface to integrate with
+reporting systems like Tableau.  There is a paragraph about GitHub's Scientist
+library in the coverage of the Parallel Run pattern.
+
+Other honorable mentions:
+
+    * Strangler Fig pattern
+    * NGINX reverse proxies
+    * Service mesh with Envoy sidecar
+    * Micro frontends
+    * Sagas instead of distributed two-phase commit
+
+This is the first printing and there are quite a few typos, especially in the
+figures.  Examples are in figures 4-9 and 4-17, and there is an entire duplicate
+paragraph between pages 139 and 141.

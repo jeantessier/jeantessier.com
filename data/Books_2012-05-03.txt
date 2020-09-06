@@ -1,0 +1,43 @@
+name: Pakistan_on_the_Brink
+isbn13: 9780670023462
+isbn: 0670023469
+title: [[http://amzn.com/0670023469][Pakistan on the Brink: The Future of America, Pakistan, and Afghanistan]]
+author: Ahmed Rashid
+publisher: Viking
+year: 2012
+acquired: 2012-04-26
+start: 2012-05-03
+stop: 2012-05-18
+
+I really appreciated his two other books, Taliban and
+[[#Descent%5Finto%5FChaos][Descent into Chaos]], for their deep knowledge
+of the issues at stake in Afghanistan and Central Asia.  I was looking forward
+to this update on things are evolving.
+
+Things are not going well in _AfPak_.  Since American troops will leave
+Afghanistan by 2014, everybody is pretty much waiting for them to have left
+before they make their move.  The Afghan government is feeling isolated and
+abandoned.  Pakistan wants to play a major role in shaping the future of
+Afghanistan, which it sees as a strategic component of its strategy regarding
+India, but it also has to deal with its home brand of islamist fundamentalists.
+All the other neighbors are taking a wait-and-see attitude.  America is doing
+its best to make a dignified exit.
+
+The last pages of the book mention the accidental killing of 26 Pakistani
+soldiers in a NATO air strike on 2011-11-26.  This prompted Pakistan to close to
+supply routes into Afghanistan.  On 2012-05-21, the news mentioned a NATO summit
+where they were talking about these closed supply routes.  Six months after the
+incident, the issue is still not resolved.
+
+On 2012-05-23,
+[[http://www.google.com/hostednews/ap/article/ALeqM5jrph4TaxnPQbRXQyE-J630WjOM-Q?docId=4785f8c699964efea7e1288c82f61b05][Pakistan convicted the doctor who helped the CIA track down Osama bin Laden]].
+Just like Ahmed Rashid mentions in the book, Pakistani officials are more
+concerned with the breach of their sovereignty by the US raid to kill bin Laden
+than with the fact he was being given shelter in Pakistan.  On 2012-05-24, the
+US
+[[http://www.google.com/hostednews/ap/article/ALeqM5g1BkaLuKXvE1gWEJSjTRW2bZsezQ?docId=b35bff82804641bba498bf7aaffcac44][suspended $33 million in aid to Pakistan]]
+in retaliation, and on 2012-05-25,
+[[http://timesofindia.indiatimes.com/world/us/US-lawmakers-call-Pakistan-terrorist-state-schizophrenic-ally/articleshow/13492994.cms][US lawmakers called Pakistan "terrorist state", "schizophrenic ally"]].
+
+I'm afraid Rashid's next book on the region, in a few years, after the American
+withdrawal, will be quite depressing.

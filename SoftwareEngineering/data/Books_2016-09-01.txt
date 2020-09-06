@@ -1,0 +1,49 @@
+name: Design_for_the_Mind
+isbn: 1617292958
+isbn13: 9781617292958
+title: [[https://amzn.com/1617292958][Design for the Mind: Seven Psychological Principles of Persuasive Design]]
+author: Victor S. Yocco
+publisher: Manning
+year: 2016
+acquired: 2016-06-16
+start: 2016-09-01
+stop: 2016-12-16
+
+This book shows how to apply principles from psychology and cognitive science
+when building user interfaces that are used by humans.  Unfortunately, the
+author only has had limited exposure to psychology, so his knowledge lacks
+depth.  He can point to research and quote various researchers, but it feels
+more by rote than internalized and comprehensive understanding.  This is
+immediately apparent in the preface and shows up periodically along the book.
+
+I appreciated the quick tour of psychological concepts.  It gives many pointers
+for things to read further.
+
+    * planned behaviors
+    * decisions with an uncertain outcome
+    * Fogg's model
+    * how to influence the decisions of others
+    * social influence
+    * framing communications
+    * persuasion, with a focus on ELM
+
+These models clearly appeals to the author, but he could do a better job of
+convincing his readers that they are worthwhile models.  It is not clear to the
+lay person whether these models are gaining traction in the psychology/behavior
+community.  The way the author uses them to solve design issues reads more like
+a list of "life hacks".
+
+Each concept is treated on its own, with few connections to each other.  The
+formula for each chapter quickly becomes tedious.  The author should have
+connected or contrasted the material on persuasion with the other psychological
+principles in the book.  The case study near the end was a missed opportunity to
+tie the elements of the book together.  They are hastily put together and
+rapidly glossed over, with too much focus on what was used and not enough on
+what was left out or why it didn't apply in that context.
+
+The author also places a lot of value (to much, in my opinion) on having
+researchers drive the user testing.  Yes, professionals will get you the very
+best results, but there is a lot you can do on your own and still get a much
+value.
+
+In summary, the book is an interesting list of pointers for further research.

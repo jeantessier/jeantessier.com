@@ -1,0 +1,42 @@
+name: Hegemony_or_Survival
+isbn13: 9780805074000
+isbn: 0805074007
+title: [[http://amzn.com/0805074007][Hegemony or Survival]]
+author: Noam Chomsky
+publisher: Metropolitan Books
+year: 2003
+start: 2005-01-11
+stop: 2005-01-28
+
+Diatribe against American imperial policies.
+
+Early on, Chomsky warns his reader not to confuse state power with a country and
+its people.  One can be critical of state policy while praising the country and
+its culture.  Interestingly enough, one reviewer on
+[[http://www.amazon.com/exec/obidos/tg/cm/member-glance/-/A3JFR4ZGABKIP2/1/ref%3Dcm%5Fcr%5Fauth/103-4247903-3743005?%5Fencoding%3DUTF8][Amazon.com]]
+has fallen into that trap and assumes that since Chomsky is critical of the
+current administration, he must hate America too.
+
+Chomsky documents how the
+[[http://en.wikipedia.org/wiki/Monroe_Doctrine][Monroe Doctrine]]
+has shaped American policy, both foreign and domestic for the past 150 years.
+He uses newspaper articles, declassified documents, and political analysis to
+show how successive administrations have built up their military supremacy to an
+unparalleled level while at the same time taming the "great beast" of public
+opinion, giving them the freedom to use that power to the benefit of the
+national elite.  Examples come from involvements in Central and South America,
+the Cold War including the Cuban Missile Crisis, to the post-Soviet era and the
+war on terror, to the war in Iraq.  The progression is quite frightening.
+
+The book includes 28 pages (10%) of notes listing sources for each quotes, and a
+12-page index.  You can check out his facts for yourself, if you have the time
+and patience to track down all those sources.
+
+<p><span class="newthought">Note:</span> If you look at the dates during which I
+was reading this book, you will see that they coincide with George W. Bush's
+second inaugural address (2005-01-20).  In it, President Bush put forth a goal
+to promote freedom in the world.  The future will tell if this was the latest
+incarnation of the Monroe Doctrine.  In reaction to the inaugural speech, the
+New York Times published, on January 30, an op-ed by Tom Wolfe tying the address
+to the Monroe Doctrine and how successive administrations gradually expanded its
+reach until it spanned the entire globe.</p>
