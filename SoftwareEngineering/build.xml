@@ -78,6 +78,11 @@
         <delete file="Journal.atom.tmp"/>
     </target>
 
+    <target name="book_reviews.deploy">
+        <copy file="${book_reviews.home}/build/index.html" tofile="Books.html" overwrite="true"/>
+        <copy file="${book_reviews.home}/build/index.html" tofile="BooksBackLog.html" overwrite="true"/>
+    </target>
+
     <target name="clean">
         <delete verbose="true">
             <fileset dir="." defaultexcludes="no">

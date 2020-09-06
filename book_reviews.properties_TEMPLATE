@@ -1,0 +1,2 @@
+# Change this value to where you cloned jeantessier/book-reviews-react-app
+book_reviews.home=${env.HOME}/language/JavaScript/book-reviews-react-app

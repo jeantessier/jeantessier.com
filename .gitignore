@@ -10,6 +10,7 @@ SoftwareEngineering/Journal.atom
 SoftwareEngineering/Journal.json
 SoftwareEngineering/SoftwareBooks_goodreads.csv
 SoftwareEngineering/SoftwareBooksBackLog_goodreads.csv
+book_reviews.properties
 build.properties
 chars.html
 dump.out

@@ -4,6 +4,10 @@
         Jean's Website
     </description>
 
+    <property environment="env"/>
+
+    <property file="book_reviews.properties"/>
+
     <target name="all" depends="books, se_blogs"
             description="Generates all dynamic content and Atom feeds."/>
 
@@ -51,6 +55,25 @@
 
     <target name="se_blogs">
         <ant dir="SoftwareEngineering" inheritAll="false"/>
+    </target>
+
+    <target name="book_reviews" depends="book_reviews.refresh, book_reviews.deploy, se_book_reviews.deploy"
+            description="Updates the instances of BookReviews"/>
+
+    <target name="book_reviews.refresh">
+        <delete dir="BookReviews"/>
+        <copy todir="BookReviews">
+            <fileset dir="${book_reviews.home}/build"/>
+        </copy>
+    </target>
+
+    <target name="book_reviews.deploy">
+        <copy file="${book_reviews.home}/build/index.html" tofile="Books.html" overwrite="true"/>
+        <copy file="${book_reviews.home}/build/index.html" tofile="BooksBackLog.html" overwrite="true"/>
+    </target>
+
+    <target name="se_book_reviews.deploy">
+        <ant dir="SoftwareEngineering" target="book_reviews.deploy"/>
     </target>
 
     <target name="clean" depends="books.clean, se_clean"
