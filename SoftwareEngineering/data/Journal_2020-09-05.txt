@@ -16,10 +16,10 @@ AngularJS, and =react-markdown= with the reading lists.  There is a small risk
 that their Markdown implementations will diverge on the fringes, but I doubt it
 will impact me.  What I need is pretty minimal.
 
-I only converted the files for `/Books.html` and `/BooksBackLog.html` first.  I
+I only converted the files for =/Books.html= and =/BooksBackLog.html= first.  I
 used a somewhat simple Perl script to convert these files.  I will apply the
-script to `/SoftwareEngineering/Books.html` and
-`/SoftwareEngineering/BooksBackLog.html` later.
+script to =/SoftwareEngineering/Books.html= and
+=/SoftwareEngineering/BooksBackLog.html= later.
 
-I can only convert the data for `/SoftwareEngineering/Journal.html`
+I can only convert the data for =/SoftwareEngineering/Journal.html=
 after I've upgraded its Angular app to use Markdown too.
