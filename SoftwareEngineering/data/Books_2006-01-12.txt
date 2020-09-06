@@ -10,7 +10,7 @@ stop: 2006-02-13
 
 We use WebWork at work and I wanted to learn more.  The
 documentation that ships with WebWork can be spotty, and since it
-consists largey of an alphabethical dump of their wiki, it is
+consists largely of an alphabetical dump of their wiki, it is
 fairly hard to follow beyond the initial tutorial.
 
 Anyone who wants to use WebWork should read this book.  It is
@@ -37,5 +37,5 @@ book, you're in a better position to understand what is going on,
 but it is confusing when you are only trying to get the early
 examples to work.
 
-The book has numerous typos throughout and the highly didactical
+The book has numerous typos throughout and the highly didactic
 tone can sometimes feel condescending.

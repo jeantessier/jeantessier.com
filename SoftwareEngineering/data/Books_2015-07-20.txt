@@ -48,5 +48,5 @@ great and some of them less so.  Overall, the book gives broad coverage of all
 the things you must keep in mind if you want to start using microservices.  It
 does not provide in depth coverage of any one topic, so you have to look
 elsewhere for direct implementation advice.  The book does give you a number of
-places to start looking and the big picture view so you can see how the pieces
+places to start looking, and the big picture view so you can see how the pieces
 fit together.
