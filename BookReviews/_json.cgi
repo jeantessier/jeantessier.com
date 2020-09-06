@@ -10,7 +10,7 @@
             ],
             "years": ["1937"],
             "publisher": "Allen & Unwin",
-            "body": "<p>Great read!</p>",
+            "body": "Great read!\n\n> In a hole in the ground there lived a hobbit.\n> <footer>p. 1</footer>",
             "acquired": "2019-05-25",
             "start": "2019-10-01",
             "stop": "2019-10-07"
@@ -23,7 +23,7 @@
             ],
             "years": ["1954", "1955"],
             "publisher": "Allen & Unwin",
-            "body": "<p>Awesome!!</p>",
+            "body": "**Awesome!!**",
             "acquired": "2019-05-25",
             "start": "2019-11-21"
         },
@@ -36,7 +36,7 @@
             ],
             "years": ["1977"],
             "publisher": "Allen & Unwin",
-            "body": "<p>Weird?!?</p>",
+            "body": "~~Weird?!?~~\n\nEpic!",
             "acquired": "2019-08-06"
         }
     ]
