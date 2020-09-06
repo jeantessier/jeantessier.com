@@ -4,6 +4,10 @@ if ($0 =~ /(\w+)_\w+\./) {
     $WIKI_NAME = $1;
 }
 
+sub GetWikiName {
+    return $WIKI_NAME;
+}
+
 sub GetWikiTitle {
     open(FILEHANDLE, "$WIKI_DIRNAME/${WIKI_NAME}_title.txt");
     local ($title, @subtitle) = <FILEHANDLE>;
