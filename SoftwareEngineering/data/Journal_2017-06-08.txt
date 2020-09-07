@@ -1,8 +1,0 @@
-I was listening to a
-[[https://lescastcodeurs.com/2016/10/03/lcc-155-java-ee-et-l-ardoise-magique/][podcast]]
-and I stumbled upon =[[https://ngrok.com/][ngrok]]=, a tunneling service that
-lets you expose any application on any port on =localhost= to a public address
-on the Internet.  This is very useful to test webhooks: run the hook on your
-development machine, expose it on the Internet using =ngrok=, and tell the
-service that you're integrating with to call your webhook on the =ngrok=
-address.  Boom!  An external service is calling code running on your laptop.

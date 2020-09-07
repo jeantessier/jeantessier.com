@@ -1,3 +1,0 @@
-Maybe Test-Driven Development is really _MDA in Java_ in the way that
-_tests_ are really an executable specification and writing them first is
-really a way to do design rather than testing.

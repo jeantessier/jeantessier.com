@@ -1,3 +1,0 @@
-Micronaut Predator gets renamed to
-[[https://github.com/micronaut-projects/micronaut-data][Micronaut Data]].  Read
-the [[https://objectcomputing.com/news/2019/07/26/micronaut-predator-renamed-micronaut-data][full announcement.]]

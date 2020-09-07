@@ -1,6 +1,0 @@
-Forword to Domain-Driven Design.  I really like how
-[[MartinFowler.html][Martin Fowler]] says that domain modelers should
-be able to talk to customers in the domain language and talk with developers in
-the implementation language, e.g., Java.  Do you think he means by
-_domain modeler_ what our current analysts should be doing?  I, for one think so,
-which makes the current situation that much more depressing.

@@ -1,8 +1,0 @@
-For my new language for 2008, I decided to learn Ruby.  I finished reading the
-first two parts of the [[http://amzn.com/0974514055][Pick Axe]].
-Last year, I learned Python and I stopped using Perl in order to force myself
-to focus on Python.  One thing I really missed from Perl are the command-line
-switches =-p=, =-n=, and =-i=; I could use them for quick one-off operations on
-files.  In Python, I have to write a script for the simplest task.  I'm glad to
-report that Ruby also has =-p=, =-n=, and =-i= switches that behave exactly as
-in Perl.

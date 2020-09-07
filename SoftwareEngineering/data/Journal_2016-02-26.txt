@@ -1,6 +1,0 @@
-A nice article on team dynamics:
-[[http://nyti.ms/20Vn3sz][What Google Learned From Its Quest to Build the Perfect Team]].
-Turns out the key ingredient is
-_[[https://en.wikipedia.org/wiki/Psychological%5Fsafety][psychological safety]]_.
-I've been thinking a lot about notions of _trust_ and _safety_ lately, in
-various contexts.

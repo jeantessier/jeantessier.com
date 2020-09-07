@@ -1,3 +1,0 @@
-The new hard-drive has arrived.  I ordered a =WD2500JD= and they sent me a
-=WD2500JS=.  Everything seems the same except it uses SATA II instead of plain
-old SATA.  Searching the web indicates that they should be compatible.

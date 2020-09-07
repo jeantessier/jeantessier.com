@@ -1,7 +1,0 @@
-Launched [[http://directly.com][Directly.com]] and got a mention in
-[[http://allthingsd.com/20121203/directly-is-a-taskrabbit-for-online-customer-service/][AllThingsD]].
-All this after a crazy weekend tying up loose ends and making sure the site was
-tight.  At this time last year, we had officially launched Insidr.com and gone
-through the pains of changing the DNS from Insidr.net to Insidr.com.  The
-infrastructure we deployed at the time, three frontends and a DB backend, should
-be good enough for some time, still.

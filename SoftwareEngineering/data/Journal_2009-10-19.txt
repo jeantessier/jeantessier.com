@@ -1,3 +1,0 @@
-First day at [[http://shopwell.com/][ShopWell]].  It's an early
-startup, still in stealth mode, so I cannot say too much about what we're doing,
-yet.  It's got to do with health and nutrition.  We work with Groovy and Grails.

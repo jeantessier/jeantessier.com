@@ -1,4 +1,0 @@
-Played with [[http://rspec.info/][RSpec]] today and wrote my first unit tests
-in Ruby.  I even played with
-[[http://rspec.info/documentation/mocks/][Spec::Mocks]] to do some mocking
-while I was at it.

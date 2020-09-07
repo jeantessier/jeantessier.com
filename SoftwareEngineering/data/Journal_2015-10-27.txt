@@ -1,2 +1,0 @@
-My GitHub webhook was a little too chatty with its digests, so I had to clamp
-down on security.

@@ -1,2 +1,0 @@
-Played a _little_ bit with [[http://purecss.io/][Pure]], a minimalist CSS
-framework.

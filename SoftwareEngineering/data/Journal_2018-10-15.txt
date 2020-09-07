@@ -1,4 +1,0 @@
-I learned about
-_[[https://en.wikipedia.org/wiki/Progressive%5FWeb%5FApps][Progressive Web Apps]]_
- (PWA), today.  It seems the qualifying criteria are enabling work offline and
-the use of push notifications.

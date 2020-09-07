@@ -1,3 +1,0 @@
-Today was a good day.  I drew a quick diagram on the whiteboard to illustrate
-a [[https://grpc.io/][gRPC]] concept and received lots of praise for it.
-Doesn't look like much, but it felt good nonetheless.

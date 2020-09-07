@@ -1,9 +1,0 @@
-Someone reacted to my suggestion for [[MartinFowler.html][Martin Fowler]]'s
-article yesterday by mentioning Pete McBreen's _Software Craftsmanship_.
-He said how it got him away from calling himself a
-"software engineer" and changing to a "software craftsman" instead.  I went
-through some of the same questioning myself a while ago, and I also feel closer
-to a software craftsman than an engineer.  But the reality of it is that the
-average person sees all software professionals as _software engineers_
-without distinguishing between the finer points.  So I need to adjust my
-message according to my audience, what else is new.

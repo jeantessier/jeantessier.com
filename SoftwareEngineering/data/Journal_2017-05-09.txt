@@ -1,7 +1,0 @@
-Re-reading a Martin Fowler article on
-[[https://martinfowler.com/articles/newMethodology.html][agile software development]].
-The substance of the article goes back to the year 2000, with some updates until
-2005, but it has survived the test of time surprisingly well.  It talks at
-length to the fallacy of predictive development in software, and is very
-humanistic in putting people at the center of the process.  For this last part,
-he uses quotes by Alistair Cockburn.  It is a great re-read.

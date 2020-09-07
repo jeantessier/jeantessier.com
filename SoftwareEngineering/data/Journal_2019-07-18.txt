@@ -1,7 +1,0 @@
-The folks who gave us [[http://grails.org/][Grails]] and
-[[http://micronaut.io][Micronaut]] are at it again.  This time, it is a project
-called [[https://github.com/micronaut-projects/micronaut-predator][Predator]],
-for _pre-compiled data layer_.  If provides a lot of the magic that you can get
-from [[http://gorm.grails.org/][GORM]], but whereas GORM operates at runtime,
-Predator does its magic at compile-time.  It is particularly well suited for
-Micronaut, to keep the executable small and the application start time fast.

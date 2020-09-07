@@ -1,4 +1,0 @@
-Worked out a script to take my book entries in the =data/= folder and write them
-out as =insert= statements for [[https://www.mongodb.org/][MongoDB]].  It splits
-them into separate =book= and =review= collections and links them together with
-a predefined =user= entry.

@@ -1,7 +1,0 @@
-Copied all remaining data to the external drive.  Ran Alienware Respawn to
-ghost the machine, but it failed.  When I reboot, I get a blue screen to flash
-for one moment and then it tries to reboot again.  I guess the crash actually
-damaged the drive and some sectors are now bad.  The Respawn tried to restore
-these sectors to what they had been but failed.  It looks like I will have to
-reinstall Windows again and figure out all the drivers.  One good thing: just
-before running Respawn, I got the sound card to work again.

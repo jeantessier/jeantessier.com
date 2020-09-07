@@ -1,8 +1,0 @@
-I found out there is now a
-[[http://commonmark.org/][formal definition of Markdown]].  It means to address
-some of the ambiguities in the
-[[http://daringfireball.net/projects/markdown/][original definition of Markdown]].
-There is a reference implementation in JavaScript and implementations in Java
-and Perl, too.  This might make it easier for me to move off of my custom wiki
-notation and use something more standard, instead of
-[[https://github.com/showdownjs/showdown][Showdown]].

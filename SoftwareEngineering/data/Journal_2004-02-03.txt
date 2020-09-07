@@ -1,9 +1,0 @@
-I read
-[[http://www.netobjectives.com/ezines/ezine%5F2004%5F01.pdf][a paper by Allan Shalloway]],
-of _Design Patterns Explained_ fame, on the
-usefulness of design patterns.  Again, he warns not focus too much on the
-particular solution, but rather on the forces at play in the pattern and how
-they are resolved.  That's where the true value of design patterns is.  Some of
-it boils down to the usual "program to an interface, not an implementation" and
-"favor composition over inheritance".  As always, you want to encapsulate what
-changes to limit the impact of these changes to the rest of the code.

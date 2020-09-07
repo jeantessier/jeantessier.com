@@ -1,6 +1,0 @@
-Another
-[[https://hackernoon.com/how-css-grid-beats-bootstrap-85d5881cf163][nice article]]
-on [[https://www.w3schools.com/css/css_grid.asp][Grid Layout]] that shows The
-difference with [[https://getbootstrap.com/][Bootstrap]].  One nice thing for
-Grid Layout is that it is already in the browser, so it doesn't need an
-additional library.

@@ -1,2 +1,0 @@
-Added an Atom feed for this Journal.  It forced me to correct many errors in
-past entries, from well-formedness to proper escaping of control characters.

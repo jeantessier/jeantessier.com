@@ -1,3 +1,0 @@
-Finished updating to the latest
-[[https://github.com/edwardtufte/tufte-css][Tufte CSS]].  They replaced the
-=code= CSS class in favor of using the =&lt;code&gt;= tag instead.

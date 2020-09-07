@@ -1,5 +1,0 @@
-Interesting overview of the
-[[http://www.engineyard.com/blog/2009/ready-set-go/][Go language]] by my good
-friend Dave Astels.  I like how it can deduce the type of things by itself in
-many cases.  I also like its use of interfaces.  It is still a little too
-low-level for me, though.

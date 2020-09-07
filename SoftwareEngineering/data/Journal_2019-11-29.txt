@@ -1,3 +1,0 @@
-Managed to build a [[https://reactjs.org/][React]] equivalent to the
-[[https://angularjs.org/][AngularJS]] app I use to publish my book reviews.
-This one even says when it is loading data.

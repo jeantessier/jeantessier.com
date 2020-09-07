@@ -1,4 +1,0 @@
-Found [[https://github.com/daveliepmann/tufte-css][Tufte CSS]], an open-source
-stylesheet to make web pages in the style of
-[[http://www.edwardtufte.com/][Edward Tufte]]'s books and handouts.  I want to
-overhaul my website design, so why not give this a try?

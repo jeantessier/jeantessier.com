@@ -1,7 +1,0 @@
-I have been trying to wrap my head around [[https://reactjs.org/][React]] for
-the longest time.  Somehow, it always rebuffs my attempts at understanding what
-I'm looking at.  But I finally found a
-[[https://reactjs.org/docs/hello-world.html][really great explanation]]
-that walks me through all the concepts in a way that I can grok them.  I'm still
-missing some of the setup to allow me to play with it on my own, but at least I
-can read it now.

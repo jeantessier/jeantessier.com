@@ -1,6 +1,0 @@
-I found a cool plugin for the [[https://atom.io/][Atom]] editor that lets people
-share a session for [[https://atom.io/packages/atom-pair][pair programming]].
-You can invite others to join the session using [[https://slack.com/][Slack]].
-At work, we have collaborators that live in Europe and this could help us pair
-program.  Or even pairing with my office coworkers when one of us is working
-from home.

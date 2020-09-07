@@ -1,4 +1,0 @@
-I wrote a [[Mocking.html][more complete comparison]] of
-[[http://jmock.org][jMock]]
-and [[http://easymock.org][EasyMock]].  Someone also suggested I should include
-[[http://code.google.com/p/mockito][Mockito]].

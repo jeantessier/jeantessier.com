@@ -1,3 +1,0 @@
-Looking at the latest update to
-[[https://github.com/edwardtufte/tufte-css][Tufte CSS]].  They brought back
-bullets on unordered lists, but they also made changes to some of the HTML tags.

@@ -1,8 +1,0 @@
-I'm rewriting "Books.html" to generate a set of static HTML pages that I can then
-upload, instead of generating everything from scratch every time.  I will still
-need to assemble them into some kind of navigation structure.
-
-My Perl is rusty.  I'm only sticking with it because I don't feel like
-re-writing all the wiki-like conversions.  The are a bunch of Perl regular
-expressions and mapping them to another language would be delicate.  It might be
-more expedient to redo this logic in something like Groovy than stick to Perl.

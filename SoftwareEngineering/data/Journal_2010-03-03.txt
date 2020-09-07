@@ -1,2 +1,0 @@
-I started a page where I hope to illustrate
-[[WhyILikeGroovy.html][why I like programming in Groovy]].

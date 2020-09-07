@@ -1,7 +1,0 @@
-When I write software, I care about doing a good job and writing well
-structured code that will be easy to maintain.  Maybe I am not a computer
-scientist but more of a _software craftsman_.  What kind of title would
-that make?  I think it conveys a feeling of coming up with individual
-solutions adapted to the problem at hand, not applying rote techniques from a
-code book.  It rings of taking pride in one's work, of being highly skilled at
-solving problems.  That sounds good to me.

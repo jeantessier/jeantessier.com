@@ -1,3 +1,0 @@
-Tried to switch my script that prints my [[Books.html][recent readings]] list to
-[[https://github.com/daveliepmann/tufte-css][Tufte CSS]].  I use some specific
-markup in my private wiki notation that ends up looking weird in Tufte CSS.

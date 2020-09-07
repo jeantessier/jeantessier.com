@@ -1,5 +1,0 @@
-Built a
-[[https://github.com/jeantessier/united-federation-of-jean][sample federated GraphQL schema]].
-I wanted to test what would happen if the same field name was used in multiple
-underlying servers.  The short answer appears to be that Apollo's implementation
-of federation does not allow it.

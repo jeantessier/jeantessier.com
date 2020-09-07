@@ -1,4 +1,0 @@
-I read a
-[[http://www.sys-con.com/story/?storyid%3D37795&DE%3D1][nice article on Test-Driven Development]]
-in JDJ.  It's a nice, concise description of TDD.  I like TDD.
-I try to use it as much as I can now.

@@ -1,9 +1,0 @@
-Trying to convert my database of readings into an import file for
-[[http://goodreads.com][Goodreads]].  The formatting for the CSV file is giving
-me trouble.  I look at their documentation and sample, to figure out what
-columns to output, but is seems a little incomplete.  I end up having to write
-review material in one sample book and looking at the Goodreads export file to
-reverse-engineer what other columns there might be.
-
-At first, I considered writing it in Groovy, but my wiki-like logic is all in
-Perl.  My Perl is rusty.  Very rusty.

@@ -1,8 +1,0 @@
-I just realized that I've been working with Alex Martelli, author of some of the
-most popular books on Python, for the past six months and I didn't even
-realize it.  He wrote or co-wrote:
-
-    * [[http://amzn.com/0596100469][Python in a Nutshell, 2nd Edition]]
-    * [[http://amzn.com/0596007973][Python Cookbook]]
-
-What a small world.

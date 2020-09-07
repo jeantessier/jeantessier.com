@@ -1,5 +1,0 @@
-A really nice article on
-[[http://mockobjects.com/2009/09/brief-history-of-mock-objects.html][the origins of mock objects]]
-and [[http://jmock.org/][jmock]].  It is really nice to see how the concepts
-evolved naturally from doing TDD, using dependency injection, and keeping the
-code clean.
