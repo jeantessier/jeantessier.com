@@ -52,7 +52,7 @@ sub PrintDocumentHeader {
 
 sub PrintDocumentParts {
   local ($document) = &GetWikiName();
-  local (@files) = &GetWikiFiles("txt");
+  local (@files) = &GetWikiFiles("md");
 
     local ($max_mtime) = 0;
     foreach $file (@files) {
@@ -89,109 +89,22 @@ sub PrintDocumentPart {
     print "        <link href=\"http://jeantessier.com/SoftwareEngineering/${document}.html#$year-$month-$day\"/>\n";
     print "        <published>${year}-${month}-${day}T00:00:00Z</published>\n";
     print "        <updated>$updated</updated>\n";
-    print "        <content type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">\n";
-
-    local ($in_paragraph, $in_quote, $in_ordered_list, $in_unordered_list, $in_html);
+    print "        <content type=\"text/markdown\">\n";
 
     open(FILEHANDLE, $filename);
 
     local ($line);
     while ($line = <FILEHANDLE>) {
-        if ($line =~ /^\s*$/) {
-            if ($in_paragraph) {
-                $in_paragraph = !$in_paragraph;
-                print "</p>\n";
-            } elsif ($in_quote) {
-                $in_quote = !$in_quote;
-                print "</pre>\n";
-            } elsif ($in_ordered_list) {
-                $in_ordered_list = !$in_ordered_list;
-                print "</ol>\n";
-            } elsif ($in_unordered_list) {
-                $in_unordered_list = !$in_unordered_list;
-                print "</ul>\n";
-            } elsif ($in_html) {
-                $in_html = !$in_html;
-            }
-        } elsif ($line =~ /^(\s*)((\S+)\s*(\S.*))/) {
-            local ($indent, $text, $marker, $content) = ($1, $2, $3, $4);
-
-            local ($indent_level) = length $indent;
-            chomp $text;
-            chomp $content;
-
-            if (!$in_paragraph && !$in_quote && !$in_html && ($marker =~ /^\d+$/ || $marker eq "*")) {
-                $line = "<li>$content</li>\n";
-            }
-
-            if (!$in_paragraph && !$in_quote && !$in_ordered_list && !$in_unordered_list && !$in_html) {
-                if ($indent_level) {
-                    if ($marker =~ /^\d+$/ && !$in_ordered_list) {
-                        $in_ordered_list = !$in_ordered_list;
-                        print "<ol>\n";
-                    } elsif ($marker eq "*" && !$in_unordered_list) {
-                        $in_unordered_list = !$in_unordered_list;
-                        print "<ul>\n";
-                    } elsif (!$in_quote) {
-                        $in_quote = !$in_quote;
-                        print "<pre>\n";
-                    }
-                } elsif ($line =~ /^</) {
-                    $in_html = !$in_html;
-                } else {
-                    $in_paragraph = !$in_paragraph;
-                    print "<p>\n";
-                }
-            }
-        }
-
-        $line =~ s/=([^=]+)=/<code>\1<\/code>/g;
-        $line =~ s/_([^_]+)_/<i>\1<\/i>/g;
-        $line =~ s/\*([^*]+)\*/<b>\1<\/b>/g;
-        $line =~ s/\[\[(http[^\]]*)\]\[(http.*\.((gif)|(jpg)))\]\]/<a target="_blank" href="\1"><img border="0" src="\2" \/><\/a><br \/>/gi;
-        $line =~ s/\[\[(http[^\]]*)\]\[(.*\.((gif)|(jpg)))\]\]/<a target="_blank" href="\1"><img border="0" src="http:\/\/jeantessier.com\/SoftwareEngineering\/\2" \/><\/a><br \/>/gi;
-        $line =~ s/\[\[([^\]]*)\]\[(http.*\.((gif)|(jpg)))\]\]/<a target="_blank" href="http:\/\/jeantessier.com\/SoftwareEngineering\/\1"><img border="0" src="\2" \/><\/a><br \/>/gi;
-        $line =~ s/\[\[([^\]]*)\]\[(.*\.((gif)|(jpg)))\]\]/<a target="_blank" href="http:\/\/jeantessier.com\/SoftwareEngineering\/\1"><img border="0" src="http:\/\/jeantessier.com\/SoftwareEngineering\/\2" \/><\/a><br \/>/gi;
-        $line =~ s/\[\[(http[^\]]*\.((gif)|(jpg)))\]\]/<img src="\1" \/><br \/>/gi;
-        $line =~ s/\[\[([^\]]*\.((gif)|(jpg)))\]\]/<img src="http:\/\/jeantessier.com\/SoftwareEngineering\/\1" \/><br \/>/gi;
-        $line =~ s/\[\[(\d\d\d\d-\d\d-\d\d)\]\]/<a href="http:\/\/jeantessier.com\/SoftwareEngineering\/Journal.html#\1">\1<\/a>/gi;
-        $line =~ s/\[\[(http[^\]]*)\]\[(.*)\]\]/<a target="_blank" href="\1">\2<\/a>/g;
-        $line =~ s/\[\[([^\]]*)\]\[(.*)\]\]/<a target="_blank" href="http:\/\/jeantessier.com\/SoftwareEngineering\/\1">\2<\/a>/g;
-
-        $line =~ s/%2A/\*/gi;
-        $line =~ s/%3D/=/gi;
-        $line =~ s/%5F/_/gi;
-
-        $line =~ s/&nbsp;/&#160;/g;
-        $line =~ s/&agrave;/&#224;/g;
-        $line =~ s/&egrave;/&#232;/g;
-        $line =~ s/&eacute;/&#233;/g;
-        $line =~ s/&ecirc;/&#234;/g;
-        $line =~ s/&ocirc;/&#244;/g;
-        $line =~ s/&ouml;/&#246;/g;
-        $line =~ s/&uacute;/&#250;/g;
-        $line =~ s/&uuml;/&#252;/g;
-
         $line =~ s/&(?!amp|lt|gt)/&amp;/g;
-        $line =~ s/<-/&lt;-/g;
-        $line =~ s/->/-&gt;/g;
+        $line =~ s/</&lt;/g;
+        $line =~ s/>/&gt;/g;
 
         print $line;
     }
 
-    if ($in_paragraph) {
-        print "</p>\n";
-    } elsif ($in_quote) {
-        print "</pre>\n";
-    } elsif ($in_ordered_list) {
-        print "</ol>\n";
-    } elsif ($in_unordered_list) {
-        print "</ul>\n";
-    }
-
     close(FILEHANDLE);
 
-    print "        </div></content>\n";
+    print "        </content>\n";
     print "    </entry>\n";
 }
 
