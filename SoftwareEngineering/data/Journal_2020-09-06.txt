@@ -1,0 +1,8 @@
+Finished migrating all my content to Markdown.  The Book Reviews React app now
+uses =[[https://www.npmjs.com/package/react-markdown][react-markdown]]= to
+render the book reviews.  The Journal AngularJS app uses
+[[https://www.npmjs.com/package/showdown][Showdown]] to render the blog.
+
+All that is left are the RSS Atom feeds.  For these, I am going to need a Perl
+implementation of Markdown.  Or else, find a way to serve Markdown content in an
+Atom feed.
