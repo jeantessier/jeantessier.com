@@ -6,7 +6,7 @@ this _nonsense_ would just end.
 In my opinion, comments rely on human nature to stay current, which is
 highly unreliable.  Eventually, as the team grows and the complexity increases
 and the release pressure builds, the effort required to maintain the comments
-exceeds their ROI.  It in in the fundamental nature of comments to lie, no
+exceeds their ROI.  It is in the fundamental nature of comments to lie, no
 matter how hard you fight it.  In the end, entropy will win.
 
 My colleagues' counter-argument is that you don't really come upon such bad,

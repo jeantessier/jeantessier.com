@@ -7,7 +7,7 @@ application to generate the resource file automatically.
 So today I took the script public within our development organization.
 Someone complained that we should not use the script and that everyone should
 maintain their resource file manually; to try an automated script is lazy and
-error-prone.  <strong>Error-prone</strong>???  Synchronizing keys across
+error-prone.  *Error-prone*???  Synchronizing keys across
 multiple files and doing it manually is error-prone.  Anything to automate that
 is a step up!  And lazy?  Why,
 [[http://c2.com/cgi/wiki?LazinessImpatienceHubris][lazines]] is the

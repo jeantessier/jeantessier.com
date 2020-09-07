@@ -7,8 +7,8 @@ mobile-friendly.  Their tools analyze my pages and make recommendations on how
 I can make them more responsive.
 
 The first recommendation is to set the =viewport= meta header.  I think I want
-to get a more holistic view of responsive design before I blindly follow blanket
-recommendations that have not take my content into consideration.
+to get a more holistic view of responsive design, before I blindly follow
+blanket recommendations that are not taking my content into consideration.
 
 On a separate note, I've been glancing at
 [[http://facebook.github.io/react/][React]] vs.

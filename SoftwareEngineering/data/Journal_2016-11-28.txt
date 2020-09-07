@@ -10,5 +10,5 @@ in one =catch= block.
 
 The compiler still creates separate _exception handler_ attributes, but they all
 share the same series of instructions.  With separate =catch= blocks, even if
-they have identical code, the compile duplicates all the instructions.  This new
-notation is both elegant *and* more efficient.
+they have identical code, the compilation duplicates all the instructions.  This
+new notation is both elegant *and* more efficient.

@@ -28,7 +28,7 @@ usage let me use them for free.
 For now, I'm experimenting with a simple ="font-family: cursive"= until I can
 find time for more exploration.  I also installed Anonymous Pro in my IDE to try
 it out.  So far, it looks a little clearer than the default _monospaced_.  Other
-fixed-width alternatives looked good too but the code highlighting was not as
+fixed-width alternatives looked good too, but the code highlighting was not as
 effective.  This new font looks well calibrated.
 
 Interesting links regarding fonts on the web:

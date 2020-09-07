@@ -23,7 +23,7 @@ Gold (Oracle and HttpUnit), Sri Muthu (Wells Fargo), and David Vydra
 that the business side has always assumed that the development side was doing
 appropriate testing, even though it was not always true.  But lately, they have
 started to ask for the artifacts of our testing.  Since they always assumed we
-were testing, they won't be giving us more time so we can start doing it now.
+were testing, they won't be giving us more time, so we can start doing it now.
 There was even a suggestion that it is tantamount to professional negligence
 for today's programmers not to do TDD.  They have seen a roughly 30% adoption
 rate among programmers; much stronger with junior developers that senior ones

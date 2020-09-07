@@ -28,7 +28,7 @@ each:
     <dt><b>software designer</b></dt>
     <dd>
         Feels a little pigeonholed.  People who usually care about this
-        level of distinction also believe in rigid job seggregation.  The
+        level of distinction also believe in rigid job segregation.  The
         analyst analyzes.  The designer designs.  The programmer codes.  I
         don't see it that way.  I do any of the above at one time or
         another, depending on the need of the moment.
@@ -58,7 +58,7 @@ Robert Grady, in
 [[http://amzn.com/0137203845][Practical Software Metrics for Project Management and Process Improvement]],
 says engineers are after solutions, whereas scientists are after knowledge.  I
 tried to look into it a little further and found a debate going on regarding the
-nature of programming.  Is is an art?  A craft?  A science? Engineering?  Here's
+nature of programming.  Is it an art?  A craft?  A science? Engineering?  Here's
 my take on the subject:
 
 <div class="table-wrapper">

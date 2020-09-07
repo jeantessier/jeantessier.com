@@ -5,7 +5,7 @@ is pretty cool how they setup projects as subdomains of =surge.sh=.  This way,
 you can host your project at a mostly readable URL without having to purchase a
 domain and pay for hosting.  It can also host your site if you purchased a
 domain name and you just need some place to host it.  In my case, I already pay
-for hosting with Dreamhost and I have unlimited subdomains for
+for hosting with Dreamhost, and I have unlimited subdomains for
 =*.jeantessier.com=, so all I would need, really, is the automation.  I already
 jury-rigged a GitHub automation that updates my main website with every
 =git push= to the repository, but it relies on a GitHub webhook and a custom CGI

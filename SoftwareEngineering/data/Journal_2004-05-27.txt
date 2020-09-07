@@ -2,8 +2,8 @@ Read a
 [[http://pup.princeton.edu/books/rochlin/chapter_04.html][chapter on Taylorism]]
 by Prof. Rochlin.  It is interesting that I am currently reading
 Pete McBreen's _Software Craftsmanship_ where he advocates that we turn away
-from from modern, neo-Taylorist, deskilled software engineering and return to
-the traditional ways of craftsmen.
+from modern, neo-Taylorist, deskilled software engineering and return to the
+traditional ways of craftsmen.
 
 The premise looks tempting, that software engineering should be driven like
 a craft, where masters lovingly guide and mold their apprentices, passing on
@@ -28,7 +28,7 @@ but it could also turn out to be positive.  Industrialization has made the
 Western Hemisphere the dominant force on the planet.  Would you go back to
 19th Century living conditions just so blue-collar workers can feel better?
 Remember that back then, living was hard, with little leisure for most; child
-mortality rates were high.  People didn't live quite that old.  Do we reaaly
+mortality rates were high.  People didn't live quite that old.  Do we really
 want to go back to _that_?
 
 I don't have any answers for now, just a bunch of questions and things to

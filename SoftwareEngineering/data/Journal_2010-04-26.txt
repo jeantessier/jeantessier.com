@@ -11,7 +11,7 @@ Tying in to the other talks at the conference, startups are where we search for
 working business models.  We have to maximize learning, sometimes at the
 expense of perfect engineering.  But we cannot sacrifice engineering so much
 that it jeopardizes future learning.  We have to still do enough engineering,
-but not more.  This is not a _carte blanche_ for hacking, merely an reminder
+but not more.  This is not a _carte blanche_ for hacking, merely a reminder
 not to lose sight of the real goal.
 
 See also

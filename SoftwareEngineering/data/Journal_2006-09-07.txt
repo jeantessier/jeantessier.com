@@ -3,5 +3,5 @@ and all.  That was tedious.
 
 Today, I wrote a CGI script in Perl to break it up into individual text files,
 one per day, and use my pseudo-wiki processor from Dependency Finder to
-generate the page dynamicaly.  This way, when I want to add an entry, I simply
+generate the page dynamically.  This way, when I want to add an entry, I simply
 add a text file with a much easier notation than fullblown HTML.

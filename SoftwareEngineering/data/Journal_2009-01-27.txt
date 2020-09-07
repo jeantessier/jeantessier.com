@@ -7,4 +7,4 @@ I wrote some sample code and gave JUnit 4.5 a try.  In the past, I have always
 been limited to JUnit 3 for one reason or another.  But now, I got to write
 some tests using annotations and the new =assertThat()= with Hamcrest matchers.
 It was nice, except that I couldn't really inherit from =MockObjectTestCase=
-anymore and I have to explicitly declare the jMock =context= in my tests.
+anymore, and I have to explicitly declare the jMock =context= in my tests.

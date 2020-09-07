@@ -16,7 +16,7 @@ outlines--and plan to render and sweeten it AFTER you have 24-pages finished in
 some form.  If you run out of time because you decided to make every page
 awesome--you've failed.  It's okay to do shitty work.  People expect them to be
 shitty--they always look pretty sloppy--the bigger shame is failing to finish.
-So plan on doing 24-rough, barebones pages.  Anything more is gravy.  I suggest
+So plan on doing 24-rough, barebone pages.  Anything more is gravy.  I suggest
 that you work on it all as one piece--don't tackle it page by page or it'll
 deteriorate as you go--don't stop for anything--if a panel is giving you
 grief--move on and come back to it--keep your hands moving at all times.
@@ -66,7 +66,7 @@ _are pretty ugly 15 years later_.  Code that's quickly hacked together is hard
 to maintain and increasingly difficult to extend.
 
 The second part, _making it right_, is there to ensure longevity of the work.
-This is where you clean it up so it will last a long time.  This is where you
+This is where you clean it up, so it will last a long time.  This is where you
 make the code easy to maintain and extend.  This is where attention to detail is
 really important, where craftsmanship really shows.  It is also the part that is
 hardest to convey to the uninitiated.  Especially in software, the code where

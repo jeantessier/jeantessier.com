@@ -6,7 +6,7 @@ situation in a few classes and two alternatives, inquiring which one looked
 best.  Their first reaction: this reeks of big design upfront, too much
 complexity, this is all bogus.  It never occurred to them that there might
 exist situations where that is the simplest design that might work.  They
-immediately went into a frenzy about only custom code is good enough.  I never
+immediately went into a frenzy about only custom code is good enough.  It never
 occured to them that I might have ended up there by refactoring some simple
 solution already.  There was no benefit of the doubt, I was labelled a BDUFer
 the moment I set foot in there.

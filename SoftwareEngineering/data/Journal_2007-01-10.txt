@@ -36,7 +36,7 @@ The game aspects means it's a team effort and there are many factors that come
 into consideration for every decision.
 
 Finally, we can learn from _lean manufacturing_ by replacing units of production
-by decisions and they optimizing the flow of decisions throughout the process.
+by decisions and then optimizing the flow of decisions throughout the process.
 
 Cockburn also brought up the latest acronym: =XXD= or "Dos Equis"-Driven
 development.  Just like TDD is not about testing, XXD is not about beer.  Really,
