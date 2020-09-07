@@ -7,6 +7,7 @@
     <title>{{journal.title}}</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular-sanitize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
     <script src="../lib/Journal.js"></script>
 </head>
 
@@ -15,8 +16,8 @@
 <h1>{{journal.title}}</h1>
 
 <article ng-repeat="entry in journal.entries">
-    <h2><a name="{{entry.date}}">{{entry.pretty_date}}</a></h2>
-    <section ng-bind-html="entry.body"/>
+    <h2 id="{{entry.date}}">{{entry.pretty_date}}</h2>
+    <section ng-bind-html="markdown(entry.body)"/>
 </article>
 
 </body>

@@ -32,7 +32,7 @@ sub DocumentAsJson {
 }
 
 sub DocumentPartsAsJson {
-    local (@files) = &GetWikiFiles("txt");
+    local (@files) = &GetWikiFiles("md");
 
     return &JsonList(map { &DocumentPartAsJson($_) } @files);
 }
@@ -56,6 +56,6 @@ sub DocumentPartAsJson {
     return &JsonRecord(
         date => &JsonText($date),
         pretty_date => &JsonText("$MONTH{$month} $day, $year"),
-        body => &JsonText(&WikiContentsAsJson(@lines)),
+        body => &JsonText(&MarkdownContentsAsJson(@lines)),
     );
 }
