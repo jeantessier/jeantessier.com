@@ -18,10 +18,8 @@ sub GetWikiTitle {
 }
 
 sub GetWikiFiles {
-    local ($ext) = @_;
-
     opendir(DIRHANDLE, $WIKI_DIRNAME);
-    local (@files) = grep { /^${WIKI_NAME}_\d{4}-\d{2}-\d{2}(_\w)?.${ext}$/ } readdir(DIRHANDLE);
+    local (@files) = grep { /^${WIKI_NAME}_\d{4}-\d{2}-\d{2}(_\w)?.md$/ } readdir(DIRHANDLE);
     closedir(DIRHANDLE);
 
     return map { "${WIKI_DIRNAME}/$_" } reverse sort @files;

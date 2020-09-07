@@ -37,7 +37,7 @@ sub PrintDocumentHeader {
 
 sub PrintDocumentParts {
     local ($document) = &GetWikiName();
-    local (@files) = &GetWikiFiles("md");
+    local (@files) = &GetWikiFiles();
 
     local ($max_mtime) = 0;
     foreach $file (@files) {

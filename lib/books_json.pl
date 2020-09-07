@@ -10,7 +10,7 @@ sub DocumentAsJson {
 }
 
 sub DocumentPartsAsJson {
-    local (@files) = &GetWikiFiles("md");
+    local (@files) = &GetWikiFiles();
 
     return &JsonList(map { &DocumentPartAsJson($_) } @files);
 }
