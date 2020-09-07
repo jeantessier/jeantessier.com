@@ -10,4 +10,4 @@ acquired: 2019-05-25
 
 Umberto Eco's last collection of articles and essays.  Looking at the Table of
 Contents, I discern some of the topics he also addressed in his last novel,
-_[Numero Zero](Books.html#Numero_Zero)_.
+[_Numero Zero_](Books.html#Numero_Zero).
