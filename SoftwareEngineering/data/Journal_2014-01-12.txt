@@ -1,4 +1,4 @@
-As part of re-writing "Books.html", I added a piece to generate an list of books
+As part of re-writing "Books.html", I added a piece to generate a list of books
 that I can use as an index during navigation.  The mix of Perl and embedded HTML
 is really awkward.
 

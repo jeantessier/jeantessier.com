@@ -10,7 +10,7 @@ maintain their resource file manually; to try an automated script is lazy and
 error-prone.  *Error-prone*???  Synchronizing keys across
 multiple files and doing it manually is error-prone.  Anything to automate that
 is a step up!  And lazy?  Why,
-[[http://c2.com/cgi/wiki?LazinessImpatienceHubris][lazines]] is the
+[[http://c2.com/cgi/wiki?LazinessImpatienceHubris][laziness]] is the
 first virtue of a good programmer, according to Perl creator Larry Wall.  Of
 course, he's talking about the kind of laziness that makes you do a lot of work
 *now* so you don't have to do quite as much later.
