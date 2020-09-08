@@ -1,0 +1,12 @@
+name: Component_Based_Rails_Applications
+isbn: 0134774582
+isbn13: 9780134774589
+title: [Component-Based Rails Applications](https://www.informit.com/store/component-based-rails-applications-large-domains-under-9780134774589)
+author: Stephan Hagemann
+publisher: Addison-Wesley
+year: 2018
+acquired: 2020-09-07
+
+Stephan Hagemann now works at Gusto.  My team, at Gusto, promotes the
+modularization of our monoliths.  This book should help me make sure our efforts
+are aligned together.
