@@ -39,13 +39,13 @@ sub PrintDocumentHeader {
     print "<feed xmlns=\"http://www.w3.org/2005/Atom\">\n";
     print "\n";
     print "    <title>$title</title>\n";
-    print "    <id>http://jeantessier.com/SoftwareEngineering/${document}.html</id>\n";
-    print "    <link href=\"http://jeantessier.com/SoftwareEngineering/${document}.html\"/>\n";
-    print "    <link href=\"http://jeantessier.com/SoftwareEngineering/${document}_atom.cgi\" rel=\"self\"/>\n";
+    print "    <id>https://jeantessier.com/SoftwareEngineering/${document}.html</id>\n";
+    print "    <link href=\"https://jeantessier.com/SoftwareEngineering/${document}.html\"/>\n";
+    print "    <link href=\"https://jeantessier.com/SoftwareEngineering/${document}_atom.cgi\" rel=\"self\"/>\n";
     print "    <author>\n";
     print "        <name>Jean Tessier</name>\n";
     print "        <email>jean\@jeantessier.com</email>\n";
-    print "        <uri>http://jeantessier.com/</uri>\n";
+    print "        <uri>https://jeantessier.com/</uri>\n";
     print "    </author>\n";
     print "    <rights type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">Copyright (c) 2001, Jean Tessier</div></rights>\n";
 }
@@ -85,8 +85,8 @@ sub PrintDocumentPart {
     print "\n";
     print "    <entry>\n";
     print "        <title>$MONTH{$month} $day, $year</title>\n";
-    print "        <id>http://jeantessier.com/SoftwareEngineering/${document}.html#$year-$month-$day</id>\n";
-    print "        <link href=\"http://jeantessier.com/SoftwareEngineering/${document}.html#$year-$month-$day\"/>\n";
+    print "        <id>https://jeantessier.com/SoftwareEngineering/${document}.html#$year-$month-$day</id>\n";
+    print "        <link href=\"https://jeantessier.com/SoftwareEngineering/${document}.html#$year-$month-$day\"/>\n";
     print "        <published>${year}-${month}-${day}T00:00:00Z</published>\n";
     print "        <updated>$updated</updated>\n";
     print "        <content type=\"text/markdown\">\n";

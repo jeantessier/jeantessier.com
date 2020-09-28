@@ -24,13 +24,13 @@ sub PrintDocumentHeader {
     print "<feed xmlns=\"http://www.w3.org/2005/Atom\">\n";
     print "\n";
     print "    <title>$title</title>\n";
-    print "    <id>http://jeantessier.com/${document}.html</id>\n";
-    print "    <link href=\"http://jeantessier.com/${document}.html\"/>\n";
-    print "    <link href=\"http://jeantessier.com/${document}_atom.cgi\" rel=\"self\"/>\n";
+    print "    <id>https://jeantessier.com/${document}.html</id>\n";
+    print "    <link href=\"https://jeantessier.com/${document}.html\"/>\n";
+    print "    <link href=\"https://jeantessier.com/${document}_atom.cgi\" rel=\"self\"/>\n";
     print "    <author>\n";
     print "        <name>Jean Tessier</name>\n";
     print "        <email>jean\@jeantessier.com</email>\n";
-    print "        <uri>http://jeantessier.com/</uri>\n";
+    print "        <uri>https://jeantessier.com/</uri>\n";
     print "    </author>\n";
     print "    <rights type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">Copyright (c) 2001, Jean Tessier</div></rights>\n";
 }
@@ -103,8 +103,8 @@ sub PrintDocumentPart {
     print "\n";
     print "    <entry>\n";
     print "        <title>" . $meta_data{'title'} . "</title>\n";
-    print "        <id>http://jeantessier.com/${document}.html#" . $meta_data{'name'} . "</id>\n";
-    print "        <link href=\"http://jeantessier.com/${document}.html#" . $meta_data{'name'} . "\"/>\n";
+    print "        <id>https://jeantessier.com/${document}.html#" . $meta_data{'name'} . "</id>\n";
+    print "        <link href=\"https://jeantessier.com/${document}.html#" . $meta_data{'name'} . "\"/>\n";
     print "        <published>${published_date}T00:00:00Z</published>\n";
     print "        <updated>$updated</updated>\n";
     print "        <content type=\"text/markdown\">\n";
