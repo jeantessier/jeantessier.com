@@ -7,4 +7,4 @@ publisher: Graphics Press
 year: 2006
 acquired: 2009-10-04
 
-Ed Tufte's latest book.
+Ed Tufte's fourth book.
