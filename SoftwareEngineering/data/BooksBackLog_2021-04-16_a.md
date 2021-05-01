@@ -1,0 +1,13 @@
+name: Designing_Event_Driven_Systems
+isbn13: 9781492038221
+title: [Designing Event-Driven Systems](https://www.oreilly.com/library/view/designing-event-driven-systems/9781492038252/)
+author: Ben Stopford
+publisher: O'Reilly
+year: 2018
+acquired: 2021-04-16
+
+A guide on building event-driven applications on top of Kafka.
+
+You can download
+[a free copy in PDF](https://www.confluent.io/designing-event-driven-systems/)
+format, thanks to Confluent.
