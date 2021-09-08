@@ -17,7 +17,7 @@
         </exec>
         <exec executable="tail"
               output="Books.json">
-            <arg value="-1"/>
+            <arg value="+3"/>
             <arg value="Books.json.tmp"/>
         </exec>
         <delete file="Books.json.tmp"/>
@@ -43,7 +43,7 @@
         </exec>
         <exec executable="tail"
               output="BooksBackLog.json">
-            <arg value="-1"/>
+            <arg value="+3"/>
             <arg value="BooksBackLog.json.tmp"/>
         </exec>
         <delete file="BooksBackLog.json.tmp"/>
@@ -59,7 +59,7 @@
         </exec>
         <exec executable="tail"
               output="Journal.json">
-            <arg value="-1"/>
+            <arg value="+3"/>
             <arg value="Journal.json.tmp"/>
         </exec>
         <delete file="Journal.json.tmp"/>
