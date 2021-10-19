@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/BookReviews/static/css/main.bed53fdf.chunk.css",
-    "main.js": "/BookReviews/static/js/main.27eb149b.chunk.js",
-    "main.js.map": "/BookReviews/static/js/main.27eb149b.chunk.js.map",
-    "runtime-main.js": "/BookReviews/static/js/runtime-main.44c34ab7.js",
-    "runtime-main.js.map": "/BookReviews/static/js/runtime-main.44c34ab7.js.map",
-    "static/js/2.c40ecf24.chunk.js": "/BookReviews/static/js/2.c40ecf24.chunk.js",
-    "static/js/2.c40ecf24.chunk.js.map": "/BookReviews/static/js/2.c40ecf24.chunk.js.map",
+    "main.js": "/BookReviews/static/js/main.6180c352.chunk.js",
+    "main.js.map": "/BookReviews/static/js/main.6180c352.chunk.js.map",
+    "runtime-main.js": "/BookReviews/static/js/runtime-main.e229e79c.js",
+    "runtime-main.js.map": "/BookReviews/static/js/runtime-main.e229e79c.js.map",
+    "static/js/2.cd5a3033.chunk.js": "/BookReviews/static/js/2.cd5a3033.chunk.js",
+    "static/js/2.cd5a3033.chunk.js.map": "/BookReviews/static/js/2.cd5a3033.chunk.js.map",
     "index.html": "/BookReviews/index.html",
     "static/css/main.bed53fdf.chunk.css.map": "/BookReviews/static/css/main.bed53fdf.chunk.css.map",
-    "static/js/2.c40ecf24.chunk.js.LICENSE.txt": "/BookReviews/static/js/2.c40ecf24.chunk.js.LICENSE.txt",
+    "static/js/2.cd5a3033.chunk.js.LICENSE.txt": "/BookReviews/static/js/2.cd5a3033.chunk.js.LICENSE.txt",
     "static/media/tufte.css": "/BookReviews/static/media/et-book-roman-old-style-figures.e1efe4c3.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.44c34ab7.js",
-    "static/js/2.c40ecf24.chunk.js",
+    "static/js/runtime-main.e229e79c.js",
+    "static/js/2.cd5a3033.chunk.js",
     "static/css/main.bed53fdf.chunk.css",
-    "static/js/main.27eb149b.chunk.js"
+    "static/js/main.6180c352.chunk.js"
   ]
 }
