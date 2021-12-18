@@ -1,0 +1,8 @@
+name: Domain_Driven_Rails
+title: [Domain-Driven Rails](http://leanpub.com/rails-meets-ddd/)
+author: Robert Pankowecki
+publisher: Leanpub
+year: 2020
+acquired: 2021-12-13
+
+We're reading this book as part of a book club at work.
