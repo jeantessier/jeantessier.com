@@ -117,10 +117,9 @@ sub PrintDocumentPart {
     } else {
         print "Started reading: _not started_  \n";
     }
-    print "        <td>Finished reading:</td>\n";
     if (defined $meta_data{"start"}) {
         if ($meta_data{"stop"} =~ /(\d{4}-\d{2}-\d{2})/) {
-            print "Finished reading: `$1`  \n";
+            print "Finished reading: `$1`\n";
         } else {
             print "Finished reading: _in progress_\n";
         }
