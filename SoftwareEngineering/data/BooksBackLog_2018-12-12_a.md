@@ -9,6 +9,6 @@ year: 2019
 acquired: 2018-12-12
 
 Latest edition of
-[Getting MEAN with Mongo, Express, Angular, and Node](#Getting_MEAN).  There
+[_Getting MEAN with Mongo, Express, Angular, and Node_](#Getting_MEAN).  There
 have been non-backwards compatible changes in Express and Mongoose.  I'm hoping
 this update to the book will cover them.
