@@ -2,7 +2,7 @@
 
 <head>
 <title>Echo</title>
-<script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -17,11 +17,12 @@
 <form action="dump.cgi" method="post">
     <table>
         <tr>
-            <td>Name</td>
-            <td><input type="text" name="name" /></td>
+            <td><label for="name">Name</label></td>
+            <td><input type="text" id="name" name="name" /></td>
         </tr>
-            <td>Bio</td>
-            <td><textarea name="bio"></textarea></td>
+        <tr>
+            <td><label for="bio">Bio</label></td>
+            <td><textarea id="bio" name="bio"></textarea></td>
         </tr>
         <tr>
             <td></td>
