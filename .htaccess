@@ -1,3 +1,7 @@
 RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+
+# Protect .git directory.
+# Copied from https://stackoverflow.com/questions/6142437/make-git-directory-web-inaccessible
+RedirectMatch 404 /\.git
