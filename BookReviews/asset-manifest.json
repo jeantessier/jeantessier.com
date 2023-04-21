@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BookReviews/static/css/main.cbe716f5.css",
-    "main.js": "/BookReviews/static/js/main.35e86e27.js",
+    "main.js": "/BookReviews/static/js/main.2a359dd1.js",
     "static/media/et-book-bold-line-figures.svg": "/BookReviews/static/media/et-book-bold-line-figures.0a65b0565df651d2a133.svg",
     "static/media/et-book-roman-line-figures.svg": "/BookReviews/static/media/et-book-roman-line-figures.3e5ea53e09d37ebaeaa9.svg",
     "static/media/et-book-roman-old-style-figures.svg": "/BookReviews/static/media/et-book-roman-old-style-figures.0c03325283d2860db6ad.svg",
@@ -20,10 +20,10 @@
     "static/media/et-book-display-italic-old-style-figures.eot": "/BookReviews/static/media/et-book-display-italic-old-style-figures.4abce91518b8e452e9f8.eot",
     "index.html": "/BookReviews/index.html",
     "main.cbe716f5.css.map": "/BookReviews/static/css/main.cbe716f5.css.map",
-    "main.35e86e27.js.map": "/BookReviews/static/js/main.35e86e27.js.map"
+    "main.2a359dd1.js.map": "/BookReviews/static/js/main.2a359dd1.js.map"
   },
   "entrypoints": [
     "static/css/main.cbe716f5.css",
-    "static/js/main.35e86e27.js"
+    "static/js/main.2a359dd1.js"
   ]
 }
