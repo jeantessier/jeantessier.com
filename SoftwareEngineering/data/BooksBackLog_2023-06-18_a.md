@@ -1,0 +1,10 @@
+name: God_Human_Animal_Machine
+isbn: 0525562710
+isbn13: 9780525562719
+title: [God Human Animal Machine: Technology, Metaphor, and the Search for Meaning](https://www.amazon.com/God-Human-Animal-Machine-Technology/dp/0525562710)
+author: Meghan O'Gieblyn
+publisher: Anchor Books
+year: 2021
+acquired: 2023-06-18
+
+I received this book as a Fathers Day gift.
