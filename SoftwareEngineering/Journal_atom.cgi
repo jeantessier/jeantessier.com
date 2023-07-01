@@ -72,22 +72,17 @@ sub PrintDocumentParts {
 sub PrintDocumentPart {
     local ($document, $filename) = @_;
 
-    local ($year, $month, $day);
-    if ($filename =~ /(\d{4})-(\d{2})-(\d{2})/) {
-        $year = $1;
-        $month = $2;
-        $day = $3;
-    }
-
     local ($mtime) = (stat($filename))[9];
     local ($updated) = strftime "%Y-%m-%dT%H:%M:%SZ", gmtime($mtime);
 
+    $filename =~ /(?<published_date>(?<year>\d{4})-(?<month>\d{2})-(?<day>\d{2}))/;
+
     print "\n";
     print "    <entry>\n";
-    print "        <title>$MONTH{$month} $day, $year</title>\n";
-    print "        <id>https://jeantessier.com/SoftwareEngineering/${document}.html#$year-$month-$day</id>\n";
-    print "        <link href=\"https://jeantessier.com/SoftwareEngineering/${document}.html#$year-$month-$day\"/>\n";
-    print "        <published>${year}-${month}-${day}T00:00:00Z</published>\n";
+    print "        <title>$MONTH{$+{month}} $+{day}, $+{year}</title>\n";
+    print "        <id>https://jeantessier.com/SoftwareEngineering/${document}.html#$+{published_date}</id>\n";
+    print "        <link href=\"https://jeantessier.com/SoftwareEngineering/${document}.html#$+{published_date}\"/>\n";
+    print "        <published>$+{published_date}T00:00:00Z</published>\n";
     print "        <updated>$updated</updated>\n";
     print "        <content type=\"text/markdown\">\n";
 

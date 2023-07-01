@@ -57,11 +57,6 @@ sub PrintDocumentParts {
 sub PrintDocumentPart {
     local ($document, $filename) = @_;
 
-    local ($published_date);
-    if ($filename =~ /(\d{4}-\d{2}-\d{2})/) {
-        $published_date = $1;
-    }
-
     local ($mtime) = (stat($filename))[9];
     local ($updated) = strftime "%Y-%m-%dT%H:%M:%SZ", gmtime($mtime);
 
@@ -77,7 +72,7 @@ sub PrintDocumentPart {
         chomp $line;
 
         if ($line =~ /(\w+):\s*(.*)/) {
-            local ($key, $value) = ($1, $2);
+            local ($key, $value) = @{^CAPTURE};
 
             if ($key eq "title") {
                 if ($value =~ /\[(.*)\]\(.*\)/) {
@@ -100,26 +95,28 @@ sub PrintDocumentPart {
     $meta_data{'title'} =~ s/&uacute;/&#250;/g;
     $meta_data{'title'} =~ s/&uuml;/&#252;/g;
 
+    $filename =~ /(?<published_date>\d{4}-\d{2}-\d{2})/;
+
     print "\n";
     print "    <entry>\n";
     print "        <title>" . $meta_data{'title'} . "</title>\n";
     print "        <id>https://jeantessier.com/SoftwareEngineering/${document}.html#" . $meta_data{'name'} . "</id>\n";
     print "        <link href=\"https://jeantessier.com/SoftwareEngineering/${document}.html#" . $meta_data{'name'} . "\"/>\n";
-    print "        <published>${published_date}T00:00:00Z</published>\n";
+    print "        <published>$+{published_date}T00:00:00Z</published>\n";
     print "        <updated>$updated</updated>\n";
     print "        <content type=\"text/markdown\">\n";
 
     &PrintWikiContents(@lines);
 
     print "\n";
-    if ($meta_data{"start"} =~ /(\d{4}-\d{2}-\d{2})/) {
-        print "Started reading: `$1`  \n";
+    if ($meta_data{"start"} =~ /(?<start_date>\d{4}-\d{2}-\d{2})/) {
+        print "Started reading: `$+{start_date}`  \n";
     } else {
         print "Started reading: _not started_  \n";
     }
     if (defined $meta_data{"start"}) {
-        if ($meta_data{"stop"} =~ /(\d{4}-\d{2}-\d{2})/) {
-            print "Finished reading: `$1`\n";
+        if ($meta_data{"stop"} =~ /(?<stop_date>\d{4}-\d{2}-\d{2})/) {
+            print "Finished reading: `$+{stop_date}`\n";
         } else {
             print "Finished reading: _in progress_\n";
         }

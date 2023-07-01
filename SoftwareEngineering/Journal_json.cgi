@@ -39,23 +39,16 @@ sub DocumentPartsAsJson {
 
 sub DocumentPartAsJson {
     local ($filename) = @_;
-    local ($date, $year, $month, $day);
-
-    local ($date);
-    if ($filename =~ /((\d{4})-(\d{2})-(\d{2}))/) {
-        $date = $1;
-        $year = $2;
-        $month = $3;
-        $day = $4;
-    }
 
     open(FILEHANDLE, $filename);
     local (@lines) = <FILEHANDLE>;
     close(FILEHANDLE);
 
+    $filename =~ /(?<date>(?<year>\d{4})-(?<month>\d{2})-(?<day>\d{2}))/;
+
     return &JsonRecord(
-        date => &JsonText($date),
-        pretty_date => &JsonText("$MONTH{$month} $day, $year"),
+        date => &JsonText($+{date}),
+        pretty_date => &JsonText("$MONTH{$+{month}} $+{day}, $+{year}"),
         body => &JsonText(&MarkdownContentsAsJson(@lines)),
     );
 }
