@@ -52,4 +52,12 @@ header table td.time {
     dl {
         width: 90%;
     }
+
+    header table {
+        margin-left: 0.5rem;
+    }
+
+    header table td {
+        padding-right: 0.5rem;
+    }
 }
