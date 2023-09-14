@@ -20,8 +20,8 @@ if (defined $ENV{'CONTENT_LENGTH'}) {
         print "\n";
         print "git pull\n";
         print `git pull`;
-        print "githistory.sh\n";
-        print `githistory.sh`;
+        print "./githistory.sh\n";
+        print `./githistory.sh`;
     } else {
         print "No match!\n";
     }
