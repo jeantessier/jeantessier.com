@@ -1,4 +1,4 @@
-#!env bash
+#!/usr/bin/env bash
 
 for f in {,SoftwareEngineering/}data/*_????-??-??*.md
 do
