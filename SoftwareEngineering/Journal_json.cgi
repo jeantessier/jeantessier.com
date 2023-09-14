@@ -44,11 +44,28 @@ sub DocumentPartAsJson {
     local (@lines) = <FILEHANDLE>;
     close(FILEHANDLE);
 
+    local (@history);
+    if (-T $filename . ".history") {
+        open(FILEHANDLE, $filename . ".history");
+        while (<FILEHANDLE>) {
+            if (/(?<date>\d{4}-\d{2}-\d{2}): (?<message>.*)/) {
+                push(@history, {date => $+{date}, message => $+{message}});
+            }
+        }
+        close(FILEHANDLE);
+    }
+
     $filename =~ /(?<date>(?<year>\d{4})-(?<month>\d{2})-(?<day>\d{2}))/;
 
     return &JsonRecord(
         date => &JsonText($+{date}),
         pretty_date => &JsonText("$MONTH{$+{month}} $+{day}, $+{year}"),
         body => &JsonText(&MarkdownContentsAsJson(@lines)),
+        history => &JsonList(map {
+            &JsonRecord(
+                "date" => &JsonText($_->{"date"}),
+                "message" => &JsonText($_->{"message"}),
+            )
+        } @history),
     );
 }

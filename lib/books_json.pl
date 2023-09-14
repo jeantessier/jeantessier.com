@@ -22,7 +22,7 @@ sub DocumentPartAsJson {
     local (@lines) = <FILEHANDLE>;
     close(FILEHANDLE);
 
-    local (%meta_data, @titles, @authors, @years);
+    local (%meta_data, @titles, @authors, @years, @history);
 
     do {
         $line = shift(@lines);
@@ -42,6 +42,16 @@ sub DocumentPartAsJson {
             }
         }
     } until ($line =~ /^\s*$/);
+
+    if (-T $filename . ".history") {
+        open(FILEHANDLE, $filename . ".history");
+        while (<FILEHANDLE>) {
+            if (/(?<date>\d{4}-\d{2}-\d{2}): (?<message>.*)/) {
+                push(@history, {date => $+{date}, message => $+{message}});
+            }
+        }
+        close(FILEHANDLE);
+    }
 
     return &JsonRecord(
         name => &JsonText($meta_data{"name"}),
@@ -65,6 +75,12 @@ sub DocumentPartAsJson {
         start => (exists $meta_data{"start"}) ? &JsonText($meta_data{"start"}) : "null",
         stop => (exists $meta_data{"stop"}) ? &JsonText($meta_data{"stop"}) : "null",
         body => &JsonText(&MarkdownContentsAsJson(@lines)),
+        history => &JsonList(map {
+            &JsonRecord(
+                "date" => &JsonText($_->{"date"}),
+                "message" => &JsonText($_->{"message"}),
+            )
+        } @history),
     );
 }
 
