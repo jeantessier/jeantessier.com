@@ -16,7 +16,18 @@
 <h1>{{journal.title}}</h1>
 
 <article ng-repeat="entry in journal.entries">
-    <h2 id="{{entry.date}}">{{entry.pretty_date}}</h2>
+    <h2 id="{{entry.date}}" ng-click="hideShow=(hideShow ? false : true)">{{entry.pretty_date}}</h2>
+    <header ng-if="hideShow && entry.history">
+        <table>
+            <caption>History</caption>
+            <tbody>
+            <tr ng-repeat="historyEntry in entry.history">
+                <td class="time">{{historyEntry.date}}</td>
+                <td>{{historyEntry.message}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </header>
     <section ng-bind-html="markdown(entry.body)"/>
 </article>
 

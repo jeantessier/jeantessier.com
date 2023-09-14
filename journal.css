@@ -14,6 +14,28 @@ dl {
     width: 55%;
 }
 
+header {
+    margin-left: 0.2rem;
+}
+
+header table {
+    margin-left: 1.5rem;
+}
+
+header table caption {
+    font-weight: bold;
+    text-align: left;
+}
+
+header table td {
+    padding-right: 1rem;
+}
+
+header table td.time {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 1rem;
+}
+
 .centered-triplet td:first-child, .centered-triplet th:first-child {
     text-align: right;
 }
