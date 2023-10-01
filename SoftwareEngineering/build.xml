@@ -91,6 +91,11 @@
                     <include name="*.json"/>
                 </patternset>
             </fileset>
+            <fileset dir="data" defaultexcludes="no">
+                <patternset>
+                    <include name="*.md.history"/>
+                </patternset>
+            </fileset>
         </delete>
     </target>
 
