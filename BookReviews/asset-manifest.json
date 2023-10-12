@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BookReviews/static/css/main.6c623c64.css",
-    "main.js": "/BookReviews/static/js/main.872245d6.js",
+    "main.css": "/BookReviews/static/css/main.c7b4a5d0.css",
+    "main.js": "/BookReviews/static/js/main.38e922b7.js",
     "static/media/et-book-bold-line-figures.svg": "/BookReviews/static/media/et-book-bold-line-figures.0a65b0565df651d2a133.svg",
     "static/media/et-book-roman-line-figures.svg": "/BookReviews/static/media/et-book-roman-line-figures.3e5ea53e09d37ebaeaa9.svg",
     "static/media/et-book-roman-old-style-figures.svg": "/BookReviews/static/media/et-book-roman-old-style-figures.0c03325283d2860db6ad.svg",
@@ -18,12 +18,10 @@
     "static/media/et-book-roman-line-figures.eot": "/BookReviews/static/media/et-book-roman-line-figures.0e28ac62c0a5f0a6ebd4.eot",
     "static/media/et-book-roman-old-style-figures.eot": "/BookReviews/static/media/et-book-roman-old-style-figures.44171ebd10a032726f36.eot",
     "static/media/et-book-display-italic-old-style-figures.eot": "/BookReviews/static/media/et-book-display-italic-old-style-figures.4abce91518b8e452e9f8.eot",
-    "index.html": "/BookReviews/index.html",
-    "main.6c623c64.css.map": "/BookReviews/static/css/main.6c623c64.css.map",
-    "main.872245d6.js.map": "/BookReviews/static/js/main.872245d6.js.map"
+    "index.html": "/BookReviews/index.html"
   },
   "entrypoints": [
-    "static/css/main.6c623c64.css",
-    "static/js/main.872245d6.js"
+    "static/css/main.c7b4a5d0.css",
+    "static/js/main.38e922b7.js"
   ]
 }
