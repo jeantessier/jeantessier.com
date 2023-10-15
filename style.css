@@ -67,3 +67,7 @@ dl dd {
     margin-bottom: 1em;
     margin-top: 1em;
 }
+
+.portrait img {
+    border-radius: 15%;
+}
