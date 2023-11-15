@@ -7,5 +7,6 @@ publisher: Repeater Books
 year: 2023
 acquired: 2023-11-14
 
-I like Cappelle's video essays.  She deals mostly with social issues and
-perspectives in France.  Now that she's written a book, I'm curious to read it.
+I like Cappelle's [video essays](https://www.youtube.com/@AliceCappelle).  She
+deals mostly with social issues and perspectives in France and on the Internet.
+Now that she's written a book, I'm curious to read it.
