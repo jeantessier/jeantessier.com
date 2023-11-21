@@ -7,4 +7,4 @@ publisher: Riverhead Books
 year: 2019
 acquired: 2019-08-28
 
-The latest nonsense from the author of [xkcd](http://xkcd.com/).
+The latest nonsense from the author of [`xkcd`](http://xkcd.com/).
