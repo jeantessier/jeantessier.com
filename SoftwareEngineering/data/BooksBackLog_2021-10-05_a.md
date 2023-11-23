@@ -7,7 +7,7 @@ publisher: O'Reilly
 year: 2021
 acquired: 2021-10-05
 
-An update to [Building Microservices](Books.html#Building_Microservices) that
+An update to [_Building Microservices_](Books.html#Building_Microservices) that
 doubled the size of the book.  One thing I liked about the first edition was
 that it was a quick read, coming in under 250 pages.  This new tome is over 550
 pages!
