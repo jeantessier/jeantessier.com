@@ -18,10 +18,14 @@ if (defined $ENV{'CONTENT_LENGTH'}) {
     if ($digest == $ENV{'HTTP_X_HUB_SIGNATURE'}) {
         print "OK\n";
         print "\n";
+        print `date --iso-8601=ns`;
         print "git pull\n";
         print `git pull`;
         print "./githistory.sh\n";
         print `./githistory.sh`;
+        print "./generate_contents.sh\n";
+        print `./generate_contents.sh`;
+        print `date --iso-8601=ns`;
     } else {
         print "No match!\n";
     }
