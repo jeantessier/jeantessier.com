@@ -1,6 +1,9 @@
 #!/usr/bin/perl
 
 use Digest::SHA qw(hmac_sha1_hex);
+use Time::HiRes qw(gettimeofday);
+
+($start_secs, $start_ms) = gettimeofday();
 
 open(KEYFILE, "gitpull.secret");
 chomp($secret = <KEYFILE>);
@@ -18,17 +21,24 @@ if (defined $ENV{'CONTENT_LENGTH'}) {
     if ($digest == $ENV{'HTTP_X_HUB_SIGNATURE'}) {
         print "OK\n";
         print "\n";
-        print `date --iso-8601=ns`;
         print "git pull\n";
         print `git pull`;
         print "./githistory.sh\n";
         print `./githistory.sh`;
         print "./generate_contents.sh\n";
         print `./generate_contents.sh`;
-        print `date --iso-8601=ns`;
     } else {
         print "No match!\n";
     }
 } else {
     print "No payload!\n";
 }
+
+($stop_secs, $stop_ms) = gettimeofday();
+
+print "\n";
+print "Duration: ";
+if ($stop_secs != $start_secs) {
+    print ($stop_secs - $start_secs) . " secs and";
+}
+print ($stop_ms - $start_ms) . " ms.\n";
