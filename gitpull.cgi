@@ -40,7 +40,9 @@ $delta_ms = $stop_ms - $start_ms;
 
 print "\n";
 print "Duration: ";
-if ($delta_secs) {
-    print "$delta_secs secs and";
+if ($delta_secs == 1) {
+    print "$delta_secs sec and ";
+} elsif ($delta_secs > 1) {
+    print "$delta_secs secs and ";
 }
 print "$delta_ms ms.\n";
