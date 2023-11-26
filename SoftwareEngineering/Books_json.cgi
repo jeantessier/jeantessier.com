@@ -3,6 +3,8 @@
 use lib '../lib';
 require 'books_json.pl';
 
-print "Content-type: application/json\n";
-print "\n";
+if (!grep { /--no-headers/ } @ARGV) {
+    print "Content-type: application/json\n";
+    print "\n";
+}
 print &DocumentAsJson();

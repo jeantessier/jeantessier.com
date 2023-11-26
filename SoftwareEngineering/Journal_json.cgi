@@ -18,8 +18,10 @@ require 'wiki_json.pl';
     "12" => "December",
 );
 
-print "Content-type: application/json\n";
-print "\n";
+if (!grep { /--no-headers/ } @ARGV) {
+    print "Content-type: application/json\n";
+    print "\n";
+}
 print &DocumentAsJson();
 
 sub DocumentAsJson {

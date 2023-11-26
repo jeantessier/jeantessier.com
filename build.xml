@@ -16,41 +16,26 @@
 
     <target name="books.json">
         <exec executable="perl"
-              output="Books.json.tmp">
-            <arg value="Books_json.cgi"/>
-        </exec>
-        <exec executable="tail"
               output="Books.json">
-            <arg value="+3"/>
-            <arg value="Books.json.tmp"/>
+            <arg value="Books_json.cgi"/>
+            <arg value="--no-headers"/>
         </exec>
-        <delete file="Books.json.tmp"/>
     </target>
 
     <target name="books.atom">
         <exec executable="perl"
-              output="Books.atom.tmp">
-            <arg value="Books_atom.cgi"/>
-        </exec>
-        <exec executable="tail"
               output="Books.atom">
-            <arg value="+3"/>
-            <arg value="Books.atom.tmp"/>
+            <arg value="Books_atom.cgi"/>
+            <arg value="--no-headers"/>
         </exec>
-        <delete file="Books.atom.tmp"/>
     </target>
 
     <target name="booksbacklog.json">
         <exec executable="perl"
-              output="BooksBackLog.json.tmp">
-            <arg value="BooksBackLog_json.cgi"/>
-        </exec>
-        <exec executable="tail"
               output="BooksBackLog.json">
-            <arg value="+3"/>
-            <arg value="BooksBackLog.json.tmp"/>
+            <arg value="BooksBackLog_json.cgi"/>
+            <arg value="--no-headers"/>
         </exec>
-        <delete file="BooksBackLog.json.tmp"/>
     </target>
 
     <target name="se_blogs">

@@ -26,8 +26,10 @@ require 'wiki.pl';
 &PrintDocumentFooter();
 
 sub PrintContentType {
-    print "Content-type: application/atom+xml\n";
-    print "\n";
+    if (!grep { /--no-headers/ } @ARGV) {
+        print "Content-type: application/atom+xml\n";
+        print "\n";
+    }
 }
 
 sub PrintDocumentHeader {
