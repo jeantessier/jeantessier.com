@@ -35,10 +35,12 @@ if (defined $ENV{'CONTENT_LENGTH'}) {
 }
 
 ($stop_secs, $stop_ms) = gettimeofday();
+$delta_secs = $stop_secs - $start_secs;
+$delta_ms = $stop_ms - $start_ms;
 
 print "\n";
 print "Duration: ";
-if ($stop_secs != $start_secs) {
-    print ($stop_secs - $start_secs) . " secs and";
+if ($delta_secs) {
+    print "$delta_secs secs and";
 }
-print ($stop_ms - $start_ms) . " ms.\n";
+print "$delta_ms ms.\n";
