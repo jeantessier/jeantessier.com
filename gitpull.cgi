@@ -38,4 +38,4 @@ $stop_time = time();
 $delta_ms = ($stop_time - $start_time) * 1_000;
 
 print "\n";
-print "Duration: $delta_ms ms.\n";
+print sprintf("Duration: %0.3f ms.\n", $delta_ms);
