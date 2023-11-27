@@ -1,9 +1,9 @@
 #!/usr/bin/perl
 
 use Digest::SHA qw(hmac_sha1_hex);
-use Time::HiRes qw(gettimeofday);
+use Time::HiRes qw(time);
 
-($start_secs, $start_ms) = gettimeofday();
+$start_time = time();
 
 open(KEYFILE, "gitpull.secret");
 chomp($secret = <KEYFILE>);
@@ -34,15 +34,8 @@ if (defined $ENV{'CONTENT_LENGTH'}) {
     print "No payload!\n";
 }
 
-($stop_secs, $stop_ms) = gettimeofday();
-$delta_secs = $stop_secs - $start_secs;
-$delta_ms = $stop_ms - $start_ms;
+$stop_time = time();
+$delta_ms = ($stop_time - $start_time) * 1_000_000;
 
 print "\n";
-print "Duration: ";
-if ($delta_secs == 1) {
-    print "$delta_secs sec and ";
-} elsif ($delta_secs > 1) {
-    print "$delta_secs secs and ";
-}
-print "$delta_ms ms.\n";
+print "Duration: $delta_ms ms.\n";
