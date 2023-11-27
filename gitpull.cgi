@@ -35,7 +35,7 @@ if (defined $ENV{'CONTENT_LENGTH'}) {
 }
 
 $stop_time = time();
-$delta_ms = ($stop_time - $start_time) * 1_000_000;
+$delta_ms = ($stop_time - $start_time) * 1_000;
 
 print "\n";
 print "Duration: $delta_ms ms.\n";
