@@ -1,0 +1,109 @@
+{
+    "title": "Tolkien Books",
+    "books": [
+        {
+            "name": "The_Hobbit",
+            "authors": ["J.R.R. Tolkien"],
+            "titles": [
+                {"link": "https://en.wikipedia.org/wiki/The_Hobbit", "title": "The Hobbit"},
+                {"title": "Bilbo, le hobbit"}
+            ],
+            "years": ["1937"],
+            "publisher": "Allen & Unwin",
+            "body": "Great read!\n\n> In a hole in the ground there lived a hobbit.\n> <footer>p. 1</footer>",
+            "acquired": "2019-05-25",
+            "start": "2019-10-01",
+            "stop": "2019-10-07",
+            "history": [
+                {
+                    "date": "2023-09-13",
+                    "message": "Latest history entry"
+                },
+                {
+                    "date": "2023-08-13",
+                    "message": "Middle history entry"
+                },
+                {
+                    "date": "2023-06-03",
+                    "message": "Earliest history entry"
+                }
+            ]
+        },
+        {
+            "name": "The_Lord_of_the_Rings",
+            "authors": ["J.R.R. Tolkien"],
+            "titles": [
+                {"link": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings", "title": "The Lord of the Rings"}
+            ],
+            "years": ["1954", "1955"],
+            "publisher": "Allen & Unwin",
+            "body": "**Awesome!!**",
+            "acquired": "2019-05-25",
+            "start": "2019-11-21",
+            "history": []
+        },
+        {
+            "name": "The_Silmarillion",
+            "authors": ["J.R.R. Tolkien", "Christopher Tolkien"],
+            "titles": [
+                {"link": "https://en.wikipedia.org/wiki/The_Silmarillion", "title": "The Silmarillion"},
+                {"title": "Le silmarillion"}
+            ],
+            "years": ["1977"],
+            "publisher": "Allen & Unwin",
+            "body": "~~Weird?!?~~\n\nEpic!\n\nKinda like a `Finnish` saga.",
+            "acquired": "2019-08-06",
+            "history": [
+                {
+                    "date": "2023-09-13",
+                    "message": "Latest history entry"
+                },
+                {
+                    "date": "2023-08-13",
+                    "message": "Middle history entry"
+                },
+                {
+                    "date": "2023-06-03",
+                    "message": "Earliest history entry"
+                }
+            ]
+        },
+        {
+            "name": "Farmer_Giles_of_Ham",
+            "authors": ["J.R.R. Tolkien"],
+            "titles": [
+                {"link": null, "title": "Farmer Giles of Ham"}
+            ],
+            "years": ["1937", "1949"],
+            "publisher": "Allen & Unwin",
+            "body": "_More to come._",
+            "acquired": "2017-12-25"
+        },
+        {
+            "name": "Beren_and_Luthien",
+            "authors": ["J.R.R. Tolkien", "Christopher Tolkien"],
+            "titles": [
+                {"link": "http://a.co/9En3O9B", "title": "Beren and L&uacute;thien"}
+            ],
+            "years": ["2017"],
+            "publisher": "Houghton Mifflin Harcourt",
+            "body": "Following [_The Children of H&uacute;rin_](#The_Children_of_Hurin),\nChristopher Tolkien pulls out all the Beren and L&uacute;thien materials and\nputs them under one set of covers.\n\nHaving read [_The Story of Kullervo_](#The_Story_of_Kullervo) gave me a\nbetter appreciation for the comparative study of the many version of a text and\nsee its evolution.  I used to be annoyed by earlier versions of beloved texts,\nwith their unfamiliar names, contradictory details, and ragged beginnings and\nends.  But here, I really liked all these idiosyncrasies.\n\nOnce again, Christopher Tolkien limited the editorial work he had done\npreviously in [_The Silmarillion_](http://amzn.com/0618391118) and tried to\npresent as cohesive a text as possible out of all the different versions found\nin _The History of Middle-Earth_.  And once again, mission accomplished.  The\nintroduction does its best to set the stage and manage expectations of readers\nunfamiliar with J.R.R. Tolkien's tales of the Elder Days.\n\nIt was nice to see all the additional details for some of the scenes.  Like the\nmaterial regarding Tevildo, Prince of Cats, for instance, and the strange names\nof his thanes: Oikeroi, Umuiyan, Miaul&euml;; names unlike anything else in the\nworks of J.R.R. Tolkien.\n\nI liked the writing style too; it suggests old heroic tales and myths. I tripped\nquite a few times in the older texts where the archaic word _an_ is used to mean\n_if_.  The other archaisms didn't give me much trouble and contributed to the\natmosphere of myth.  For example:\n\n> So thou has returned too - bringing a Silmaril , beyond doubt, in recompense\n> for all the ill thou hast wrought my land; or **an** thou hast not, I know not\n> wherefore thou art here.\n> <footer>page 82</footer>\n\nIndependently, I stumbled on this bit about _epic poetry_ while looking up\nsomething about [Beowulf on Wikipedia](https://en.wikipedia.org/wiki/Beowulf):\n\n> Beowulf is considered an epic poem in that the main character is a hero who\n> travels great distances to prove his strength at impossible odds against\n> supernatural demons and beasts.",
+            "acquired": "2017-12-25",
+            "start": "2018-08-02",
+            "stop": "2018-09-12"
+        },
+        {
+            "name": "The_Story_of_Kullervo",
+            "authors": ["J.R.R. Tolkien", "Christopher Tolkien"],
+            "titles": [
+                {"link": "http://a.co/7nVM1Wd", "title": "The Story of Kullervo"}
+            ],
+            "years": ["2010", "2015"],
+            "publisher": "Houghton Mifflin Harcourt",
+            "body": "The book has three parts: Tolkien's _The Story of Kullervo_ itself, essays he\nwrote on the Finnish _Kalevala_, and a final essay by editor Verlyn Flieger on\nhow Tolkien drew inspiration from Finnish stories.\n\nIn _The Story of Kullervo_ Tolkien is giving his own rendition of the story of\nKullervo from the _Kalevala_, adding his own touches.  Just like Elias\nL&ouml;nnrot first collected Finnish stories in the early 19th Century and\nsynthesized them, taking some creative liberties, Tolkien is going a step\nfurther, re-imagining some of the names and streamlining the plot somewhat.  He\nis not aiming for an authentic rendition of the Finnish of Kullervo, but rather\nhe is expressing how the story resonated in his mind, how it fired up his\nimagination, how he saw it unfolding.\n\nThe essays are two versions of talks Tolkien gave at Oxford about the _Kalevala_\nand Finnish lore.  In them, you can feel how Tolkien essentially fell in love\nwith a certain version of Finnish culture.\n\n> I am very fond of these poems.\n> <footer>page 99</footer>\n\nHe extolls the uniqueness of the material in the _Kalevala_ and the quaint charm\nof the folklore from Finland.  These stories go hand-in-hand with the landscape\nof Finland, its language, and the singing tradition in which they are told.  We\nget to see the genesis of Tolkien's narrative style and especially the oddity\nthat is the character of Tom Bombadil in _The Lord of the Rings_.  With his\nmagic based in songs and his love and dominion over his domain in the Old\nForest, he looks like Tolkien's re-imagining of V&auml;in&auml;m&ouml;inen.\n\nAlso, his description of the nature of the Finnish language reminded me of a\nFrench children' song that describe the processing of wool.  The song playfully\nchanges the proper termination of words just to make them rhyme.  For example:\n\n    Tondons, tondaine\n    La laine des moutaines\n    Tondons, tondaine\n    La laine des moutons\n\nThe words \"tondaine\" and \"moutaines\" do not exist in French.  They are\ntransformations of \"tondons\" (to shear) and \"moutons\" (sheep) made especially\nfor the song to make them rhyme with \"laine\" (wool).  In this simple nursery\nrhyme, I think French speakers can find a small taste of the playful sound of\nthe Finnish _runos_ that make up the _Kalevala_.\n\nThe final essay by editor Verlyn Flieger traces the lineage for how the Finnish\nKullervo leads to Tolkien's _The Story of Kullervo_, which leads to\n_The Silmarillion_, _The Hobbit_, and _The Lord of the Rings_.  She clearly\ntraces how elements of Kullervo become part of the story of T&uacute;rin\nTurambar in _The Silmarillion_, down to the speech from his sword before he\ndies.  She also postulates on how some of these elements also resonate with\nTolkien's own life: he lost his father and then his mother at a young age, he\nwas fostered by relatives, and he was at first kept away from the girl he loved.\n\nI will end with one last quote:\n\n> [...] all obey the great Rule of the Game in the Kalevala which is to tell at\n> least three lies before imparting any accurate information however trivial.\n> It had become I think a kind of formula of polite behaviour, for no one seems\n> to believe you until your fourth statement (which you modestly preface with\n> 'all the truth I now tell you, though at first I lied a little').\n> <footer>page 82</footer>",
+            "acquired": "2017-10-14",
+            "start": "2017-11-17",
+            "stop": "2017-12-16"
+        }
+    ]
+}
