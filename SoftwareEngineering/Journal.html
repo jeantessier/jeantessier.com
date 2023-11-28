@@ -30,6 +30,7 @@
                 </tbody>
             </table>
         </header>
+        <section word-count="{{entry.wordCount}}" ng-if="entry.readingTime">{{entry.readingTime}} min read</section>
         <section ng-bind-html="markdown(entry.body)"/>
     </article>
 </div>
