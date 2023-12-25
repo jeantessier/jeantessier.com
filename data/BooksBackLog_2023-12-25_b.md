@@ -1,0 +1,13 @@
+name: Dune
+isbn: 0441013597
+isbn13: 9780441013593
+title: [Dune](https://a.co/d/dFQo7wt)
+author: Frank Herbert
+publisher: ACE
+year: 1965
+year: 2005
+acquired: 2023-12-25
+
+As Christmas present, I guess I **have** to read it, now.  :-)  I have seen all
+the movies multiple times, but I still haven't read the book.  Some of my
+friends who are ardent Dune fans keep giving me grief about it.
