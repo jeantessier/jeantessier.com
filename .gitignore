@@ -17,10 +17,8 @@ dump.out
 foundation-5.5.0/
 gitpull.secret
 index_bootstrap.html
-pure/
 pure-release-0.6.0/
 pure-release-0.6.0.zip
-testing/tufte-css/
 *.zargo~
 
 # Ignore files generated during `git pull`
@@ -28,3 +26,11 @@ testing/tufte-css/
 
 # Ignore WebStorm and IntelliJ project files
 .idea
+
+# Ignore Obsidian config
+data/.obsidian
+
+# Skip sub-repos
+jeantessier/
+pure/
+testing/tufte-css/
