@@ -7,6 +7,6 @@ publisher: Back Bay Books
 year: 2011
 acquired: 2017-10-12
 
-I liked [_Blink_](Books.html#Blink), and I have The Tipping Point on my list of
+I liked [_Blink_](Books.html#Blink), and I have _The Tipping Point_ on my list of
 books to read too.  I bought this book while visiting McGill University in
-Montr&eacuteal.
+Montr&eacute;al.
