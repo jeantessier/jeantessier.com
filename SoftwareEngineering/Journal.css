@@ -41,6 +41,7 @@ header table td.time {
 }
 
 .centered-triplet td, .centered-triplet th {
+    padding: 0 1rem;
     text-align: center;
 }
 
