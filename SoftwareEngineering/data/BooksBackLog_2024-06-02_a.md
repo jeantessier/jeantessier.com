@@ -1,0 +1,13 @@
+name: GitHub_Actions_in_Action
+isbn13: 9781633437302
+title: [GitHub Actions in Action](https://www.manning.com/books/github-actions-in-action)
+author: Michael Kaufmann
+author: Rob Bos
+author: Marcel de Vries
+publisher: Manning
+year: 2024
+acquired: 2024-06-02
+
+My code is on GitHub.  GitHub Actions make it possible to have some form of
+CI/CD to do some post-processing every time I commit changes.  I am hoping this
+book will help me grok all that I can do using GitHub Actions.
