@@ -1,17 +1,4 @@
-Books.atom
-Books.json
-BooksBackLog.json
-LeisureBooks_goodreads.csv
-LeisureBooksBackLog_goodreads.csv
-SoftwareEngineering/Books.atom
-SoftwareEngineering/Books.json
-SoftwareEngineering/BooksBackLog.json
-SoftwareEngineering/Journal.atom
-SoftwareEngineering/Journal.json
-SoftwareEngineering/SoftwareBooks_goodreads.csv
-SoftwareEngineering/SoftwareBooksBackLog_goodreads.csv
 book_reviews.properties
-build.properties
 chars.html
 dump.out
 foundation-5.5.0/
@@ -21,6 +8,16 @@ index_bootstrap.html
 pure-release-0.6.0/
 pure-release-0.6.0.zip
 *.zargo~
+
+# Ignore files that show the output of CGI scripts
+Books.atom
+Books.json
+BooksBackLog.json
+SoftwareEngineering/Books.atom
+SoftwareEngineering/Books.json
+SoftwareEngineering/BooksBackLog.json
+SoftwareEngineering/Journal.atom
+SoftwareEngineering/Journal.json
 
 # Ignore files generated during `git pull`
 *.md.history
