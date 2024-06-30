@@ -29,6 +29,5 @@ SoftwareEngineering/Journal.json
 data/.obsidian
 
 # Skip sub-repos
-jeantessier/
 pure/
 testing/tufte-css/
