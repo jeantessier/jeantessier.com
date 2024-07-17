@@ -9,9 +9,6 @@ open(KEYFILE, "gitpull.secret");
 chomp($secret = <KEYFILE>);
 close(KEYFILE);
 
-print "Content-type: text/plain\n";
-print "\n";
-
 if (defined $ENV{'CONTENT_LENGTH'}) {
     $contents = "";
     read (STDIN, $contents, $ENV{'CONTENT_LENGTH'});
@@ -19,6 +16,8 @@ if (defined $ENV{'CONTENT_LENGTH'}) {
     $digest = "sha1=" . hmac_sha1_hex($contents, $secret);
 
     if ($digest eq $ENV{'HTTP_X_HUB_SIGNATURE'}) {
+        print "Content-type: text/plain\n";
+        print "\n";
         print "OK\n";
         print "\n";
         print "git pull\n";
@@ -28,10 +27,16 @@ if (defined $ENV{'CONTENT_LENGTH'}) {
         print "./generate_contents.sh\n";
         print `./generate_contents.sh`;
     } else {
+        print "Status: 400 Bad Request\n";
+        print "Content-type: text/plain\n";
+        print "\n";
         print "No match!\n";
     }
 } else {
-    print "No payload!\n";
+    print "Status: 400 Bad Request\n";
+    print "Content-type: text/plain\n";
+    print "\n";
+    print "Missing payload!\n";
 }
 
 $stop_time = time();
