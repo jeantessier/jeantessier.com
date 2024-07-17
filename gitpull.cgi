@@ -16,16 +16,18 @@ if (defined $ENV{'CONTENT_LENGTH'}) {
     $digest = "sha256=" . hmac_sha256_hex($contents, $secret);
 
     if ($digest eq $ENV{'HTTP_X_HUB_SIGNATURE_256'}) {
-        print "Content-type: text/plain\n";
+        print "Content-type: application/json\n";
         print "\n";
-        print "OK\n";
-        print "\n";
-        print "git pull\n";
-        print `git pull`;
-        print "./githistory.sh\n";
-        print `./githistory.sh`;
-        print "./generate_contents.sh\n";
-        print `./generate_contents.sh`;
+        print "{\n";
+        print "\"git pull\": \"" . `git pull` . "\",\n";
+        print "\"./githistory.sh\": \"" . `./githistory.sh` . "\",\n";
+        print "\"./generate_contents.sh\": \"" . `./generate_contents.sh` . "\",\n";
+
+        $stop_time = time();
+        $delta_ms = ($stop_time - $start_time) * 1_000;
+
+        print "\"duration\": " . sprintf("%0.3f", $delta_ms) . " ms\"\n";
+        print "}\n";
     } else {
         print "Status: 401 Unauthorized\n";
         print "Content-type: text/plain\n";
@@ -38,9 +40,3 @@ if (defined $ENV{'CONTENT_LENGTH'}) {
     print "\n";
     print "Missing payload!\n";
 }
-
-$stop_time = time();
-$delta_ms = ($stop_time - $start_time) * 1_000;
-
-print "\n";
-print sprintf("Duration: %0.3f ms.\n", $delta_ms);
