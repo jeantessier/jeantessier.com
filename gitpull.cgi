@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-use Digest::SHA qw(hmac_sha1_hex);
+use Digest::SHA qw(hmac_sha256_hex);
 use Time::HiRes qw(time);
 
 $start_time = time();
@@ -13,9 +13,9 @@ if (defined $ENV{'CONTENT_LENGTH'}) {
     $contents = "";
     read (STDIN, $contents, $ENV{'CONTENT_LENGTH'});
 
-    $digest = "sha1=" . hmac_sha1_hex($contents, $secret);
+    $digest = "sha256=" . hmac_sha256_hex($contents, $secret);
 
-    if ($digest eq $ENV{'HTTP_X_HUB_SIGNATURE'}) {
+    if ($digest eq $ENV{'HTTP_X_HUB_SIGNATURE_256'}) {
         print "Content-type: text/plain\n";
         print "\n";
         print "OK\n";
@@ -27,7 +27,7 @@ if (defined $ENV{'CONTENT_LENGTH'}) {
         print "./generate_contents.sh\n";
         print `./generate_contents.sh`;
     } else {
-        print "Status: 400 Bad Request\n";
+        print "Status: 401 Unauthorized\n";
         print "Content-type: text/plain\n";
         print "\n";
         print "No match!\n";
