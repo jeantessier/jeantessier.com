@@ -16,21 +16,17 @@ if (defined $ENV{'CONTENT_LENGTH'}) {
     $digest = "sha256=" . hmac_sha256_hex($contents, $secret);
 
     if ($digest eq $ENV{'HTTP_X_HUB_SIGNATURE_256'}) {
-        $git_pull = join("\n", chomp(`git pull`));
-        $git_history = join("\n", chomp(`./githistory.sh`));
-        $generate_contents = join("\n", chomp(`./generate_contents.sh`));
-
-        $stop_time = time();
-        $delta_ms = ($stop_time - $start_time) * 1_000;
-        $delta = sprintf("%0.3f", $delta_ms);
-
         print "Content-type: application/json\n";
         print "\n";
         print "{\n";
-        print "\"git pull\": \"$git_pull\",\n";
-        print "\"./githistory.sh\": \"$git_history\",\n";
-        print "\"./generate_contents.sh\": \"$generate_contents\",\n";
-        print "\"duration_ms\": $delta\n";
+        print "\"git pull\": \"" . `git pull` . "\",\n";
+        print "\"./githistory.sh\": \"" . `./githistory.sh` . "\",\n";
+        print "\"./generate_contents.sh\": \"" . `./generate_contents.sh` . "\",\n";
+
+        $stop_time = time();
+        $delta_ms = ($stop_time - $start_time) * 1_000;
+
+        print "\"duration\": " . sprintf("%0.3f", $delta_ms) . " ms\"\n";
         print "}\n";
     } else {
         print "Status: 401 Unauthorized\n";
