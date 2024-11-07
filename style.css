@@ -27,7 +27,7 @@ a:active {
 h1 {
     font-family: ETBembo, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     font-weight: 400;
-    font-size: 3.2em;
+    font-size: 3.2rem;
     line-height: 1;
 }
 
@@ -54,8 +54,8 @@ dl dd {
 
 .content {
     font-family: ETBembo, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-    font-size: 1.1em;
-    line-height: 2em;
+    font-size: 1.1rem;
+    line-height: 2rem;
 }
 
 .content a {
@@ -64,8 +64,8 @@ dl dd {
 }
 
 .portrait {
-    margin-bottom: 1em;
-    margin-top: 1em;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .portrait img {
