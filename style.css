@@ -8,6 +8,13 @@ body {
     color: #111;
 }
 
+.contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5rem;
+}
+
 a {
     text-decoration: none;
 }
@@ -29,9 +36,6 @@ h1 {
     font-weight: 400;
     font-size: 3.2rem;
     line-height: 1;
-}
-
-h1.highlight {
     text-align: center;
 }
 
@@ -52,20 +56,27 @@ dl dd {
     vertical-align: top;
 }
 
-.content {
+.main-text {
+    display: grid;
+    grid-template-columns: 35ch 35ch;
+    row-gap: 1.5rem;
+    column-gap: 3.5rem;
     font-family: ETBembo, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     font-size: 1.1rem;
     line-height: 2rem;
 }
 
-.content a {
-    border-bottom: 1px solid #777;
-    padding-bottom: 1px;
+.main-text div {
+    text-align: justify;
 }
 
-.portrait {
-    margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
+.main-text .wide {
+    grid-column: 1 / -1;
+}
+
+.main-text a {
+    border-bottom: 1px solid #777;
+    padding-bottom: 1px;
 }
 
 .portrait img {
