@@ -47,6 +47,44 @@ dl dd {
     margin-bottom: 10px;
 }
 
+.navigation {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    border-top-style: groove;
+    border-bottom-style: groove;
+    padding: 1rem;
+}
+
+.navigation .section {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation .section .name {
+    font-family: Ainslie Sans;
+    line-height: 1.33;
+    text-align: center;
+    vertical-align: top;
+    height: 3rem;
+}
+
+.navigation .section .separator {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.navigation .section .separator hr {
+    width: 25px;
+}
+
+.navigation .section .link {
+    font-family: Ainslie Sans;
+    line-height: 1.33;
+    text-align: center;
+    vertical-align: top;
+}
+
 .padded {
     font-family: Ainslie Sans;
     line-height: 1.33;
