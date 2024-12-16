@@ -19,6 +19,13 @@ SoftwareEngineering/BooksBackLog.json
 SoftwareEngineering/Journal.atom
 SoftwareEngineering/Journal.json
 
+# Ignore files that are deployed by the jeantessier/book-reviews-react-app repo's CD.
+BookReviews/
+Books.html
+BooksBackLog.html
+SoftwareEngineering/Books.html
+SoftwareEngineering/Journal.html
+
 # Ignore files generated during `git pull`
 *.md.history
 
