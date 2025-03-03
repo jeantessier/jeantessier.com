@@ -117,6 +117,11 @@ dl dd {
     padding-bottom: 1px;
 }
 
+.main-text a:has(img) {
+    border-bottom: 0;
+    padding-bottom: 1px;
+}
+
 .portrait img {
     border-radius: 15%;
 }
