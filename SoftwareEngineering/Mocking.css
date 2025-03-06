@@ -1,0 +1,76 @@
+.code-comparison {
+    display: grid;
+    column-gap: 0.25rem;
+    row-gap: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.compare-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.compare-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.code-comparison-header {
+    background: gray;
+    color: white;
+    font-weight: bold;
+    padding-left: 0.5rem;
+}
+
+.code-comparison pre {
+    background: #ccccff;
+    margin: 0;
+    padding: 0.25rem 2rem;
+}
+
+.code-comparison pre b {
+    background: #e8e8ff;
+    color: green;
+}
+
+.specialnote {
+    line-height: 1.3rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+body {
+    background: #fffff8;
+    color: #111;
+}
+
+p, li {
+    font-family: ETBembo, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-size: 1.1rem;
+    line-height: 1.35rem;
+    margin-left: 0.5rem;
+}
+
+body > p {
+    width: min(100%, 6.5in);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+code {
+    border-radius: 6px;
+    background-color: rgba(27, 31, 35, 0.1);
+    font-size: 0.85rem;
+    padding: .2em .4em;
+    margin: 0;
+    text-shadow: none;
+}
