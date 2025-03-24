@@ -50,8 +50,8 @@ sub DocumentPartAsJson {
     if (-T $filename . ".history") {
         open(FILEHANDLE, $filename . ".history");
         while (<FILEHANDLE>) {
-            if (/(?<date>\d{4}-\d{2}-\d{2}): (?<message>.*)/) {
-                push(@history, {date => $+{date}, message => $+{message}});
+            if (/(?<commit>\w{40}) (?<date>\d{4}-\d{2}-\d{2}) (?<message>.*)/) {
+                push(@history, {commit=> $+{commit}, date => $+{date}, message => $+{message}});
             }
         }
         close(FILEHANDLE);

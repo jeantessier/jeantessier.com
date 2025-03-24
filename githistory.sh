@@ -6,7 +6,7 @@ do
     then
         echo Generating history for $f
         git log \
-            --pretty="format:%ad: %s" \
+            --pretty="format:%H %ad %s" \
             --date=short \
             --follow \
             $f \
