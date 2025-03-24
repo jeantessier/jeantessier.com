@@ -77,6 +77,7 @@ sub DocumentPartAsJson {
         body => &JsonText(&MarkdownContentsAsJson(@lines)),
         history => &JsonList(map {
             &JsonRecord(
+                "commit" => &JsonText($_->{"commit"}),
                 "date" => &JsonText($_->{"date"}),
                 "message" => &JsonText($_->{"message"}),
             )
