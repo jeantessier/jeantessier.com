@@ -5,6 +5,7 @@ title: [Unfinished Tales, Illustrated Edition](https://a.co/d/hDs33QB)
 author: J.R.R. Tolkien
 author: Christopher Tolkien
 publisher: William Morrow
+year: 1980
 year: 2020
 acquired: 2025-04-24
 
