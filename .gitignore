@@ -1,11 +1,7 @@
 book_reviews.properties
 chars.html
 dump.out
-foundation-5.5.0/
-foundation-6.8.1/
 gitpull.secret
-pure-release-0.6.0/
-pure-release-0.6.0.zip
 *.zargo~
 
 # Ignore files that show the output of CGI scripts
@@ -35,5 +31,4 @@ SoftwareEngineering/Journal.html
 data/.obsidian
 
 # Skip sub-repos
-pure/
 testing/tufte-css/
