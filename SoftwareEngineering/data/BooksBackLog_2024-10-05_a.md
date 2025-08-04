@@ -4,7 +4,7 @@ title: [The Rails 8 Way](http://leanpub.com/therails8way)
 author: Lucas Dohmen
 author: Thomas Henrik Aaland
 author: Obie Fernandez
-publisher: LeanPub
+publisher: Leanpub
 year: 2024
 acquired: 2024-10-05
 
