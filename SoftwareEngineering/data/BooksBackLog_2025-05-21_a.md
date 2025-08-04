@@ -1,5 +1,5 @@
 name: Patterns_of_Application_Development_Using_AI
-isbn13: 
+isbn13: 9798346271130
 title: [Patterns of Application Development Using AI](https://leanpub.com/patterns-of-application-development-using-ai)
 author: Obie Fernandez
 publisher: Leanpub
