@@ -9,5 +9,5 @@ publisher: Delmonico Books
 year: 2021
 acquired: 2023-12-25
 
-A Christmas present about Miyazaki, replete will artwork from his major motion
+A Christmas present about Miyazaki, replete with artwork from his major motion
 pictures.  Lots of gorgeous character studies.
