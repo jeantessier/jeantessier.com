@@ -88,9 +88,24 @@ header table td.time {
     }
 }
 
+pre > code {
+    min-width: 52.5%;
+}
+
+pre > code:hover {
+    overflow-x: visible;
+    width: max-content;
+}
+
 .snippet {
-    width: calc-size(fit-content, 55%);
     overflow-x: auto;
+    width: calc-size(fit-content, 55%);
+    min-width: 55%;
+}
+
+.snippet:hover {
+    overflow-x: visible;
+    width: max-content;
 }
 
 /* Solarized-light from [Pygments](https://pygments.org/) */
