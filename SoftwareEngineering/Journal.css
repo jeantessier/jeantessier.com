@@ -3,11 +3,11 @@
     src: url(../fonts/JeanHandwriting-Liga-Regular.otf) format("opentype");
 }
 
-section p, section dl, section ol, section ul {
+.marginnote, .sidenote {
     font-family: 'Jean Handwriting Liga';
 }
 
-article h2, article h3 {
+article h2 {
     font-family: 'Jean Handwriting Liga';
 }
 
@@ -54,7 +54,6 @@ header table td.time {
 }
 
 .centered-triplet td, .centered-triplet th {
-    font-family: 'Jean Handwriting Liga';
     padding: 0 1rem;
     text-align: center;
 }
